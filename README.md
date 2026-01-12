@@ -5,6 +5,16 @@
 <h1 align="center">CUBA Government Infrastructure OSINT Collection</h1>
 
 <p align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=Ringmast4r.Cuba" alt="Visitors"/>
+  <img src="https://img.shields.io/github/repo-size/Ringmast4r/Cuba?style=flat-square" alt="Repo Size"/>
+  <img src="https://img.shields.io/github/stars/Ringmast4r/Cuba?style=flat-square" alt="Stars"/>
+  <img src="https://img.shields.io/github/forks/Ringmast4r/Cuba?style=flat-square" alt="Forks"/>
+  <img src="https://img.shields.io/github/last-commit/Ringmast4r/Cuba?style=flat-square" alt="Last Commit"/>
+  <img src="https://img.shields.io/github/issues/Ringmast4r/Cuba?style=flat-square" alt="Issues"/>
+  <img src="https://img.shields.io/github/license/Ringmast4r/Cuba?style=flat-square" alt="License"/>
+</p>
+
+<p align="center">
   <strong>Passive OSINT documentation of Cuban government web infrastructure</strong>
 </p>
 
@@ -14,7 +24,7 @@
 
 | Metric | Count |
 |--------|-------|
-| **Total Files** | 1,494 |
+| **Total Files** | 1,420 |
 | **Total Size** | 62.9 MB |
 | **Domains Analyzed** | 131 |
 | **Email Addresses** | 64 |
