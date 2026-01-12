@@ -1,0 +1,301 @@
+================================================================================
+                    CUBAN GOVERNMENT TECHNOLOGY STACK ANALYSIS
+                    Comprehensive Infrastructure Assessment
+                    Generated: January 11, 2026
+================================================================================
+
+EXECUTIVE SUMMARY
+=================
+Analysis of 50+ Cuban government websites reveals a fragmented technology
+landscape with multiple CMS platforms, inconsistent security practices, and
+several notable obfuscation attempts.
+
+================================================================================
+                              CMS PLATFORMS
+================================================================================
+
+DRUPAL SITES (8 identified)
+---------------------------
+Site                    | Version      | Distribution    | PHP Version
+------------------------|--------------|-----------------|-------------
+pcc.cu                  | Drupal 10    | Core            | PHP 8.1.20
+etecsa.cu               | Drupal 10    | Core            | PHP 8.1.20
+minfar.gob.cu           | Drupal 9+    | Varbase         | Unknown
+aduana.gob.cu           | Drupal 9+    | Core            | PHP 8.1.20
+citmatel.cu             | Drupal       | Core            | Unknown
+gacetaoficial.gob.cu    | Drupal       | Core            | Unknown
+citma.gob.cu            | Drupal       | Core            | Unknown
+parlamentocubano.gob.cu | Drupal       | Core            | Unknown
+
+WORDPRESS SITES (6 identified)
+------------------------------
+Site                    | Plugins Detected                    | API Status
+------------------------|-------------------------------------|----------------
+sld.cu                  | Unknown                             | EXPOSED (9 users)
+uh.cu                   | Yoast SEO 25.7, Polylang, ACF       | EXPOSED (5 users)
+mined.gob.cu            | Unknown                             | Unknown
+radiorebelde.cu         | W3 Total Cache 2.8.15, WPP          | Partial
+trabajadores.cu         | DRA (Disable REST API)              | PROTECTED
+ics.gob.cu              | Unknown                             | Unknown
+
+LARAVEL SITES (2 identified)
+----------------------------
+Site                    | Frontend Framework    | Features
+------------------------|-----------------------|------------------
+acn.cu                  | Blade templates       | News API
+juventudrebelde.cu      | Vue.js + Laravel      | SPA-style
+
+JOOMLA SITES (1 identified)
+---------------------------
+Site                    | Notes
+------------------------|----------------------------------------
+cujae.edu.cu            | CSRF tokens exposed in source
+
+CUSTOM/OTHER
+------------
+Site                    | Technology            | Notes
+------------------------|-----------------------|------------------
+presidencia.gob.cu      | Custom PHP            | jQuery + Bootstrap
+gobierno.gob.cu         | Custom                | Minimal stack
+bc.gob.cu               | Node.js/Express API   | api.bc.gob.cu discovered
+
+================================================================================
+                           SERVER INFRASTRUCTURE
+================================================================================
+
+FAKE SERVER HEADERS (Obfuscation Detected!)
+-------------------------------------------
+Site                    | Reported Header       | Actual Stack
+------------------------|----------------------|------------------
+pcc.cu                  | "Windows95"          | Drupal 10/PHP 8.1.20
+etecsa.cu               | "Windows95"          | Drupal 10/PHP 8.1.20
+
+Note: Windows 95 cannot run PHP 8 (released 2021). This is deliberate obfuscation.
+
+REAL SERVER SIGNATURES
+----------------------
+minfar.gob.cu           | PortalMINFAR (custom signature)
+Most .gob.cu sites      | Apache or Nginx (header stripped)
+
+LOAD BALANCERS
+--------------
+pcc.cu                  | SERVERID=www2 (cookie-based)
+etecsa.cu               | SERVERID=www2 (cookie-based)
+Multiple sites          | X-Forwarded-For headers present
+
+================================================================================
+                              PHP VERSIONS
+================================================================================
+
+PHP 8.1.20 (Modern - 2023+)
+---------------------------
+- pcc.cu
+- etecsa.cu
+- aduana.gob.cu
+
+Unknown/Not Exposed
+-------------------
+- Most other sites properly hide PHP version
+
+================================================================================
+                           JAVASCRIPT FRAMEWORKS
+================================================================================
+
+Framework       | Sites Using
+----------------|----------------------------------------------------------
+jQuery          | presidencia, mined, aduana, minfar, granma, juventudrebelde,
+                | citmatel, etecsa, trabajadores, radiorebelde (10+ sites)
+Vue.js          | juventudrebelde.cu (SPA components)
+Bootstrap JS    | Most government sites
+
+================================================================================
+                             CSS FRAMEWORKS
+================================================================================
+
+Framework       | Sites Using
+----------------|----------------------------------------------------------
+Bootstrap       | presidencia, mined, aduana, minfar, granma, juventudrebelde,
+                | citmatel, etecsa (majority of sites)
+Custom CSS      | pcc.cu, acn.cu
+
+================================================================================
+                            SECURITY MODULES
+================================================================================
+
+HONEYPOT ANTI-BOT DETECTION
+---------------------------
+Site                    | Module                        | Field Names
+------------------------|-------------------------------|--------------------
+ujc.cu                  | Drupal Honeypot               | honeypot_time
+aduana.gob.cu           | Drupal Honeypot               | honeypot_time
+etecsa.cu               | Drupal Honeypot               | In cache tags
+radiohc.cu              | WP Armour Anti Spam 2.3.04    | form fields
+
+SECURITY HEADERS IMPLEMENTED
+----------------------------
+Site                    | HSTS | X-Frame | X-XSS | CSP
+------------------------|------|---------|-------|--------
+minfar.gob.cu           | YES  | YES     | YES   | NO
+etecsa.cu               | YES  | YES     | YES   | YES
+pcc.cu                  | YES  | YES     | YES   | Partial
+aduana.gob.cu           | YES  | YES     | YES   | NO
+
+SECURITY HEADERS MISSING
+------------------------
+- Many ministry sites lack basic security headers
+- Some sites missing HSTS entirely
+- CSP rarely implemented
+
+================================================================================
+                           GOOGLE ANALYTICS
+================================================================================
+
+Universal Analytics (UA - Legacy)
+---------------------------------
+UA-107169760-1          | mined.gob.cu (Education Ministry)
+UA-144247220-1          | aduana.gob.cu (Customs - Military)
+UA-291893-2             | juventudrebelde.cu (Youth newspaper)
+UA-89356472-1           | trabajadores.cu (Workers newspaper)
+UA-131250309-1          | tribuna.cu (Provincial paper)
+UA-142146896-1          | finlay.edu.cu (Vaccine institute)
+
+Google Analytics 4 (GA4 - Current)
+----------------------------------
+G-D39KSEBN9Q            | granma.cu (Party newspaper)
+G-12xxxxxx              | etecsa.cu (Telecom - partial ID)
+
+Google Tag Manager
+------------------
+GTM-TKWLSZN             | trabajadores.cu
+
+Note: Ironic that anti-US government sends visitor data to Google servers.
+
+================================================================================
+                          SSL/TLS CERTIFICATES
+================================================================================
+
+LET'S ENCRYPT (Free, 90-day certs) - 15 sites
+----------------------------------------------
+- presidencia.gob.cu (wildcard *.presidencia.gob.cu)
+- minfar.gob.cu
+- pcc.cu
+- bc.gob.cu
+- parlamentocubano.gob.cu
+- granma.cu
+- juventudrebelde.cu
+- acn.cu
+- trabajadores.cu
+- etecsa.cu
+- sld.cu (wildcard *.sld.cu)
+- uh.cu (wildcard *.uh.cu)
+- cujae.edu.cu (wildcard + 10 subdomains)
+- radiorebelde.cu
+
+ETECSA INTERNAL CA (Self-signed) - 1 site
+-----------------------------------------
+Site: aduana.gob.cu
+Issuer: C=CU, ST=La Habana, L=Plaza, O=ETECSA, OU=Centro de Datos
+CN: idc.enet.cu
+Email: hosting@enet.cu
+Validity: Nov 2019 - Jan 2031 (12 YEAR certificate!)
+Risk: Non-public CA could enable MITM on Cuban networks
+
+EXPIRING SOON
+-------------
+sld.cu                  | Jan 24, 2026 (13 days)
+cujae.edu.cu            | Jan 24, 2026 (13 days)
+parlamentocubano.gob.cu | Feb 22, 2026
+radiorebelde.cu         | Feb 24, 2026
+
+================================================================================
+                          DNS INFRASTRUCTURE
+================================================================================
+
+ETECSA DNS (Primary provider for most .gob.cu)
+----------------------------------------------
+ns3.etecsa.net
+ns4.etecsa.net
+ns5.etecsa.net
+
+MININT SELF-HOSTED (Security separation)
+----------------------------------------
+ns1.minint.gob.cu
+ns2.minint.gob.cu
+
+Note: Interior Ministry (secret police) runs isolated DNS infrastructure.
+
+KEY IP RANGES
+-------------
+190.92.127.x            | Government hosting cluster
+152.206.x.x             | ETECSA primary range
+
+CUBAN ASNs
+----------
+AS27725                 | ETECSA (state telecom monopoly)
+AS11960                 | CITMATEL (tech/science network)
+
+================================================================================
+                        MEDIA PRODUCTION SOFTWARE
+================================================================================
+
+Identified from EXIF metadata in downloaded images:
+
+SOFTWARE                        | VERSION       | PLATFORM  | SITES
+--------------------------------|---------------|-----------|------------------
+Adobe Photoshop CS6             | CS6 (2012!)   | Windows   | radiorebelde.cu
+Adobe Photoshop                 | 21.1          | Windows   | sld.cu
+Adobe Lightroom Classic         | 9.2           | Windows   | radiorebelde.cu
+Google Photos                   | -             | Android   | radiorebelde.cu
+
+CAMERAS IDENTIFIED
+------------------
+SONY ILCE-7SM2 (A7S II)         | ~$2,500 professional mirrorless
+NIKON D5600                     | DSLR with built-in GPS
+Canon EOS 6D Mark II            | Full-frame professional DSLR
+LG LM-Q710.FG                   | Android smartphone
+
+================================================================================
+                           VULNERABILITY NOTES
+================================================================================
+
+CRITICAL
+--------
+1. WordPress REST API exposed on sld.cu and uh.cu (user enumeration)
+2. Gravatar hashes reversible to email addresses
+3. Legacy software (Photoshop CS6 from 2012)
+
+HIGH
+----
+1. ETECSA Internal CA enables potential MITM
+2. 12-year certificate validity (unusual, poor practice)
+3. PHP version disclosure on multiple sites
+4. CSRF tokens exposed in page source
+
+MEDIUM
+------
+1. Server obfuscation indicates security awareness but inconsistent
+2. Multiple certificates expiring within weeks
+3. Google Analytics on government sites (data to US company)
+4. Personal Gmail accounts used for official government contact
+
+LOW
+---
+1. Technology fingerprinting possible across all sites
+2. Facebook App IDs exposed
+3. Mixed CMS ecosystem increases attack surface
+
+================================================================================
+                              STATISTICS
+================================================================================
+
+Total Sites Analyzed:           50+
+CMS Platforms Identified:       5 (Drupal, WordPress, Laravel, Joomla, Custom)
+WordPress Users Enumerated:     14
+Google Analytics IDs:           8
+SSL Certificates Collected:     17
+Fake Server Headers Found:      2 ("Windows95")
+Honeypot Modules Detected:      4
+
+================================================================================
+                            END OF REPORT
+================================================================================

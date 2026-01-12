@@ -1,0 +1,726 @@
+<!doctype html> <html amp lang="es"> <head>     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <meta property="fb:pages" content="41524311338"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="https://www.juventudrebelde.cu/favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://www.juventudrebelde.cu/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="57x57" href="https://www.juventudrebelde.cu/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://www.juventudrebelde.cu/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://www.juventudrebelde.cu/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://www.juventudrebelde.cu/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://www.juventudrebelde.cu/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://www.juventudrebelde.cu/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://www.juventudrebelde.cu/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://www.juventudrebelde.cu/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.juventudrebelde.cu/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://www.juventudrebelde.cu/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.juventudrebelde.cu/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://www.juventudrebelde.cu/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.juventudrebelde.cu/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://www.juventudrebelde.cu/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    
+    
+    <title>Juventud Rebelde - Diario de la juventud cubana</title>
+<meta name="description" content="Medio informativo de Cuba con noticias exclusivas de último minuto actualizado en tiempo real">
+<meta name="keywords" content="Noticias de Cuba, portada, actualidad, acontecer, artículos, información, última hora, Revolución Cubana, juventud">
+<link rel="canonical" href="https://www.juventudrebelde.cu/index.php/rss"/>
+    <meta name="news_keywords" content="Noticias de Cuba, portada, actualidad, acontecer, artículos, información, última hora, Revolución Cubana, juventud">
+    <meta property="og:title" content="Juventud Rebelde - Diario de la juventud cubana" />
+<meta property="og:description" content="Medio informativo de Cuba con noticias exclusivas de último minuto actualizado en tiempo real" />
+<meta property="og:url" content="https://www.juventudrebelde.cu/index.php/rss" />
+
+
+    <meta property="og:image" content="https://www.juventudrebelde.cu/index.php/thumbs/600x315/crc/assets/frontend/img/jr_imprimir.png">
+
+    <!-- seowebmas.redcuba.cu -->
+    <meta property="rc:admins" content="768da68bc20da6489f7d6739e9543f2f999b3588d62f2ed10d3d4518b320e4ae" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@JuventudRebelde" />
+<meta name="twitter:title" content="Juventud Rebelde - Diario de la juventud cubana" />
+<meta name="twitter:description" content="Medio informativo de Cuba con noticias exclusivas de último minuto actualizado en tiempo real" />
+<meta name="twitter:image" content="" />
+
+   
+
+	<!-- Matomo -->
+	<script type="text/javascript">
+		var _paq = window._paq = window._paq || [];
+		/* tracker methods like "setCustomDimension" should be called before
+		"trackPageView" */
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//analitica.cip.cu/";
+			_paq.push(['setTrackerUrl', u+'matomo.php']);
+			_paq.push(['setSiteId', '9']);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.src=u+'matomo.js';
+			s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<!-- End Matomo Code -->
+
+	<!-- Matomo Image Tracker-->
+	<noscript>
+		<img src="https://analitica.cip.cu/matomo.php?idsite=9&amp;rec=1" style="border:0" alt="" />
+	</noscript>
+    <!-- End Matomo -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-291893-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-291893-2');
+    </script>
+
+    <!--Global Css-->
+    <link media="all" type="text/css" rel="stylesheet" href="https://www.juventudrebelde.cu/assets/bootstrap/css/bootstrap.min.css">
+
+    <link media="all" type="text/css" rel="stylesheet" href="https://www.juventudrebelde.cu/assets/bootstrap/css/bootstrap-theme.min.css">
+
+    <link media="all" type="text/css" rel="stylesheet" href="https://www.juventudrebelde.cu/assets/font-awesome/css/font-awesome.min.css">
+
+    <link media="all" type="text/css" rel="stylesheet" href="https://www.juventudrebelde.cu/assets/weather-icons/css/weather-icons.min.css">
+
+    <link media="all" type="text/css" rel="stylesheet" href="https://www.juventudrebelde.cu/assets/weather-icons/css/weather-icons-wind.min.css">
+
+    <link media="all" type="text/css" rel="stylesheet" href="https://www.juventudrebelde.cu/assets/columnas-jr/styles.min.css">
+
+    <link media="all" type="text/css" rel="stylesheet" href="https://www.juventudrebelde.cu/assets/frontend/css/app.min.css">
+
+    <link media="all" type="text/css" rel="stylesheet" href="https://www.juventudrebelde.cu/assets/frontend/css/flexslider.min.css">
+
+    <link media="all" type="text/css" rel="stylesheet" href="https://www.juventudrebelde.cu/assets/frontend/css/pure-css-checkbox.min.css">
+
+    <link media="all" type="text/css" rel="stylesheet" href="https://www.juventudrebelde.cu/assets/frontend/css/common-menu.min.css">
+
+    <link media="all" type="text/css" rel="stylesheet" href="https://www.juventudrebelde.cu/assets/frontend/css/nav-clean.min.css">
+
+    <link media="all" type="text/css" rel="stylesheet" href="https://www.juventudrebelde.cu/assets/frontend/css/news-common.min.css">
+
+    <link media="all" type="text/css" rel="stylesheet" href="https://www.juventudrebelde.cu/assets/frontend/css/animate.min.css">
+
+    <link media="all" type="text/css" rel="stylesheet" href="https://www.juventudrebelde.cu/assets/frontend/css/responsive.min.css">
+
+
+        <style>
+        @media (max-width: 426px) {
+            #middle_scroll {
+                width: 100% !important;
+                margin-left: 0px !important;
+                height: 60px;
+            }
+
+            .foot {
+                margin-left: 0px !important;
+            }
+
+            #id_ventana {
+                margin-left: 0px !important;
+            }
+
+            #Window {
+                display: inline !important;
+            }
+
+            #Ventana {
+                display: none !important;
+            }
+
+            .top_img_header {
+                margin-top: 6px;
+            }
+
+            .box_mobil_search {
+                margin-top: 18px !important;
+            }
+
+            .search-box-lupa {
+                top: 0.7em !important;
+            }
+
+            .move_movil_block {
+                margin-left: 0%;
+            }
+            .interest_links_big_box, .sub-footer {
+                margin-left: -8%;
+            }
+        }
+
+        @media (max-width: 768px) and (min-width: 427px) {
+            #Window {
+                display: inline !important;
+            }
+
+            #Ventana {
+                display: none !important;
+            }
+
+            #middle_scroll {
+                height: 55px;
+                 width: 100%!important;
+                 margin-left: 0%!important;
+            }
+
+            .top_img_header {
+                width: 50% !important;
+                margin-top: 0px !important;
+            }
+
+            .cartelera_movil {
+                padding-left: 0em;
+            }
+
+            .box_mobil_search {
+                margin-top: 17px !important;
+            }
+
+            .search-box-lupa {
+                top: 0.6em !important;
+            }
+
+            /*.top_img_header {*/
+                /*width: 55% !important;*/
+                /*margin-top: 5px !important;*/
+            /*}*/
+
+            .sup_movil {
+                padding-left: 0px !important;
+            }
+        }
+
+        @media  screen and (max-width: 1024px) and (min-width: 769px) {
+            .search-box-lupa {
+                top: 0em !important;
+            }
+
+            .container-overwrite {
+                margin-top: 18.9% !important;
+            }
+
+            #items_submenu li a {
+                font-size: 0.72rem;                
+            }
+
+            .ultima-hora {
+                font-size: 0.8em !important;
+            }
+
+            #items_submenu li a {
+                padding: 10px 5px !important;
+            }
+
+            .box_mobil_search .search-box-lupa {
+                top: 0.3em !important;
+            }
+
+            /* .move_movil_block {
+                margin-left: 25%;
+            } */
+            .navigation-clean{
+                margin-left: 17%!important;
+            }
+            .container-overwrite{
+                margin-left: 17%!important;
+            }
+            /* .foot{
+                margin-left: 21.5%!important;
+            } */
+            .title-ultima-hora{
+                font-size: 1.3em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<h1 hidden>Juventud Rebelde - Diario de la Juventud Cubana</h1>
+
+<div id="Ventana" class="container-fluid" style="display: inline;">
+    <div class="row">
+        <div class="col-lg-2 col-md-2 hidden-sm hidden-xs"></div>
+        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12" style="padding-left: 0px;padding-right: 0px;">
+            <div class="container">
+                <nav class="navbar-fixed-top navbar-default navigation-clean hidden-xs hidden-sm">
+                    <div class="container-fluid hidden-xs hidden-sm">
+                        <div class="navbar-header">
+                            <!-- <a class="navbar-brand" href="#">Website Name</a> -->
+                        </div>
+                        <div>
+                            <ul class="nav navbar-nav navbar-left superior-menu hidden-xs hidden-sm">
+                                <li>
+                                    <a href="https://www.juventudrebelde.cu/index.php/galeria/galeria-general">
+                                        Multimedia                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.juventudrebelde.cu/index.php/blog">
+                                        Blogs                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="https://www.juventudrebelde.cu/index.php/busqueda">
+                                        Archivo                                    </a>
+                                </li>
+                                                                    <li>
+                                        <a href="https://www.juventudrebelde.cu/index.php/edicion-impresa/2026-01-11" aria-expanded="false">
+                                            <i class="fa fa-newspaper-o icon" aria-hidden="true"></i>
+                                            Impreso                                        </a>
+                                    </li>
+                                                                <li>
+                                    <a href="https://www.juventudrebelde.cu/index.php/el-tiempo" target="_blank" aria-expanded="false">
+                                        <i class="wi wi-day-cloudy icon"></i>
+                                        El Tiempo                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </nav><!-- /.navbar -->
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-2 hidden-sm hidden-xs"></div>
+    </div>
+    <div class="row hidden-xs hidden-sm">
+        <div class="col-lg-2 col-md-2"></div>
+        <div class="col-lg-8 col-md-8">
+            <div id="id_ventana" class="row middle-header navbar-fixed-top hidden-xs hidden-sm"
+                 style="">
+                <div class="col-lg-3 col-md-3">
+                    <a href="https://www.juventudrebelde.cu/index.php">
+                        <!-- <div id="juvreb" class="background-logo-menu img-responsive"></div>
+                            <div id="jr" class="background-logo-menu-jr img-responsive hidden"></div>-->
+                        <img src="https://www.juventudrebelde.cu/index.php/thumbs/200x/crc/assets/frontend/img/juventud_rebelde.png" class="img-responsive img-juvreb" alt="">
+                        <img src="https://www.juventudrebelde.cu/index.php/thumbs/128x128/crc/assets/frontend/img/jr.png" class="img-responsive hidden" id="jr" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-9 col-md-9">
+                    <div class="row back_color">
+                        <div class="col-lg-3 col-md-3">
+                            <p class="middle-header-text middle-header-weather">Domingo 11 de enero de 2026</p>
+                        </div>
+                        <div class="col-lg-3 col-md-3">
+                                                            <p class="middle-header-text middle-header-weather-two">
+                                    La Habana                                    <span class="weather">
+                                        <img class="text-style-bold"
+                                             src="https://www.juventudrebelde.cu/index.php/weather/img/w/03d.png">
+                                        27
+                                        <i class="wi wi-celsius"></i>
+                                    </span>
+                                </p>
+                                                    </div>
+                        
+                        <div class="col-lg-4 col-md-4" style="text-align: center;">
+                            <div class="social-link">
+                                <a class="social" href="https://www.juventudrebelde.cu/index.php/rss">
+                                    <i class="fa fa-rss" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                            <div class="social-link">
+                                <a class="social" href="https://es-la.facebook.com/periodicojuventudrebelde">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                            <div class="social-link">
+                                <a class="social" href="https://twitter.com/JuventudRebelde">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                            <div class="social-link">
+                                <a class="social" href="https://www.youtube.com/user/JRebeldeCuba">
+                                    <i class="fa fa-youtube" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                            <div class="social-link">
+                                <a class="social" href="https://www.pinterest.com/juventudrebelde/">
+                                    <i class="fa fa-pinterest" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                            <div class="social-link">
+                                <a class="social" href="https://t.me/jrebelde">
+                                    <i class="fa fa-telegram" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row back_color">
+                        <div class="col-md-12 col-lg-12">
+                            <div class="col-md-8 col-lg-8 pull-left"
+                                 style="padding-left: 0px;max-height: 95px;height: 90px;">
+                                <!-- <i class="glyphicon glyphicon-star"></i> -->
+                                                                                                    
+                                                                    <div class="margin-last-minute"></div>
+                                                            </div>
+                            <div class="col-md-4 col-lg-4 pull-right">
+                                <!-- <i class="glyphicon glyphicon-star"></i> -->
+                                <div id="container">
+                                    <form method="GET" action="https://www.juventudrebelde.cu/index.php/busqueda" accept-charset="UTF-8" role="form" class="" id="searchform">
+                                    <div class="icon-addon addon-md search-box">
+                                        <input type="text" placeholder="Buscar..." class="form-control btn-menu-mobile"
+                                               name="keywords">
+                                        <label for="keywords" class="search-box-lupa">
+                                            <button type="submit" class="fa fa-search search-btn" rel="tooltip"
+                                                    name="search"
+                                                    title="search"></button>
+                                        </label>
+                                    </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-2"></div>
+    </div>
+    <div class="row hidden-xs hidden-sm">
+        <div class="col-lg-2 col-md-2"></div>
+        <div class="col-lg-8 col-md-8">
+            <nav class="navbar-fixed-top navbar-default container-overwrite" style=""> <div class="container-fluid" style="background-color: #c7d4da;"> <div class="navbar-header"> </div> <div> <ul id="items_submenu" class="nav navbar-nav navbar-left"> <li class="" id="home"> <a href="https://www.juventudrebelde.cu/index.php">Portada</a> </li> <li class=""> <a href="https://www.juventudrebelde.cu/index.php/noticias">Noticias</a> </li> <li class=" dropdown mega-dropdown"> <a href="https://www.juventudrebelde.cu/index.php/cuba" data-toggle="dropdown" class="dropdown-toggle disabled">Cuba</a> <div class="dropdown-menu mega-dropdown-menu col-lg-8 col-md-8 col-sm-8 col-xs-8 col-p0"> <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-p0"> <div class="faster-links"> <label class="faster-links-title">Enlaces rápidos</label>   <a href="https://www.juventudrebelde.cu/index.php/busqueda?keywords=Crisis diplomática Cuba-EE.UU    ">        Crisis diplomática Cuba-EE.UU     </a>  <a href="https://www.juventudrebelde.cu/index.php/busqueda?keywords=Che Guevara   ">      Che Guevara    </a>   </div> </div> <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 col-p0">  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 news">  <img src="https://www.juventudrebelde.cu/index.php/thumbs/150x/crc/images/news/2026/01/svXekO_11-01-2026_09.01.22.000000.jpg" class="img-responsive" alt="">  <label class="title-news"> <a href="https://www.juventudrebelde.cu/index.php/cuba/2026-01-11/ee-uu-se-comporta-como-un-hegemon-criminal-y-descontrolado-que-amenaza-la-paz-y-la-seguridad" class="title-news-a">EE. UU. se comporta como un hegemón criminal y descontrolado que amenaza la paz y la seguridad</a> </label> </div>   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 news">  <img src="https://www.juventudrebelde.cu/index.php/thumbs/150x/crc/images/news/2026/01/4xkB6H_10-01-2026_23.01.52.000000.jpg" class="img-responsive" alt="">  <label class="title-news"> <a href="https://www.juventudrebelde.cu/index.php/cuba/2026-01-10/honores-para-un-heroe-estudiantil" class="title-news-a">Honores para un héroe estudiantil</a> </label> </div>  </div> <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 col-p0">  <label class="title-news"> <a href="https://www.juventudrebelde.cu/index.php/cuba/2026-01-10/preparacion-combativa-en-primer-orden" class="title-news-a">Preparación combativa en primer orden</a> </label> <div class="separator-news"></div>   <label class="title-news"> <a href="https://www.juventudrebelde.cu/index.php/cuba/2026-01-10/como-enamorar-a-los-jovenes" class="title-news-a">¿Cómo enamorar a los jóvenes?</a> </label> <div class="separator-news"></div>   <label class="title-news"> <a href="https://www.juventudrebelde.cu/index.php/cuba/2026-01-10/la-economia-en-el-catalejo-de-la-vida" class="title-news-a">La economía en el catalejo de la vida</a> </label>  </div> </div> </li> <li class=" dropdown mega-dropdown"> <a href="https://www.juventudrebelde.cu/index.php/internacionales" data-toggle="dropdown" class="dropdown-toggle disabled">Internacionales</a> <div class="dropdown-menu mega-dropdown-menu col-lg-8 col-md-8 col-sm-8 col-xs-8 col-p0"> <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-p0"> <div class="faster-links"> <label class="faster-links-title">Enlaces rápidos</label>   <a href="https://www.juventudrebelde.cu/index.php/busqueda?keywords=Donald Trump      ">            Donald Trump       </a>  <a href="https://www.juventudrebelde.cu/index.php/busqueda?keywords=Argentina   ">      Argentina    </a>  <a href="https://www.juventudrebelde.cu/index.php/busqueda?keywords=Lula  ">    Lula   </a>   </div> </div> <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 col-p0">  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 news">  <img src="https://www.juventudrebelde.cu/index.php/thumbs/150x/crc/images/news/2025/12/PDqbVN_08-12-2025_21.12.45.000000.jpg" class="img-responsive" alt="">  <label class="title-news"> <a href="https://www.juventudrebelde.cu/index.php/internacionales/2026-01-11/emperador-de-la-galaxia-no-mas-petroleo-ni-dinero-para-cuba-cero" class="title-news-a">Emperador de la galaxia: no más petróleo ni dinero para Cuba. ¡Cero!</a> </label> </div>   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 news">  <img src="https://www.juventudrebelde.cu/index.php/thumbs/150x/crc/images/news/2026/01/yawqyU_11-01-2026_10.01.04.000000.jpg" class="img-responsive" alt="">  <label class="title-news"> <a href="https://www.juventudrebelde.cu/index.php/internacionales/2026-01-11/principal-foco-de-incendio-forestal-en-la-patagonia-argentina-afecta-5-500-hectareas" class="title-news-a">Principal foco de incendio forestal en la Patagonia argentina afecta 5 500 hectáreas</a> </label> </div>  </div> <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 col-p0">  <label class="title-news"> <a href="https://www.juventudrebelde.cu/index.php/internacionales/2026-01-11/ee-uu-urge-a-connacionales-a-abandonar-inmediatamente-venezuela" class="title-news-a">EE.UU. urge a connacionales a «abandonar inmediatamente» Venezuela</a> </label> <div class="separator-news"></div>   <label class="title-news"> <a href="https://www.juventudrebelde.cu/index.php/internacionales/2026-01-10/ratifica-venezuela-esfuerzos-por-la-liberacion-de-maduro-y-cilia" class="title-news-a">Ratifica Venezuela esfuerzos  por la liberación de Maduro y Cilia</a> </label> <div class="separator-news"></div>   <label class="title-news"> <a href="https://www.juventudrebelde.cu/index.php/internacionales/2026-01-10/el-desaforado-de-la-casa-blanca" class="title-news-a">El desaforado de la Casa Blanca</a> </label>  </div> </div> </li>  <li class=""> <a href="https://www.juventudrebelde.cu/index.php/opinion">Opinión</a> </li>  <li class=" dropdown mega-dropdown"> <a href="https://www.juventudrebelde.cu/index.php/cultura" data-toggle="dropdown" class="dropdown-toggle disabled">Cultura</a> <div class="dropdown-menu mega-dropdown-menu col-lg-8 col-md-8 col-sm-8 col-xs-8 col-p0"> <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-p0"> <div class="faster-links"> <label class="faster-links-title">Enlaces rápidos</label>   <a href="https://www.juventudrebelde.cu/index.php/busqueda?keywords=Cine  ">    Cine   </a>  <a href="https://www.juventudrebelde.cu/index.php/busqueda?keywords=Danza  ">    Danza   </a>  <a href="https://www.juventudrebelde.cu/index.php/busqueda?keywords=Televisión  ">    Televisión   </a>  <a href="https://www.juventudrebelde.cu/index.php/busqueda?keywords=Giras  ">    Giras   </a>   </div> </div> <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 col-p0">  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 news">  <img src="https://www.juventudrebelde.cu/index.php/thumbs/150x/crc/images/news/2026/01/3u1UKB_10-01-2026_20.01.37.000000.jpg" class="img-responsive" alt="">  <label class="title-news"> <a href="https://www.juventudrebelde.cu/index.php/cultura/2026-01-10/yo-siento-la-musica" class="title-news-a">Yo siento la música</a> </label> </div>   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 news">  <img src="https://www.juventudrebelde.cu/index.php/thumbs/150x/crc/images/news/2026/01/0BNFNQ_10-01-2026_20.01.41.000000.jpg" class="img-responsive" alt="">  <label class="title-news"> <a href="https://www.juventudrebelde.cu/index.php/cultura/2026-01-10/laureles-irrefutables" class="title-news-a">Laureles irrefutables </a> </label> </div>  </div> <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 col-p0">  <label class="title-news"> <a href="https://www.juventudrebelde.cu/index.php/cultura/2026-01-10/los-humoristas-graficos-con-venezuela" class="title-news-a"> Los humoristas gráficos con Venezuela</a> </label> <div class="separator-news"></div>   <label class="title-news"> <a href="https://www.juventudrebelde.cu/index.php/cultura/2026-01-10/festival-de-trovadores-longina-dedicara-a-eduardo-sosa-su-proxima-edicion" class="title-news-a">Festival de Trovadores Longina dedicará a Eduardo Sosa su próxima edición</a> </label> <div class="separator-news"></div>   <label class="title-news"> <a href="https://www.juventudrebelde.cu/index.php/cultura/2026-01-10/concluyen-inscripciones-al-santiago-alvarez-in-memoriam" class="title-news-a">Concluyen inscripciones al Santiago Álvarez In Memoriam</a> </label>  </div> </div> </li> <li class=" dropdown mega-dropdown"> <a href="https://www.juventudrebelde.cu/index.php/ciencia-tecnica" data-toggle="dropdown" class="dropdown-toggle disabled">Ciencia y Técnica</a> <div class="dropdown-menu mega-dropdown-menu col-lg-8 col-md-8 col-sm-8 col-xs-8 col-p0"> <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-p0"> <div class="faster-links"> <label class="faster-links-title">Enlaces rápidos</label>   <a href="https://www.juventudrebelde.cu/index.php/busqueda?keywords=Redes Sociales  ">    Redes Sociales   </a>  <a href="https://www.juventudrebelde.cu/index.php/busqueda?keywords=Medicina  ">    Medicina   </a>  <a href="https://www.juventudrebelde.cu/index.php/busqueda?keywords=Genética  ">    Genética   </a>  <a href="https://www.juventudrebelde.cu/index.php/busqueda?keywords=Cirugía  ">    Cirugía   </a>   </div> </div> <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 col-p0">  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 news">  <img src="https://www.juventudrebelde.cu/index.php/thumbs/150x/crc/images/news/2026/01/Y3TzE4_10-01-2026_09.01.55.000000.jpg" class="img-responsive" alt="">  <label class="title-news"> <a href="https://www.juventudrebelde.cu/index.php/ciencia-tecnica/2026-01-10/diez-minutos-de-ejercicio-intenso-pueden-ayudar-a-combatir-el-cancer" class="title-news-a">Diez minutos de ejercicio intenso pueden ayudar a combatir el cáncer </a> </label> </div>   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 news">  <img src="https://www.juventudrebelde.cu/index.php/thumbs/150x/crc/images/news/2025/01/w6nMdM_02-01-2025_20.01.17.000000.jpg" class="img-responsive" alt="">  <label class="title-news"> <a href="https://www.juventudrebelde.cu/index.php/ciencia-tecnica/2026-01-09/cumbre-sobre-ia-en-india-por-adopcion-responsable-de-tecnologia" class="title-news-a">Cumbre sobre IA en India por adopción responsable de tecnología</a> </label> </div>  </div> <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 col-p0">  <label class="title-news"> <a href="https://www.juventudrebelde.cu/index.php/ciencia-tecnica/2026-01-09/sistema-de-inteligencia-artificial-de-x-desactiva-herramienta-que-permite-desnudar-personas" class="title-news-a">Sistema de inteligencia artificial de X desactiva herramienta que permite desnudar personas</a> </label> <div class="separator-news"></div>   <label class="title-news"> <a href="https://www.juventudrebelde.cu/index.php/ciencia-tecnica/2026-01-08/presentan-robot-de-cuidado-bucal-que-cepilla-tus-dientes-automaticamente-en-un-minuto" class="title-news-a">Presentan robot de cuidado bucal que cepilla tus dientes automáticamente en un minuto</a> </label> <div class="separator-news"></div>   <label class="title-news"> <a href="https://www.juventudrebelde.cu/index.php/ciencia-tecnica/2026-01-07/glaciar-del-juicio-final-preven-su-proximo-colapso" class="title-news-a">«Glaciar del Juicio Final»: prevén su próximo colapso </a> </label>  </div> </div> </li> <li class=" dropdown mega-dropdown"> <a href="https://www.juventudrebelde.cu/index.php/deportes" data-toggle="dropdown" class="dropdown-toggle disabled">Deporte</a> <div class="dropdown-menu mega-dropdown-menu col-lg-8 col-md-8 col-sm-8 col-xs-8 col-p0"> <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-p0"> <div class="faster-links"> <label class="faster-links-title">Enlaces rápidos</label>   <a href="https://www.juventudrebelde.cu/index.php/busqueda?keywords=Béisbol  ">    Béisbol   </a>  <a href="https://www.juventudrebelde.cu/index.php/busqueda?keywords=Boxeo  ">    Boxeo   </a>  <a href="https://www.juventudrebelde.cu/index.php/busqueda?keywords=Futbol  ">    Futbol   </a>  <a href="https://www.juventudrebelde.cu/index.php/busqueda?keywords=Ajedrez  ">    Ajedrez   </a>  <a href="https://www.juventudrebelde.cu/index.php/busqueda?keywords=Atletismo  ">    Atletismo   </a>   </div> </div> <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 col-p0">  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 news">  <img src="https://www.juventudrebelde.cu/index.php/thumbs/150x/crc/images/news/2026/01/SlhWpW_10-01-2026_21.01.53.000000.jpg" class="img-responsive" alt="">  <label class="title-news"> <a href="https://www.juventudrebelde.cu/index.php/deportes/2026-01-10/en-la-cima-latinoamericana" class="title-news-a">En la cima latinoamericana</a> </label> </div>   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 news">  <img src="https://www.juventudrebelde.cu/index.php/thumbs/150x/crc/images/news/2026/01/OiISxb_10-01-2026_19.01.43.000000.jpg" class="img-responsive" alt="">  <label class="title-news"> <a href="https://www.juventudrebelde.cu/index.php/deportes/2026-01-10/el-ano-grande-del-psg" class="title-news-a">El año grande del PSG</a> </label> </div>  </div> <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 col-p0">  <label class="title-news"> <a href="https://www.juventudrebelde.cu/index.php/deportes/2026-01-09/encuesta-anual-de-prensa-latina-seleccionara-a-mejores-deportistas-de-su-encuesta-2025" class="title-news-a">Encuesta anual de Prensa Latina: Los mejores del 2025 fueron cubanos</a> </label> <div class="separator-news"></div>   <label class="title-news"> <a href="https://www.juventudrebelde.cu/index.php/deportes/2026-01-09/clasico-servido-por-el-primer-titulo-del-ano" class="title-news-a">Clásico servido por el primer título del año</a> </label> <div class="separator-news"></div>   <label class="title-news"> <a href="https://www.juventudrebelde.cu/index.php/deportes/2026-01-09/reconocen-a-mejores-deportistas-de-america-latina-en-2025-segun-encuesta-de-la-agencia-prensa-latina" class="title-news-a">Reconocen a mejores deportistas de América Latina en 2025 según encuesta de la agencia Prensa Latina</a> </label>  </div> </div> </li>  <li class=""> <a href="https://www.juventudrebelde.cu/index.php/columnas">Columnas</a> </li> <li class=""> <a href="https://www.juventudrebelde.cu/index.php/suplementos">Suplementos</a> </li>  </ul> </div> </div> </nav>        </div>
+        <div class="col-lg-2 col-md-2"></div>
+    </div>
+</div>
+
+<div id="Window" class="container-fluid" style="display: none;">
+    <div class="row">
+        <div class="col-lg-2 col-md-2 hidden-sm hidden-xs"></div>
+        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+            <header>
+                <div id="middle_scroll" class="row middle-header navbar-fixed-top" style="">
+                    <div class="col-lg-3 col-md-3 col-sm-2 col-xs-2">
+                        <a href="#menu" id="toggle"><span></span></a>
+                        <div id="menu">
+                            <ul class="menu_child"
+                                style=" padding: 5px;color: #222d31;text-decoration: none;transition: all .2s;list-style: none;display: block;margin: 0;">
+                                <li class="" id="home">
+                                    <a href="https://www.juventudrebelde.cu/index.php">Portada</a>
+                                </li>
+                                <li class="" id="noticias">
+                                    <a href="https://www.juventudrebelde.cu/index.php/noticias">Noticias</a>
+                                </li>
+                                <li class=" dropdown mega-dropdown">
+                                    <a href="https://www.juventudrebelde.cu/index.php/cuba">Cuba</a>
+                                </li>
+                                <div class="clearfix"></div>
+                                <li class=" dropdown mega-dropdown">
+                                    <a href="https://www.juventudrebelde.cu/index.php/internacionales">Internacionales</a>
+                                </li>
+                                                                    <li class="">
+                                        <a href="https://www.juventudrebelde.cu/index.php/opinion">Opinión</a>
+                                    </li>
+                                
+
+                                <li class=" dropdown mega-dropdown">
+                                    <a href="https://www.juventudrebelde.cu/index.php/cultura">Cultura</a>
+                                </li>
+                                <li class=" dropdown mega-dropdown">
+                                    <a href="https://www.juventudrebelde.cu/index.php/ciencia-tecnica">Ciencia y Técnica</a>
+                                </li>
+
+                                <li class=" dropdown mega-dropdown">
+                                    <a href="https://www.juventudrebelde.cu/index.php/deportes">Deporte</a>
+                                </li>
+
+                                                                    <li class="">
+                                        <a href="https://www.juventudrebelde.cu/index.php/columnas">Columnas</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="https://www.juventudrebelde.cu/index.php/suplementos">Suplementos</a>
+                                    </li>
+                                    
+                                                                                                    <li>
+                                        <a href="https://www.juventudrebelde.cu/index.php/edicion-impresa" aria-expanded="false">
+                                            <i class="fa fa-newspaper-o icon" aria-hidden="true"></i>
+                                            Impreso                                        </a>
+                                    </li>
+                                                            </ul>
+                            <div class="row">
+                                <div class="social-link">
+                                    <a class="social" href="https://www.juventudrebelde.cu/index.php/rss">
+                                        <i class="fa fa-rss" aria-hidden="true" style="color: #222d31;"></i>
+                                    </a>
+                                </div>
+                                <div class="social-link">
+                                    <a class="social" href="https://es-la.facebook.com/periodicojuventudrebelde">
+                                        <i class="fa fa-facebook" aria-hidden="true" style="color: #222d31;"></i>
+                                    </a>
+                                </div>
+                                <div class="social-link">
+                                    <a class="social" href="https://twitter.com/JuventudRebelde">
+                                        <i class="fa fa-twitter" aria-hidden="true" style="color: #222d31;"></i>
+                                    </a>
+                                </div>
+                                <div class="social-link">
+                                    <a class="social" href="https://plus.google.com/+JuventudRebeldeCuba">
+                                        <i class="fa fa-google-plus" aria-hidden="true" style="color: #222d31;"></i>
+                                    </a>
+                                </div>
+                                <div class="social-link">
+                                    <a class="social" href="https://www.youtube.com/user/JRebeldeCuba">
+                                        <i class="fa fa-youtube" aria-hidden="true" style="color: #222d31;"></i>
+                                    </a>
+                                </div>
+                                <div class="social-link">
+                                    <a class="social" href="https://www.pinterest.com/juventudrebelde/">
+                                        <i class="fa fa-pinterest" aria-hidden="true" style="color: #222d31;"></i>
+                                    </a>
+                                </div>
+                                                                                                            <div class="social-link">
+                                            <a hreflang="en"
+                                               href="https://www.juventudrebelde.cu/index.php/en"
+                                               class="social">
+                                                                                                    <img src="https://www.juventudrebelde.cu/index.php/thumbs/20x/crc/assets/frontend/img/english.png" class="img-responsive middle-header-img-flag" alt="English">
+                                                                                            </a>
+                                        </div>
+                                                                                                                                                                    </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                        <div class="row back_color">
+                            <div class="col-lg-5 col-md-5 hidden-xs hidden-sm">
+                                <a href="https://www.juventudrebelde.cu/index.php">
+                                    <!-- <div id="juvreb" class="background-logo-menu img-responsive"></div>
+                                        <div id="jr" class="background-logo-menu-jr img-responsive hidden"></div>-->
+                                    <img src="https://www.juventudrebelde.cu/assets/frontend/img/en_linea.svg" class="img-responsive pull-left" style="margin-top: 10px;" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 visible-xs visible-sm">
+                                <a href="https://www.juventudrebelde.cu/index.php">
+                                    <img src="https://www.juventudrebelde.cu/assets/frontend/img/brand.png" class="img-responsive pull-left visible-xs visible-sm top_img_header" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-4 hidden-xs hidden-sm"
+                                 style="text-align: center;margin-top: 5px;">
+                                <div class="social-link">
+                                    <a class="social" href="https://www.juventudrebelde.cu/index.php/rss">
+                                        <i class="fa fa-rss" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                                <div class="social-link">
+                                    <a class="social" href="https://es-la.facebook.com/periodicojuventudrebelde">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                                <div class="social-link">
+                                    <a class="social" href="https://twitter.com/JuventudRebelde">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                                <div class="social-link">
+                                    <a class="social" href="https://plus.google.com/+JuventudRebeldeCuba">
+                                        <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                                <div class="social-link">
+                                    <a class="social" href="https://www.youtube.com/user/JRebeldeCuba">
+                                        <i class="fa fa-youtube" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                                <div class="social-link">
+                                    <a class="social" href="https://www.pinterest.com/juventudrebelde/">
+                                        <i class="fa fa-pinterest" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-lg-3 col-sm-7 col-xs-7 pull-right">
+                                <!-- <i class="glyphicon glyphicon-star"></i> -->
+                                <div id="container" class="box_mobil_search" style="margin-top: 10px;">
+                                    <form method="GET" action="https://www.juventudrebelde.cu/index.php/busqueda" accept-charset="UTF-8" role="form" class="" id="searchform">
+                                    <div class="icon-addon addon-md search-box">
+                                        <input type="text" placeholder="Buscar..." class="form-control btn-menu-mobile"
+                                               name="keywords">
+                                        <label for="keywords" class="search-box-lupa" style="top: 0.4em;">
+                                            <button type="submit" class="fa fa-search search-btn" rel="tooltip"
+                                                    name="search"
+                                                    title="search"></button>
+                                        </label>
+                                    </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div class="col-lg-2 col-md-2 hidden-sm hidden-xs"></div>
+    </div>
+</div>
+
+ <div class="container-fluid"> <div class="col-lg-2 col-md-2"></div> <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12" style="margin: 1em auto 1em auto;"> <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 suplemento-header"> <div class="suplemento-name blog"> <i class="fa fa-rss" aria-hidden="true"></i> Canal RSS </div> </div> <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12" style="padding-left: 0px;padding-top: 15px;"> <p> RSS es parte de la familia de los formatos XML desarrollado específicamente para todo tipo de sitios
+                    que se actualicen con frecuencia y por medio del cual se puede compartir la información y usarla en
+                    otros sitios web o programas. A esto se le conoce como redifusión o sindicación.
+
+                    Gracias a los lectores de feeds (programas o sitios que permiten leer fuentes RSS) se puede obtener
+                    resúmenes de todos los sitios que se desee desde el escritorio de tu sistema operativo, programas de
+                    correo electrónico o por medio de aplicaciones web que funcionan como agregadores. No es necesario
+                    abrir el navegador y visitar decenas de webs.
+
+                    Para agregar canales, se debe ingresar la url del canal deseado en los programas lectores. Se pueden
+                    crear grupos de canales, agrupando todas las secciones del diario bajo un mismo grupo.
+
+                    Para leer el contenido de los feeds en su computadora puede usar un agregador de noticias como
+                    BlogExpress o FeedReader, también puedes utilizar un agregador online como Google Reader o
+                    Bloglines.
+                    <br/>
+                    <strong>*Fuente:</strong> Wikipedia en español </p> </div> <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12" style="padding-top: 10px;"> <h4>CANALES RSS DE JUVENTUD REBELDE</h4> <ul style="list-style-type: none;padding-left: 0px;"> <li><h4>Noticias</h4> <div class="col-sm-12" style="padding-left: 0px;"> <div class="col-sm-6" style="padding-left: 0px;"> <a href="https://www.juventudrebelde.cu/index.php/get/rss/grupo/generales"> <p style="font-size: 15px;">Generales</p> </a> </div> <div class="col-sm-6"> <a href="https://www.juventudrebelde.cu/index.php/get/rss/noticias/cuba"> <p style="font-size: 15px;">Cuba</p> </a> </div> <div class="col-sm-6" style="padding-left: 0px;"> <a href="https://www.juventudrebelde.cu/index.php/get/rss/noticias/internacionales"> <p style="font-size: 15px;">Internacionales</p> </a> </div> <div class="col-sm-6"> <a href="https://www.juventudrebelde.cu/index.php/get/rss/noticias/deportes"> <p style="font-size: 15px;">Deportes</p> </a> </div>  <div class="col-sm-6" style="padding-left: 0px;"> <a href="https://www.juventudrebelde.cu/index.php/get/rss/noticias/cultura"> <p style="font-size: 15px;">Cultura</p> </a> </div> <div class="col-sm-6"> <a href="https://www.juventudrebelde.cu/index.php/get/rss/noticias/ciencia-tecnica"> <p style="font-size: 15px;">Ciencia y Técnica</p> </a> </div> <div class="col-sm-6" style="padding-left: 0px;"> <a href="https://www.juventudrebelde.cu/index.php/get/rss/noticias/opinion"> <p style="font-size: 15px;">Opinión</p> </a> </div>  </div> </li>  <li> <h4>Columnas</h4> <div class="col-sm-12" style="padding-left: 0px;">   <div class="col-sm-6" style="padding-left: 0px;"> <a href="https://www.juventudrebelde.cu/index.php/get/rss/columnas/acuse-recibo"> <p style="font-size: 15px;">Acuse de recibo</p> </a> </div>    <div class="col-sm-6" style="padding-left: 0px;"> <a href="https://www.juventudrebelde.cu/index.php/get/rss/columnas/frente-espejo"> <p style="font-size: 15px;">Frente al espejo</p> </a> </div>    <div class="col-sm-6" style="padding-left: 0px;"> <a href="https://www.juventudrebelde.cu/index.php/get/rss/columnas/tecla-duende"> <p style="font-size: 15px;">La tecla del duende</p> </a> </div>    <div class="col-sm-6" style="padding-left: 0px;"> <a href="https://www.juventudrebelde.cu/index.php/get/rss/columnas/inter-nos"> <p style="font-size: 15px;">Inter-nos</p> </a> </div>    <div class="col-sm-6" style="padding-left: 0px;"> <a href="https://www.juventudrebelde.cu/index.php/get/rss/columnas/los-que-sonamos"> <p style="font-size: 15px;">Los que soñamos por la oreja</p> </a> </div>    <div class="col-sm-6" style="padding-left: 0px;"> <a href="https://www.juventudrebelde.cu/index.php/get/rss/columnas/latigo-cascabel"> <p style="font-size: 15px;">Látigo y cascabel</p> </a> </div>    <div class="col-sm-6" style="padding-left: 0px;"> <a href="https://www.juventudrebelde.cu/index.php/get/rss/columnas/lecturas"> <p style="font-size: 15px;">Lecturas</p> </a> </div>    <div class="col-sm-6" style="padding-left: 0px;"> <a href="https://www.juventudrebelde.cu/index.php/get/rss/columnas/tiempo-extra"> <p style="font-size: 15px;">Tiempo extra</p> </a> </div>    <div class="col-sm-6" style="padding-left: 0px;"> <a href="https://www.juventudrebelde.cu/index.php/get/rss/columnas/las-tres-del-domingo"> <p style="font-size: 15px;">Las tres del domingo</p> </a> </div>    <div class="col-sm-6" style="padding-left: 0px;"> <a href="https://www.juventudrebelde.cu/index.php/get/rss/columnas/una-foto-una-historia"> <p style="font-size: 15px;">Una foto, una historia</p> </a> </div>    <div class="col-sm-6" style="padding-left: 0px;"> <a href="https://www.juventudrebelde.cu/index.php/get/rss/columnas/desde-la-grada"> <p style="font-size: 15px;">Desde la grada</p> </a> </div>   </div> </li> <li> <h4>Suplementos</h4> <div class="col-sm-12" style="padding-left: 0px;">   <div class="col-sm-6" style="padding-left: 0px;"> <a href="https://www.juventudrebelde.cu/index.php/get/rss/suplementos/en-red"> <p style="font-size: 15px;">En Red</p> </a> </div>    <div class="col-sm-6" style="padding-left: 0px;"> <a href="https://www.juventudrebelde.cu/index.php/get/rss/suplementos/informatica"> <p style="font-size: 15px;">Código Fuente</p> </a> </div>    <div class="col-sm-6" style="padding-left: 0px;"> <a href="https://www.juventudrebelde.cu/index.php/get/rss/suplementos/sexo-sentido"> <p style="font-size: 15px;">Sexo Sentido</p> </a> </div>    <div class="col-sm-6" style="padding-left: 0px;"> <a href="https://www.juventudrebelde.cu/index.php/get/rss/suplementos/el-tintero"> <p style="font-size: 15px;">El Tintero</p> </a> </div>    <div class="col-sm-6" style="padding-left: 0px;"> <a href="https://www.juventudrebelde.cu/index.php/get/rss/suplementos/asi-de-facil"> <p style="font-size: 15px;">Así de fácil</p> </a> </div>    <div class="col-sm-6" style="padding-left: 0px;"> <a href="https://www.juventudrebelde.cu/index.php/get/rss/suplementos/detras-ciencia"> <p style="font-size: 15px;">Detrás de la ciencia</p> </a> </div>    <div class="col-sm-6" style="padding-left: 0px;"> <a href="https://www.juventudrebelde.cu/index.php/get/rss/suplementos/de-impacto"> <p style="font-size: 15px;">De impacto</p> </a> </div>    <div class="col-sm-6" style="padding-left: 0px;"> <a href="https://www.juventudrebelde.cu/index.php/get/rss/suplementos/en-serio-con-las-series"> <p style="font-size: 15px;">¿En serio con las series?</p> </a> </div>    <div class="col-sm-6" style="padding-left: 0px;"> <a href="https://www.juventudrebelde.cu/index.php/get/rss/suplementos/la-mirada-del-lector"> <p style="font-size: 15px;">La Mirada del lector</p> </a> </div>    <div class="col-sm-6" style="padding-left: 0px;"> <a href="https://www.juventudrebelde.cu/index.php/get/rss/suplementos/cocina-con-jr"> <p style="font-size: 15px;">Cocina con JR</p> </a> </div>   </div> </li>  </ul> </div> </div> <div class="col-lg-2 col-md-2"></div> </div> <footer class="foot resize_foot" style="background-color: #edf1f2;"> <div class="row container"> <div class="col-lg-8 col-md-8 col-sm-10 col-xs-12 interest-links interest_links_big_box" style="background-color: #fff;"> <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 row-centered"> <h2 class="foot_other_sites">Otros sitios de la editora</h2> <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 col-centered"> <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"> <a href="http://www.opciones.cu/"> <img src="https://www.juventudrebelde.cu/index.php/thumbs/120x/crc/assets/frontend/img/opciones.png" class="img-responsive" style="width:50%;" alt="Opciones"> </a> </div> <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"> <a href="http://dedete.cu/ "> <img src="https://www.juventudrebelde.cu/index.php/thumbs/120x/crc/assets/frontend/img/dedete.png" class="img-responsive" style="width:38%;" alt="Dedeté"> </a> </div> </div> </div> <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 interest-links" style="background-color: #fff;"> <h2 class="foot_other_sites">Periódicos digitales cubanos</h2> <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> <ul class="digital-cuban-newspapers"> <li class="links-newspapers"><a title="Ir al sitio de Adelante" href="http://www.adelante.cu/">Adelante</a> | </li> <li class="links-newspapers"><a title="Ir al sitio de Ahora" href="http://www.ahora.cu/">Ahora</a> | </li> <li class="links-newspapers"><a title="Ir al sitio de Escambray" href="http://www.escambray.cu/">Escambray</a> | </li> <li class="links-newspapers"><a title="Ir al sitio de Guerrillero" href="http://www.guerrillero.cu">Guerrillero</a> | </li> <li class="links-newspapers"><a title="Ir al sitio de Granma Nacional" href="https://www.granma.cu/">Granma</a> | </li> <li class="links-newspapers"><a title="Ir al sitio de Girón" href="http://giron.cu/">Girón</a> | </li> <li class="links-newspapers"><a title="Ir al sitio de Invasor" href="http://www.invasor.cu/">Invasor</a> | </li> <li class="links-newspapers"><a title="Ir al sitio de Victoria" href="http://www.periodicovictoria.cu/">Victoria</a> | </li> <li class="links-newspapers"><a title="Ir al sitio de La Demajagua" href="http://lademajagua.cu">La Demajagua</a> | </li> <li class="links-newspapers"><a title="Ir al sitio de Periódico 26" href="http://www.periodico26.cu/">Periódico 26</a> | </li> <li class="links-newspapers"><a title="Ir al sitio de Sierra Maestra" href="http://www.sierramaestra.cu/">Sierra Maestra</a> | </li> <li class="links-newspapers"><a title="Ir al sitio de Trabajadores" href="http://www.trabajadores.cu/">Trabajadores</a> | </li> <li class="links-newspapers"><a title="Ir al sitio de Tribuna de La Habana" href="http://www.tribuna.cu">Tribuna de La Habana</a> | </li> <li class="links-newspapers"><a title="Ir al sitio de Venceremos" href="http://www.venceremos.cu/">Venceremos</a> | </li> <li class="links-newspapers"><a title="Ir al sitio de Vanguardia" href="http://www.vanguardia.cu/">Vanguardia</a> | </li> <li class="links-newspapers"><a title="Ir al sitio de 5 de septiembre" href="http://www.5septiembre.cu/">5 de septiembre</a> | </li> <li class="links-newspapers"><a title="Ir al sitio de ACN" href="http://www.acn.cu/">ACN</a> | </li> <li class="links-newspapers"><a title="Ir al sitio de Prensa Latina" href="http://www.prensa-latina.cu/">Prensa Latina</a> | </li> <li class="links-newspapers"><a title="Ir al sitio de Bohemia" href="http://bohemia.cu/">Bohemia</a> | </li> </ul> </div> </div> </div> <div class="col-lg-8 col-md-8 col-sm-10 col-xs-12 col-p0 sub-footer" style="background-color: #005f99;"> <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 col-p0"> </div> <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 col-p0"> <div class="text"> <label> Desarrollado por: </label> <span> Grupo de Desarrollo de Juventud Rebelde </span> </div> </div> <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 col-p0"> <div class="text"> <label> Director: </label> <span> Yoerky Sánchez Cuellar  </span> <label> Subdirectores editoriales: </label> <span> Yoelvis Lázaro Moreno y Yurisander Guevara </span> <label> frontend/layout.footer.dev_subdirect_by </label> <span> frontend/layout.footer.dev_subdirect </span> </div> </div> <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 col-p0"> <div class="text"> <label> 21 de octubre del 1965 </label> <span> | ISSN 1563-8340: </span> <span class="copyright" style="color: #009ddc;"> Copyright 2026 © Juventud Rebelde </span> </div> </div> </div> </div> </footer><div class="go-top">
+    <span><i class="fa fa-angle-double-up" aria-hidden="true"></i></span>
+</div>
+<!--Global Js-->
+<script src="https://www.juventudrebelde.cu/assets/frontend/js/jquery-3.1.1.min.js"></script>
+
+<script src="https://www.juventudrebelde.cu/assets/frontend/js/script-top-menu.min.js"></script>
+
+<script src="https://www.juventudrebelde.cu/assets/frontend/js/modal-galleries.min.js"></script>
+
+<!-- Flex Slider -->
+<script src="https://www.juventudrebelde.cu/assets/frontend/js/jquery.flexslider-min.js"></script>
+
+<script src="https://www.juventudrebelde.cu/assets/bootstrap/js/bootstrap.min.js"></script>
+
+<script src="https://www.juventudrebelde.cu/assets/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+
+<script src="https://www.juventudrebelde.cu/assets/bootstrap-datepicker/locales/bootstrap-datepicker.es.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $(".nav a").on("click", function () {
+            $(".nav").find(".active").removeClass("active");
+            $(this).parent().addClass("active");
+        });
+    });
+</script>
+<script>
+    function resizeIframe(obj) {
+        obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+    }
+</script>
+<script>
+    $(document).ready(function () {
+        // Show or hide the sticky footer button
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 200) {
+                $('.go-top').fadeIn(200);
+            } else {
+                $('.go-top').fadeOut(200);
+            }
+        });
+
+        // Animate the scroll to top
+        $('.go-top').click(function (event) {
+            event.preventDefault();
+
+            $('html, body').animate({scrollTop: 0}, 300);
+        })
+    });
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".dropdown").hover(
+                function () {
+                    $('.dropdown-menu', this).stop(true, true).slideDown("fast");
+                    $(this).toggleClass('open');
+                },
+                function () {
+                    $('.dropdown-menu', this).stop(true, true).slideUp("fast");
+                    $(this).toggleClass('open');
+                }
+        );
+    });
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#datepicker').datepicker({
+            language: "es",
+            down: 'fa fa-chevron-down',
+            previous: 'fa fa-chevron-left'
+        });
+        $('#datepicker2').datepicker({
+            language: "es",
+            down: 'fa fa-chevron-down',
+            previous: 'fa fa-chevron-left'
+        });
+    });
+</script>
+<script type="text/javascript">
+    var lastScrollTop = 0;
+    $(window).scroll(function (event) {
+        var st = $(this).scrollTop();
+        if ($(this).scrollTop() > 100) {
+            // downscroll code
+            document.getElementById("Ventana").style.display = "none"
+            document.getElementById("Window").style.display = "inline"
+        } else {
+            // upscroll code
+            document.getElementById("Ventana").style.display = "inline"
+            document.getElementById("Window").style.display = "none"
+        }
+        lastScrollTop = st;
+
+    });
+
+
+    var theToggle = document.getElementById('toggle');
+
+    // based on Todd Motto functions
+    // https://toddmotto.com/labs/reusable-js/
+
+    // hasClass
+    function hasClass(elem, className) {
+        return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
+    }
+    // addClass
+    function addClass(elem, className) {
+        if (!hasClass(elem, className)) {
+            elem.className += ' ' + className;
+        }
+    }
+    // removeClass
+    function removeClass(elem, className) {
+        var newClass = ' ' + elem.className.replace(/[\t\r\n]/g, ' ') + ' ';
+        if (hasClass(elem, className)) {
+            while (newClass.indexOf(' ' + className + ' ') >= 0) {
+                newClass = newClass.replace(' ' + className + ' ', ' ');
+            }
+            elem.className = newClass.replace(/^\s+|\s+$/g, '');
+        }
+    }
+    // toggleClass
+    function toggleClass(elem, className) {
+        var newClass = ' ' + elem.className.replace(/[\t\r\n]/g, " ") + ' ';
+        if (hasClass(elem, className)) {
+            while (newClass.indexOf(" " + className + " ") >= 0) {
+                newClass = newClass.replace(" " + className + " ", " ");
+            }
+            elem.className = newClass.replace(/^\s+|\s+$/g, '');
+        } else {
+            elem.className += ' ' + className;
+        }
+    }
+
+    theToggle.onclick = function () {
+        toggleClass(this, 'on');
+        return false;
+    }
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        var i = 1;
+        var f = [];
+        var ht = [];
+        var ht1 = '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">';
+        var ht2 = '</div>';
+
+            });
+</script>
+
+</body>
+</html>

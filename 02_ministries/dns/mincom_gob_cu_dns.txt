@@ -1,0 +1,7 @@
+Non-authoritative answer:
+Server:  UnKnown
+Address:  10.2.0.1
+
+Name:    mincom.gob.cu
+Address:  181.225.233.209
+

@@ -1,0 +1,19 @@
+=== API ENDPOINT SCAN ===
+Date: Sun, Jan 11, 2026  1:47:35 PM
+
+--- minfar.gob.cu ---
+
+--- presidencia.gob.cu ---
+
+--- gobierno.gob.cu ---
+
+--- cubadebate.cu ---
+
+--- granma.cu ---
+  /feed -> HTTP 200 [FOUND]
+  /sitemap.xml -> HTTP 200 [FOUND]
+
+--- etecsa.cu ---
+
+--- aduana.gob.cu ---
+

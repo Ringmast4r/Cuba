@@ -1,0 +1,35 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 11 Jan 2026 18:53:40 GMT
+Server: Apache
+Location: https://sierramaestra.cu/
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 200 OK
+Date: Sun, 11 Jan 2026 18:53:42 GMT
+Server: Apache
+X-XSS-Protection: 1; mode=block
+x-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+Referrer-Policy: strict-origin
+Permissions-Policy: vibrate(self), usermedia(*), microphone(none), payment(none), sync-xhr(self 'https://www.sierramaestra.cu, https://sierramaestra.cu')
+Upgrade: h2,h2c
+Connection: Upgrade
+Set-Cookie: 529bef0a2ddfc527f09d10223f69c055=0cb3och5tc03bu9b6rrnds5sqq; path=/; secure; HttpOnly
+Set-Cookie: sj_thedaily_tpl=sj_thedaily; expires=Fri, 01-Jan-2027 18:53:42 GMT; Max-Age=30672000; path=/
+P3P: CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+X-Logged-In: False
+X-Content-Powered-By: K2 v2.11.20241016 (by JoomlaWorks)
+Expires: Wed, 17 Aug 2005 00:00:00 GMT
+Last-Modified: Sun, 11 Jan 2026 18:53:44 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Access-Control-Allow-Origin: https://www.sierramaestra.cu, https://sierramaestra.cu
+X-Permitted-Cross-Domain-Policies: none
+Access-Control-Allow-Methods: GET, POST
+Access-Control-Allow-Headers: Origin, X-Requested-With, Accept
+Access-Control-Allow-Credentials: true
+Access-Control-Max-Age: 300
+Content-Security-Policy: base-uri 'self'; frame-ancestors 'self'
+Content-Type: text/html; charset=utf-8
+

@@ -1,0 +1,8 @@
+=== API/CMS Endpoint Check for minfar.gob.cu ===
+/jsonapi -> HTTP 404
+/api -> HTTP 404
+/rest -> HTTP 404
+/user/login -> HTTP 403
+/admin -> HTTP 000
+/node/1 -> HTTP 000
+/node/1?_format=json -> HTTP 000

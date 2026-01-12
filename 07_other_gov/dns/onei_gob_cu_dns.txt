@@ -1,0 +1,7 @@
+Non-authoritative answer:
+Server:  UnKnown
+Address:  10.2.0.1
+
+Name:    onei.gob.cu
+Address:  190.92.127.205
+

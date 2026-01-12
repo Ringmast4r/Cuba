@@ -1,0 +1,150 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            06:50:ec:84:c3:7f:d2:7a:a5:33:bb:4e:fc:d3:a2:62:6b:cd
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=US, O=Let's Encrypt, CN=R13
+        Validity
+            Not Before: Dec 30 18:38:46 2025 GMT
+            Not After : Mar 30 18:38:45 2026 GMT
+        Subject: CN=granma.cu
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (4096 bit)
+                Modulus:
+                    00:9c:fc:2c:fa:b4:5b:8b:0d:6e:2f:88:01:f3:ba:
+                    06:0d:8a:2f:00:94:64:52:25:12:99:24:46:37:fc:
+                    de:42:fd:47:8e:3b:49:51:00:4d:3d:12:2f:63:92:
+                    b0:84:3d:98:1c:c4:9a:1b:12:79:c8:1a:dc:88:76:
+                    58:de:35:77:c2:ad:e9:34:02:cc:f6:32:15:d8:da:
+                    17:98:94:e5:ec:48:0a:1d:21:0a:ba:2f:ce:3e:14:
+                    6d:1f:96:25:b0:ee:0d:ba:db:6e:ea:d5:7e:4a:ad:
+                    e6:74:cb:08:aa:52:9f:c9:dd:15:c3:4c:01:42:46:
+                    d3:15:41:bc:a2:35:6c:8a:2b:8b:42:52:eb:2b:78:
+                    bf:0b:35:46:75:79:04:9d:e7:00:32:58:47:38:6b:
+                    1d:a7:34:88:85:dc:2e:ac:34:25:e2:3b:1f:50:d0:
+                    24:1c:a4:f8:ba:47:f2:7e:b2:2c:53:dd:f7:da:21:
+                    a2:bf:f1:27:41:0e:a0:82:7d:c4:b9:38:17:30:e8:
+                    80:c2:ce:9e:39:d7:2e:ea:c6:dd:46:48:72:f5:0a:
+                    3b:0d:db:72:06:3f:f7:fa:76:41:6e:73:48:21:06:
+                    c4:fd:ee:43:40:1e:8a:4d:2e:8d:6d:4f:a3:70:e7:
+                    ad:52:6d:98:f4:01:1b:16:3e:08:c0:30:f9:86:30:
+                    90:3b:c8:dc:fc:09:da:37:07:68:8f:29:79:23:a2:
+                    b8:d2:24:f8:86:7f:3c:ca:4b:74:7e:02:12:01:d6:
+                    45:bf:e8:b3:89:9b:c4:55:94:03:ca:35:60:f8:99:
+                    ac:77:ea:ce:61:d8:6e:49:9f:b8:22:ca:6f:4b:e4:
+                    b1:eb:26:68:95:6e:03:e5:36:b3:cd:b2:bf:46:92:
+                    4d:4e:da:a0:86:99:a9:85:1d:e4:d7:d2:1a:38:82:
+                    b7:11:e0:70:ef:50:a5:55:53:33:90:a2:00:05:61:
+                    28:cd:c7:b3:b6:81:46:27:3d:bb:6e:20:ed:38:ca:
+                    33:7e:f9:9d:4f:cc:51:b8:77:ff:53:e1:a3:05:ea:
+                    53:45:77:4b:c2:a2:9c:94:c2:f7:b6:d2:f9:7f:38:
+                    71:02:f2:46:db:27:a1:db:c1:38:ef:5e:5d:c8:df:
+                    a4:a1:93:af:d4:2d:4c:90:55:c3:5a:fd:51:a9:80:
+                    a6:6e:19:e1:a9:91:42:ff:87:9e:6a:e9:e5:43:ba:
+                    c5:59:5d:06:30:e4:2e:88:45:96:5a:fb:28:9d:86:
+                    6b:04:d8:3a:5c:46:01:5e:82:26:32:09:e6:b4:27:
+                    bc:13:5c:b0:46:1c:21:fa:a6:79:bb:a9:89:12:d5:
+                    c7:ba:2c:07:f3:ae:80:c3:48:cb:dc:11:7f:33:19:
+                    02:50:99
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                E0:FF:F8:79:7A:30:0C:6A:AC:6B:38:CB:04:B2:0F:3E:42:F5:85:42
+            X509v3 Authority Key Identifier: 
+                E7:AB:9F:0F:2C:33:A0:53:D3:5E:4F:78:C8:B2:84:0E:3B:D6:92:33
+            Authority Information Access: 
+                CA Issuers - URI:http://r13.i.lencr.org/
+            X509v3 Subject Alternative Name: 
+                DNS:de.granma.cu, DNS:en.granma.cu, DNS:fr.granma.cu, DNS:granma.cu, DNS:it.granma.cu, DNS:pt.granma.cu, DNS:www.granma.cu
+            X509v3 Certificate Policies: 
+                Policy: 2.23.140.1.2.1
+            X509v3 CRL Distribution Points: 
+                Full Name:
+                  URI:http://r13.c.lencr.org/78.crl
+
+            CT Precertificate SCTs: 
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : 16:83:2D:AB:F0:A9:25:0F:0F:F0:3A:A5:45:FF:C8:BF:
+                                C8:23:D0:87:4B:F6:04:29:27:F8:E7:1F:33:13:F5:FA
+                    Timestamp : Dec 30 19:37:16.264 2025 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:46:02:21:00:95:26:9C:1A:7D:10:D4:DD:75:CB:70:
+                                A8:78:6C:4E:CD:CA:5D:C5:45:98:9E:E8:6A:E5:76:CF:
+                                32:18:1D:2E:CF:02:21:00:94:31:7D:5A:62:B7:11:5A:
+                                D2:2F:C9:69:A3:42:19:DF:B6:76:13:B2:7A:0A:76:FF:
+                                36:BB:4D:40:DF:4D:EE:68
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : 96:97:64:BF:55:58:97:AD:F7:43:87:68:37:08:42:77:
+                                E9:F0:3A:D5:F6:A4:F3:36:6E:46:A4:3F:0F:CA:A9:C6
+                    Timestamp : Dec 30 19:37:16.328 2025 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:44:02:20:3A:3F:97:2B:E8:B9:5F:84:03:78:55:56:
+                                F2:C9:39:6D:20:1A:9F:E0:FB:3A:5F:73:E5:13:1A:2A:
+                                D0:13:84:8E:02:20:49:4F:42:61:9B:C4:AC:6B:1E:DD:
+                                4C:1F:14:B4:2A:8B:A2:A8:02:40:4B:35:EC:8D:B4:E7:
+                                F4:28:02:5A:2A:7F
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        0f:1f:b0:7a:85:78:a5:52:f5:cc:36:f5:11:9f:2f:54:8b:44:
+        77:19:66:c9:e3:b7:98:00:b3:8d:92:87:23:c4:59:57:26:58:
+        de:36:75:07:40:88:dc:c5:91:c5:ec:c4:33:b9:25:ce:db:0a:
+        92:14:4c:e2:df:2f:b8:78:8b:44:55:3e:90:d1:08:0c:f1:e3:
+        82:37:0f:c6:58:4b:f0:fa:b0:c9:97:e5:27:ec:87:7e:0e:82:
+        e7:35:13:94:00:ce:0f:39:58:a5:e6:0c:bd:29:c8:af:5b:b3:
+        35:44:7b:ca:3d:a9:37:b8:c6:a7:8d:a5:6a:06:88:d2:c0:86:
+        62:da:42:05:2b:c9:38:e6:46:40:65:19:9b:99:2b:65:a1:b6:
+        e9:4e:02:a0:10:0f:93:bc:5c:5d:b3:bb:d6:1e:4d:32:66:2e:
+        a9:92:76:53:de:d3:2e:d1:05:07:9f:d0:ab:33:3c:3e:79:44:
+        2e:29:f0:d0:43:69:fc:f3:e4:ae:6d:e6:12:2d:24:46:f8:39:
+        78:c6:b0:db:2d:cf:7f:3c:68:1c:ef:2e:33:5d:86:9e:be:67:
+        d1:80:00:1b:d3:9a:b1:3a:7b:0c:7f:47:3f:f0:b4:82:71:8c:
+        87:f1:44:ec:60:55:be:6d:d9:32:07:71:43:fe:43:67:40:49:
+        35:cc:8f:74
+-----BEGIN CERTIFICATE-----
+MIIGQzCCBSugAwIBAgISBlDshMN/0nqlM7tO/NOiYmvNMA0GCSqGSIb3DQEBCwUA
+MDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQD
+EwNSMTMwHhcNMjUxMjMwMTgzODQ2WhcNMjYwMzMwMTgzODQ1WjAUMRIwEAYDVQQD
+EwlncmFubWEuY3UwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQCc/Cz6
+tFuLDW4viAHzugYNii8AlGRSJRKZJEY3/N5C/UeOO0lRAE09Ei9jkrCEPZgcxJob
+EnnIGtyIdljeNXfCrek0Asz2MhXY2heYlOXsSAodIQq6L84+FG0fliWw7g26227q
+1X5KreZ0ywiqUp/J3RXDTAFCRtMVQbyiNWyKK4tCUusreL8LNUZ1eQSd5wAyWEc4
+ax2nNIiF3C6sNCXiOx9Q0CQcpPi6R/J+sixT3ffaIaK/8SdBDqCCfcS5OBcw6IDC
+zp451y7qxt1GSHL1CjsN23IGP/f6dkFuc0ghBsT97kNAHopNLo1tT6Nw561SbZj0
+ARsWPgjAMPmGMJA7yNz8Cdo3B2iPKXkjorjSJPiGfzzKS3R+AhIB1kW/6LOJm8RV
+lAPKNWD4max36s5h2G5Jn7giym9L5LHrJmiVbgPlNrPNsr9Gkk1O2qCGmamFHeTX
+0ho4grcR4HDvUKVVUzOQogAFYSjNx7O2gUYnPbtuIO04yjN++Z1PzFG4d/9T4aMF
+6lNFd0vCopyUwve20vl/OHEC8kbbJ6HbwTjvXl3I36Shk6/ULUyQVcNa/VGpgKZu
+GeGpkUL/h55q6eVDusVZXQYw5C6IRZZa+yidhmsE2DpcRgFegiYyCea0J7wTXLBG
+HCH6pnm7qYkS1ce6LAfzroDDSMvcEX8zGQJQmQIDAQABo4ICbjCCAmowDgYDVR0P
+AQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMB
+Af8EAjAAMB0GA1UdDgQWBBTg//h5ejAMaqxrOMsEsg8+QvWFQjAfBgNVHSMEGDAW
+gBTnq58PLDOgU9NeT3jIsoQOO9aSMzAzBggrBgEFBQcBAQQnMCUwIwYIKwYBBQUH
+MAKGF2h0dHA6Ly9yMTMuaS5sZW5jci5vcmcvMGkGA1UdEQRiMGCCDGRlLmdyYW5t
+YS5jdYIMZW4uZ3Jhbm1hLmN1ggxmci5ncmFubWEuY3WCCWdyYW5tYS5jdYIMaXQu
+Z3Jhbm1hLmN1ggxwdC5ncmFubWEuY3WCDXd3dy5ncmFubWEuY3UwEwYDVR0gBAww
+CjAIBgZngQwBAgEwLgYDVR0fBCcwJTAjoCGgH4YdaHR0cDovL3IxMy5jLmxlbmNy
+Lm9yZy83OC5jcmwwggEEBgorBgEEAdZ5AgQCBIH1BIHyAPAAdwAWgy2r8KklDw/w
+OqVF/8i/yCPQh0v2BCkn+OcfMxP1+gAAAZtww8LoAAAEAwBIMEYCIQCVJpwafRDU
+3XXLcKh4bE7Nyl3FRZie6Grlds8yGB0uzwIhAJQxfVpitxFa0i/JaaNCGd+2dhOy
+egp2/za7TUDfTe5oAHUAlpdkv1VYl633Q4doNwhCd+nwOtX2pPM2bkakPw/KqcYA
+AAGbcMPDKAAABAMARjBEAiA6P5cr6LlfhAN4VVbyyTltIBqf4Ps6X3PlExoq0BOE
+jgIgSU9CYZvErGse3UwfFLQqi6KoAkBLNeyNtOf0KAJaKn8wDQYJKoZIhvcNAQEL
+BQADggEBAA8fsHqFeKVS9cw29RGfL1SLRHcZZsnjt5gAs42ShyPEWVcmWN42dQdA
+iNzFkcXsxDO5Jc7bCpIUTOLfL7h4i0RVPpDRCAzx44I3D8ZYS/D6sMmX5Sfsh34O
+guc1E5QAzg85WKXmDL0pyK9bszVEe8o9qTe4xqeNpWoGiNLAhmLaQgUryTjmRkBl
+GZuZK2WhtulOAqAQD5O8XF2zu9YeTTJmLqmSdlPe0y7RBQef0KszPD55RC4p8NBD
+afzz5K5t5hItJEb4OXjGsNstz388aBzvLjNdhp6+Z9GAABvTmrE6ewx/Rz/wtIJx
+jIfxROxgVb5t2TIHcUP+Q2dASTXMj3Q=
+-----END CERTIFICATE-----

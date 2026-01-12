@@ -1,0 +1,13 @@
+HTTP/1.1 403 Forbidden
+Server: nginx/1.14.2
+Date: Sun, 11 Jan 2026 18:54:27 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0, no-store, private
+X-XSS-Protection: 1; mode=block
+Strict-Transport-Security: max-age=2592000;
+X-Content-Type-Options: nosniff;
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+

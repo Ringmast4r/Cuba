@@ -1,0 +1,24 @@
+=== ADMIN PANEL SCAN ===
+--- minfar.gob.cu ---
+  /user/login -> HTTP 403
+--- presidencia.gob.cu ---
+  /admin -> HTTP 403
+  /administrator -> HTTP 403
+  /wp-admin -> HTTP 403
+  /wp-login.php -> HTTP 403
+  /user/login -> HTTP 403
+  /login -> HTTP 403
+  /acceso -> HTTP 403
+  /panel -> HTTP 403
+  /backend -> HTTP 403
+  /cms -> HTTP 403
+  /manage -> HTTP 403
+  /dashboard -> HTTP 403
+  /control -> HTTP 403
+  /cpanel -> HTTP 403
+  /webmail -> HTTP 403
+  /phpmyadmin -> HTTP 403
+  /adminer -> HTTP 403
+  /manager -> HTTP 403
+--- gobierno.gob.cu ---
+--- granma.cu ---

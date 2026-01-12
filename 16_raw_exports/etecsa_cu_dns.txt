@@ -1,0 +1,19 @@
+=== DNS: etecsa.cu ===
+Non-authoritative answer:
+Server:  UnKnown
+Address:  10.2.0.1
+
+Name:    etecsa.cu
+Address:  190.92.127.209
+
+Non-authoritative answer:
+Server:  UnKnown
+Address:  10.2.0.1
+
+etecsa.cu	nameserver = ns2.etecsa.cu
+etecsa.cu	nameserver = ns1.etecsa.cu
+Non-authoritative answer:
+Server:  UnKnown
+Address:  10.2.0.1
+
+etecsa.cu	MX preference = 10, mail exchanger = imx5.etecsa.cu

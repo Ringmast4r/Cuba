@@ -1,0 +1,172 @@
+================================================================================
+              EXIF FORENSIC ANALYSIS: 0901-ley-transparencia.jpg
+                         RadioRebelde.cu State Media
+                         Analysis Date: January 11, 2026
+================================================================================
+
+FILE INFORMATION
+================
+Filename:       0901-ley-transparencia.jpg
+Source URL:     https://www.radiorebelde.cu/wp-content/uploads/2026/01/0901-ley-transparencia.jpg
+Downloaded:     January 11, 2026
+File Size:      ~50KB (estimated)
+Origin:         RadioRebelde.cu (Cuban State Radio Broadcaster)
+
+
+IMAGE PROPERTIES
+================
+Format:         JPEG
+Dimensions:     720 x 466 pixels
+Aspect Ratio:   1.54:1 (approximately 3:2)
+Color Mode:     RGB (8-bit)
+Color Space:    sRGB IEC61966-2.1
+Resolution:     72 DPI (screen resolution)
+
+
+SOFTWARE IDENTIFICATION
+=======================
+Editing Software:   Adobe Photoshop CS6 (Windows)
+Software Version:   CS6 (Released May 2012)
+Operating System:   Microsoft Windows
+
+NOTES:
+- Photoshop CS6 is legacy software (12+ years old)
+- Suggests either older workstation or unlicensed/cracked software
+- Windows platform confirmed
+
+
+TIMESTAMP ANALYSIS
+==================
+Creation Time:      2026-01-09T17:54:15-05:00
+Modification Time:  2026-01-09T17:54:52-05:00
+Metadata Updated:   2026-01-09T17:54:52-05:00
+
+Timezone:           -05:00 (Cuba Standard Time / EST)
+Day of Week:        Thursday
+Time of Day:        5:54 PM (Late afternoon)
+
+EDIT DURATION:      37 seconds (from creation to final save)
+
+INTERPRETATION:
+- Image was likely a quick resize/export operation (37 seconds)
+- Created during normal Cuban business hours
+- Timezone confirms Cuban origin (-05:00 is Havana time)
+- Recent upload (only 2 days before our capture)
+
+
+DOCUMENT IDENTIFIERS
+====================
+DocumentID:         xmp.did:5B5B8435AEEDF011AF9F938FF2CD4185
+InstanceID:         xmp.iid:5C5B8435AEEDF011AF9F938FF2CD4185
+OriginalDocumentID: xmp.did:5B5B8435AEEDF011AF9F938FF2CD4185
+
+FORENSIC VALUE:
+- DocumentID is unique to this Photoshop installation
+- Can be used to correlate other images from same workstation
+- The "5B5B8435AEEDF011" prefix may identify the specific machine
+- InstanceID increments (5B -> 5C) showing save operation
+
+
+EDIT HISTORY (XMP)
+==================
+Action #1: CREATED
+  Timestamp:  2026-01-09T17:54:15-05:00
+  Software:   Adobe Photoshop CS6 (Windows)
+
+Action #2: SAVED
+  Timestamp:  2026-01-09T17:54:52-05:00
+  Software:   Adobe Photoshop CS6 (Windows)
+
+WORKFLOW ANALYSIS:
+- Only 2 actions recorded (create + save)
+- No intermediate edits logged
+- Suggests simple open-edit-save workflow
+- Possibly resized from larger original
+
+
+COLOR PROFILE
+=============
+ICC Profile:    sRGB IEC61966-2.1
+Profile Size:   2,548 bytes
+Color Mode:     3 (RGB)
+
+Standard web-safe color profile indicating image prepared for online use.
+
+
+GPS / LOCATION DATA
+===================
+GPS Coordinates:    NOT PRESENT
+GPS Tags:           NOT PRESENT
+
+No geographic data embedded in this image.
+
+
+SECURITY ASSESSMENT
+===================
+EXPOSED INFORMATION:
+  [!] Editing software and version (Photoshop CS6)
+  [!] Operating system (Windows)
+  [!] Exact creation/modification timestamps
+  [!] Timezone revealing geographic location
+  [!] Unique document IDs (machine fingerprint)
+  [!] Edit history and workflow
+
+NOT EXPOSED:
+  [+] GPS coordinates
+  [+] Camera/device information
+  [+] Photographer name
+  [+] Original filename
+
+RISK LEVEL: MODERATE
+- Timestamps enable activity pattern analysis
+- Document IDs enable cross-image correlation
+- Software version reveals potential vulnerabilities
+
+
+INTELLIGENCE VALUE
+==================
+1. TEMPORAL INTELLIGENCE
+   - Image created Thursday Jan 9, 2026 at 5:54 PM Cuba time
+   - Indicates late afternoon publishing workflow
+   - 37-second edit suggests quick web preparation
+
+2. TECHNICAL INTELLIGENCE
+   - RadioRebelde using legacy Photoshop CS6
+   - Windows-based workstations
+   - 72 DPI output = web-only preparation
+
+3. CORRELATION POTENTIAL
+   - DocumentID prefix "5B5B8435AEEDF011" is machine-specific
+   - Could identify other images from same workstation
+   - Search for matching IDs in other captured images
+
+4. OPERATIONAL PATTERNS
+   - Late afternoon content preparation
+   - Quick turnaround (sub-minute edits)
+   - Direct-to-web workflow
+
+
+RECOMMENDATIONS FOR ARTICLE
+===========================
+Key points to highlight:
+
+1. Cuban state media (RadioRebelde) not stripping EXIF metadata
+2. Using outdated software (Photoshop CS6 from 2012)
+3. Timestamps reveal exact content creation times
+4. Unique machine identifiers enable tracking
+5. Simple metadata stripping would prevent this exposure
+
+
+RELATED FILES
+=============
+Other RadioRebelde images with EXIF from same time period:
+- DSC8312-scaled.jpg (SONY ILCE-7SM2, Dec 8 2025)
+- DSC8324-scaled.jpg (SONY ILCE-7SM2, Dec 8 2025)
+- radio-rebelde.jpg (Photoshop CS6, Oct 18 2022)
+
+See: EXIF_ANALYSIS_REPORT.txt for full collection analysis
+
+
+================================================================================
+                            END OF ANALYSIS
+================================================================================

@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Date: Sun, 11 Jan 2026 18:58:10 GMT
+Server: Apache
+Referrer-Policy: origin
+Last-Modified: Fri, 05 Nov 2021 18:29:34 GMT
+Accept-Ranges: bytes
+Content-Length: 3703
+X-Frame-Options: DENY;
+Content-Security-Policy: font-src connect-src img-src style-src script-src object-src media-src 'self' *.bfi.cu;
+X-Content-Type-Options: nosniff;
+Cache-Control: no-cache, no-store, must-revalidate;
+X-Permitted-Cross-Domain-Policies: none
+Strict-Transport-Security: max-age=31536000; includeSubdomains;
+X-XSS-Protection: 1; mode=block;
+Access-Control-Allow-Origin: https://bel.bfi.cu
+Content-Type: text/html
+

@@ -1,0 +1,104 @@
+================================================================================
+                    API DUMP - MANIFEST
+                    Generated: January 11, 2026
+================================================================================
+
+TARGET 1: SLD.CU (National Health Information Network)
+======================================================
+
+USERS ENUMERATED: 6
+-------------------
+ID:1  | admin     | Hash: 0c6fe68d9c3937ad9afe181a51e8cb5c0d0d3a728a5cfd369c72e980ed6642ce
+ID:2  | victorr   | Hash: d8560922759b623aeecf9ebc2c207666246c8966b7f456817cdbace11cd97dcf
+ID:3  | claudia   | Hash: fe3b5fc35fb669f4d8bc532fa5443a8c609ea27202ae01f9174817891e30b90c
+ID:6  | ivettecm  | Hash: 5a0509301edf187cea08d0179b63ce0c8cc99c04af7c3e2117c56edd568fdb5c
+ID:8  | agdiaz    | Hash: 0d798222fdb5951527977b007b3c134a41741a6fa5b2e04e91811eda3ad2f9de
+ID:9  | tania     | Hash: 3b75406a755066876a85b43fd3ab8d529a4a55143299cdb08fceec7acdc75917
+
+Note: IDs 4,5,7 return 401 (deleted or hidden users)
+
+DATA CAPTURED:
+- api_root.json (271KB) - Full API discovery
+- wp_v2_discovery.json (223KB) - WP v2 endpoints
+- users_page_*.json - All user data
+- user_id_*.json - Individual user brute force
+- media_page_*.json - Media library (200+ items)
+- pages_page_*.json - All pages
+- categories_page_*.json - Categories
+- tags_page_*.json - Tags
+- comments_page_*.json - Comments
+- taxonomies_page_*.json - Custom taxonomies
+- types_page_*.json - Post types
+- sitemap.xml - Site structure
+- robots.txt - Crawler directives
+- xmlrpc_methods.xml - XMLRPC capabilities
+- oembed.json - oEmbed data
+
+
+TARGET 2: UH.CU (University of Havana)
+======================================
+
+USERS ENUMERATED: 4
+-------------------
+ID:1  | gsiuh         | Hash: 2fbaf4a7c4b2b0e445a0bb4d598b29e0bb1103034f4a287c26f2f88f6190b4d3
+ID:5  | SegInf        | Hash: 9ac87529716c8334044d17c229a94a6b953f38cdff7e7c40fcdec1b373093b13
+ID:6  | AdminNodo     | Hash: c329a52b275f3338636c80a815b897fc86a7205a1eca27e0b01d6fb1a6c99fe3
+ID:8  | Tania Ortiz   | Hash: 550509f315c937adf01f2b309be07e9c5a83937b979741e3ab980030d4f3904a
+
+Note: "SegInf" = IT Security team account (ironic)
+
+DATA CAPTURED:
+- api_root.json (349KB) - Full API discovery
+- posts_page_*.json (12MB+) - Hundreds of posts with full content
+- pages_page_*.json (1MB+) - All pages
+- media_page_*.json (3.7MB) - Media library
+- categories_page_*.json (205KB) - All categories
+- tags_page_*.json (460KB) - All tags
+- comments_page_*.json - Comments
+- taxonomies_page_*.json - Custom taxonomies
+- types_page_*.json - Post types
+- users_page_*.json - User enumeration
+- user_id_*.json - Individual user brute force
+
+PLUGINS DETECTED (UH):
+- Yoast SEO v25.7
+- Polylang (multilingual)
+- ACF (Advanced Custom Fields)
+
+
+COMBINED STATISTICS
+===================
+Total Users Enumerated:     10
+Total Gravatar Hashes:      10
+Total Data Downloaded:      ~20MB
+Total Files Created:        200+
+Endpoints Probed:           50+
+
+
+GRAVATAR HASH SUMMARY (For Reversal Attacks)
+=============================================
+0c6fe68d9c3937ad9afe181a51e8cb5c0d0d3a728a5cfd369c72e980ed6642ce (admin@sld.cu?)
+d8560922759b623aeecf9ebc2c207666246c8966b7f456817cdbace11cd97dcf (victorr@?)
+fe3b5fc35fb669f4d8bc532fa5443a8c609ea27202ae01f9174817891e30b90c (claudia@?)
+5a0509301edf187cea08d0179b63ce0c8cc99c04af7c3e2117c56edd568fdb5c (ivettecm@?)
+0d798222fdb5951527977b007b3c134a41741a6fa5b2e04e91811eda3ad2f9de (agdiaz@?)
+3b75406a755066876a85b43fd3ab8d529a4a55143299cdb08fceec7acdc75917 (tania@?)
+2fbaf4a7c4b2b0e445a0bb4d598b29e0bb1103034f4a287c26f2f88f6190b4d3 (gsiuh@uh.cu?)
+9ac87529716c8334044d17c229a94a6b953f38cdff7e7c40fcdec1b373093b13 (seginf@uh.cu?)
+c329a52b275f3338636c80a815b897fc86a7205a1eca27e0b01d6fb1a6c99fe3 (adminnodo@?)
+550509f315c937adf01f2b309be07e9c5a83937b979741e3ab980030d4f3904a (taniarect@uh.cu?)
+
+
+ATTACK VECTORS ENABLED
+======================
+1. Credential stuffing against known usernames
+2. Gravatar hash reversal to obtain emails
+3. Spear phishing with recovered emails
+4. Password spray attacks
+5. Social engineering using real names
+6. Account enumeration for other services
+
+
+================================================================================
+                              END OF MANIFEST
+================================================================================

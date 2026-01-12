@@ -1,0 +1,7 @@
+Non-authoritative answer:
+Server:  UnKnown
+Address:  10.2.0.1
+
+Name:    parlamentocubano.gob.cu
+Address:  169.158.144.70
+

@@ -1,0 +1,31 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Sun, 11 Jan 2026 18:48:31 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+X-Content-Type-Options: nosniff
+Location: https://www.gacetaoficial.gob.cu/es
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Referrer-Policy: strict-origin-when-cross-origin
+X-Cache: MISS
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 11 Jan 2026 18:48:32 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+From-Origin: same
+Content-Language: es
+X-Generator: Grupo desarrollo Desoft
+Link: <https://www.gacetaoficial.gob.cu/es>; rel="canonical",<https://www.gacetaoficial.gob.cu/es>; rel="shortlink",<https://localhost/gacetacopia/sites/default/files/favicon.ico>; rel="shortcut icon"
+Referrer-Policy: strict-origin-when-cross-origin
+X-Cache: MISS
+

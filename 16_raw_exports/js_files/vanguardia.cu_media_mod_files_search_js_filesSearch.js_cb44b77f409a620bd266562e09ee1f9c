@@ -1,0 +1,132 @@
+const renderMessage = (type, msg) => {
+  if (Joomla && Joomla.renderMessages && typeof Joomla.renderMessages === 'function') {
+    Joomla.renderMessages({ [type]: msg });
+  } else {
+    alert(msg);
+  }
+};
+
+const monthNames = {
+  '01': 'Enero',
+  '02': 'Febrero',
+  '03': 'Marzo',
+  '04': 'Abril',
+  '05': 'Mayo',
+  '06': 'Junio',
+  '07': 'Julio',
+  '08': 'Agosto',
+  '09': 'Septiembre',
+  10: 'Octubre',
+  11: 'Noviembre',
+  12: 'Diciembre',
+};
+
+/* Year Select event */
+const yearSelected = document.getElementById('year');
+
+let year = '';
+if (yearSelected !== null) {
+  year = document.getElementById('year').value;
+  yearSelected.addEventListener('change', event => {
+    year = document.getElementById('year').value;
+  });
+}
+
+/* Month Select event */
+const monthSelected = document.getElementById('month');
+
+let month = '';
+if (monthSelected !== null) {
+  month = document.getElementById('month').value;
+  monthSelected.addEventListener('change', event => {
+    month = document.getElementById('month').value;
+  });
+}
+
+/* Edition Select event */
+const editionSelected = document.getElementById('edition');
+
+let edition = '';
+if (editionSelected !== null) {
+  edition = document.getElementById('edition').value;
+  editionSelected.addEventListener('change', event => {
+    edition = document.getElementById('edition').value;
+  });
+}
+/* Search button event */
+const btnPdfsSearch = document.getElementById('pdfs-search');
+
+if (btnPdfsSearch !== null) {
+  btnPdfsSearch.addEventListener('click', async event => {
+    let url = '';
+    if (year.length !== 0 && month.length !== 0 && edition.length !== 0) {
+      url = new URL(
+        `${btnPdfsSearch.dataset.url}index.php?option=com_ajax&format=json&module=files_search&method=getFiles&year=${year}&month=${month}&edition=${edition}`
+      );
+    }
+    if (!url) return;
+
+    try {
+      await fetch(url, { method: 'GET' })
+        .then(response => response.json())
+        .then(data => {
+          // Change edition headers
+          const pdfs = data.data;
+          document.getElementById('headerEditionNumber').textContent = pdfs.edition;
+          document.getElementById('headerEditionYearMonth').textContent = `${
+            monthNames[pdfs.month]
+          }, ${pdfs.year}`;
+
+          // Change edition image
+          document.getElementById('editionImg').src = pdfs.number.shift();
+
+          // Change pdfs download button list
+          let pdfDownloadButtonList = document.getElementsByClassName('downloadPdf');
+          for (let index = 0; index < pdfs.number.length; index++) {
+            pdfDownloadButtonList[index].href = pdfs.number[index];
+          }
+
+          // Change pdfs view button list
+          let pdfViewButtonList = document.getElementsByClassName('viewPdf');
+          for (let index = 0; index < pdfs.number.length; index++) {
+            pdfViewButtonList[index].href = pdfs.number[index];
+          }
+        });
+    } catch (err) {
+      console.error(err);
+      renderMessage('error', [
+        'Ha ocurrido un error o no se ha encontrado la edición deseada.',
+      ]);
+    }
+  });
+}
+
+/* Download full pdfs edition button event */
+const downloadFullPdfs = document.getElementById('downloadFullPdfs');
+
+if (downloadFullPdfs !== null) {
+  downloadFullPdfs.addEventListener('click', async event => {
+    let url = '';
+    let pdfsPath = [];
+
+    let pdfsElements = document.getElementsByClassName('downloadPdf');
+    for (let index = 0; index < pdfsElements.length; index++) {
+      pdfsPath[index] = pdfsElements[index].href;
+    }
+
+    console.log(pdfsPath);
+
+    url = new URL(
+      `${downloadFullPdfs.dataset.url}index.php?option=com_ajax&format=json&module=files_search&method=downloadFullPdfs&pdfs=${pdfsPath}&${downloadFullPdfs.dataset.token}=1`
+    );
+
+    try {
+      await fetch(url).then(response => console.log('download complete', response));
+    } catch (err) {
+      console.error(err);
+      renderMessage('error', [
+        'Ha ocurrido un error o no se ha encontrado la edición deseada.',
+      ]);
+    }
+  });
+}

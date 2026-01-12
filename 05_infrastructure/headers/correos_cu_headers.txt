@@ -1,0 +1,6 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 11 Jan 2026 18:50:19 GMT
+Server: Apache
+Location: https://www.correos.cu/
+Content-Type: text/html; charset=iso-8859-1
+

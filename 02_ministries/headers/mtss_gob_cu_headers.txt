@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 11 Jan 2026 18:53:38 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+vary: Accept-Encoding
+cache-control: max-age=0, no-cache, must-revalidate, no-store
+pragma: no-cache
+0: Content-Security-Policy
+1: default-src 'self' 'unsafe-inline' http://telus.redcuba.cu/tracker/telus.php http://telus.redcuba.cu/tracker/telus.min.js; style-src 'self' ; frame-src *.youtube.com *.picta.cu; frame-ancestors 'self'; form-action 'self'
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+original-content-encoding: identity
+set-cookie: XSRF-TOKEN=eyJpdiI6Ik9YWHZzZnNCZ21rTGRaK1RXTSt1OUE9PSIsInZhbHVlIjoiRmNNMzAxd3MwYlY3Z2pVR0wyWnJqUEhDemJhY0Z3Mzc1L2FkRnhWNGp6OVRFZVZmc3JWeE05UFZuUGVmWURZeE5CUE93MnpWWjBWa0IvaEZDYUhLNDgxbjZsbGcxSnpFUHBQQkV0M1d3WVc2R1U3TlRNeTNqYkNmYkdnT2x2cisiLCJtYWMiOiJjMjI4OGYwYzhjMjJhOGUzOGJkZTIyMjQ3NDNmMjMxZDMwZGE3NjhlNzBhMDE0YzQwZTFiMTg4MTVlMDMwNTMyIn0%3D; expires=Sun, 11-Jan-2026 18:52:17 GMT; Max-Age=600; path=/; samesite=strict; secure
+set-cookie: laravel_session=eyJpdiI6InRsVHM4OExBV043NUxQcDZ5U3VBSkE9PSIsInZhbHVlIjoidk5pdnNWcXVWNzZuM2xsTHNRbk1mZUE4NWhGL1gwRnNQUGl1dXd6SFhCTjV5MDFUdGY0bWhLVitBQTczVlJuaEpaLzVSbExJV2ErYlpISGw0bFZKUmZ4RUpvQWpsUmVOVGlaYjgzWUV2dCtOT0xSSjM2dUZmTDhqaTJZRjh3bUUiLCJtYWMiOiI3ZTdlMDg5YzM1Y2NhZmFmODk1OGE3ZGVhZDliMzFiMmRmYWM5OTZhNTU0YjdlZjY3MjcwODVlMTM2M2MyNDc4In0%3D; path=/; httponly; samesite=strict; secure
+x-page-speed: 1.13.35.2-0
+Content-Security-Policy: upgrade-insecure-requests
+

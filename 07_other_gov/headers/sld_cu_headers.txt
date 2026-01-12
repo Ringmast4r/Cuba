@@ -1,0 +1,51 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Sun, 11 Jan 2026 18:57:51 GMT
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 227
+Connection: keep-alive
+Access-Control-Allow-Methods: POST, PUT, GET, DELETE, OPTIONS
+Access-Control-Allow-Headers: Content-Type
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Location: https://www.sld.cu/
+Access-Control-Allow-Origin: *
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Access-Control-Allow-Methods: POST, PUT, GET, DELETE, OPTIONS
+Access-Control-Allow-Headers: Content-Type
+Strict-Transport-Security: max-age=31536000
+Content-Security-Policy: default-src 'self' https://google.com https://youtube.com https://facebook.com https://fonts.google.com https://fonts.googleapis.com https://ajax.googleapis.com https://www.google-analytics.com https://cdnjs.cloudflare.com https://code.jquery.com https://connect.facebook.net https://s.imgur.com https://imgur.com https://i.imgur.com https://500px.com https://drscdn.500px.org https://www.reddit.com https://www.flickr.com https://c1.staticflickr.com https://maxcdn.bootstrapcdn.com http://code.ionicframework.com https://cdn.fontawesome.com/; script-src 'self' 'unsafe-inline'; style-src 'self'; img-src 'self' data:; connect-src 'self'; font-src 'self'; object-src 'none'; media-src 'self'; form-action 'self'; frame-ancestors 'self';
+Content-Security-Policy: default-src 'self'; connect-src *; font-src * data:; frame-src *; img-src * data:; media-src *; object-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline';
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin
+Permissions-Policy: geolocation=(),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 11 Jan 2026 18:57:53 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Access-Control-Allow-Methods: POST, PUT, GET, DELETE, OPTIONS
+Access-Control-Allow-Headers: Content-Type
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Set-Cookie: PHPSESSID=jtf6fmn05g0c1mhk3np6b6cshq; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Link: <https://www.sld.cu/wp-json/>; rel="https://api.w.org/"
+Link: <https://www.sld.cu/wp-json/wp/v2/pages/11>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://www.sld.cu/>; rel=shortlink
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+X-Frame-Options: allow-from *
+X-XSS-Protection: 1; mode=block
+Access-Control-Allow-Origin: *
+X-Frame-Options: SAMEORIGIN
+Access-Control-Allow-Methods: POST, PUT, GET, DELETE, OPTIONS
+Access-Control-Allow-Headers: Content-Type
+Strict-Transport-Security: max-age=31536000
+Content-Security-Policy: default-src 'self'; connect-src *; font-src * data:; frame-src *; img-src * data:; media-src *; object-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline';
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin
+Permissions-Policy: geolocation=(),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()
+

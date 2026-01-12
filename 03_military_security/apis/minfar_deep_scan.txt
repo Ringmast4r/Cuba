@@ -1,0 +1,9 @@
+=== MINFAR DEEP SCAN ===
+/admin -> HTTP 403
+/sites -> HTTP 301
+/sites/default -> HTTP 301
+/sites/default/files -> HTTP 301
+/noticias -> HTTP 200
+/videos -> HTTP 200
+/search -> HTTP 302
+/en -> HTTP 200

@@ -1,0 +1,4 @@
+*** UnKnown can't find aguascuba.cu: Non-existent domain
+Server:  UnKnown
+Address:  10.2.0.1
+

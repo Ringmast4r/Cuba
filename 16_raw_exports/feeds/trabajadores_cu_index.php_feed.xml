@@ -1,0 +1,415 @@
+<!DOCTYPE HTML><html
+lang=es><head><style>img.lazy{min-height:1px}</style><link
+rel=preload href=https://www.trabajadores.cu/wp-content/plugins/w3-total-cache/pub/js/lazyload.min.x10671.js as=script><meta
+charset="UTF-8"><link
+rel=profile href=http://gmpg.org/xfn/11><meta
+name='robots' content='noindex, follow'><meta
+name="dlm-version" content="4.7.78"><title>Página no encontrada &bull; Trabajadores</title><meta
+property="og:locale" content="es_ES"><meta
+property="og:title" content="Página no encontrada &bull; Trabajadores"><meta
+property="og:site_name" content="Trabajadores"> <script type=application/ld+json class=yoast-schema-graph>{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.trabajadores.cu/#website","url":"https://www.trabajadores.cu/","name":"Trabajadores","description":"Órgano de la Central de Trabajadores de Cuba. Opinión, Deportes, Cultura, Salud, Órbita Sindical. Edición impresa cada lunes.","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.trabajadores.cu/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"es"}]}</script> <link
+rel=dns-prefetch href=//static.addtoany.com> <script>window._wpemojiSettings={"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.trabajadores.cu\/wp-includes\/js\/wp-emoji-release.min.js"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){p.clearRect(0,0,i.width,i.height),p.fillText(e,0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(t,0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s("\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!s("\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!s("\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!s("\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);</script> <link
+rel=stylesheet id=headway-google-fonts href='//fonts.googleapis.com/css?family=Titillium+Web|Open+Sans|Montserrat|Droid+Sans|Roboto|Libre+Baskerville|Source+Sans+Pro|Roboto+Condensed' type=text/css media=all><style>img.wp-smiley,img.emoji{display:inline !important;border:none !important;box-shadow:none !important;height:1em !important;width:1em !important;margin:0
+0.07em !important;vertical-align:-0.1em !important;background:none !important;padding:0
+!important}</style><link
+rel=stylesheet href=https://www.trabajadores.cu/wp-content/cache/minify/5664b.x10671.css media=all><style id=global-styles-inline-css>/*<![CDATA[*/body{--wp--preset--color--black:#000;--wp--preset--color--cyan-bluish-gray:#abb8c3;--wp--preset--color--white:#fff;--wp--preset--color--pale-pink:#f78da7;--wp--preset--color--vivid-red:#cf2e2e;--wp--preset--color--luminous-vivid-orange:#ff6900;--wp--preset--color--luminous-vivid-amber:#fcb900;--wp--preset--color--light-green-cyan:#7bdcb5;--wp--preset--color--vivid-green-cyan:#00d084;--wp--preset--color--pale-cyan-blue:#8ed1fc;--wp--preset--color--vivid-cyan-blue:#0693e3;--wp--preset--color--vivid-purple:#9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple:linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan:linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange:linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red:linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray:linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum:linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple:linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux:linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk:linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean:linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass:linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight:linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale:url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale:url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow:url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red:url('#wp-duotone-blue-red');--wp--preset--duotone--midnight:url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow:url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green:url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange:url('#wp-duotone-blue-orange');--wp--preset--font-size--small:13px;--wp--preset--font-size--medium:20px;--wp--preset--font-size--large:36px;--wp--preset--font-size--x-large:42px;--wp--preset--spacing--20:0.44rem;--wp--preset--spacing--30:0.67rem;--wp--preset--spacing--40:1rem;--wp--preset--spacing--50:1.5rem;--wp--preset--spacing--60:2.25rem;--wp--preset--spacing--70:3.38rem;--wp--preset--spacing--80:5.06rem;--wp--preset--shadow--natural:6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep:12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp:6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined:6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp:6px 6px 0px rgba(0, 0, 0, 1)}:where(.is-layout-flex){gap:0.5em}body .is-layout-flow>.alignleft{float:left;margin-inline-start:0;margin-inline-end:2em}body .is-layout-flow>.alignright{float:right;margin-inline-start:2em;margin-inline-end:0}body .is-layout-flow>.aligncenter{margin-left:auto !important;margin-right:auto !important}body .is-layout-constrained>.alignleft{float:left;margin-inline-start:0;margin-inline-end:2em}body .is-layout-constrained>.alignright{float:right;margin-inline-start:2em;margin-inline-end:0}body .is-layout-constrained>.aligncenter{margin-left:auto !important;margin-right:auto !important}body .is-layout-constrained>:where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width:var(--wp--style--global--content-size);margin-left:auto !important;margin-right:auto !important}body .is-layout-constrained>.alignwide{max-width:var(--wp--style--global--wide-size)}body .is-layout-flex{display:flex}body .is-layout-flex{flex-wrap:wrap;align-items:center}body .is-layout-flex>*{margin:0}:where(.wp-block-columns.is-layout-flex){gap:2em}.has-black-color{color:var(--wp--preset--color--black) !important}.has-cyan-bluish-gray-color{color:var(--wp--preset--color--cyan-bluish-gray) !important}.has-white-color{color:var(--wp--preset--color--white) !important}.has-pale-pink-color{color:var(--wp--preset--color--pale-pink) !important}.has-vivid-red-color{color:var(--wp--preset--color--vivid-red) !important}.has-luminous-vivid-orange-color{color:var(--wp--preset--color--luminous-vivid-orange) !important}.has-luminous-vivid-amber-color{color:var(--wp--preset--color--luminous-vivid-amber) !important}.has-light-green-cyan-color{color:var(--wp--preset--color--light-green-cyan) !important}.has-vivid-green-cyan-color{color:var(--wp--preset--color--vivid-green-cyan) !important}.has-pale-cyan-blue-color{color:var(--wp--preset--color--pale-cyan-blue) !important}.has-vivid-cyan-blue-color{color:var(--wp--preset--color--vivid-cyan-blue) !important}.has-vivid-purple-color{color:var(--wp--preset--color--vivid-purple) !important}.has-black-background-color{background-color:var(--wp--preset--color--black) !important}.has-cyan-bluish-gray-background-color{background-color:var(--wp--preset--color--cyan-bluish-gray) !important}.has-white-background-color{background-color:var(--wp--preset--color--white) !important}.has-pale-pink-background-color{background-color:var(--wp--preset--color--pale-pink) !important}.has-vivid-red-background-color{background-color:var(--wp--preset--color--vivid-red) !important}.has-luminous-vivid-orange-background-color{background-color:var(--wp--preset--color--luminous-vivid-orange) !important}.has-luminous-vivid-amber-background-color{background-color:var(--wp--preset--color--luminous-vivid-amber) !important}.has-light-green-cyan-background-color{background-color:var(--wp--preset--color--light-green-cyan) !important}.has-vivid-green-cyan-background-color{background-color:var(--wp--preset--color--vivid-green-cyan) !important}.has-pale-cyan-blue-background-color{background-color:var(--wp--preset--color--pale-cyan-blue) !important}.has-vivid-cyan-blue-background-color{background-color:var(--wp--preset--color--vivid-cyan-blue) !important}.has-vivid-purple-background-color{background-color:var(--wp--preset--color--vivid-purple) !important}.has-black-border-color{border-color:var(--wp--preset--color--black) !important}.has-cyan-bluish-gray-border-color{border-color:var(--wp--preset--color--cyan-bluish-gray) !important}.has-white-border-color{border-color:var(--wp--preset--color--white) !important}.has-pale-pink-border-color{border-color:var(--wp--preset--color--pale-pink) !important}.has-vivid-red-border-color{border-color:var(--wp--preset--color--vivid-red) !important}.has-luminous-vivid-orange-border-color{border-color:var(--wp--preset--color--luminous-vivid-orange) !important}.has-luminous-vivid-amber-border-color{border-color:var(--wp--preset--color--luminous-vivid-amber) !important}.has-light-green-cyan-border-color{border-color:var(--wp--preset--color--light-green-cyan) !important}.has-vivid-green-cyan-border-color{border-color:var(--wp--preset--color--vivid-green-cyan) !important}.has-pale-cyan-blue-border-color{border-color:var(--wp--preset--color--pale-cyan-blue) !important}.has-vivid-cyan-blue-border-color{border-color:var(--wp--preset--color--vivid-cyan-blue) !important}.has-vivid-purple-border-color{border-color:var(--wp--preset--color--vivid-purple) !important}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background:var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background:var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background:var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background:var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background:var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important}.has-cool-to-warm-spectrum-gradient-background{background:var(--wp--preset--gradient--cool-to-warm-spectrum) !important}.has-blush-light-purple-gradient-background{background:var(--wp--preset--gradient--blush-light-purple) !important}.has-blush-bordeaux-gradient-background{background:var(--wp--preset--gradient--blush-bordeaux) !important}.has-luminous-dusk-gradient-background{background:var(--wp--preset--gradient--luminous-dusk) !important}.has-pale-ocean-gradient-background{background:var(--wp--preset--gradient--pale-ocean) !important}.has-electric-grass-gradient-background{background:var(--wp--preset--gradient--electric-grass) !important}.has-midnight-gradient-background{background:var(--wp--preset--gradient--midnight) !important}.has-small-font-size{font-size:var(--wp--preset--font-size--small) !important}.has-medium-font-size{font-size:var(--wp--preset--font-size--medium) !important}.has-large-font-size{font-size:var(--wp--preset--font-size--large) !important}.has-x-large-font-size{font-size:var(--wp--preset--font-size--x-large) !important}.wp-block-navigation a:where(:not(.wp-element-button)){color:inherit}:where(.wp-block-columns.is-layout-flex){gap:2em}.wp-block-pullquote{font-size:1.5em;line-height:1.6}/*]]>*/</style><link
+rel=stylesheet href=https://www.trabajadores.cu/wp-content/cache/minify/07d3d.x10671.css media=all><style id=addtoany-inline-css>@media screen and (max-width:300px){.a2a_floating_style.a2a_vertical_style{display:none}}@media screen and (min-width:300px){.a2a_floating_style.a2a_default_style{display:none}}.addtoany_list{display:flex;line-height:16px;justify-content:center}.addtoany_list
+a{padding:0
+2rem 0 0}</style><link
+rel=stylesheet href=https://www.trabajadores.cu/wp-content/cache/minify/cbd0d.x10671.css media=all> <script src=https://www.trabajadores.cu/wp-content/plugins/heroes-trcu/gutenberg/src/frontend.blocks.x10671.js id=heroes-trcu-gutenberg-frontend-js></script> <script id=addtoany-core-js-before>window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};a2a_localize={Share:"Compartir",Save:"Guardar",Subscribe:"Suscribir",Email:"Correo electrónico",Bookmark:"Marcador",ShowAll:"Mostrar todo",ShowLess:"Mostrar menos",FindServices:"Encontrar servicio(s)",FindAnyServiceToAddTo:"Encuentra al instante cualquier servicio para añadir a",PoweredBy:"Funciona con",ShareViaEmail:"Compartir por correo electrónico",SubscribeViaEmail:"Suscribirse a través de correo electrónico",BookmarkInYourBrowser:"Añadir a marcadores de tu navegador",BookmarkInstructions:"Presiona «Ctrl+D» o «\u2318+D» para añadir esta página a marcadores",AddToYourFavorites:"Añadir a tus favoritos",SendFromWebOrProgram:"Enviar desde cualquier dirección o programa de correo electrónico ",EmailProgram:"Programa de correo electrónico",More:"Más&#8230;",ThanksForSharing:"¡Gracias por compartir!",ThanksForFollowing:"¡Gracias por seguirnos!"};var a2a_config=a2a_config||{};a2a_config.templates=a2a_config.templates||{};a2a_config.templates.facebook={app_id:"1151118944938854",redirect_uri:"http://www.trabajadores.cu"};a2a_config.templates.twitter={text:"#Cuba ${title} @50Trabajadores ${link}",related:"50Trabajadores"};a2a_config.track_links='ga';</script> <script async src=https://static.addtoany.com/menu/page.js id=addtoany-core-js></script> <script src=https://www.trabajadores.cu/wp-includes/js/jquery/jquery.min.x10671.js id=jquery-core-js></script> <script src=https://www.trabajadores.cu/wp-includes/js/jquery/jquery-migrate.min.x10671.js id=jquery-migrate-js></script> <script async src=https://www.trabajadores.cu/wp-content/plugins/add-to-any/addtoany.min.x10671.js id=addtoany-jquery-js></script> <script type=application/json id=wpp-json>{"sampling_active":0,"sampling_rate":100,"ajax_url":"https:\/\/www.trabajadores.cu\/wp-json\/wordpress-popular-posts\/v1\/popular-posts","api_url":"https:\/\/www.trabajadores.cu\/wp-json\/wordpress-popular-posts","ID":0,"token":"022f50fa1e","lang":0,"debug":0}</script> <script src=https://www.trabajadores.cu/wp-content/plugins/wordpress-popular-posts/assets/js/wpp.min.x10671.js id=wpp-js-js></script> <script id=ari-fancybox-js-extra>/*<![CDATA[*/var ARI_FANCYBOX={"lightbox":{"loop":true,"backFocus":false,"trapFocus":false,"thumbs":{"hideOnClose":false},"touch":{"vertical":true,"momentum":true},"buttons":["slideShow","fullScreen","thumbs","close"],"lang":"custom","i18n":{"custom":{"PREV":"Previous","NEXT":"Next","PLAY_START":"Start slideshow (P)","PLAY_STOP":"Stop slideshow (P)","FULL_SCREEN":"Full screen (F)","THUMBS":"Thumbnails (G)","CLOSE":"Close (Esc)","ERROR":"The requested content cannot be loaded. <br\/> Please try again later."}}},"convert":{"images":{"convert":true,"post_grouping":true,"filenameToTitle":true,"convertNameSmart":true},"youtube":{"convert":true},"vimeo":{"convert":true},"instagram":{"convert":true},"google_maps":{"convert":true,"showMarker":true},"pdf":{"convert":true}},"viewers":{"pdfjs":{"url":"https:\/\/www.trabajadores.cu\/wp-content\/plugins\/ari-fancy-lightbox\/assets\/pdfjs\/web\/viewer.html"}}};/*]]>*/</script> <script src=https://www.trabajadores.cu/wp-content/plugins/ari-fancy-lightbox/assets/fancybox/jquery.fancybox.min.x10671.js id=ari-fancybox-js></script> <script src=https://www.trabajadores.cu/wp-content/themes/headway/library/blocks/navigation/js/selectnav.x10671.js id=headway-selectnav-js></script> <script src=https://www.trabajadores.cu/wp-content/themes/headway/library/media/js/jquery.hoverintent.x10671.js id=jquery-hoverintent-js></script> <script src=https://www.trabajadores.cu/wp-content/themes/headway/library/blocks/navigation/js/jquery.superfish.x10671.js id=headway-superfish-js></script> <script src=https://www.trabajadores.cu/wp-content/uploads/headway/cache/block-dynamic-js-layout-template-2-https-fb191d8.x10671.js id=block-dynamic-js-layout-template-2-js></script> <!--[if lt IE 9]> <script src=https://www.trabajadores.cu/wp-content/themes/headway/library/media/js/html5shiv.x10671.js></script> <![endif]--><!--[if lt IE 8]> <script src=https://www.trabajadores.cu/wp-content/themes/headway/library/media/js/ie8.x10671.js></script> <![endif]--><link
+rel=alternate type=application/rss+xml href=http://www.trabajadores.cu/feed/ title=Trabajadores><link
+rel=pingback href=https://www.trabajadores.cu/xmlrpc.php><meta
+name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"><link
+rel=alternate type=application/rss+xml title="Trabajadores &raquo; Feed" href=http://www.trabajadores.cu/feed/ ><link
+rel=alternate type=application/rss+xml title="Trabajadores &raquo; Feed de los comentarios" href=https://www.trabajadores.cu/comments/feed/ ><link
+rel="shortcut icon" type=image/ico href=https://www.trabajadores.cu/favicon.x10671.ico><link
+rel=EditURI type=application/rsd+xml title=RSD href=https://www.trabajadores.cu/xmlrpc.php?rsd><link
+rel=wlwmanifest type=application/wlwmanifest+xml href=https://www.trabajadores.cu/wp-includes/wlwmanifest.xml><style>BODY .fancybox-container{z-index:200000}BODY .fancybox-is-open .fancybox-bg{opacity:0.87}BODY .fancybox-bg{background-color:#0f0f11}BODY .fancybox-thumbs{background-color:#fff}</style><style>.molongui-disabled-link{border-bottom:none !important;text-decoration:none !important;color:inherit !important;cursor:inherit !important}.molongui-disabled-link:hover,
+.molongui-disabled-link:hover
+span{border-bottom:none !important;text-decoration:none !important;color:inherit !important;cursor:inherit !important}</style><style id=wpp-loading-animation-styles>@-webkit-keyframes
+bgslide{from{background-position-x:0}to{background-position-x:-200%}}@keyframes
+bgslide{from{background-position-x:0}to{background-position-x:-200%}}.wpp-widget-placeholder,.wpp-widget-block-placeholder{margin:0
+auto;width:60px;height:3px;background:#dd3737;background:linear-gradient(90deg,#dd3737 0%,#571313 10%,#dd3737 100%);background-size:200% auto;border-radius:3px;-webkit-animation:bgslide 1s infinite linear;animation:bgslide 1s infinite linear}</style> <script>document.documentElement.className=document.documentElement.className.replace('no-js','js');</script> <style>.no-js
+img.lazyload{display:none}figure.wp-block-image
+img.lazyloading{min-width:150px}.lazyload{opacity:0}.lazyloading{border:0
+!important;opacity:1;background:#F3F3F3 url('https://www.trabajadores.cu/wp-content/plugins/wp-smushit/app/assets/images/smush-placeholder.png') no-repeat center !important;background-size:16px auto !important;min-width:16px}</style><meta
+name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress.">
+<!--[if lte IE 9]><link
+rel=stylesheet type=text/css href=https://www.trabajadores.cu/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.x10671.css media=screen><![endif]--><style>.broken_link,a.broken_link{text-decoration:none}</style><link
+rel=icon href=https://www.trabajadores.cu/wp-content/uploads/2018/04/trabajadores-icon-164x164-150x150.x10671.png sizes=32x32><link
+rel=icon href=https://www.trabajadores.cu/wp-content/uploads/2018/04/trabajadores-icon-164x164.x10671.png sizes=192x192><link
+rel=apple-touch-icon href=https://www.trabajadores.cu/wp-content/uploads/2018/04/trabajadores-icon-164x164.x10671.png><meta
+name="msapplication-TileImage" content="https://www.trabajadores.cu/wp-content/uploads/2018/04/trabajadores-icon-164x164.png"><style id=wp-custom-css>.block-type-content .entry-title{font-size:22px}.loop > .hentry .post-thumbnail.post-thumbnail-above-title{display:none !important}.banner-gif,.center-video,.center-iframe>.su-column-inner,.fb-video,.su-youtube,.twitter-tweet{display:flex;align-items:center;justify-content:center}.smush-detected-img{box-shadow:none !important}@media screen and (min-width: 800px)
+.smush-detected-img{box-shadow:none !important}ul.social-icons>li>a>img{transition:transform .5s}ul.social-icons>li>a>img:hover{transform:scale(1.1)}.ari-fancybox-pdf{color:#802121 !important}</style><noscript><style>.wpb_animate_when_almost_visible{opacity:1}</style></noscript> <script>var AUTHOR="";var _paq=_paq||[];_paq.push(["setDomains",["*.www.trabajadores.cu"]]);if(AUTHOR.trim().length){_paq.push(["setCustomVariable",1,"Author",AUTHOR,"visit"]);}
+_paq.push(["setDoNotTrack",true]);_paq.push(['trackPageView']);_paq.push(['enableLinkTracking']);</script> </head><body
+class="error404 custom responsive-grid-enabled responsive-grid-active layout-four04 layout-using-template-2 wpb-js-composer js-comp-ver-5.5.2 vc_responsive" itemscope itemtype=http://schema.org/WebPage><div
+id=whitewrap><div
+id=wrapper-18 class="wrapper wrapper-fixed wrapper-fixed-grid grid-fluid-24-40-10 responsive-grid wrapper-first" data-alias><div
+class="grid-container clearfix"><section
+class="row row-1"><section
+class="column column-1 grid-left-0 grid-width-16"><header
+id=block-23 class="block block-type-header block-fixed-height block-mirrored block-mirroring-bcd53fea6345737f block-original-2" data-alias=cabezal-PT itemscope itemtype=http://schema.org/WPHeader><div
+class=block-content>
+<a
+href=https://www.trabajadores.cu class=banner-image><img
+alt=Trabajadores data-src=https://www.trabajadores.cu/wp-content/uploads/2013/04/logo-trabajadores-generico.x10671.png class="lazyload lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a></div></header></section><section
+class="column column-2 grid-left-0 grid-width-8"><section
+id=block-bsc5dc1c87dd2fc4 class="block block-type-social block-fixed-height block-mirrored block-mirroring-bsc5dc1c87dd2fc4 block-original-bsy5dc1d00965604" data-alias="Social Links Header"><div
+class=block-content><div
+class=social-icons-container><ul
+class=social-icons><li><a
+href=https://www.facebook.com/trabajadorescu target=_blank alt="Síguenos a través de Facebook"><img
+alt="Síguenos a través de Facebook" title="Síguenos a través de Facebook"  width=50px data-src=http://www.trabajadores.cu/wp-content/uploads/2019/11/icon-facebook.x10671.png class="img-1 lazyload lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2050%2050'%3E%3C/svg%3E" data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a></li><li><a
+href=https://twitter.com/50Trabajadores target=_blank alt="Síguenos a través de Twitter"><img
+alt="Síguenos a través de Twitter" title="Síguenos a través de Twitter"  width=50px data-src=http://www.trabajadores.cu/wp-content/uploads/2019/11/icon-twetter.x10671.png class="img-2 lazyload lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2050%2050'%3E%3C/svg%3E" data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a></li><li><a
+href=https://www.youtube.com/trabajadores target=_blank alt="Síguenos a través de Youtube"><img
+alt="Síguenos a través de Youtube" title="Síguenos a través de Youtube"  width=50px data-src=http://www.trabajadores.cu/wp-content/uploads/2019/11/icon-youtube.x10671.png class="img-3 lazyload lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2050%2050'%3E%3C/svg%3E" data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a></li><li><a
+href=https://t.me/trabajadorescu target=_blank alt="Síguenos a través de Telegram"><img
+alt="Síguenos a través de Telegram" title="Síguenos a través de Telegram"  width=50px data-src=http://www.trabajadores.cu/wp-content/uploads/2019/11/icon-telegram.x10671.png class="img-4 lazyload lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2050%2050'%3E%3C/svg%3E" data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a></li><li><a
+href=http://www.trabajadores.cu/rss target=_blank alt="Síguenos a través de RSS"><img
+alt="Síguenos a través de RSS" title="Síguenos a través de RSS"  width=50px data-src=http://www.trabajadores.cu/wp-content/uploads/2019/11/icon-rss.x10671.png class="img-5 lazyload lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2050%2050'%3E%3C/svg%3E" data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a></li></ul></div></div></section></section></section><section
+class="row row-2"><section
+class="column column-1 grid-left-0 grid-width-24"><nav
+id=block-24 class="block block-type-navigation block-fluid-height block-mirrored block-mirroring-bu153fea63458cb7 block-original-5" data-alias=Mn-Ppal-Pt itemscope itemtype=http://schema.org/SiteNavigationElement><div
+class=block-content><div
+class="nav-horizontal nav-align-left"><ul
+id=menu-menu-principal class=menu><li
+id=menu-item-84150 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-84150"><a
+href=/ >INICIO</a><ul
+class=sub-menu>
+<li
+id=menu-item-130804 class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-130804"><a
+href=https://www.trabajadores.cu/noticias/ >NOTICIAS</a></li></ul>
+</li>
+<li
+id=menu-item-112953 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-112953"><a
+href=https://www.trabajadores.cu/cuba/ >CUBA</a><ul
+class=sub-menu>
+<li
+id=menu-item-210749 class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-210749"><a
+href=https://www.trabajadores.cu/tema/covid-19/ >#CubaSalvaVidas</a></li></ul>
+</li>
+<li
+id=menu-item-112954 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-112954"><a
+href=https://www.trabajadores.cu/mundo/ >MUNDO</a><ul
+class=sub-menu>
+<li
+id=menu-item-162929 class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-162929"><a
+href=https://www.trabajadores.cu/tema/ley-helms-burton/ >Ley Helms-Burton</a></li>
+<li
+id=menu-item-162921 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-162921"><a
+href=https://www.trabajadores.cu/author/francisca-lopez/ >Relaciones Cuba &#8211; EEUU</a></li>
+<li
+id=menu-item-162923 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-162923"><a
+href=https://www.trabajadores.cu/tema/medio-ambiente/ >Medio Ambiente</a></li></ul>
+</li>
+<li
+id=menu-item-87672 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-87672"><a
+href=https://www.trabajadores.cu/buzon-abierto/ >BUZÓN</a><ul
+class=sub-menu>
+<li
+id=menu-item-112727 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-112727"><a
+href=https://www.trabajadores.cu/buzon-abierto/cartas/ >CARTAS</a></li>
+<li
+id=menu-item-112728 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-112728"><a
+href=https://www.trabajadores.cu/buzon-abierto/respuestas/ >RESPUESTAS</a></li>
+<li
+id=menu-item-112729 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-112729"><a
+href=https://www.trabajadores.cu/buzon-abierto/opinion-ciudadana/ >OPINIÓN CIUDADANA</a></li>
+<li
+id=menu-item-112730 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-112730"><a
+href=https://www.trabajadores.cu/buzon-abierto/legislacion-laboral/ >LEGISLACIÓN LABORAL</a></li>
+<li
+id=menu-item-112731 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-112731"><a
+href=https://www.trabajadores.cu/buzon-abierto/servicios-utilitarios/ >SERVICIOS UTILITARIOS</a></li></ul>
+</li>
+<li
+id=menu-item-26 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-26"><a
+title=opinión href=https://www.trabajadores.cu/opinion/ >OPINIÓN</a></li>
+<li
+id=menu-item-23 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-23"><a
+title=deporte href=https://www.trabajadores.cu/deportes/ >DEPORTES</a><ul
+class=sub-menu>
+<li
+id=menu-item-210747 class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-210747"><a
+href=https://www.trabajadores.cu/tema/concurso-deporte-entumovil/ >#DeportEnTumovil</a></li>
+<li
+id=menu-item-231119 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-231119"><a
+href=https://www.trabajadores.cu/futbol-tr/ >#FútbolTR</a></li>
+<li
+id=menu-item-130400 class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-130400"><a
+href=https://www.trabajadores.cu/tema/la-polemica/ >LA POLÉMICA</a></li>
+<li
+id=menu-item-180464 class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-180464"><a
+href=https://www.trabajadores.cu/tema/mundial-de-atletismo-doha-2019/ >Mundial Atletismo Doha 2019</a></li>
+<li
+id=menu-item-180425 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-180425"><a
+href=https://www.trabajadores.cu/cuba-juegos-panamericanos-lima-2019/ >#Lima2019</a></li>
+<li
+id=menu-item-159509 class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-159509"><a
+href=https://www.trabajadores.cu/tema/serie-del-caribe-2019/ >#Panamá2019</a></li>
+<li
+id=menu-item-144870 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-144870"><a
+href=https://www.trabajadores.cu/cuba-en-barranquilla-2018/ >#Barranquilla2018</a></li>
+<li
+id=menu-item-132750 class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-132750"><a
+href=https://www.trabajadores.cu/tema/concurso-cuba-deportiva/ >CONCURSO CUBA DEPORTIVA</a></li></ul>
+</li>
+<li
+id=menu-item-22 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-22"><a
+title=culturales href=https://www.trabajadores.cu/cultura/ >CULTURA</a><ul
+class=sub-menu>
+<li
+id=menu-item-228833 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-228833"><a
+href=https://www.trabajadores.cu/cultura/al-pan-pan/ >Al Pan Pan</a></li>
+<li
+id=menu-item-228834 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-228834"><a
+href=https://www.trabajadores.cu/cultura/artes-visuales/ >Artes Visuales</a></li>
+<li
+id=menu-item-229105 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-229105"><a
+href=https://www.trabajadores.cu/cultura/sabores/ >Sabores</a></li>
+<li
+id=menu-item-132726 class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-132726"><a
+href=https://www.trabajadores.cu/tema/concurso-nacional-de-poesia-regino-pedroso/ >CONCURSO NACIONAL DE POESÍA REGINO PEDROSO</a></li></ul>
+</li>
+<li
+id=menu-item-27 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27"><a
+title=salud href=https://www.trabajadores.cu/salud/ >SALUD</a></li>
+<li
+id=menu-item-187723 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-187723"><a
+href=https://www.trabajadores.cu/memoria-historica/ >HISTORIA</a></li>
+<li
+id=menu-item-4006 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4006"><a
+href=https://www.trabajadores.cu/ediciones-impresas/ >EDICIONES IMPRESAS</a></li>
+<li
+id=menu-item-153795 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-153795"><a
+href=#>ESPECIALES</a><ul
+class=sub-menu>
+<li
+id=menu-item-158462 class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-158462"><a
+href=https://www.trabajadores.cu/tema/foro-debate-en-trabajadores/ >#Foros</a></li>
+<li
+id=menu-item-180421 class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-180421"><a
+href=https://www.trabajadores.cu/tema/aniversario-93-del-natalicio-de-fidel/ >#FidelVive</a></li>
+<li
+id=menu-item-210746 class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-210746"><a
+href=https://www.trabajadores.cu/tema/primero-de-mayo-2020/ >#1MAYO2020</a></li>
+<li
+id=menu-item-195962 class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-195962"><a
+href=https://www.trabajadores.cu/tema/informe-bloqueo-2019/ >Informe Bloqueo 2019</a></li>
+<li
+id=menu-item-195963 class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-195963"><a
+href=https://www.trabajadores.cu/tema/habana-500/ >Habana 500</a></li>
+<li
+id=menu-item-195964 class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-195964"><a
+href=https://www.trabajadores.cu/tema/situacion-energetica-en-cuba/ >#AhorroEnergético</a></li>
+<li
+id=menu-item-168209 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-168209"><a
+href=https://www.trabajadores.cu/tema/xxi-congreso-de-la-ctc/ >XXI Congreso de la CTC</a></li></ul>
+</li></ul></div></div></nav></section></section><section
+class="row row-3"><section
+class="column column-1 grid-left-0 grid-width-24"><nav
+id=block-bc559b01f7529cba class="block block-type-navigation block-fluid-height block-mirrored block-mirroring-bc559b01f7529cba block-original-bld59b02602a7c19" data-alias="Menu Secundario" itemscope itemtype=http://schema.org/SiteNavigationElement><div
+class=block-content><div
+class="nav-horizontal nav-align-left"><ul
+id=menu-menu-secundario class=menu><li
+id=menu-item-258962 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-258962"><a
+href=https://www.trabajadores.cu/tema/8vo-congreso-del-pcc/ >#8voCongresoPCC</a></li>
+<li
+id=menu-item-196309 class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-196309"><a
+href=https://www.trabajadores.cu/tema/la-guagua/ >La Guagua</a></li>
+<li
+id=menu-item-196310 class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-196310"><a
+href=https://www.trabajadores.cu/tema/con-filo/ >Con filo</a></li>
+<li
+id=menu-item-372905 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-372905"><a
+href=https://www.trabajadores.cu/en-500-caracteres/ >EN 500 CARACTERES</a></li>
+<li
+id=menu-item-205737 class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-205737"><a
+href=https://www.trabajadores.cu/tema/retratos/ >Retratos</a></li>
+<li
+id=menu-item-120456 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-120456"><a
+href=https://www.trabajadores.cu/ingles/ >English</a></li></ul></div></div></nav></section></section><section
+class="row row-4"><section
+class="column column-1 grid-left-0 grid-width-17"><div
+id=block-11 class="block block-type-content block-fluid-height block-mirrored block-mirroring-bvx53fea63434501 block-original-6" data-alias=noticiamaster><div
+class=block-content><div
+id=post-system-404 class="page system-page system-404 hentry"><h1 class="entry-title">Whoops!  Page Not Found</h1><div
+id=post-ratings-0 class=post-ratings data-nonce=d5c975cb06><img
+id=rating_0_1  alt="1 Estrella" title="1 Estrella" onmouseover="current_rating(0, 1, '1 Estrella');" onmouseout="ratings_off(0, 0, 0);" onclick=rate_post(); onkeypress=rate_post(); style="cursor: pointer; border: 0px;" data-src=https://www.trabajadores.cu/wp-content/plugins/wp-postratings/images/stars_crystal/rating_off.x10671.gif class="lazyload lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><img
+id=rating_0_2  alt="2 Estrellas" title="2 Estrellas" onmouseover="current_rating(0, 2, '2 Estrellas');" onmouseout="ratings_off(0, 0, 0);" onclick=rate_post(); onkeypress=rate_post(); style="cursor: pointer; border: 0px;" data-src=https://www.trabajadores.cu/wp-content/plugins/wp-postratings/images/stars_crystal/rating_off.x10671.gif class="lazyload lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><img
+id=rating_0_3  alt="3 Estrellas" title="3 Estrellas" onmouseover="current_rating(0, 3, '3 Estrellas');" onmouseout="ratings_off(0, 0, 0);" onclick=rate_post(); onkeypress=rate_post(); style="cursor: pointer; border: 0px;" data-src=https://www.trabajadores.cu/wp-content/plugins/wp-postratings/images/stars_crystal/rating_off.x10671.gif class="lazyload lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><img
+id=rating_0_4  alt="4 Estrellas" title="4 Estrellas" onmouseover="current_rating(0, 4, '4 Estrellas');" onmouseout="ratings_off(0, 0, 0);" onclick=rate_post(); onkeypress=rate_post(); style="cursor: pointer; border: 0px;" data-src=https://www.trabajadores.cu/wp-content/plugins/wp-postratings/images/stars_crystal/rating_off.x10671.gif class="lazyload lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><img
+id=rating_0_5  alt="5 Estrellas" title="5 Estrellas" onmouseover="current_rating(0, 5, '5 Estrellas');" onmouseout="ratings_off(0, 0, 0);" onclick=rate_post(); onkeypress=rate_post(); style="cursor: pointer; border: 0px;" data-src=https://www.trabajadores.cu/wp-content/plugins/wp-postratings/images/stars_crystal/rating_off.x10671.gif class="lazyload lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="> (Sin valoración)</div><div
+id=post-ratings-0-loading class=post-ratings-loading><img
+width=16 height=16  data-src=https://www.trabajadores.cu/wp-content/plugins/wp-postratings/images/loading.x10671.gif class="post-ratings-image lazyload lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2016%2016'%3E%3C/svg%3E" data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">Cargando...</div><div
+class=entry-content><p>Don't fret, you didn't do anything wrong.  It appears that the page you are looking for does not exist or has been moved elsewhere.</p><p>If you keep ending up here, please head back to our <a
+href=https://www.trabajadores.cu>homepage</a> or try the search form below.</p><form
+method=get id=searchform action=https://www.trabajadores.cu/ >
+<label
+for=s class=assistive-text>Search</label>
+<input
+type=text class=field name=s id=s value="Type to search, then press enter" onclick="if(this.value=='Type to search, then press enter')this.value='';" onblur="if(this.value=='')this.value='Type to search, then press enter';">
+<input
+type=submit class=submit name=submit id=searchsubmit value=Search></form></div></div></div></div></section><section
+class="column column-2 grid-left-0 grid-width-7"><aside
+id=block-13 class="block block-type-widget-area block-fluid-height block-mirrored block-mirroring-b6s53fea6343833c block-original-7" data-alias itemscope itemtype=http://schema.org/WPSideBar><div
+class=block-content><ul
+class=widget-area><li
+id=searchsidebarwidget-2 class="widget SearchSidebarWidget"> <script >function toggle_sidebar(){style=document.getElementById('searchform_advanced_bar').style.display;if(style=='block')
+{document.getElementById('searchform_advanced_bar').style.display='none';document.getElementById('searchform_advanced_bar').innerHTML='';}
+else
+{document.getElementById('searchform_advanced_bar').style.display='block';document.getElementById('searchform_advanced_bar').innerHTML=document.getElementById('searchform_advanced_options_bar').innerHTML;}}
+function sphinx_search_submit(form){var input=document.getElementById('sphinx_sinput');form.s.value=input.value.replace("_",' ').replace("'",'_');return true;}</script> <div
+id=searchbar>
+<label
+for=s>
+<a
+href=http://www.ivinco.com/software/wordpress-sphinx-search/
+title="WordPress Sphinx Search Plugin by Ivinco"><img
+alt="WordPress Sphinx Search Plugin by Ivinco" data-src=https://www.trabajadores.cu/wp-content/plugins/wordpress-sphinx-plugin/templates/img/icon-ivinco.x10671.png class="lazyload lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a> Buscar </label><form
+id=searchform method=get action=https://www.trabajadores.cu onsubmit=sphinx_search_submit(this)>
+<input
+type=hidden name=s size=15 value><ul>
+<li>
+<input
+type=text id=sphinx_sinput size=25
+value>
+<input
+type=submit id=submit value=Buscar><br>
+<a
+href=javascript:void(0); onclick=toggle_sidebar();
+style=font-size:10px;>Advanced</a>
+</li></ul><div
+id=searchform_advanced_bar style=display:none;></div></form><div
+id=searchform_advanced_options_bar style=display:none;><ul>
+<li
+id=searchin>Search in: <br>
+<input
+type=checkbox id=search_posts name=search_posts value=true
+checked=checked><label
+for=search_posts>posts</label>
+<br>
+<input
+type=checkbox id=search_pages name=search_pages value=true
+checked=checked><label
+for=search_pages>pages</label>
+<br>
+<input
+type=checkbox id=search_comments name=search_comments value=true
+checked=checked><label
+for=search_comments>comments</label>
+<br>
+<input
+type=checkbox id=search_tags name=search_tags value=true
+checked=checked><label
+for=search_tags>tags</label>
+</li></ul><ul>
+<li
+id=sortby>Ordenar por: <br>
+<input
+type=radio id=search_sortby_date_relevance name=search_sortby value=date_relevance
+checked=true><label
+for=search_sortby_date_relevance>Freshness &amp; Relevance</label>
+<br>
+<input
+type=radio id=search_sortby_rel name=search_sortby value=relevance><label
+for=search_sortby_rel>Relevance</label>
+<br>
+<input
+type=radio id=search_sortby_date name=search_sortby value=date><label
+for=search_sortby_date>Freshness</label>
+</li></ul></div></div>
+</li>
+<li
+id=widget_sp_image-29 class="widget widget_sp_image">
+<a
+href=https://www.bc.gob.cu/tasas-de-cambio target=_blank class=widget_sp_image-image-link title="Tasa de cambio en Cuba" rel=https://www.bc.gob.cu/tasas-de-cambio><img
+width=320 height=300 alt="Tasa de cambio en Cuba"  style="max-width: 100%;" data-srcset="https://www.trabajadores.cu/wp-content/uploads/2026/01/TASADECAMBIO-CUBA-11-ene-26.jpg 320w, https://www.trabajadores.cu/wp-content/uploads/2026/01/TASADECAMBIO-CUBA-11-ene-26-267x250.jpg 267w"  data-src=https://www.trabajadores.cu/wp-content/uploads/2026/01/TASADECAMBIO-CUBA-11-ene-26.x10671.jpg data-sizes="(max-width: 320px) 100vw, 320px" class="attachment-full lazyload lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20320%20300'%3E%3C/svg%3E" data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a></li>
+<li
+id=widget_sp_image-27 class="widget widget_sp_image">
+<a
+href="https://www.trabajadores.cu/documento/lunes-1-de-septiembre-de-2025-tabloide-anteproyecto-de-ley-codigo-de-trabajo/?tmstv=1756699483" id="https://www.trabajadores.cu/documento/lunes-1-de-septiembre-de-2025-tabloide-anteproyecto-de-ley-codigo-de-trabajo/?tmstv=1756699483" target=_blank class=widget_sp_image-image-link title="Tabloide Anteproyecto de ley Código de Trabajo" rel="https://www.trabajadores.cu/documento/lunes-1-de-septiembre-de-2025-tabloide-anteproyecto-de-ley-codigo-de-trabajo/?tmstv=1756699483"><img
+width=320 height=335 alt="Tabloide Anteproyecto de ley Código de Trabajo"  style="max-width: 100%;" data-srcset="https://www.trabajadores.cu/wp-content/uploads/2025/08/Banner-codigo-trabajo.jpg 320w, https://www.trabajadores.cu/wp-content/uploads/2025/08/Banner-codigo-trabajo-239x250.jpg 239w"  data-src=https://www.trabajadores.cu/wp-content/uploads/2025/08/Banner-codigo-trabajo.x10671.jpg data-sizes="(max-width: 320px) 100vw, 320px" class="attachment-full lazyload lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20320%20335'%3E%3C/svg%3E" data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a></li>
+<li
+id=widget_sp_image-21 class="widget widget_sp_image">
+<a
+href=https://www.trabajadores.cu/tema/CodigoT/ id=https://www.trabajadores.cu/tema/CodigoT/ target=_blank class=widget_sp_image-image-link title="Código de Trabajo"><img
+width=284 height=250 alt="Código de Trabajo"  style="max-width: 100%;" data-srcset="https://www.trabajadores.cu/wp-content/uploads/2025/12/nuevo-codigo-trabajo-320-284x250.jpg 284w, https://www.trabajadores.cu/wp-content/uploads/2025/12/nuevo-codigo-trabajo-320.jpg 320w"  data-src=https://www.trabajadores.cu/wp-content/uploads/2025/12/nuevo-codigo-trabajo-320-284x250.x10671.jpg data-sizes="(max-width: 284px) 100vw, 284px" class="attachment-medium aligncenter lazyload lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20284%20250'%3E%3C/svg%3E" data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a></li>
+<li
+id=widget_sp_image-25 class="widget widget_sp_image">
+<a
+href=https://www.trabajadores.cu/tema/Centenario-Fidel/ target=_self class=widget_sp_image-image-link title="Centenario Fidel"><img
+width=320 height=183 alt="Centenario Fidel"  style="max-width: 100%;" data-src=https://www.trabajadores.cu/wp-content/uploads/2025/08/banner-fidel-es-fidel2025-1.x10671.jpg class="attachment-full lazyload lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20320%20183'%3E%3C/svg%3E" data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a></li>
+<li
+id=widget_sp_image-11 class="widget widget_sp_image">
+<a
+href=https://www.trabajadores.cu/tema/Congreso-CTC-2024/ id=https://www.trabajadores.cu/tema/Congreso-CTC-2024/ target=_blank class=widget_sp_image-image-link title="22 Congreso CTC"><img
+width=320 height=212 alt="22 Congreso CTC"  style="max-width: 100%;" data-srcset="https://www.trabajadores.cu/wp-content/uploads/2024/11/22-congreso-ctc-n.jpg 320w, https://www.trabajadores.cu/wp-content/uploads/2024/11/22-congreso-ctc-n-200x133.jpg 200w, https://www.trabajadores.cu/wp-content/uploads/2024/11/22-congreso-ctc-n-290x193.jpg 290w, https://www.trabajadores.cu/wp-content/uploads/2024/11/22-congreso-ctc-n-408x272.jpg 408w, https://www.trabajadores.cu/wp-content/uploads/2024/11/22-congreso-ctc-n-440x293.jpg 440w, https://www.trabajadores.cu/wp-content/uploads/2024/11/22-congreso-ctc-n-540x360.jpg 540w, https://www.trabajadores.cu/wp-content/uploads/2024/11/22-congreso-ctc-n-740x493.jpg 740w"  data-src=https://www.trabajadores.cu/wp-content/uploads/2024/11/22-congreso-ctc-n.x10671.jpg data-sizes="(max-width: 320px) 100vw, 320px" class="attachment-full lazyload lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20320%20212'%3E%3C/svg%3E" data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a></li>
+<li
+id=widget_sp_image-28 class="widget widget_sp_image">
+<a
+href=https://www.trabajadores.cu/tema/Ofertas-de-empleo/ target=_self class=widget_sp_image-image-link title="Ofertas de empleo"><img
+width=320 height=338  style="max-width: 100%;" data-srcset="https://www.trabajadores.cu/wp-content/uploads/2025/12/banner-Oferta-de-Empleo-320.jpg 320w, https://www.trabajadores.cu/wp-content/uploads/2025/12/banner-Oferta-de-Empleo-320-237x250.jpg 237w"  data-src=https://www.trabajadores.cu/wp-content/uploads/2025/12/banner-Oferta-de-Empleo-320.x10671.jpg data-sizes="(max-width: 320px) 100vw, 320px" class="attachment-full aligncenter lazyload lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20320%20338'%3E%3C/svg%3E" data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a></li>
+<li
+id=widget_sp_image-10 class="widget widget_sp_image">
+<a
+href=https://www.trabajadores.cu/tema/asiento-reservado/ id=https://www.trabajadores.cu/tema/asiento-reservado/ target=_blank class=widget_sp_image-image-link><img
+width=320 height=148 alt="Asiento Reservado"  style="max-width: 100%;" data-src=https://www.trabajadores.cu/wp-content/uploads/2025/01/banner-asiento-reservado.x10671.jpg class="attachment-full lazyload lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20320%20148'%3E%3C/svg%3E" data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a></li>
+<li
+id=media_image-4 class="widget widget_media_image">
+<a
+href=https://www.trabajadores.cu/tema/TUMBA-EL-BLOQUEO-2024/ ><img
+width=320 height=165   alt decoding=async style="max-width: 100%; height: auto;" data-src=https://www.trabajadores.cu/wp-content/uploads/2024/11/tumba-el-bloqueo.x10671.jpg class="image wp-image-411751  attachment-full size-full lazyload lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20320%20165'%3E%3C/svg%3E" data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a></li>
+<li
+id=widget_sp_image-14 class="widget widget_sp_image">
+<a
+href=https://www.trabajadores.cu/tema/Revista-CTC/ id=https://www.trabajadores.cu/tema/Revista-CTC/ target=_blank class=widget_sp_image-image-link title="Revista CTC"><img
+width=320 height=260 alt="Revista CTC"  style="max-width: 100%;" data-srcset="https://www.trabajadores.cu/wp-content/uploads/2025/02/revista-ctc-1.jpg 320w, https://www.trabajadores.cu/wp-content/uploads/2025/02/revista-ctc-1-308x250.jpg 308w"  data-src=https://www.trabajadores.cu/wp-content/uploads/2025/02/revista-ctc-1.x10671.jpg data-sizes="(max-width: 320px) 100vw, 320px" class="attachment-full lazyload lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20320%20260'%3E%3C/svg%3E" data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a></li><li
+id=wpp-3 class="widget popular-posts"><h3 class="widget-title"><span
+class=widget-inner>Entradas mas vistas últimos 7 días</span></h3><div
+class=wpp-widget-placeholder data-widget-id=wpp-3></div>
+</li></ul></div></aside></section></section></div></div><div
+id=wrapper-23 class="wrapper wrapper-fluid wrapper-fluid-grid grid-fluid-24-40-10 responsive-grid wrapper-mirroring-4 wrapper-last" data-alias><div
+class="grid-container clearfix"><section
+class="row row-1"><section
+class="column column-1 grid-left-1 grid-width-2"><div
+id=block-18 class="block block-type-custom-code block-fluid-height" data-alias><div
+class=block-content><div
+id=logo_footer>
+<a
+class=fl href=http://www.trabajadores.cu title=Trabajadores></a></div></div></div></section><section
+class="column column-2 grid-left-0 grid-width-9"><div
+id=block-16 class="block block-type-text block-fluid-height" data-alias><div
+class=block-content><div
+class=entry-content><p>© 2018 Trabajadores. Órgano de la Central de Trabajadores de Cuba<br>Director: Alberto Núñez Betancourt <br>Subdirectores Editoriales: Alina Martínez Triay y Joel García León<br>Territorial y General Suárez. Plaza de la Revolución. La Habana, Cuba. CP: 10698<br>Fax: 053 (7) 555927 E-mail: <a
+href=mailto:digital@trabajadores.cu>digital@trabajadores.cu</a></p></div></div></div></section></section></div></div><div
+class="a2a_kit a2a_kit_size_32 a2a_floating_style a2a_vertical_style" data-a2a-scroll-show=100 style=right:10px;top:300px;background-color:transparent><a
+class=a2a_button_facebook href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fwww.trabajadores.cu%2Findex.php%2Ffeed&amp;linkname=P%C3%A1gina%20no%20encontrada%20%26bull%3B%20Trabajadores" title=Facebook rel="nofollow noopener" target=_blank></a><a
+class=a2a_button_twitter href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fwww.trabajadores.cu%2Findex.php%2Ffeed&amp;linkname=P%C3%A1gina%20no%20encontrada%20%26bull%3B%20Trabajadores" title=Twitter rel="nofollow noopener" target=_blank></a><a
+class=a2a_button_telegram href="https://www.addtoany.com/add_to/telegram?linkurl=https%3A%2F%2Fwww.trabajadores.cu%2Findex.php%2Ffeed&amp;linkname=P%C3%A1gina%20no%20encontrada%20%26bull%3B%20Trabajadores" title=Telegram rel="nofollow noopener" target=_blank></a><a
+class=a2a_button_whatsapp href="https://www.addtoany.com/add_to/whatsapp?linkurl=https%3A%2F%2Fwww.trabajadores.cu%2Findex.php%2Ffeed&amp;linkname=P%C3%A1gina%20no%20encontrada%20%26bull%3B%20Trabajadores" title=WhatsApp rel="nofollow noopener" target=_blank></a><a
+class=a2a_button_sms href="https://www.addtoany.com/add_to/sms?linkurl=https%3A%2F%2Fwww.trabajadores.cu%2Findex.php%2Ffeed&amp;linkname=P%C3%A1gina%20no%20encontrada%20%26bull%3B%20Trabajadores" title=SMS rel="nofollow noopener" target=_blank></a><a
+class=a2a_button_email href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fwww.trabajadores.cu%2Findex.php%2Ffeed&amp;linkname=P%C3%A1gina%20no%20encontrada%20%26bull%3B%20Trabajadores" title=Email rel="nofollow noopener" target=_blank></a><a
+class=a2a_button_copy_link href="https://www.addtoany.com/add_to/copy_link?linkurl=https%3A%2F%2Fwww.trabajadores.cu%2Findex.php%2Ffeed&amp;linkname=P%C3%A1gina%20no%20encontrada%20%26bull%3B%20Trabajadores" title="Copy Link" rel="nofollow noopener" target=_blank></a><a
+class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href=https://www.addtoany.com/share></a></div><div
+class="a2a_kit a2a_kit_size_32 a2a_floating_style a2a_default_style" style=bottom:0px;left:50%;transform:translateX(-50%);background-color:transparent><a
+class=a2a_button_facebook href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fwww.trabajadores.cu%2Findex.php%2Ffeed&amp;linkname=P%C3%A1gina%20no%20encontrada%20%26bull%3B%20Trabajadores" title=Facebook rel="nofollow noopener" target=_blank></a><a
+class=a2a_button_twitter href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fwww.trabajadores.cu%2Findex.php%2Ffeed&amp;linkname=P%C3%A1gina%20no%20encontrada%20%26bull%3B%20Trabajadores" title=Twitter rel="nofollow noopener" target=_blank></a><a
+class=a2a_button_telegram href="https://www.addtoany.com/add_to/telegram?linkurl=https%3A%2F%2Fwww.trabajadores.cu%2Findex.php%2Ffeed&amp;linkname=P%C3%A1gina%20no%20encontrada%20%26bull%3B%20Trabajadores" title=Telegram rel="nofollow noopener" target=_blank></a><a
+class=a2a_button_whatsapp href="https://www.addtoany.com/add_to/whatsapp?linkurl=https%3A%2F%2Fwww.trabajadores.cu%2Findex.php%2Ffeed&amp;linkname=P%C3%A1gina%20no%20encontrada%20%26bull%3B%20Trabajadores" title=WhatsApp rel="nofollow noopener" target=_blank></a><a
+class=a2a_button_sms href="https://www.addtoany.com/add_to/sms?linkurl=https%3A%2F%2Fwww.trabajadores.cu%2Findex.php%2Ffeed&amp;linkname=P%C3%A1gina%20no%20encontrada%20%26bull%3B%20Trabajadores" title=SMS rel="nofollow noopener" target=_blank></a><a
+class=a2a_button_email href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fwww.trabajadores.cu%2Findex.php%2Ffeed&amp;linkname=P%C3%A1gina%20no%20encontrada%20%26bull%3B%20Trabajadores" title=Email rel="nofollow noopener" target=_blank></a><a
+class=a2a_button_copy_link href="https://www.addtoany.com/add_to/copy_link?linkurl=https%3A%2F%2Fwww.trabajadores.cu%2Findex.php%2Ffeed&amp;linkname=P%C3%A1gina%20no%20encontrada%20%26bull%3B%20Trabajadores" title="Copy Link" rel="nofollow noopener" target=_blank></a><a
+class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href=https://www.addtoany.com/share></a></div> <script>var _paq=window._paq=window._paq||[];_paq.push(['trackPageView']);_paq.push(['enableLinkTracking']);(function(){var u="//analitica.cip.cu/";_paq.push(['setTrackerUrl',u+'matomo.php']);_paq.push(['setSiteId','21']);var d=document,g=d.createElement('script'),s=d.getElementsByTagName('script')[0];g.type='text/javascript';g.async=true;g.src=u+'matomo.js';s.parentNode.insertBefore(g,s);})();</script> <noscript>
+<img
+class=lazy src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-src="https://analitica.cip.cu/matomo.php?idsite=21&rec=1"
+style=border:0 alt>
+</noscript><link
+rel=stylesheet href=https://www.trabajadores.cu/wp-content/cache/minify/a8f9a.x10671.css media=all> <script id=wp-postratings-js-extra>var ratingsL10n={"plugin_url":"https:\/\/www.trabajadores.cu\/wp-content\/plugins\/wp-postratings","ajax_url":"https:\/\/www.trabajadores.cu\/wp-admin\/admin-ajax.php","text_wait":"Por favor, valora solo 1 elemento cada vez.","image":"stars_crystal","image_ext":"gif","max":"5","show_loading":"1","show_fading":"1","custom":"0"};var ratings_mouseover_image=new Image();ratings_mouseover_image.src="https://www.trabajadores.cu/wp-content/plugins/wp-postratings/images/stars_crystal/rating_over.x10671.gif";;</script> <script src=https://www.trabajadores.cu/wp-content/plugins/wp-postratings/js/postratings-js.x10671.js id=wp-postratings-js></script> <script id=dlm-xhr-js-extra>var dlmXHRtranslations={"error":"An error occurred while trying to download the file. Please try again."};</script> <script id=dlm-xhr-js-before>const dlmXHR={"xhr_links":{"class":["download-link","download-button"]},"prevent_duplicates":true,"ajaxUrl":"https:\/\/www.trabajadores.cu\/wp-admin\/admin-ajax.php"};dlmXHRinstance={};const dlmXHRGlobalLinks="https://www.trabajadores.cu/documento/";dlmXHRgif="https://www.trabajadores.cu/wp-includes/images/spinner.gif"</script> <script src=https://www.trabajadores.cu/wp-content/plugins/download-monitor/assets/js/dlm-xhr.min.x10671.js id=dlm-xhr-js></script> <script src=https://www.trabajadores.cu/wp-content/plugins/wp-smushit/app/assets/js/smush-lazy-load.min.x10671.js id=smush-lazy-load-js></script> <script id=molongui-authorship-front-inline-js-extra>var molongui_authorship_front_params={"byline_prefix":"Escrito por","byline_suffix":"","byline_separator":", ","byline_last_separator":" y ","byline_link_title":"View all posts by","byline_dom_tree":""};</script><script id=molongui-authorship-front-inline-js data-file=front.16cd.min.js data-version=4.6.16>var addBylineModifiers=function(){var r="?m_bm=true",e=document.querySelectorAll('a[href$="'+r+'"]');Array.prototype.forEach.call(e,function(e,t){e.setAttribute("href",decodeURIComponent(e.getAttribute("href")).replace(r,"")),e.insertAdjacentHTML("beforebegin",molongui_authorship_front_params.byline_prefix+" "),e.insertAdjacentHTML("afterend"," "+molongui_authorship_front_params.byline_suffix)})},decodeMultiAuthorBylines=function(){var e=document.querySelectorAll('a[href*="molongui_byline=true"]');Array.prototype.forEach.call(e,function(e,t){var r=e.getAttribute("href"),i=new URL(decodeURIComponent(r)),n=new URLSearchParams(i.search),a=i.origin,o=i.pathname,r="";if(!n.has("molongui_byline"))return!1;if(n.has("lang")&&(r="?lang="+n.get("lang")),""===e.innerText)return n.has("m_main_disabled")?e.removeAttribute("href"):e.setAttribute("href",a+o+r),!1;var l,s=[molongui_authorship_front_params.byline_separator,molongui_authorship_front_params.byline_last_separator],u=e.innerText.split(new RegExp(s.join("|"),"gi"));n.has("m_main_disabled")?(l=n.getAll("mca")).unshift("molongui-disabled-link"):(i=o.replace(/^\/|\/$/g,"").split("/").pop(),o.replace(/\/$/g,"").replace(i,""),(l=n.getAll("mca")).unshift(a+o+r));var d="",m=u.length,n=e.getAttribute("class"),a=e.getAttribute("target"),o=e.getAttribute("rel"),r=e.getAttribute("itemprop"),c=n?'class="'+n+'"':"",h=a?'target="'+a+'"':"",p=o?'rel="'+o+'"':"",f=r?'itemprop="'+r+'"':"";for(j=0;j<m;j++){var _=u[j].trim(),b="",b=""!==molongui_authorship_front_params.byline_dom_tree?molongui_authorship_front_params.byline_dom_tree.replace("{%ma_authorName}",_):_;"molongui-disabled-link"===l[j]||j>=l.length?d+=b:d+='<a href="'+l[j]+'" '+c+" "+p+" "+f+" "+h+' title="'+molongui_authorship_front_params.byline_link_title+" "+_+'">'+b+"</a>",j<m-1-1?d+=s[0]:j<m-1&&(d+=s[1])}e.insertAdjacentHTML("afterend",d),e.parentNode.removeChild(e)})},disableEmptyLinks=function(){var e=document.querySelectorAll('a[href="#molongui-disabled-link"]');Array.prototype.forEach.call(e,function(e,t){e.classList.add("molongui-disabled-link"),e.removeAttribute("href")})},initBylines=function(){addBylineModifiers(),decodeMultiAuthorBylines(),disableEmptyLinks()};document.addEventListener("DOMContentLoaded",function(){initBylines();var e=document.body;new MutationObserver(function(e){Array.prototype.forEach.call(e,function(e,t){initBylines()})}).observe(e,{attributes:!0,childList:!0,subtree:!0,characterData:!0})});</script><div
+data-m-brand=Molongui data-m-id=Authorship data-m-license=Lite data-m-version=4.6.16 data-m-link=https://www.molongui.com/authorship/ ></div>  <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-89356472-1',{'cookieDomain':'www.trabajadores.cu','optimize_id':'GTM-TKWLSZN'});ga('require','linkid','linkid.js');ga('require','displayfeatures');if(AUTHOR.trim().length){ga('set','dimension1',AUTHOR);}
+ga('send','pageview');</script>  <script>var _paq=window._paq=window._paq||[];_paq.push(['trackPageView']);_paq.push(['enableLinkTracking']);(function(){var u="https://analitica.cip.cu/";_paq.push(['setTrackerUrl',u+'matomo.php']);_paq.push(['setSiteId','21']);var d=document,g=d.createElement('script'),s=d.getElementsByTagName('script')[0];g.type='text/javascript';g.async=true;g.src=u+'matomo.js';s.parentNode.insertBefore(g,s);})();</script> <noscript><img
+class=lazy src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-src="https://analitica.cip.cu/matomo.php?idsite=21&amp;rec=1" style=border:0 alt>
+</noscript></div> <script>window.w3tc_lazyload=1,window.lazyLoadOptions={elements_selector:".lazy",callback_loaded:function(t){var e;try{e=new CustomEvent("w3tc_lazyload_loaded",{detail:{e:t}})}catch(a){(e=document.createEvent("CustomEvent")).initCustomEvent("w3tc_lazyload_loaded",!1,!1,{e:t})}window.dispatchEvent(e)}}</script><script async src=https://www.trabajadores.cu/wp-content/plugins/w3-total-cache/pub/js/lazyload.min.x10671.js></script></body></html>

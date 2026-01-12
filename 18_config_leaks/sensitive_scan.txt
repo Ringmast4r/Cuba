@@ -1,0 +1,16 @@
+=== SENSITIVE FILE SCAN ===
+--- minfar.gob.cu ---
+
+--- presidencia.gob.cu ---
+
+--- gobierno.gob.cu ---
+
+--- etecsa.cu ---
+
+--- mined.gob.cu ---
+
+--- aduana.gob.cu ---
+
+--- bc.gob.cu ---
+
+--- granma.cu ---

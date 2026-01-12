@@ -1,0 +1,19 @@
+=== TRACKING ID EXTRACTION ===
+Date: Sun, Jan 11, 2026  1:49:56 PM
+
+--- mined_gob_cu_index.html ---
+  Google Analytics (UA): UA-107169760-1
+
+--- aduana_gob_cu_index.html ---
+  Google Analytics (UA): UA-144247220-1
+
+--- granma_cu_index.html ---
+  Google Analytics (GA4): G-D39KSEBN9Q
+
+--- juventudrebelde_cu_index.html ---
+  Google Analytics (UA): UA-291893-2
+
+--- etecsa_cu_index.html ---
+  Google Analytics (GA4): G-12
+G-8MR
+

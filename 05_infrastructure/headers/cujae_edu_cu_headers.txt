@@ -1,0 +1,27 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Sun, 11 Jan 2026 18:53:41 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://www.cujae.edu.cu/
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 11 Jan 2026 18:53:44 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Referrer-Policy: no-referrer
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, must-revalidate, max-age=84600
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Permissions-Policy: camera=(none),geolocation=(self),microphone=(none)
+X-Frame-Options: SAMEORIGIN
+Expires: Wed, 17 Aug 2005 00:00:00 GMT
+Last-Modified: Sun, 11 Jan 2026 18:53:44 GMT
+Cache-Control: private
+Pragma: no-cache
+Set-Cookie: 3218ee69c6e3cc4167352bfeb9733842=5b2kuln2a626dt2pltlv659ftl; path=/; HttpOnly;HttpOnly;Secure;HttpOnly;Secure;SameSite=Strict
+Content-Security-Policy: frame-ancestors 'self'; object-src 'self';
+

@@ -1,0 +1,22 @@
+=== DNS: presidencia.gob.cu ===
+Non-authoritative answer:
+Server:  UnKnown
+Address:  10.2.0.1
+
+Name:    presidencia.gob.cu
+Address:  181.225.233.208
+
+Non-authoritative answer:
+Server:  UnKnown
+Address:  10.2.0.1
+
+presidencia.gob.cu	nameserver = ns4.presidencia.gob.cu
+presidencia.gob.cu	nameserver = ns1.presidencia.gob.cu
+presidencia.gob.cu	nameserver = ns3.presidencia.gob.cu
+Non-authoritative answer:
+Server:  UnKnown
+Address:  10.2.0.1
+
+presidencia.gob.cu	MX preference = 20, mail exchanger = mx10.presidencia.gob.cu
+presidencia.gob.cu	MX preference = 30, mail exchanger = mx20.presidencia.gob.cu
+presidencia.gob.cu	MX preference = 10, mail exchanger = mx30.presidencia.gob.cu

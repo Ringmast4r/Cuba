@@ -1,0 +1,83 @@
+=== CUBA OSINT COLLECTION SUMMARY ===
+Generated: Sun, Jan 11, 2026  2:28:09 PM
+
+FILES: 854
+SIZE: 26M
+
+=== EXTRACTED DATA ===
+Emails: 64
+Usernames: 10
+
+=== KEY FINDINGS ===
+
+MILITARY (MINFAR):
+- Server: PortalMINFAR (custom)
+- CMS: Varbase/Drupal 8
+- Email: apoblacionmf@unicom.co.cu
+- Physical Address: Avenida Independencia, La Habana 10400
+
+COMMUNIST PARTY (PCC):
+- Server: Windows95 (obfuscated)
+- CMS: Drupal 10
+- PHP: 8.1.20
+
+HEALTH NETWORK (SLD):
+- CMS: WordPress
+- Users exposed: admin, agdiaz, claudia, ivettecm, tania, victorr
+- Gravatar hashes collected
+
+UNIVERSITY OF HAVANA (UH):
+- CMS: WordPress with Polylang
+- Users exposed: adminnodo, gsiuh, seginf, taniarect-uh-cu
+- Twitter: @UdeLaHabana
+
+STATE MEDIA:
+- ACN: Laravel
+- Juventud Rebelde: Laravel/Vue.js
+- Radio Rebelde: WordPress/W3TC/Stackpath CDN
+
+CUSTOMS (Aduana):
+- PHP: 8.1.20
+- Google Analytics in CSP header
+
+=== GOOGLE ANALYTICS IDS ===
+UA-107169760-1 - MINED (Education)
+UA-131250309-1 - Tribuna
+UA-142146896-1 - Finlay Institute
+UA-144247220-1 - Aduana (Customs)
+UA-291893-2 - Juventud Rebelde
+UA-79009587-1 - Ahora
+UA-89356472-1 - Trabajadores
+G-D39KSEBN9Q - Granma
+G-CRYZ9ZCZ5Z - Cubana Airlines
+GTM-TKWLSZN - Trabajadores
+
+
+=== CENTRAL BANK (BC) ===
+API: api.bc.gob.cu (Node.js/Express)
+API Docs: /docs (403 - requires auth)
+Twitter integration detected
+Email: atencionpoblacion@bc.gob.cu
+
+=== FINAL TOTALS ===
+Total Files: 871
+Total Size: 26M
+Unique URLs: 5164
+Emails: 64
+Usernames: 10
+Phone Patterns: 7321
+
+=== NOTABLE EMAIL FINDINGS ===
+Government Emails (.gob.cu):
+11
+
+Personal emails on gov sites (gmail/yahoo):
+conectateujc@gmail.com
+dlamb.open.source@gmail.com
+hpardo2006@yahoo.es
+lilliamalvarezdiaz@gmail.com
+olgafe@gmail.com
+rendro87@gmail.com
+richard352002@gmail.com
+rogialmeida65@gmail.com
+uneaccuba@gmail.com

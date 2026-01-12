@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Date: Sun, 11 Jan 2026 19:13:23 GMT
+Server: PortalMINFAR
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Cache-Control: no-cache, no-store, must-revalidate, private
+X-Drupal-Dynamic-Cache: MISS
+Link: <https://minfar.gob.cu/>; rel="shortlink", <https://minfar.gob.cu/>; rel="canonical"
+Link: <https://minfar.gob.cu/inicio>; rel="alternate"; hreflang="es"
+Link: <https://minfar.gob.cu/inicio>; rel="revision"
+X-UA-Compatible: IE=edge
+Content-language: es
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Sun, 11 Jan 2026 12:41:06 GMT
+Vary: Cookie
+X-Content-Security-Policy: default-src 'self'; script-src 'self'; object-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: filesystem; media-src 'self' mediastream:; frame-src 'self'; frame-ancestors 'self'; child-src 'self'; font-src 'self'; connect-src 'self'; report-uri /report-csp-violation; upgrade-insecure-requests
+X-WebKit-CSP: default-src 'self'; script-src 'self'; object-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: filesystem; media-src 'self' mediastream:; frame-src 'self'; frame-ancestors 'self'; child-src 'self'; font-src 'self'; connect-src 'self'; report-uri /report-csp-violation; upgrade-insecure-requests
+From-Origin: same
+Expect-CT: max-age=31557600, enforce
+Feature-Policy: sync-xhr 'self'
+Access-Control-Allow-Origin: *
+Referrer-Policy: strict-origin-when-cross-origin
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Drupal-Cache: HIT
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+

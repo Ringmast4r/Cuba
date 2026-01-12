@@ -1,0 +1,24 @@
+HTTP/1.1 302 Found
+Cache-Control: no-cache
+Content-length: 0
+Location: https://www.granma.cu/
+
+HTTP/1.1 200 OK
+Date: Sun, 11 Jan 2026 18:46:28 GMT
+cache-control: no-cache
+Content-Type: text/html; charset=UTF-8
+Set-Cookie: session_payload=30aff0ad13831d04b78094422154ed0b4f1fec9d%2B0t5oyNb1Ow24Jx2xaSw9iAei1BVKxHPJ2ldrqAKWD%2Bj%2B2N7bE6mWAvoV1pN8Sru1bJ%2BSCc%2B%2BdS4nYYHbam1mU6CxWBpuKOpxVdhcVw%2FayneBg265OmCHvri7nF0rTB3V0KZNlZpUecIoxXI%2BFYah4xKl7v4VT3UwxCVYcMILIEWIjZ7bPYJv1rQ9ZSUNlV4myER8JzK1iOQskeTzd2QhPQZK3ol9kq%2BkOVeEMyAgQtLtnpjiiPIPrad0n4h7G7nMlpr30zyWzUFzhnrKVYwhnbFKlANg12eS3P6a6SnEnzlKO%2F3yKWw2Sk4l6Qum2BFbJiuXlytYZ3BbxaD4w41XFQ%3D%3D; expires=Mon, 12-Jan-2026 03:06:28 GMT; path=/; httponly; HTTPOnly;HttpOnly;Secure; SameSite=Lax; Secure; HttpOnly
+Set-Cookie: tx_session=4c7156a0baf6f748988c7c40ddefc8f34bb58617%2BEmx39UPDE1yGsdrwcU52hhnKU4FyHT7jbcxAtEeR; path=/; httponly; HTTPOnly;HttpOnly;Secure; SameSite=Lax; Secure; HttpOnly
+Set-Cookie: ROUTEID=.wb4; path=/; SameSite=Lax; Secure; HttpOnly
+Access-Control-Allow-Origin: www.granma.cu
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Authorization, JSNLog-RequestId, activityId, applicationId, applicationUserId, channelId, senderId, sessionId
+Access-Control-Max-Age: 3628800
+Access-Control-Allow-Methods: GET, DELETE, OPTIONS, POST, PUT
+Strict-Transport-Security: max-age=31536000; preload
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Security-Policy: upgrade-insecure-requests
+Content-Security-Policy: upgrade-insecure-requests
+Set-Cookie: SERVERID=wf1; path=/; HttpOnly; Secure
+

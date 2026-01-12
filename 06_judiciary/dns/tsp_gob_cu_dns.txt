@@ -1,0 +1,8 @@
+Non-authoritative answer:
+Server:  UnKnown
+Address:  10.2.0.1
+
+Name:    tsp.gob.cu
+Addresses:  181.225.233.254
+	  181.225.233.253
+

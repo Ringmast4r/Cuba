@@ -1,0 +1,171 @@
+===============================================================================
+                    CUBA OSINT - SOCIAL MEDIA INVENTORY
+===============================================================================
+Generated: January 11, 2026
+Method: Passive scraping from official government websites
+
+===============================================================================
+                    1. TELEGRAM CHANNELS
+===============================================================================
+
+EXECUTIVE/POLITICAL:
+t.me/AsambleaCuba              | National Assembly
+t.me/PartidoComunistadeCuba    | Communist Party (PCC)
+
+FINANCIAL:
+t.me/bancocentral_1997         | Central Bank of Cuba
+
+MILITARY/SECURITY:
+t.me/FGR_Cuba                  | Fiscalia General (Prosecutor)
+
+MINISTRIES:
+t.me/Mined_Cuba                | Education Ministry
+t.me/mitranscuba               | Transport Ministry
+
+INFRASTRUCTURE:
+t.me/EtecsaCubaOficial         | ETECSA Telecom
+
+STATE MEDIA:
+t.me/periodicogranma           | Granma (Party newspaper)
+t.me/jrebelde                  | Juventud Rebelde
+t.me/trabajadorescu            | Trabajadores
+t.me/radiorebelde_62           | Radio Rebelde
+t.me/RadioHabanaCuba           | Radio Habana Cuba
+t.me/radiorelojcuba            | Radio Reloj
+t.me/invasorpress              | Invasor (regional)
+t.me/AmoASantiago              | Santiago paper
+
+SCIENCE/EDUCATION:
+t.me/CujaeRedSocial            | CUJAE University
+t.me/BioCubaFarma              | BioCubaFarma
+
+===============================================================================
+                    2. INSTAGRAM ACCOUNTS
+===============================================================================
+
+EXECUTIVE/POLITICAL:
+@presidenciadecuba             | Presidency of Cuba
+@asambleacuba                  | National Assembly
+@partidopcc                    | Communist Party
+
+MILITARY/SECURITY:
+@fgr_cuba                      | Fiscalia General
+
+FINANCIAL:
+@bancocentralcuba_oficial      | Central Bank
+
+MINISTRIES:
+@minedcuba                     | Education Ministry
+@mitranscuba                   | Transport Ministry
+
+INFRASTRUCTURE:
+@etecsa_cuba_oficial           | ETECSA Telecom
+
+STATE MEDIA:
+@granmadigital                 | Granma newspaper
+@radiorebeldecu                | Radio Rebelde
+@radiorelojcuba                | Radio Reloj
+@radiohabanacuba               | Radio Habana Cuba
+@tribuna_habana                | Tribuna de La Habana
+@invasorpress                  | Invasor
+@p_sierramaestra               | Sierra Maestra
+@periodicoahora                | Ahora
+
+EDUCATION:
+@udelahabana                   | University of Havana
+@universidad_de_la_habana      | UH (alternate)
+@cujaeredsocial                | CUJAE University
+
+SCIENCE:
+@institutofinlay               | Finlay Institute
+
+CULTURE:
+@uneac_online                  | UNEAC Artists Union
+@ujcuba                        | Youth Communist Union
+
+===============================================================================
+                    3. TWITTER/X ACCOUNTS
+===============================================================================
+
+@UdeLaHabana                   | University of Havana
+@uneac_online                  | UNEAC Artists Union
+@CitmatelOficial               | Citmatel IT Company
+@mitran                        | Transport Ministry
+@mitranscuba                   | Transport Ministry
+
+===============================================================================
+                    4. YOUTUBE CHANNELS
+===============================================================================
+
+@bancocentraldecuba1703        | Central Bank
+@citmatelcuba                  | Citmatel
+@mesaredondacuba               | Mesa Redonda (TV program)
+@radiohabanacubavideo          | Radio Habana Cuba
+@radiohabanacubavideos         | Radio Habana Cuba (alternate)
+
+===============================================================================
+                    5. FACEBOOK PAGES
+===============================================================================
+
+@uneac.online                  | UNEAC Artists Union
+@ujcuba                        | Youth Communist Union
+
+===============================================================================
+                    6. THREADS
+===============================================================================
+
+@radiorelojcuba                | Radio Reloj
+
+===============================================================================
+                    7. CROSS-PLATFORM PRESENCE ANALYSIS
+===============================================================================
+
+MOST ACTIVE (4+ platforms):
+- Radio Reloj: Telegram, Instagram, Threads, YouTube
+- Radio Habana Cuba: Telegram, Instagram, YouTube
+- ETECSA: Telegram, Instagram
+- Central Bank: Telegram, Instagram, YouTube
+- UNEAC: Twitter, Instagram, Facebook
+
+GOVERNMENT PRIORITIES (by platform adoption):
+1. Telegram - Highest adoption (17 channels)
+2. Instagram - Second highest (22 accounts)
+3. YouTube - Moderate (5 channels)
+4. Twitter/X - Low (5 accounts)
+5. Facebook - Low (2 pages)
+6. Threads - Minimal (1 account)
+
+===============================================================================
+                    8. INTELLIGENCE VALUE
+===============================================================================
+
+HIGH VALUE MONITORING TARGETS:
+- t.me/PartidoComunistadeCuba  | Party announcements
+- t.me/AsambleaCuba            | Legislative activity
+- @presidenciadecuba           | Executive communications
+- t.me/bancocentral_1997       | Financial policy
+
+MEDIA MONITORING:
+- t.me/periodicogranma         | Official party line
+- t.me/trabajadorescu          | Labor/union news
+
+INFRASTRUCTURE STATUS:
+- t.me/EtecsaCubaOficial       | Telecom announcements
+- @etecsa_cuba_oficial         | Service updates
+
+===============================================================================
+                    9. STATISTICS
+===============================================================================
+
+Total Telegram Channels:        17
+Total Instagram Accounts:       22
+Total Twitter/X Accounts:       5
+Total YouTube Channels:         5
+Total Facebook Pages:           2
+Total Threads Accounts:         1
+---------------------------------
+GRAND TOTAL:                    52 social media accounts
+
+===============================================================================
+                         END OF SOCIAL MEDIA INVENTORY
+===============================================================================

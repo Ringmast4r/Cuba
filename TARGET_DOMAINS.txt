@@ -1,0 +1,284 @@
+================================================================================
+                    CUBA GOVERNMENT INFRASTRUCTURE - TARGET LIST
+                    Passive OSINT Documentation Project
+                    Academic/Journalism Research
+================================================================================
+
+Date Started: 2025-01-11
+Researcher: [Your name/org]
+Purpose: Public documentation of Cuban government web infrastructure
+
+FOLDER MAPPING:
+  01_presidency     - Executive branch, presidency
+  02_ministries     - Government ministries
+  03_military_security - Armed forces, interior, intelligence
+  04_state_media    - News, TV, radio
+  05_infrastructure - Telecom, internet, utilities
+  06_judiciary      - Courts, prosecutors, legal
+  07_other_gov      - Other government entities
+
+================================================================================
+[01] PRESIDENCY / EXECUTIVE BRANCH
+================================================================================
+Folder: 01_presidency/
+
+[ ] presidencia.gob.cu          - Presidential office (Diaz-Canel)
+[ ] gobierno.gob.cu             - Government portal
+[ ] cubagob.cu                  - Government services
+[ ] pcc.cu                      - Communist Party of Cuba
+[ ] uneac.org.cu                - Union of Writers and Artists (party-linked)
+[ ] cdr.cu                      - Committees for Defense of Revolution
+[ ] fmc.cu                      - Federation of Cuban Women
+[ ] ujc.cu                      - Union of Young Communists
+[ ] ctc.cu                      - Workers' Central Union
+
+================================================================================
+[02] MINISTRIES (Ministerios)
+================================================================================
+Folder: 02_ministries/
+
+CORE GOVERNMENT:
+[ ] minrex.gob.cu               - Foreign Affairs (MINREX)
+[ ] minjus.gob.cu               - Justice
+[ ] mfp.gob.cu                  - Finance and Prices
+[ ] mep.gob.cu                  - Economy and Planning
+
+SOCIAL SERVICES:
+[ ] minsap.gob.cu               - Public Health (MINSAP)
+[ ] mined.gob.cu                - Education
+[ ] mes.gob.cu                  - Higher Education
+[ ] mincult.gob.cu              - Culture
+[ ] inder.gob.cu                - Sports (INDER)
+[ ] mtss.gob.cu                 - Labor and Social Security
+
+ECONOMY / TRADE:
+[ ] mincex.gob.cu               - Foreign Trade and Investment
+[ ] mincin.gob.cu               - Internal Trade
+[ ] mintur.gob.cu               - Tourism (MINTUR)
+[ ] minal.gob.cu                - Food Industry
+[ ] minag.gob.cu                - Agriculture
+[ ] mindus.gob.cu               - Industries
+[ ] micons.gob.cu               - Construction
+
+INFRASTRUCTURE:
+[ ] minem.gob.cu                - Energy and Mines
+[ ] mitrans.gob.cu              - Transportation
+[ ] mincom.gob.cu               - Communications
+[ ] citma.gob.cu                - Science, Technology, Environment
+
+================================================================================
+[03] MILITARY / SECURITY / INTELLIGENCE
+================================================================================
+Folder: 03_military_security/
+
+ARMED FORCES (FAR - Fuerzas Armadas Revolucionarias):
+[ ] minfar.gob.cu               - Ministry of Armed Forces (MINFAR)
+[ ] far.cu                      - Revolutionary Armed Forces
+[ ] ejercito.cu                 - Cuban Army
+[ ] defensa.cu                  - Defense portal
+[ ] marina.cu                   - Cuban Navy (Marina de Guerra)
+[ ] daafar.cu                   - Anti-Aircraft Defense / Air Force
+
+INTERIOR / SECURITY (MININT):
+[ ] minint.gob.cu               - Ministry of Interior
+[ ] policia.cu                  - National Revolutionary Police (PNR)
+[ ] pnr.cu                      - Police alternative domain
+[ ] dse.cu                      - State Security (Seguridad del Estado)
+[ ] bomberos.cu                 - Fire Department
+[ ] dti.minint.gob.cu           - Technical Investigation Directorate
+
+INTELLIGENCE:
+[ ] dic.cu                      - Directorate of Intelligence
+[ ] g2.cu                       - Military Counterintelligence (G2)
+
+BORDER / CUSTOMS:
+[ ] aduana.gob.cu               - General Customs
+[ ] tropasguardafronteras.cu    - Border Guard Troops
+[ ] inmigracion.cu              - Immigration
+
+MILITARY-LINKED ENTERPRISES (GAESA):
+[ ] gaesa.cu                    - Business Administration Group (military conglomerate)
+[ ] gaviota.cu                  - Gaviota Tourism (military-owned)
+[ ] cimex.cu                    - CIMEX Corporation (military retail)
+[ ] trd.cu                      - TRD Caribe (military retail)
+[ ] cubalse.cu                  - Cubalse (military services)
+[ ] habaguanex.cu               - Habaguanex (Old Havana tourism)
+[ ] marlin.cu                   - Marlin Nautica (military marina)
+[ ] palmares.cu                 - Palmares (military hospitality)
+[ ] caracol.cu                  - Caracol (military retail)
+
+CIVIL DEFENSE:
+[ ] defensacivil.cu             - Civil Defense
+[ ] dcn.cu                      - Civil Defense alternative
+
+================================================================================
+[04] STATE MEDIA
+================================================================================
+Folder: 04_state_media/
+
+NEWSPAPERS:
+[ ] granma.cu                   - Communist Party newspaper
+[ ] juventudrebelde.cu          - Youth newspaper
+[ ] trabajadores.cu             - Workers newspaper
+[ ] tribuna.cu                  - Havana newspaper
+[ ] sierramaestra.cu            - Santiago newspaper
+[ ] vanguardia.cu               - Santa Clara newspaper
+[ ] ahora.cu                    - Holguin newspaper
+[ ] invasor.cu                  - Ciego de Avila newspaper
+[ ] adelante.cu                 - Camaguey newspaper
+
+NEWS AGENCIES / PORTALS:
+[ ] cubadebate.cu               - State news/analysis portal
+[ ] acn.cu                      - Cuban News Agency (ACN/Prensa Latina)
+[ ] prensalatina.cu             - Prensa Latina
+[ ] cubaperiodistas.cu          - Union of Cuban Journalists
+
+TELEVISION:
+[ ] tvcubana.icrt.cu            - Cuban Television
+[ ] icrt.gob.cu                 - Radio and TV Institute (ICRT)
+[ ] canalhabana.icrt.cu         - Canal Habana
+[ ] cubavision.icrt.cu          - Cubavision
+[ ] telecubana.icrt.cu          - Tele Cuba
+[ ] multivision.icrt.cu         - Multivision
+
+RADIO:
+[ ] radiocubana.cu              - Radio Cuba portal
+[ ] radioprogreso.cu            - Radio Progreso
+[ ] radioreloj.cu               - Radio Reloj
+[ ] radiohc.cu                  - Radio Havana Cuba (international)
+[ ] cmbf.cu                     - CMBF Radio Musical
+[ ] radiorebelde.cu             - Radio Rebelde
+[ ] radiotaino.cu               - Radio Taino
+
+================================================================================
+[05] INFRASTRUCTURE / TELECOM
+================================================================================
+Folder: 05_infrastructure/
+
+TELECOMMUNICATIONS:
+[ ] etecsa.cu                   - State telecom monopoly (ETECSA)
+[ ] nauta.cu                    - Nauta email/internet services
+[ ] cubacel.cu                  - Mobile services
+
+INTERNET / NETWORKING:
+[ ] enet.cu                     - Enterprise network
+[ ] ceniai.cu                   - CENIAI (early internet provider)
+[ ] citmatel.cu                 - CITMATEL (.cu registry)
+[ ] infomed.sld.cu              - Medical network
+
+EDUCATION NETWORKS:
+[ ] reduniv.edu.cu              - University network (RedUniv)
+[ ] uci.cu                      - University of Informatics Sciences
+[ ] uh.cu                       - University of Havana
+[ ] cujae.edu.cu                - CUJAE Technical University
+
+UTILITIES / INFRASTRUCTURE:
+[ ] une.cu                      - National Electric Union
+[ ] unelectrica.cu              - Electric utility
+[ ] aguascuba.cu                - Water utility
+[ ] correos.cu                  - Postal service
+
+TRANSPORT:
+[ ] cubana.cu                   - Cubana Airlines
+[ ] aerogaviota.cu              - Gaviota Airlines (military)
+[ ] viazul.cu                   - Viazul Bus
+[ ] transtur.cu                 - Transtur (military transport)
+[ ] ferrocarriles.cu            - Railways
+
+================================================================================
+[06] JUDICIARY / LEGAL
+================================================================================
+Folder: 06_judiciary/
+
+[ ] tsp.gob.cu                  - Supreme Court (Tribunal Supremo Popular)
+[ ] fgr.gob.cu                  - Attorney General (Fiscalia General)
+[ ] parlamentocubano.gob.cu     - National Assembly (Asamblea Nacional)
+[ ] gacetaoficial.gob.cu        - Official Gazette
+[ ] minjus.gob.cu               - Ministry of Justice
+[ ] onbc.cu                     - National Bar Organization
+[ ] notarias.cu                 - Notary services
+[ ] registrocivil.cu            - Civil Registry
+
+================================================================================
+[07] OTHER GOVERNMENT / STATE ENTITIES
+================================================================================
+Folder: 07_other_gov/
+
+STATISTICS / DATA:
+[ ] one.cu                      - National Statistics Office (ONE)
+[ ] onei.gob.cu                 - Statistics and Information Office
+
+BANKING / FINANCE:
+[ ] bc.gob.cu                   - Central Bank of Cuba (BCC)
+[ ] bpa.cu                      - Banco Popular de Ahorro
+[ ] bm.cu                       - Banco Metropolitano
+[ ] bandec.cu                   - Banco de Credito y Comercio
+[ ] bfi.cu                      - Banco Financiero Internacional
+[ ] bicsa.cu                    - BICSA Bank
+
+EMBASSIES / DIPLOMATIC:
+[ ] cubaminrex.cu               - MINREX portal
+[ ] embacuba.cu                 - Cuban embassies
+[ ] misioncuba.cu               - UN Mission
+
+HEALTH / MEDICAL:
+[ ] infomed.sld.cu              - Medical information network
+[ ] sld.cu                      - Health portal
+[ ] biocubafarma.cu             - BioCubaFarma (biotech)
+[ ] cigb.edu.cu                 - Genetic Engineering Center
+[ ] cim.sld.cu                  - Molecular Immunology Center
+[ ] finlay.edu.cu               - Finlay Vaccine Institute
+
+EDUCATION / RESEARCH:
+[ ] cu.cu                       - .cu domain registry info
+[ ] academiaciencias.cu         - Academy of Sciences
+[ ] cnic.cu                     - National Scientific Research Center
+
+TOURISM / COMMERCIAL:
+[ ] cuba.cu                     - Tourism portal
+[ ] cubatur.cu                  - Cubatur travel
+[ ] havanatur.cu                - Havanatur
+[ ] islazul.cu                  - Islazul hotels
+[ ] grancaribe.cu               - Gran Caribe hotels
+[ ] cubancan.cu                 - Cubanacan tourism
+
+================================================================================
+[08] KNOWN IP RANGES / ASNs
+================================================================================
+
+Cuban IP Space (for reference):
+- ASN 27725 - ETECSA
+- ASN 11960 - CITMATEL
+- 152.206.0.0/16 - Primary Cuban IP block
+- 169.158.0.0/16 - Additional allocation
+- 190.6.64.0/18 - ETECSA mobile
+- 181.225.224.0/20 - Additional
+
+================================================================================
+[09] METHODOLOGY NOTES
+================================================================================
+
+PRIORITY ORDER:
+1. Military/Security (03) - Most interesting for research
+2. Presidency/Executive (01) - Decision-making apparatus
+3. State Media (04) - Propaganda infrastructure
+4. Ministries (02) - Government operations
+5. Infrastructure (05) - Technical backbone
+6. Others as time permits
+
+CHECKS PER DOMAIN:
+1. DNS records (A, MX, NS, TXT)
+2. HTTP headers (curl -I)
+3. SSL certificate info
+4. Technology fingerprinting
+5. Open API enumeration
+6. robots.txt / sitemap.xml
+7. WordPress/CMS checks if applicable
+8. Screenshot capture
+
+ACCESSIBILITY NOTES:
+- Some .cu domains may be geo-blocked from US
+- Consider checking from neutral VPN location
+- Document accessibility status for each
+
+================================================================================

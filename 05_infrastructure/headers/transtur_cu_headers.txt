@@ -1,0 +1,13 @@
+HTTP/1.1 502 Bad Gateway
+Server: nginx
+Date: Sun, 11 Jan 2026 19:19:46 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 150
+Connection: keep-alive
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Referrer-Policy: no-referrer-when-downgrade
+Content-Security-Policy: default-src * data: 'unsafe-eval' 'unsafe-inline'
+strict-transport-security: max-age=15768000; includeSubDomains; preload
+

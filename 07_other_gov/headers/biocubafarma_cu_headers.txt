@@ -1,0 +1,33 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 11 Jan 2026 18:56:27 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://www.biocubafarma.cu/
+Server: Microsoft-IIS/11.0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+
+HTTP/1.1 200 OK
+Date: Sun, 11 Jan 2026 18:56:51 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Cache-Control: must-revalidate, no-cache, private
+Content-language: es
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Drupal-Cache-Tags: block_content:1 block_content:2 block_content:3 block_content_view block_view config:block.block.biocubafarma_account_menu config:block.block.biocubafarma_breadcrumbs config:block.block.biocubafarma_content config:block.block.biocubafarma_footer1 config:block.block.biocubafarma_footer2 config:block.block.biocubafarma_footer3 config:block.block.biocubafarma_help config:block.block.biocubafarma_main_menu config:block.block.biocubafarma_messages config:block.block.biocubafarma_page_title config:block.block.biocubafarma_powered config:block.block.biocubafarma_primary_admin_actions config:block.block.biocubafarma_primary_local_tasks config:block.block.biocubafarma_search_form_narrow config:block.block.biocubafarma_search_form_wide config:block.block.biocubafarma_secondary_local_tasks config:block.block.biocubafarma_site_branding config:block.block.biocubafarma_syndicate config:block.block.biocubafarma_views_block__catalogo_de_productos_block_1 config:block.block.biocubafarma_views_block__directivos_block_1 config:block.block.biocubafarma_views_block__empresas_block_1 config:block.block.biocubafarma_views_block__estadisticas_plantillas_bcf_block_1 config:block.block.biocubafarma_views_block__estadisticas_productivas_block_1 config:block.block.biocubafarma_views_block__impactos_block_1 config:block.block.biocubafarma_views_block__noticias_block_1 config:block.block.biocubafarma_views_block__poll_list_block_1 config:block.block.biocubafarma_views_block__quienes_somos_block_1 config:block.block.biocubafarma_views_block__slidershows_block_1 config:block.block.biocubafarma_visitantes config:block_list config:field.storage.node.field_logo_empresa config:filter.format.full_html config:system.menu.main config:system.site config:user.role.anonymous config:views.view.empresas config:views.view.frontpage config:views.view.noticias config:views.view.poll_list file:11 file:13 file:15 file:17 file:19 file:2 file:21 file:23 file:25 file:27 file:29 file:31 file:33 file:35 file:39 file:4 file:41 file:44 file:46 file:48 file:50 file:52 file:54 file:56 file:58 file:6 file:60 file:62 file:8 http_response node:1 node:10 node:11 node:12 node:13 node:14 node:15 node:16 node:17 node:19 node:2 node:20 node:21 node:22 node:23 node:24 node:25 node:26 node:27 node:28 node:29 node:3 node:30 node:399 node:4 node:400 node:403 node:407 node:408 node:5 node:6 node:68 node:69 node:7 node:70 node:71 node:8 node:9 node_list poll:1 poll_list poll_view rendered
+X-Drupal-Cache-Contexts: cookies:big_pipe_nojs languages:language_content languages:language_interface languages:language_url route.menu_active_trails:main session.exists theme url.path url.query_args user.node_grants:view user.permissions user.roles:authenticated
+X-Drupal-Cache-Max-Age: 0 (Uncacheable)
+expires: -1
+Content-Security-Policy: script-src 'self' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://static.addtoany.com https://unpkg.com 'unsafe-inline'; script-src-attr 'self'; frame-ancestors 'self'; report-uri http://www.biocubafarma.cu/es/report-uri/enforce
+Access-Control-Allow-Origin: *
+pragma: no-cache
+Upgrade: h2,h2c
+Content-Security-Policy-Report-Only: default-src 'self'; report-uri https://test.biocubafarma.cu/es/report-uri/enforce
+Server: Microsoft-IIS/11.0
+Set-Cookie: Path=/; HttpOnly; Secure
+

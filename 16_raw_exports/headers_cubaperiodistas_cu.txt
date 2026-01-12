@@ -1,0 +1,16 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Sun, 11 Jan 2026 18:58:56 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Redirect-By: WordPress
+Location: https://www.cubaperiodistas.cu/
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 11 Jan 2026 18:58:58 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Link: <https://www.cubaperiodistas.cu/>; rel=shortlink
+

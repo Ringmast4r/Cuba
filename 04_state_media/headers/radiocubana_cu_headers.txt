@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 12 Jan 2026 00:53:47 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Cache-Control: no-store, no-cache, must-revalidate
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Link: <https://www.radiocubana.cu/wp-json/>; rel="https://api.w.org/"
+Link: <https://www.radiocubana.cu/wp-json/wp/v2/pages/9326>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://www.radiocubana.cu/>; rel=shortlink
+Pragma: no-cache
+Set-Cookie: PHPSESSID=33c820286bacf414f4bb38754b1108b4; path=/
+Strict-Transport-Security: max-age=15768000
+
+=== ANALYSIS ===
+CMS: WordPress (detected via wp-json link)
+Server: nginx
+HSTS: Enabled (15768000 seconds = ~6 months)
+REST API: PROTECTED (returns 401 - good security!)
+
+SSL Certificate:
+  Subject: CN=g.cert.rsa.icrt.cu (shared ICRT wildcard)
+  Issuer: Let's Encrypt R12
+  Valid: Nov 14, 2025 - Feb 12, 2026
+
+Notes:
+- Part of ICRT (Instituto Cubano de Radio y Television)
+- Shares SSL cert with other ICRT properties
+- WordPress REST API properly secured (unlike sld.cu and uh.cu)
+- Founded March 14, 2006
+- Portal for 80+ Cuban radio stations

@@ -1,0 +1,8 @@
+Non-authoritative answer:
+Server:  UnKnown
+Address:  10.2.0.1
+
+Name:    mindus.gob.cu
+Addresses:  190.6.84.218
+	  181.225.233.209
+

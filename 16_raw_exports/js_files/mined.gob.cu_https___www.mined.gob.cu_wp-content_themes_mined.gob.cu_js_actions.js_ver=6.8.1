@@ -1,0 +1,56 @@
+jQuery(document).ready(function($){
+
+    // Body Tag
+    var bodyTag = $("body");
+
+    /*bodyTag.addClass("dots-pattern");*/
+    bodyTag.addClass("with-pattern position-relative");
+
+    // Window Obj
+    var winObj = $(window);
+
+    // Control del estado del buscador.
+    var searchBoxIsOpen = false;
+
+    // Contenedor del Formulario
+    var searchBox = $(".search-box");
+
+    // Menu Search Item
+    var searchLink = $("#menu-main-menu .search a");
+        searchLink.addClass("search-btn-close");
+
+    searchLink.click(function(){
+        if( searchBoxIsOpen ){
+            $(this).removeClass("search-btn-open");
+            $(this).addClass("search-btn-close");
+            searchBox.removeClass("open");
+            searchBox.addClass("close");
+            searchBoxIsOpen = false;
+        } else {
+            $(this).removeClass("search-btn-close");
+            $(this).addClass("search-btn-open");
+            searchBox.removeClass("close");
+            searchBox.addClass("open");
+            searchBoxIsOpen = true;
+        }
+    });
+
+
+
+
+//     //Muestra del títular de noticias
+//     var topTitleFx = $(".top-title-fx");
+//     var scrollValue = 500;
+
+//     winObj.scroll(function(){
+//         if( $(this).scrollTop() > scrollValue && topTitleFx.hasClass("close") ) {
+//             topTitleFx.addClass("open");
+//             topTitleFx.removeClass("close");
+//         } else if( $(this).scrollTop() < scrollValue && topTitleFx.hasClass("open") ) {
+//             topTitleFx.addClass("close");
+//             topTitleFx.removeClass("open");
+//         }
+//     });
+
+
+});

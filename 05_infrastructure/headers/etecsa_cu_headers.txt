@@ -1,0 +1,25 @@
+HTTP/1.1 200 OK
+date: Sun, 11 Jan 2026 18:46:28 GMT
+content-type: text/html; charset=UTF-8
+vary: Accept-Encoding
+x-ua-compatible: IE=edge
+content-language: es
+x-drupal-cache-tags: block_content:1 block_content:4 block_content_view block_view config:block.block.accesibilidad config:block.block.acercadeetecsa config:block.block.alternadordeidioma config:block.block.bloquedecardflotante. config:block.block.bloquedecardflotanteenmovil. config:block.block.bloquedecardflotantepaginasinternas. config:block.block.bloquedeequiposyaccesorios. config:block.block.bloquedeinternetmovil. config:block.block.bloquedenoticias. config:block.block.bloquedenoticias_etecsa config:block.block.bloquedepromocionescortas. config:block.block.bloquedepromocionescortasmovil. config:block.block.bloqueparacompartirelcontenidoenlasredessociales. config:block.block.bloqueparaelasistentevirtual. config:block.block.bloqueparaelcarouseldepromocionesdeetecsa config:block.block.bloqueparaestadodeopinion config:block.block.bloqueparalasrecargasonlineenpersonas. config:block.block.bloqueparalasredessocialesqueaparecenenelfooter. config:block.block.bloqueparalassolucionestecnologicas. config:block.block.bloqueparalasutilidadesenpersonas. config:block.block.bloqueparaloscontactos. config:block.block.bloqueparalosplanesdevisitantes. config:block.block.bloqueparalosserviciosdehospedajeweb. config:block.block.bloqueparalosserviciosyoportunidades. config:block.block.bloqueparaplanesmovilespospagos. config:block.block.bloqueparaplanesmovilestemporales. config:block.block.enlacesdeinteres config:block.block.etecsa_subtheme_breadcrumbs config:block.block.etecsa_subtheme_content config:block.block.etecsa_subtheme_main_menu config:block.block.formulariodeatencionalcliente config:block.block.formulariodecontactos config:block.block.headerblockofetecsasite config:block.block.mensajes config:block.block.navegacionprincipal config:block.block.nuestrosservicios config:block.block.teayudamos config:block.block.terminosylegales config:block.block.views_block__copyrigth_block_1 config:block.block.views_block__mi_empresa_block_1 config:block.block.views_block__ultima_actualizacion_block_1 config:block.block.webform config:block_list config:contact.form.feedback config:contact.settings config:core.entity_form_display.contact_message.feedback.default config:field.field.contact_message.feedback.field_correo_electronico config:field.field.contact_message.feedback.field_nombre config:field.field.contact_message.feedback.field_telefono config:field.storage.contact_message.field_correo_electronico config:field.storage.contact_message.field_nombre config:field.storage.contact_message.field_telefono config:field.storage.node.field_copyright config:field.storage.node.field_mi_empresa config:honeypot.settings config:system.menu.acerca-de-etecsa config:system.menu.enlaces-de-interes config:system.menu.main config:system.menu.nuestros-servicios config:system.menu.te-ayudamos config:system.menu.terminosylegales config:user.role.anonymous config:views.view.copyrigth config:views.view.mi_empresa config:views.view.ultima_actualizacion config:webform.settings config:webform.webform.encuesta http_response node:3 node:4573 node_list rendered webform:encuesta
+x-drupal-cache-contexts: languages:language_interface languages:language_url route theme timezone url.path url.query_args url.site user.node_grants:view user.permissions user.roles:authenticated
+x-drupal-cache-max-age: 0 (Uncacheable)
+expires: -1
+pragma: no-cache
+set-cookie: key=value; path=/; domain=etecsa.cu; HttpOnly=true; Secure=true; SameSite=Strict
+upgrade: h2
+content-security-policy: default-src 'none';font-src 'self'; script-src 'self'; style-src 'self' fonts.googleapis.com 'unsafe-inline';img-src 'self' data:; frame-ancestors 'self';  base-uri 'self'; connect-src 'self';
+set-cookie: SERVERID=www2; path=/; HttpOnly; Secure; SameSite=Strict
+referrer-policy: no-referrer-when-downgrade
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+server: Windows95
+cache-control: no-cache, no-transform
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+permissions-policy: geolocation=(self)
+x-forwarded-for: 107.189.10.175
+

@@ -1,0 +1,15 @@
+HTTP/1.1 403 Forbidden
+Date: Sun, 11 Jan 2026 18:53:32 GMT
+Server: Fotuto
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Expect-CT: enforce, max-age=43200"
+Feature-Policy: fullscreen 'none'
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+Content-Security-Policy: upgrade-insecure-requests;
+Content-Type: text/html; charset=iso-8859-1
+

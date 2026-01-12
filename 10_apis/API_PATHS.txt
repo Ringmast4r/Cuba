@@ -1,0 +1,95 @@
+=== DISCOVERED API ENDPOINTS ===
+Generated: Sun, Jan 11, 2026  2:43:46 PM
+
+=== SLD.CU (Health Network) - WordPress API ===
+Base: https://www.sld.cu/wp-json/
+Endpoints:
+  /wp-json/wp/v2/users - User enumeration (EXPOSED)
+  /wp-json/wp/v2/posts - Posts listing
+  /wp-json/wp/v2/pages - Pages listing
+  /wp-json/wp/v2/categories - Categories
+  /wp-json/wp/v2/tags - Tags
+  /wp-json/wp/v2/media - Media files
+
+=== UH.CU (University of Havana) - WordPress API ===
+Base: https://www.uh.cu/wp-json/
+Endpoints:
+  /wp-json/wp/v2/users - User enumeration (EXPOSED)
+  /wp-json/wp/v2/posts - Posts listing
+  /wp-json/wp/v2/pages - Pages listing
+Plugins detected: Yoast SEO v25.7, Polylang, ACF
+
+=== BC.GOB.CU (Central Bank) - Node.js API ===
+Base: https://api.bc.gob.cu/
+Endpoints tested:
+  / - 404 (root not exposed)
+  /docs - 403 Forbidden (documentation exists but protected)
+  /api - 301 redirect
+  /v1 - 404
+  /health - 404
+  /swagger - 404
+Framework: Express/Node.js (based on response format)
+
+=== MINFAR.GOB.CU (Military) - Drupal JSONAPI ===
+Base: https://minfar.gob.cu/
+Endpoints:
+  /jsonapi - Returns 404 page (protected)
+  /sitemap.xml - Sitemap available
+  /robots.txt - Standard Drupal robots
+  /noticias - News section (200 OK)
+  /videos - Videos section (200 OK)
+  /en - English version (200 OK)
+  /admin - 403 Forbidden
+CMS: Varbase (Drupal distribution)
+
+=== RADIOREBELDE.CU - WordPress API ===
+Base: https://www.radiorebelde.cu/wp-json/
+Endpoints:
+  /wp-json/wp/v2/users - 404 (disabled)
+  /wp-json/wp/v2/pages/49 - Page data available
+Cache: W3 Total Cache 2.8.15
+CDN: Stackpath
+
+=== TRABAJADORES.CU - WordPress API ===
+Base: https://www.trabajadores.cu/wp-json/
+  /wp-json/wp/v2/users - 401 Protected (DRA plugin)
+
+
+=== PCC.CU (Communist Party) - Drupal 10 ===
+Base: https://www.pcc.cu/
+CMS: Drupal 10
+Server: Windows95 (obfuscated)
+Load Balancer: SERVERID=www2
+
+=== PARLAMENTOCUBANO.GOB.CU (National Assembly) ===
+Server: Apache
+Emails found: asambleanacionalpp@anpp.gob.cu, webmaster@anpp.gob.cu
+
+=== ADUANA.GOB.CU (Customs) ===
+PHP: 8.1.20
+Analytics: Google Analytics in CSP header
+Certificate: ETECSA internal CA (idc.enet.cu)
+Email: publico@aduana.gob.cu
+
+=== GRANMA.CU (State Media) ===
+Type: Custom CMS (not WordPress)
+Analytics: G-D39KSEBN9Q
+
+=== ACN.CU (News Agency) ===
+Framework: Laravel
+Email: web@acn.cu
+
+=== JUVENTUDREBELDE.CU ===
+Framework: Laravel
+Frontend: Vue.js
+Load Balancer: SERVERID=wf2
+Session: Laravel session cookie exposed
+Analytics: UA-291893-2
+
+=== CUJAE.EDU.CU (Technical University) ===
+Server: nginx
+Emails: rectorado@tesla.cujae.edu.cu
+
+=== ICS.GOB.CU (Communications Institute) ===
+Redirect from: icrt.gob.cu
+Email: atencion.poblacion@ics.gob.cu

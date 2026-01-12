@@ -1,0 +1,238 @@
+===============================================================================
+                    PERSONAL EMAIL ACCOUNTS ON GOVERNMENT SITES
+===============================================================================
+Generated: January 11, 2026
+Scope: All Cuban government and state entity websites
+
+===============================================================================
+                    1. FINDING SUMMARY
+===============================================================================
+
+Multiple Cuban government websites display personal email addresses
+(Gmail, Yahoo) instead of official government email accounts. This
+represents a security risk and indicates informal IT practices.
+
+SEVERITY: MEDIUM
+IMPACT: Phishing vectors, credential exposure, informal communications
+
+===============================================================================
+                    2. GMAIL ACCOUNTS DISCOVERED (8)
+===============================================================================
+
+EMAIL                          | SOURCE SITE            | CONTEXT
+-------------------------------|------------------------|------------------------
+conectateujc@gmail.com         | ujc.cu                 | UJC official contact
+uneaccuba@gmail.com            | uneac.org.cu           | UNEAC official contact
+lilliamalvarezdiaz@gmail.com   | academiaciencias.cu    | Event organizer
+olgafe@gmail.com               | academiaciencias.cu    | Event contact
+rogialmeida65@gmail.com        | academiaciencias.cu    | Committee organizer
+richard352002@gmail.com        | sld.cu                 | Metadata/author
+rendro87@gmail.com             | radiohc.cu             | JS library credit
+dlamb.open.source@gmail.com    | citmatel.cu            | JS library credit
+
+===============================================================================
+                    3. YAHOO ACCOUNTS DISCOVERED (1)
+===============================================================================
+
+EMAIL                          | SOURCE SITE            | CONTEXT
+-------------------------------|------------------------|------------------------
+hpardo2006@yahoo.es            | academiaciencias.cu    | Event organizer
+
+===============================================================================
+                    4. ANALYSIS BY CATEGORY
+===============================================================================
+
+[4.1] OFFICIAL ORGANIZATION CONTACTS
+----------------------------------------------------------------------
+These Gmail addresses serve as PRIMARY contact for state organizations:
+
+UJC (Youth Communist Union):
+  - conectateujc@gmail.com
+  - Used on official ujc.cu website
+  - Listed as main contact email
+  - Political youth organization
+
+UNEAC (Artists/Writers Union):
+  - uneaccuba@gmail.com
+  - On official uneac.org.cu
+  - Listed in footer contact
+  - Cultural organization
+
+CONCERN: State organizations using free email providers
+         instead of official .cu domains
+
+[4.2] EVENT/CONFERENCE CONTACTS
+----------------------------------------------------------------------
+Academia de Ciencias hosts events with personal email contacts:
+
+  - lilliamalvarezdiaz@gmail.com
+  - olgafe@gmail.com
+  - rogialmeida65@gmail.com
+  - hpardo2006@yahoo.es
+
+These appear to be personal emails of event organizers published
+on official government science academy website.
+
+[4.3] DEVELOPER CREDITS
+----------------------------------------------------------------------
+These emails appear in JavaScript library credits:
+
+  - rendro87@gmail.com (jQuery plugin author)
+  - dlamb.open.source@gmail.com (Blazy.js author)
+
+Lower risk - these are third-party library authors, not Cuban officials.
+However, reveals technology stack choices.
+
+[4.4] METADATA LEAKAGE
+----------------------------------------------------------------------
+richard352002@gmail.com found in sld.cu metadata
+Likely WordPress author email not properly hidden.
+
+===============================================================================
+                    5. SECURITY IMPLICATIONS
+===============================================================================
+
+[5.1] PHISHING RISKS
+----------------------------------------------------------------------
+Personal Gmail/Yahoo accounts are:
+- Not protected by government email security
+- Not monitored by IT security teams
+- Easier to impersonate
+- Subject to credential stuffing from public breaches
+- No organizational access controls
+
+[5.2] SOCIAL ENGINEERING VECTOR
+----------------------------------------------------------------------
+Attackers could:
+1. Find accounts in data breaches
+2. Attempt password recovery
+3. Send phishing from look-alike addresses
+4. Target the individuals directly
+
+[5.3] INFORMAL COMMUNICATION CHANNEL
+----------------------------------------------------------------------
+Use of personal email suggests:
+- Official email may be unreliable
+- IT infrastructure limitations
+- Informal work practices
+- Potential for unmonitored communications
+
+===============================================================================
+                    6. BREACH EXPOSURE CHECK
+===============================================================================
+
+These personal emails should be checked against:
+- HaveIBeenPwned database
+- Leaked credential databases
+- Previous data breaches
+
+If found in breaches, associated passwords may work on other services.
+
+Example breach sources to check:
+- LinkedIn (2012, 2021)
+- Adobe (2013)
+- Collection #1-5 (2019)
+- Facebook (2021)
+- Various combo lists
+
+===============================================================================
+                    7. ORGANIZATIONAL ASSESSMENT
+===============================================================================
+
+[7.1] UJC (YOUTH COMMUNIST UNION)
+----------------------------------------------------------------------
+Profile: Political youth organization
+Gmail: conectateujc@gmail.com
+Assessment: Using free email for political org is unusual
+            May indicate:
+            - Limited IT resources
+            - Need for accessibility
+            - Gmail blocked concerns
+
+[7.2] UNEAC (ARTISTS UNION)
+----------------------------------------------------------------------
+Profile: Cultural/artistic organization
+Gmail: uneaccuba@gmail.com
+Assessment: Artists organization using accessible platform
+            Gmail provides international accessibility
+            May be intentional for foreign contacts
+
+[7.3] ACADEMIA DE CIENCIAS
+----------------------------------------------------------------------
+Profile: National Academy of Sciences
+Multiple personal emails for events
+Assessment: Event organizers using personal accounts
+            Poor separation of official/personal
+            Conference registration through personal email
+
+===============================================================================
+                    8. PROPER VS IMPROPER EXAMPLES
+===============================================================================
+
+IMPROPER (Found):
+  Contact: conectateujc@gmail.com
+  Issue: Government org using free provider
+
+PROPER (Expected):
+  Contact: contacto@ujc.cu
+  Benefit: Official domain, IT oversight, professional
+
+IMPROPER (Found):
+  Event contact: lilliamalvarezdiaz@gmail.com
+  Issue: Personal email on official gov site
+
+PROPER (Expected):
+  Event contact: eventos@academiaciencias.cu
+  Benefit: Role-based, no personal exposure
+
+===============================================================================
+                    9. INTELLIGENCE VALUE
+===============================================================================
+
+[9.1] INDIVIDUAL IDENTIFICATION
+----------------------------------------------------------------------
+Personal emails reveal:
+- Real names (lilliamalvarezdiaz)
+- Birth years (hpardo2006, richard352002)
+- Name patterns (first name + numbers)
+- Personal information
+
+[9.2] TARGETING POTENTIAL
+----------------------------------------------------------------------
+Identified individuals can be:
+- Researched on social media
+- Cross-referenced with other sources
+- Targeted for recruitment
+- Subject to social engineering
+
+[9.3] ORGANIZATIONAL INSIGHTS
+----------------------------------------------------------------------
+Personal email use indicates:
+- IT infrastructure limitations
+- Informal organizational culture
+- Possible email deliverability issues
+- Need for international accessibility
+
+===============================================================================
+                    10. STATISTICS
+===============================================================================
+
+Total personal emails found:        9
+Gmail accounts:                     8
+Yahoo accounts:                     1
+Used as official org contact:       2
+Used for events/conferences:        4
+Developer/library credits:          2
+Metadata leakage:                   1
+
+Government sites with personal emails:
+- ujc.cu
+- uneac.org.cu
+- academiaciencias.cu
+- sld.cu
+- radiohc.cu
+- citmatel.cu
+
+===============================================================================
+                         END OF ANALYSIS
+===============================================================================

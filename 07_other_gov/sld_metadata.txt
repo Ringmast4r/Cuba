@@ -1,0 +1,6 @@
+=== SLD METADATA ===
+Server: nginx
+CMS: WordPress
+API: /wp-json/wp/v2/
+Security: HSTS, CSP, CORS enabled
+Personal email found: richard352002@gmail.com

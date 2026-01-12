@@ -1,0 +1,112 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            05:8d:18:34:c5:fa:8a:04:c1:81:a5:18:c3:27:78:25:8f:8c
+        Signature Algorithm: ecdsa-with-SHA384
+        Issuer: C=US, O=Let's Encrypt, CN=E8
+        Validity
+            Not Before: Dec 31 13:32:40 2025 GMT
+            Not After : Mar 31 13:32:39 2026 GMT
+        Subject: CN=*.uh.cu
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (256 bit)
+                pub:
+                    04:c8:8f:ef:48:32:9c:9c:47:3d:86:f8:dd:0d:3e:
+                    a3:4a:af:54:1c:18:ed:54:2e:b5:f5:5a:f1:c4:6a:
+                    ea:77:ba:38:4c:2a:b1:1a:55:9a:d6:c0:6b:a6:65:
+                    86:8a:4e:d4:08:a0:8f:d1:d3:98:9a:10:fa:2d:cd:
+                    b3:71:12:30:ff
+                ASN1 OID: prime256v1
+                NIST CURVE: P-256
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Digital Signature
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                62:35:4C:2A:0F:A4:1A:65:59:74:EF:E7:B7:88:2C:CD:DA:AC:10:C1
+            X509v3 Authority Key Identifier: 
+                8F:0D:13:A2:F6:2E:7E:D1:50:6C:33:18:38:5D:59:8E:23:72:91:CA
+            Authority Information Access: 
+                CA Issuers - URI:http://e8.i.lencr.org/
+            X509v3 Subject Alternative Name: 
+                DNS:*.accesoabierto.uh.cu, DNS:*.biblioteca.uh.cu, DNS:*.biomat.uh.cu, DNS:*.ceap.uh.cu, DNS:*.cedem.uh.cu, DNS:*.ceec.uh.cu, DNS:*.cehseu.uh.cu, DNS:*.cepes.uh.cu, DNS:*.ceted.uh.cu, DNS:*.ciei.uh.cu, DNS:*.cim.uh.cu, DNS:*.derma.uh.cu, DNS:*.dict.uh.cu, DNS:*.direco.uh.cu, DNS:*.eventos.uh.cu, DNS:*.fayl.uh.cu, DNS:*.fbio.uh.cu, DNS:*.fcf.uh.cu, DNS:*.fcom.uh.cu, DNS:*.fec.uh.cu, DNS:*.fenhi.uh.cu, DNS:*.ffh.uh.cu, DNS:*.fisica.uh.cu, DNS:*.flacso.uh.cu, DNS:*.flex.uh.cu, DNS:*.fototeca.uh.cu, DNS:*.fq.uh.cu, DNS:*.ftur.uh.cu, DNS:*.fundacion.uh.cu, DNS:*.geo.uh.cu, DNS:*.ifal.uh.cu, DNS:*.imre.uh.cu, DNS:*.instec.uh.cu, DNS:*.iris.uh.cu, DNS:*.isdi.uh.cu, DNS:*.jbn.uh.cu, DNS:*.lab.matcom.uh.cu, DNS:*.lex.uh.cu, DNS:*.lists.uh.cu, DNS:*.matcom.uh.cu, DNS:*.prociencia.uh.cu, DNS:*.psico.uh.cu, DNS:*.rect.uh.cu, DNS:*.revistas.uh.cu, DNS:*.sic.uh.cu, DNS:*.uh.cu
+            X509v3 Certificate Policies: 
+                Policy: 2.23.140.1.2.1
+            X509v3 CRL Distribution Points: 
+                Full Name:
+                  URI:http://e8.c.lencr.org/13.crl
+
+            CT Precertificate SCTs: 
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : 64:11:C4:6C:A4:12:EC:A7:89:1C:A2:02:2E:00:BC:AB:
+                                4F:28:07:D4:1E:35:27:AB:EA:FE:D5:03:C9:7D:CD:F0
+                    Timestamp : Dec 31 14:31:10.167 2025 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:45:02:21:00:ED:94:DD:2E:30:2C:16:93:6D:E0:C3:
+                                D3:DF:62:BF:7E:1A:21:AA:C3:15:49:A8:5E:09:A8:8E:
+                                C1:F3:40:48:AE:02:20:33:85:90:83:5B:9F:04:BC:DF:
+                                13:0D:4E:BF:85:ED:43:A0:CF:64:A4:C5:75:32:E6:95:
+                                66:D9:03:FA:C1:E8:2A
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : 71:7E:95:F3:C2:38:8A:6D:B1:E3:84:49:3D:31:E1:5A:
+                                A9:62:08:76:2D:42:00:E0:05:0C:D0:67:B5:A6:61:E2
+                    Timestamp : Dec 31 14:31:10.307 2025 GMT
+                    Extensions: 00:00:05:00:05:AA:F6:83
+                    Signature : ecdsa-with-SHA256
+                                30:44:02:20:36:59:68:84:A3:99:A6:84:CF:8D:17:ED:
+                                54:7C:CF:FC:73:2D:F1:E0:AC:9A:8F:31:84:1F:24:D2:
+                                74:35:FD:06:02:20:7F:9D:61:39:1C:21:14:07:76:11:
+                                95:B4:D1:4C:ED:5A:70:85:CA:5D:45:C4:58:0F:41:0A:
+                                A7:20:AE:60:9E:10
+    Signature Algorithm: ecdsa-with-SHA384
+    Signature Value:
+        30:65:02:30:06:dc:e1:85:92:23:c9:42:99:1a:13:64:f5:46:
+        0c:c5:b7:c9:df:fa:85:68:a2:ae:a2:00:cd:a9:4d:0f:46:01:
+        90:41:9b:00:8e:f5:c6:7d:21:35:9b:cb:0e:32:61:69:02:31:
+        00:b1:b1:04:c3:6e:24:70:2a:35:64:d2:da:e5:d9:ba:c8:4c:
+        24:01:b8:40:1a:0e:35:46:78:1c:f8:1e:0e:fd:36:ff:18:7e:
+        c3:4a:b5:de:37:f1:7f:7b:46:61:c8:59:70
+-----BEGIN CERTIFICATE-----
+MIIGNDCCBbqgAwIBAgISBY0YNMX6igTBgaUYwyd4JY+MMAoGCCqGSM49BAMDMDIx
+CzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJF
+ODAeFw0yNTEyMzExMzMyNDBaFw0yNjAzMzExMzMyMzlaMBIxEDAOBgNVBAMMByou
+dWguY3UwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAATIj+9IMpycRz2G+N0NPqNK
+r1QcGO1ULrX1WvHEaup3ujhMKrEaVZrWwGumZYaKTtQIoI/R05iaEPotzbNxEjD/
+o4IEzjCCBMowDgYDVR0PAQH/BAQDAgeAMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggr
+BgEFBQcDAjAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBRiNUwqD6QaZVl07+e3iCzN
+2qwQwTAfBgNVHSMEGDAWgBSPDROi9i5+0VBsMxg4XVmOI3KRyjAyBggrBgEFBQcB
+AQQmMCQwIgYIKwYBBQUHMAKGFmh0dHA6Ly9lOC5pLmxlbmNyLm9yZy8wggLCBgNV
+HREEggK5MIICtYIVKi5hY2Nlc29hYmllcnRvLnVoLmN1ghIqLmJpYmxpb3RlY2Eu
+dWguY3WCDiouYmlvbWF0LnVoLmN1ggwqLmNlYXAudWguY3WCDSouY2VkZW0udWgu
+Y3WCDCouY2VlYy51aC5jdYIOKi5jZWhzZXUudWguY3WCDSouY2VwZXMudWguY3WC
+DSouY2V0ZWQudWguY3WCDCouY2llaS51aC5jdYILKi5jaW0udWguY3WCDSouZGVy
+bWEudWguY3WCDCouZGljdC51aC5jdYIOKi5kaXJlY28udWguY3WCDyouZXZlbnRv
+cy51aC5jdYIMKi5mYXlsLnVoLmN1ggwqLmZiaW8udWguY3WCCyouZmNmLnVoLmN1
+ggwqLmZjb20udWguY3WCCyouZmVjLnVoLmN1gg0qLmZlbmhpLnVoLmN1ggsqLmZm
+aC51aC5jdYIOKi5maXNpY2EudWguY3WCDiouZmxhY3NvLnVoLmN1ggwqLmZsZXgu
+dWguY3WCECouZm90b3RlY2EudWguY3WCCiouZnEudWguY3WCDCouZnR1ci51aC5j
+dYIRKi5mdW5kYWNpb24udWguY3WCCyouZ2VvLnVoLmN1ggwqLmlmYWwudWguY3WC
+DCouaW1yZS51aC5jdYIOKi5pbnN0ZWMudWguY3WCDCouaXJpcy51aC5jdYIMKi5p
+c2RpLnVoLmN1ggsqLmpibi51aC5jdYISKi5sYWIubWF0Y29tLnVoLmN1ggsqLmxl
+eC51aC5jdYINKi5saXN0cy51aC5jdYIOKi5tYXRjb20udWguY3WCEioucHJvY2ll
+bmNpYS51aC5jdYINKi5wc2ljby51aC5jdYIMKi5yZWN0LnVoLmN1ghAqLnJldmlz
+dGFzLnVoLmN1ggsqLnNpYy51aC5jdYIHKi51aC5jdTATBgNVHSAEDDAKMAgGBmeB
+DAECATAtBgNVHR8EJjAkMCKgIKAehhxodHRwOi8vZTguYy5sZW5jci5vcmcvMTMu
+Y3JsMIIBCwYKKwYBBAHWeQIEAgSB/ASB+QD3AHYAZBHEbKQS7KeJHKICLgC8q08o
+B9QeNSer6v7VA8l9zfAAAAGbdNHgVwAABAMARzBFAiEA7ZTdLjAsFpNt4MPT32K/
+fhohqsMVSaheCaiOwfNASK4CIDOFkINbnwS83xMNTr+F7UOgz2SkxXUy5pVm2QP6
+wegqAH0AcX6V88I4im2x44RJPTHhWqliCHYtQgDgBQzQZ7WmYeIAAAGbdNHg4wAI
+AAAFAAWq9oMEAwBGMEQCIDZZaISjmaaEz40X7VR8z/xzLfHgrJqPMYQfJNJ0Nf0G
+AiB/nWE5HCEUB3YRlbTRTO1acIXKXUXEWA9BCqcgrmCeEDAKBggqhkjOPQQDAwNo
+ADBlAjAG3OGFkiPJQpkaE2T1RgzFt8nf+oVooq6iAM2pTQ9GAZBBmwCO9cZ9ITWb
+yw4yYWkCMQCxsQTDbiRwKjVk0trl2brITCQBuEAaDjVGeBz4Hg79Nv8YfsNKtd43
+8X97RmHIWXA=
+-----END CERTIFICATE-----

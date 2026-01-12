@@ -1,0 +1,255 @@
+﻿// jQuery('.custom2 .views-row').css({'display': 'none'})
+jQuery(document).ready(function () {
+    //Inicializando la galeria baguetteBox
+    baguetteBox.run('.tz-gallery');
+
+    //Inicializando la libreria wow
+    new WOW().init();
+
+//owl-carousel
+
+    jQuery('.custom2').owlCarousel({
+        animateOut: 'slideOutRight',
+        animateIn: 'slideInLeft',
+        items: 1,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true,
+        smartSpeed: 1000,
+        loadingClass: 'cargando'
+    });
+    jQuery('.custom3').owlCarousel({
+        animateOut: 'slideOutRight',
+        animateIn: 'slideInLeft',
+        items: 2,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true,
+        smartSpeed: 1000,
+        responsive:{
+            0:{
+                items:1
+            },
+            480:{
+                items:1
+            },
+            678:{
+                items:1
+            },
+            768:{
+                items:1
+            },
+            920:{
+                items:2
+            },
+            1300:{
+                items:2
+            },
+        }
+    });
+    jQuery('.custom4').owlCarousel({
+        animateOut: 'slideOutRight',
+        animateIn: 'slideInLeft',
+        items: 5,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true,
+        smartSpeed: 1000
+    });
+
+//Resolver prolema de imagenes en el owl ,que salian una debajo de la otra y se demoraan en juntarse
+    jQuery('.owl-carousel.custom2').css({'opacity': '1'})
+
+    //placeholder
+
+
+    jQuery('#comment-form .form-item-field-nombre-0-value .form-text').attr('placeholder', Drupal.t('Name *'));
+    jQuery('#comment-form .form-textarea').attr('placeholder', Drupal.t('Comment *'));
+    jQuery('#comment-form .form-item-field-correo-electronico-0-value .form-email').attr('placeholder', Drupal.t('Email *'));
+
+    jQuery('#block-simplenewssubscription .js-form-item.form-item.js-form-type-email.form-item-mail-0-value.js-form-item-mail-0-value .form-email').attr('placeholder', Drupal.t('Email *'));
+
+
+    jQuery('#block-simplenewssubscription form').attr('novalidate', 'novalidate');
+    jQuery('#contact-message-feedback-form').attr('novalidate', 'novalidate');
+    jQuery('#search-block-form').attr('novalidate', 'novalidate');
+
+    jQuery('html[lang = "es"] #contact-message-feedback-form .js-form-item.form-item.js-form-type-textfield.form-item-name.js-form-item-name .form-text').attr('placeholder', "Su nombre *");
+    jQuery('html[lang = "en"] #contact-message-feedback-form .js-form-item.form-item.js-form-type-textfield.form-item-name.js-form-item-name .form-text').attr('placeholder', "Your name *");
+    jQuery('html[lang = "es"] #contact-message-feedback-form .js-form-item.form-item.js-form-type-email.form-item-mail.js-form-item-mail .form-email').attr('placeholder', 'Su dirección de correo electrónico *');
+    jQuery('html[lang = "en"] #contact-message-feedback-form .js-form-item.form-item.js-form-type-email.form-item-mail.js-form-item-mail .form-email').attr('placeholder', 'Your email *');
+    jQuery('html[lang = "es"] #contact-message-feedback-form .js-form-item.form-item.js-form-type-textarea.form-item-message-0-value.js-form-item-message-0-value .form-textarea').attr('placeholder', 'Su mensaje *');
+    jQuery('html[lang = "en"] #contact-message-feedback-form .js-form-item.form-item.js-form-type-textarea.form-item-message-0-value.js-form-item-message-0-value .form-textarea').attr('placeholder', 'Your message *');
+    jQuery('html[lang = "en"] #contact-message-feedback-form .js-form-item.form-item.js-form-type-textfield.form-item-subject-0-value.js-form-item-subject-0-value .form-text').attr('placeholder', 'Subject *');
+    jQuery('html[lang = "en"] #contact-message-feedback-form .js-form-item.form-item.js-form-type-textfield.form-item-subject-0-value.js-form-item-subject-0-value .form-text').attr('placeholder', 'Asunto *');
+
+
+    jQuery('#user-login-form .js-form-item.form-item.js-form-type-textfield.form-item-name.js-form-item-name .form-text').attr('placeholder', Drupal.t('User name *'));
+    jQuery('#user-login-form .js-form-item.form-item.js-form-type-password.form-item-pass.js-form-item-pass .form-text').attr('placeholder', Drupal.t('Pass *'));
+    jQuery('#user-pass .js-form-item.form-item.js-form-type-textfield.form-item-name.js-form-item-name .form-text').attr('placeholder', Drupal.t('Your name o email *'));
+
+    jQuery('#edit-advanced .form-item-or .form-text').attr('placeholder', jQuery('#edit-advanced .form-item-or label').html());
+    jQuery('#edit-advanced .form-item-negative .form-text').attr('placeholder', jQuery('#edit-advanced .form-item-negative label').html());
+    jQuery('#edit-advanced .form-item-phrase .form-text').attr('placeholder', jQuery('#edit-advanced .form-item-phrase label').html());
+
+    jQuery('#edit-help-link ').html(Drupal.t('Search help'));
+    jQuery('#edit-submit-documentos .form-submit ').html(Drupal.t('Apply'));
+
+    //Cambio de la palabra Rerirar comentario de la publicacion
+    jQuery('.path-admin #views-exposed-form-comment-page-published .js-form-item.form-item.js-form-type-select.form-type-select.js-form-item-action.form-item-action .form-select option:nth-child(2)').html(Drupal.t("Remove comment publication"));
+
+
+
+
+
+
+
+});
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+jQuery(document).ready(function () {
+
+    var nav = jQuery('header');
+    console.log(nav);
+    jQuery(window).scroll(function () {
+        if (jQuery(window).scrollTop() > 10) {
+            nav.addClass("header-2");
+
+
+        } else {
+            nav.removeClass("header-2");
+
+
+        }
+    });
+
+
+});
+
+//Galeria
+jQuery(document).ready(function () {
+
+
+    jQuery('.w-icon-lupa a').click( function () {
+        var parent = jQuery(this).parents('div.w-views-galery-row')
+console.log(parent)
+        var imgBlack = parent.find('.w-icon-lupa');
+        console.log(parent)
+        var textGalery = parent.find('.w-views-content-event .views-field.views-field-title');
+        var textContentGalery = parent.find('.w-views-content-event ');
+
+        imgBlack.addClass('w-img-black')
+        jQuery('.w-icon-lupa a').css('display', 'none')
+        textGalery.css('display', 'block')
+        textContentGalery.css('display', 'flex')
+    })
+    jQuery('.w-views-galery-row').on( "mouseleave", function() {
+        var parent = jQuery(this)
+
+        var imgBlack = parent.find('.w-icon-lupa');
+        var textGalery = parent.find('.w-views-content-event .views-field.views-field-title');
+        var textContentGalery = parent.find('.w-views-content-event ');
+
+        imgBlack.removeClass('w-img-black')
+        jQuery('.w-icon-lupa a').css('display', 'flex')
+        textGalery.css('display', 'none')
+        textContentGalery.css('display', 'none')
+
+
+    });
+});
+//Buscar hover
+jQuery(document).ready(function () {
+
+    var lupa = jQuery('#search-block-form .form-actions');
+    var lupadoc = jQuery('#views-exposed-form-documentos-page-1 .form-actions');
+    var lupaleg1 = jQuery('#views-exposed-form-legislaciones-page-1 .form-actions');
+    var lupaleg2 = jQuery('#views-exposed-form-legislaciones-page-2 .form-actions');
+    var lupaleg3 = jQuery('#views-exposed-form-legislaciones-page-3 .form-actions');
+    var lupaleg4 = jQuery('#views-exposed-form-legislaciones-page-4 .form-actions');
+    var lupaleg5 = jQuery('#views-exposed-form-legislaciones-page-5 .form-actions');
+
+    lupa.hover(function() {
+        jQuery('#search-block-form .form-search').addClass('input-active')
+        jQuery('#search-block-form .form-search').focus()
+    });
+
+    jQuery('#search-block-form .form-search').on('blur', function (ev) {
+        jQuery(this).removeClass('input-active')
+        setTimeout(function () {
+            jQuery('#search-block-form .form-search').val('')
+        },200)
+    })
+
+    lupa.click(function (ev) {
+        jQuery('#search-block-form').submit()
+
+    })
+    lupadoc.click(function (ev) {
+      jQuery('#views-exposed-form-documentos-page-1').submit()
+    })
+    lupaleg1.click(function (ev) {
+        jQuery('#views-exposed-form-legislaciones-page-1').submit()
+    })
+    lupaleg2.click(function (ev) {
+        jQuery('#views-exposed-form-legislaciones-page-2').submit()
+    })
+    lupaleg3.click(function (ev) {
+        jQuery('#views-exposed-form-legislaciones-page-3').submit()
+    })
+    lupaleg4.click(function (ev) {
+        jQuery('#views-exposed-form-legislaciones-page-4').submit()
+    })
+    lupaleg5.click(function (ev) {
+        jQuery('#views-exposed-form-legislaciones-page-5').submit()
+    })
+
+
+});
+
+//Nuestra historia
+
+jQuery(document).ready(function () {
+
+    var year = jQuery('.views-field.views-field-field-fecha a');
+    year.on('click',function(ev){
+        ev.preventDefault()
+        ev.stopPropagation()
+        //console.log(jQuery(this));
+        //console.log(jQuery(this).find("time"));
+        //console.log(jQuery(this).find("time").attr('datetime'));
+        var datetime=jQuery(this).find("time").attr('datetime')
+
+        var contentTime = jQuery('.w-views-nuestra-hist-row .views-field.views-field-field-fecha .field-content time[datetime="'+datetime+'"]')
+
+        jQuery('.w-views-nuestra-hist-row').addClass('d-none')
+        contentTime.parents('.w-views-nuestra-hist-row').removeClass('d-none')
+
+    })
+});
+jQuery(document).ready(function () {
+// When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+});
+//console.log('fdfdfd')
+// jQuery(document).ready(function () {
+// // show carraousel images
+//     jQuery('.custom2 .views-row').css({'display': 'block'})
+//     console.log('cargado13')
+// });

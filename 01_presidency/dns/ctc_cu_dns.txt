@@ -1,0 +1,8 @@
+Non-authoritative answer:
+Server:  UnKnown
+Address:  10.2.0.1
+
+Name:    ctc.cu
+Addresses:  190.92.127.212
+	  190.92.127.211
+

@@ -1,0 +1,27 @@
+HTTP/1.1 302 Found
+date: Sun, 11 Jan 2026 18:42:39 GMT
+location: /es/
+vary: Cookie
+x-content-type-options: nosniff
+referrer-policy: same-origin
+content-type: text/html; charset=utf-8
+x-server: Unix-Security-Kernel
+x-frame-options: sameorigin
+x-xss-protection: 1; mode=block
+strict-transport-security: max-age=16000000; includeSubDomains; preload;
+
+HTTP/1.1 200 OK
+date: Sun, 11 Jan 2026 18:40:31 GMT
+vary: Cookie,Origin,Accept-Encoding
+content-length: 79911
+content-language: es
+x-content-type-options: nosniff
+referrer-policy: same-origin
+content-type: text/html; charset=utf-8
+set-cookie: django_language=es; expires=Mon, 11 Jan 2027 18:40:32 GMT; Max-Age=31536000; Path=/
+set-cookie: csrftoken=tsDDzhGV4xTHo59gbhicwq0PFBbNNRAXt4peXpcwp7ro3gXSEYjQmDPUx66dQ7kX; expires=Sun, 10 Jan 2027 18:40:32 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+x-server: Unix-Security-Kernel
+x-frame-options: sameorigin
+x-xss-protection: 1; mode=block
+strict-transport-security: max-age=16000000; includeSubDomains; preload;
+

@@ -1,0 +1,24 @@
+=== UH.CU WORDPRESS USERS (University of Havana) ===
+Site: www.uh.cu (Universidad de La Habana)
+Enumeration Method: WP REST API + Author ID Brute Force
+Date: January 11, 2026
+Total Users: 5
+
+ID  | Username         | Display Name  | Gravatar SHA256 Hash
+----|------------------|---------------|--------------------------------------------------------------
+1   | gsiuh            | gsiuh         | 2fbaf4a7c4b2b0e445a0bb4d598b29e0bb1103034f4a287c26f2f88f6190b4d3
+5   | seginf           | SegInf        | 9ac87529716c8334044d17c229a94a6b953f38cdff7e7c40fcdec1b373093b13
+6   | adminnodo        | AdminNodo     | c329a52b275f3338636c80a815b897fc86a7205a1eca27e0b01d6fb1a6c99fe3
+8   | taniarect-uh-cu  | Tania Ortiz   | 550509f315c937adf01f2b309be07e9c5a83937b979741e3ab980030d4f3904a
+9   | egutsens         | egutsens      | (unable to retrieve - author page returns no gravatar)
+
+Social Media: @UdeLaHabana (Twitter/X)
+Plugins Detected: Yoast SEO v25.7, Polylang, ACF
+
+Notes:
+- Username patterns suggest organizational structure:
+  - gsiuh: Possibly "Grupo de Sistemas de Informacion UH"
+  - seginf: "Seguridad Informatica" (IT Security)
+  - adminnodo: Network administrator
+  - taniarect-uh-cu: Personal email as username (email exposed in slug)
+- Users 2,3,4,7 do not exist (deleted or never created)

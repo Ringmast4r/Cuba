@@ -1,0 +1,26 @@
+HTTP/1.1 302 Found
+Cache-Control: no-cache
+Content-length: 0
+Location: https://www.acn.cu/
+
+HTTP/1.1 200 OK
+Date: Sun, 11 Jan 2026 18:46:28 GMT
+Expires: Wed, 17 Aug 2005 00:00:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Last-Modified: Sun, 11 Jan 2026 18:46:28 GMT
+Content-Type: text/html; charset=utf-8
+Set-Cookie: 2c1ca5fa0be3b4d4f4863f0d12d1f09b=tn8qk0a4q303vnmepkrof7509d; path=/; HttpOnly;HttpOnly;Secure; SameSite=Lax; Secure; HttpOnly
+Set-Cookie: ROUTEID=.wb4; path=/; SameSite=Lax; Secure; HttpOnly
+Access-Control-Allow-Origin: www.acn.cu
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Authorization, JSNLog-RequestId, activityId, applicationId, applicationUserId, channelId, senderId, sessionId
+Access-Control-Max-Age: 3628800
+Access-Control-Allow-Methods: GET, DELETE, OPTIONS, POST, PUT
+Strict-Transport-Security: max-age=31536000; preload
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Security-Policy: upgrade-insecure-requests
+Content-Security-Policy: upgrade-insecure-requests
+Set-Cookie: SERVERID=wf2; path=/; HttpOnly; Secure
+

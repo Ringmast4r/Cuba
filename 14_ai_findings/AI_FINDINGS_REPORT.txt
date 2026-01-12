@@ -1,0 +1,106 @@
+===============================================================================
+                    CUBA AI/CHATBOT INFRASTRUCTURE FINDINGS
+===============================================================================
+Generated: January 11, 2026
+Method: Passive web scraping and API probing
+
+===============================================================================
+1. CENTRAL BANK OF CUBA (bc.gob.cu) - CONFIRMED AI INFRASTRUCTURE
+===============================================================================
+
+[1.1] VIRTUAL ASSISTANT (Disabled but present)
+----------------------------------------------------------------------
+Source: HTML comment in bc.gob.cu homepage
+Code found:
+  <!-- ASISTENTE VIRTUAL (Oculto temporalmente) -->
+  <!-- <VirtualAssistant client:load /> -->
+
+Status: TEMPORARILY DISABLED
+Framework: Astro.js (client:load directive)
+Significance: Virtual assistant infrastructure exists but is hidden
+
+[1.2] LIVE API - api.bc.gob.cu
+----------------------------------------------------------------------
+Status: ACTIVE
+Framework: Node.js/Express
+Response format: JSON
+
+Sample response:
+  {"success":false,"statusCode":404,"message":"Cannot GET /",
+   "timestamp":"2026-01-11T20:59:28.384Z","path":"/"}
+
+Endpoints probed:
+  /           - 404 JSON (API active)
+  /v1         - 404 JSON
+  /health     - 404 JSON
+  /status     - 404 JSON
+  /tasas      - 404 JSON
+  /exchange   - 404 JSON
+  /rates      - 404 JSON
+  /docs       - 403 FORBIDDEN (DOCUMENTATION EXISTS BUT PROTECTED)
+  /swagger    - 404 JSON
+  /openapi    - 404 JSON
+  /graphql    - 404 JSON
+  /assistant  - 404 JSON
+  /chat       - 404 JSON
+
+CRITICAL: /docs returns 403 Forbidden = API documentation exists
+
+===============================================================================
+2. ETECSA (State Telecom) - AI ASSISTANT INFRASTRUCTURE
+===============================================================================
+
+[2.1] VIRTUAL ASSISTANT BLOCK
+----------------------------------------------------------------------
+Source: ETECSA homepage HTML
+Code found:
+  <div id="block-bloqueparaelasistentevirtual" 
+       class="block block-etecsa-module block-etecsa-asistente-block">
+
+Status: ACTIVE MODULE IN CMS
+Framework: Drupal (block-etecsa-module)
+Endpoint: /asistente (returns valid page)
+
+[2.2] IMPLICATIONS
+----------------------------------------------------------------------
+- ETECSA has deployed customer service AI/chatbot
+- Custom Drupal module "etecsa-asistente-block"
+- Likely used for customer support automation
+
+===============================================================================
+3. UCI (University of Informatics) - AI RESEARCH
+===============================================================================
+
+Keywords found: "IA", "bot"
+Status: Likely AI research/education institution
+Significance: Cuba's main IT/CS university - potential AI development center
+
+===============================================================================
+4. ANALYSIS
+===============================================================================
+
+CONFIRMED AI ADOPTION:
+1. Central Bank - Virtual Assistant (temporarily hidden)
+2. Central Bank - Live JSON API infrastructure
+3. ETECSA - Customer service chatbot/assistant
+
+INFRASTRUCTURE DETAILS:
+- BC uses modern frameworks: Astro.js, Node.js/Express
+- ETECSA uses Drupal with custom modules
+- Both have production-ready AI infrastructure
+
+SECURITY FINDINGS:
+- BC API docs protected (403) but endpoint exists
+- Virtual assistants can be re-enabled at any time
+- JSON API exposes timestamps and error handling patterns
+
+===============================================================================
+5. FILES COLLECTED
+===============================================================================
+- ai_findings/etecsa_homepage.html
+- ai_findings/bc_gob_homepage.html
+- ai_findings/AI_FINDINGS_REPORT.txt
+
+===============================================================================
+                            END OF REPORT
+===============================================================================

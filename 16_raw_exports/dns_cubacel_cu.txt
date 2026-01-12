@@ -1,0 +1,12 @@
+*** Request to UnKnown timed-out
+Server:  UnKnown
+Address:  10.2.0.1
+
+DNS request timed out.
+    timeout was 2 seconds.
+DNS request timed out.
+    timeout was 2 seconds.
+DNS request timed out.
+    timeout was 2 seconds.
+DNS request timed out.
+    timeout was 2 seconds.

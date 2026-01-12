@@ -1,0 +1,31 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 11 Jan 2026 19:10:30 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://www.cnic.cu/
+Server: Microsoft-IIS/11.0
+
+HTTP/1.1 200 OK
+Date: Sun, 11 Jan 2026 19:10:33 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+X-Drupal-Cache: HIT
+Etag: "1768150310-0"
+X-Frame-Options: SameOrigin
+Content-Language: es
+Link: <https://www.cnic.cu/es>; rel="canonical",<https://www.cnic.cu/es>; rel="shortlink"
+Cache-Control: public, max-age=0
+Last-Modified: Sun, 11 Jan 2026 16:51:50 GMT
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie
+Vary: Accept-Encoding
+X-Frame-Options: SameOrigin
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-XSS-Protection: 1; mode=block
+x-content-type-options: nosniff
+Pragma: no-cache
+Cache-Control: no-store, no-cache, must-revalidate
+Server: Microsoft-IIS/11.0
+Front-End-Https: on
+

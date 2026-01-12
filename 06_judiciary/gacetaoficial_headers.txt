@@ -1,0 +1,10 @@
+HTTP/1.1 403 Forbidden
+Server: nginx
+Date: Sun, 11 Jan 2026 19:27:31 GMT
+Content-Type: text/html
+Content-Length: 146
+Connection: keep-alive
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Referrer-Policy: strict-origin-when-cross-origin
+

@@ -1,0 +1,28 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 11 Jan 2026 18:53:38 GMT
+Server: Apache/2.4.56 (Debian)
+Location: https://www.trabajadores.cu/
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 200 OK
+Date: Sun, 11 Jan 2026 18:53:41 GMT
+Server: Apache/2.4.56 (Debian)
+X-XSS-Protection: 1; mode=block
+x-Frame-Options: SAMEORIGIN, SAMEORIGIN
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin
+Permissions-Policy: vibrate(self), usermedia(*), microphone(none), payment(none), sync-xhr(self 'https://www.trabajadores.cu')
+Upgrade: h2,h2c
+Connection: Upgrade
+Link: <https://www.trabajadores.cu/>; rel=shortlink
+Access-Control-Allow-Origin: https://www.trabajadores.cu
+X-Permitted-Cross-Domain-Policies: none
+Access-Control-Allow-Methods: GET, POST
+Access-Control-Allow-Headers: Origin, X-Requested-With, Accept
+Access-Control-Allow-Credentials: true
+Access-Control-Max-Age: 300
+Content-Security-Policy: base-uri 'self'; frame-ancestors 'self'
+X-XSS-Protection: 1; mode=block
+Referrer-Policy: origin
+Content-Type: text/html; charset=UTF-8
+

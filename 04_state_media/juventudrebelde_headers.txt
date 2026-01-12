@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Date: Sun, 11 Jan 2026 19:26:35 GMT
+Cache-Control: no-cache
+Referrer-Policy: strict-origin
+Permissions-Policy: vibrate(self), usermedia(*), microphone(none), payment(none), sync-xhr(self 'https://www.juventudrebelde.cu/')
+X-Permitted-Cross-Domain-Policies: none
+Content-Type: text/html; charset=UTF-8
+Set-Cookie: HttpOnly; SameSite=STRICT; HTTPOnly; Secure;HttpOnly;Secure; SameSite=Lax; Secure; HttpOnly
+Set-Cookie: XSRF-TOKEN=eyJpdiI6Im4yRlhTZG1yWWQ4aVpabDlKdnh3XC9RPT0iLCJ2YWx1ZSI6ImpXdTRSWFFrU1JzMCtSUjRCOGw0U1JqXC9samx1NkMrSzhcL0ZJbFwvOHdjbTFZWmE4dGNvTFI0alplckhZa3M5ZFRcL1NveFNCR0JadFwvZTdVcE1PZFJvN3c9PSIsIm1hYyI6IjA4M2Q0OWE0ZGY4NzliMGRlMzA3ZTRlMTU5MmUzODQ0MDljM2MxMDU2YWMxZDA3NWY3YTViNWUxMmMwZDE1YzkifQ%3D%3D; expires=Sun, 11-Jan-2026 21:26:35 GMT; Max-Age=7200; path=/; HTTPOnly; Secure;HttpOnly;Secure; SameSite=Lax; Secure; HttpOnly
+Set-Cookie: laravel_session=eyJpdiI6IlNUdENsTm9RNUk3RXJiNUZPQWxnYVE9PSIsInZhbHVlIjoicVZ2VE1IUjd2T2kraWJvc09CMHNXRVR6aFY0cWU5RWEyXC8zUGh4ZXpqSzNzTlRNNGtaYTdPQlJ2VjhvZVRSUVlYd25PVlpiZkxOK3pPam9yY2IxRHh3PT0iLCJtYWMiOiJlODBlNjY1NTYxNTNjOWQ5NjUzNzllOWQ5YmMwZjExMjhjMmRjMDhmNjZhZWNiYjhiMTY0NmRhZGU0ZWQ1NTYzIn0%3D; expires=Sun, 11-Jan-2026 21:26:35 GMT; Max-Age=7200; path=/; HttpOnly; HTTPOnly; Secure;HttpOnly;Secure; SameSite=Lax; Secure; HttpOnly
+Set-Cookie: ROUTEID=.wb0; path=/; SameSite=Lax; Secure; HttpOnly
+Access-Control-Allow-Origin: www.juventudrebelde.cu
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Authorization, JSNLog-RequestId, activityId, applicationId, applicationUserId, channelId, senderId, sessionId
+Access-Control-Max-Age: 3628800
+Access-Control-Allow-Methods: GET, DELETE, OPTIONS, POST, PUT
+Strict-Transport-Security: max-age=31536000; preload
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Security-Policy: upgrade-insecure-requests
+Content-Security-Policy: upgrade-insecure-requests
+Set-Cookie: SERVERID=wf2; path=/; HttpOnly; Secure
+

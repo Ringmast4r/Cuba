@@ -1,0 +1,24 @@
+HTTP/1.1 404 Not Found
+Server: nginx
+Date: Sun, 11 Jan 2026 19:29:03 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 110
+Connection: keep-alive
+Vary: Accept-Encoding
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: cross-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: strict-origin-when-cross-origin
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-XSS-Protection: 0
+Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), accelerometer=(), gyroscope=(), magnetometer=()
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: Content-Type,Content-Disposition,Cache-Control
+ETag: W/"6e-ggUX19JdFIjOVNn4rRuHwdpBlEM"
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+

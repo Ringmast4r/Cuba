@@ -1,0 +1,25 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Sun, 11 Jan 2026 18:53:43 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://www.radioreloj.cu/
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 11 Jan 2026 18:53:45 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Link: <https://www.radioreloj.cu/wp-json/>; rel="https://api.w.org/"
+Link: <https://www.radioreloj.cu/wp-json/wp/v2/pages/96729>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://www.radioreloj.cu/>; rel=shortlink
+Set-Cookie: wc_session_ids[default]=9cb52dc5944d7fbf9203c95401d8144781ada918; expires=Sun, 11 Jan 2026 19:02:05 GMT; Max-Age=500; path=/; secure; HttpOnly
+Set-Cookie: wc_session_ids[multi][0]=3fbcaf9a4fdc814229f95523d42d98fa36d58817; expires=Sun, 11 Jan 2026 19:02:05 GMT; Max-Age=500; path=/
+Set-Cookie: wc_session_ids[multi][1]=1c70176af1b5b8390f0a30419a96de3de09f2858; expires=Sun, 11 Jan 2026 19:02:05 GMT; Max-Age=500; path=/
+Set-Cookie: wc_session_ids[multi][2]=9e51bc532c90b32ae8f3f6bd3d42c0c439611892; expires=Sun, 11 Jan 2026 19:02:05 GMT; Max-Age=500; path=/
+Set-Cookie: wc_session_ids[multi][3]=0bd15295f607c78ac1d0928de92087ffc2e4b329; expires=Sun, 11 Jan 2026 19:02:05 GMT; Max-Age=500; path=/
+Set-Cookie: wc_session_ids[multi][4]=3737053f5e77cf3c619bc588234f736bf19da367; expires=Sun, 11 Jan 2026 19:02:05 GMT; Max-Age=500; path=/
+Set-Cookie: pll_language=es; expires=Mon, 11 Jan 2027 18:53:45 GMT; Max-Age=31536000; path=/; secure; SameSite=Lax
+Strict-Transport-Security: max-age=15768000
+

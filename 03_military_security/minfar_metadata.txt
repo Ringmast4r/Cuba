@@ -1,0 +1,11 @@
+=== MINFAR METADATA ===
+Server: PortalMINFAR
+CMS: Varbase (Drupal 8)
+Address: Avenida Independencia e/ Gral Suárez y 20 de mayo, Edificio Sierra Maestra
+Locality: Plaza de la Revolución
+Postal Code: 10400
+Region: La Habana
+Country: Cuba
+Email: apoblacionmf@unicom.co.cu
+Languages: es, en
+Security: SecKit module, HSTS, CSP

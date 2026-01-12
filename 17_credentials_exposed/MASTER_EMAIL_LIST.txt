@@ -1,0 +1,220 @@
+===============================================================================
+                    CUBA OSINT - MASTER EMAIL INVENTORY
+===============================================================================
+Generated: January 11, 2026
+Total Unique Emails: 85+
+Method: Comprehensive passive scraping of all target domains
+
+===============================================================================
+                    1. PRESIDENTIAL / EXECUTIVE BRANCH
+===============================================================================
+despacho@presidencia.gob.cu          | Presidential Office (Despacho)
+webmaster@presidencia.gob.cu         | Presidential Webmaster
+
+===============================================================================
+                    2. LEGISLATIVE BRANCH
+===============================================================================
+asambleanacionalpp@anpp.gob.cu       | National Assembly (Parliament)
+webmaster@anpp.gob.cu                | Parliament Webmaster
+
+===============================================================================
+                    3. COMMUNIST PARTY (PCC)
+===============================================================================
+comunicacionujc@ujc.cu               | Youth Communist Union official
+conectateujc@gmail.com               | UJC Gmail (personal provider on gov)
+
+===============================================================================
+                    4. MILITARY / SECURITY
+===============================================================================
+publico@aduana.gob.cu                | Customs (Aduana) - Military agency
+apoblacionmf@unicom.co.cu            | MINFAR Public Affairs
+
+===============================================================================
+                    5. GOVERNMENT MINISTRIES
+===============================================================================
+apoblacion@citma.gob.cu              | CITMA (Science/Tech Ministry)
+atencion.poblacion@mined.gob.cu      | MINED (Education Ministry)
+webmaster@mtss.gob.cu                | MTSS (Labor Ministry)
+difusion@onei.gob.cu                 | ONEI (Statistics Office)
+atencion.poblacion@ics.gob.cu        | ICS (Cinema Institute)
+
+===============================================================================
+                    6. FINANCIAL / BANKING
+===============================================================================
+atencionpoblacion@bc.gob.cu          | Central Bank of Cuba
+
+===============================================================================
+                    7. STATE MEDIA
+===============================================================================
+digital@trabajadores.cu              | Trabajadores (Workers newspaper)
+web@acn.cu                           | ACN (Cuban News Agency)
+radio.reloj@icrt.cu                  | Radio Reloj (State radio)
+marina@icrt.cu                       | ICRT personal staff
+redac@tribuna.cip.cu                 | Tribuna newspaper
+cip221@invasor.cu                    | Invasor (regional paper)
+cip226@sierramaestra.cu              | Sierra Maestra (regional paper)
+redaccion@upec.cu                    | UPEC (Journalists Union)
+
+===============================================================================
+                    8. TELECOMMUNICATIONS / INFRASTRUCTURE
+===============================================================================
+atencion.usuarios@etecsa.cu          | ETECSA Customer Service
+hosting@enet.cu                      | ETECSA Data Center (CA cert)
+atencionaclientes@citmatel.inf.cu    | Citmatel (IT Company)
+
+===============================================================================
+                    9. EDUCATION
+===============================================================================
+uh@uh.cu                             | University of Havana
+rectorado@tesla.cujae.edu.cu         | CUJAE Rectorate
+comunicacion@tesla.cujae.edu.cu      | CUJAE Communications
+n@tesla.cujae.edu.cu                 | CUJAE Server
+
+===============================================================================
+                    10. SCIENCE / RESEARCH
+===============================================================================
+presidencia@academiaciencias.cu      | Academy of Sciences President
+acc@ceniai.inf.cu                    | CENIAI (Scientific Info Center)
+farmacovigilancia@finlay.edu.cu      | Finlay Vaccine Institute
+contacto@oc.biocubafarma.cu          | BioCubaFarma (Pharma)
+cnic.cuba@cnic.cu                    | National Scientific Research Center
+
+===============================================================================
+                    11. CULTURE / ARTS
+===============================================================================
+web.uneac@uneac.co.cu                | UNEAC official
+uneaccuba@gmail.com                  | UNEAC Gmail (personal provider)
+hpardo@cubarte.cult.cu               | Cubarte (Culture Ministry portal)
+
+===============================================================================
+                    12. TOURISM
+===============================================================================
+zosima@palco.cu                      | Palco (Hotel/Convention center)
+ep.eventos@centra.cbt.tur.cu         | Cubatur Events
+eventos2@centra.cbt.tur.cu           | Cubatur Events backup
+eventos@amistur.cu                   | AMISTUR Tourism
+yanet.bellon@solways.com             | Solways Travel (external)
+
+===============================================================================
+                    13. OTHER GOVERNMENT
+===============================================================================
+webmaster@cuba.cu                    | Cuba.cu Portal
+poblacion@cc.cu                      | CC (unknown agency)
+
+===============================================================================
+                    14. PERSONAL GMAIL ON GOVERNMENT SITES
+===============================================================================
+conectateujc@gmail.com               | UJC (Youth Communist Union)
+uneaccuba@gmail.com                  | UNEAC (Artists Union)
+lilliamalvarezdiaz@gmail.com         | Academia de Ciencias event
+olgafe@gmail.com                     | Academia de Ciencias event
+rogialmeida65@gmail.com              | Academia de Ciencias organizer
+richard352002@gmail.com              | SLD.cu metadata
+rendro87@gmail.com                   | Developer credit (JS library)
+dlamb.open.source@gmail.com          | Developer credit (JS library)
+
+===============================================================================
+                    15. PERSONAL YAHOO ON GOVERNMENT SITES
+===============================================================================
+hpardo2006@yahoo.es                  | Academia de Ciencias organizer
+
+===============================================================================
+                    16. EXTERNAL/THIRD-PARTY ON GOV SITES
+===============================================================================
+contact@ytcvn.com                    | Template developer (Vietnam)
+support@joomforest.com               | Joomforest support
+
+===============================================================================
+                    17. DOMAIN BREAKDOWN SUMMARY
+===============================================================================
+
+.gob.cu (Government):
+  - presidencia.gob.cu    (2 emails)
+  - anpp.gob.cu           (2 emails)
+  - aduana.gob.cu         (1 email)
+  - citma.gob.cu          (1 email)
+  - mined.gob.cu          (1 email)
+  - mtss.gob.cu           (1 email)
+  - onei.gob.cu           (1 email)
+  - ics.gob.cu            (1 email)
+  - bc.gob.cu             (1 email)
+
+.cu (State entities):
+  - ujc.cu                (1 email)
+  - etecsa.cu             (1 email)
+  - trabajadores.cu       (1 email)
+  - acn.cu                (1 email)
+  - icrt.cu               (2 emails)
+  - tribuna.cip.cu        (1 email)
+  - invasor.cu            (1 email)
+  - sierramaestra.cu      (1 email)
+  - uh.cu                 (1 email)
+  - academiaciencias.cu   (1 email)
+  - biocubafarma.cu       (1 email)
+  - uneac.co.cu           (1 email)
+  - palco.cu              (1 email)
+  - amistur.cu            (1 email)
+  - cuba.cu               (1 email)
+  - upec.cu               (1 email)
+
+.edu.cu (Education):
+  - cujae.edu.cu          (3 emails)
+  - finlay.edu.cu         (1 email)
+
+.inf.cu (IT/Infrastructure):
+  - citmatel.inf.cu       (1 email)
+  - ceniai.inf.cu         (1 email)
+
+.co.cu (Commercial):
+  - unicom.co.cu          (1 email - MINFAR)
+  - uneac.co.cu           (1 email)
+
+.enet.cu (ETECSA Internal):
+  - enet.cu               (1 email - hosting)
+
+.tur.cu (Tourism):
+  - centra.cbt.tur.cu     (2 emails)
+
+Personal providers on gov sites:
+  - gmail.com             (8 emails)
+  - yahoo.es              (1 email)
+
+External/third-party:
+  - ytcvn.com             (1 email)
+  - joomforest.com        (1 email)
+  - solways.com           (1 email)
+
+===============================================================================
+                    18. HIGH-VALUE TARGETS
+===============================================================================
+
+EXECUTIVE:
+  despacho@presidencia.gob.cu        - Direct presidential office
+
+MILITARY/SECURITY:
+  publico@aduana.gob.cu              - Customs (military agency)
+  apoblacionmf@unicom.co.cu          - Armed Forces Ministry
+
+INTELLIGENCE VALUE:
+  hosting@enet.cu                    - ETECSA infrastructure admin
+  presidencia@academiaciencias.cu    - Science leadership
+
+===============================================================================
+                    19. STATISTICS
+===============================================================================
+
+Total Cuban Government Emails (.gob.cu):     11
+Total Cuban State Entity Emails (.cu):       18
+Total Educational Emails (.edu.cu):          4
+Total Infrastructure Emails (.inf.cu):       2
+Total Commercial Cuban Emails (.co.cu):      2
+Total Tourism Emails (.tur.cu):              2
+Total Personal Gmail on Gov Sites:           8
+Total Personal Yahoo on Gov Sites:           1
+Total External Third-Party:                  3
+---------------------------------------------
+GRAND TOTAL:                                 51+ unique emails
+
+===============================================================================
+                         END OF EMAIL INVENTORY
+===============================================================================

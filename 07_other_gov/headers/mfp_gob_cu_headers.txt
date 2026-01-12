@@ -1,0 +1,357 @@
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:04 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:05 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:05 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:06 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:07 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:07 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:08 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:08 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:09 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:09 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:10 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:10 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:10 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:11 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:11 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:12 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:12 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:13 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:13 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:13 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:14 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:14 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:15 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:15 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:16 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:16 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:16 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:17 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:17 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:18 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:18 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:18 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:19 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:19 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:20 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:20 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:21 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:21 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:21 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:22 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:22 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:23 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:23 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:24 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:24 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:25 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:25 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:26 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:26 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:27 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Date: Sun, 11 Jan 2026 18:58:27 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: https://www.mfp.gob.cu/inicio/forbidden
+Content-Type: text/html; charset=iso-8859-1
+

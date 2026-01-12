@@ -1,0 +1,55 @@
+# robots.txt - Banco Central de Cuba Sitio Oficial
+# Generado dinámicamente desde la aplicación
+# Última actualización: 2026-01-11T18:58:05.017Z
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://www.bc.gob.cu/sitemap-index.xml
+
+# Crawl-delay (para bots agresivos, proteger servidor)
+Crawl-delay: 1
+
+# Bloquear áreas privadas/administrativas
+Disallow: /admin
+Disallow: /auth
+Disallow: /api
+Disallow: /_astro
+Disallow: /widget
+
+# Permitir páginas públicas importantes (redundante con Allow: / pero explícito para SEO)
+Allow: /informatizacion/
+Allow: /perfil-institucional/
+Allow: /marco-legal
+Allow: /tramites
+Allow: /media/noticias
+Allow: /estadisticas-tic
+Allow: /atencion-ciudadana
+Allow: /atencion-poblacion
+Allow: /educacion-financiera
+Allow: /productos-servicios
+Allow: /banca-verde
+Allow: /pagos-digitales
+
+# User-agents específicos para principales buscadores
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0.5
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+
+# Bloquear bots maliciosos conocidos
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Disallow: /

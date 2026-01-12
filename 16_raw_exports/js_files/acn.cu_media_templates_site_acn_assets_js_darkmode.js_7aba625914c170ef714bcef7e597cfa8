@@ -1,0 +1,88 @@
+const getThemeSvg = liElement => {
+  return liElement.getElementsByTagName('svg')[0];
+};
+
+const themeLight = document.getElementById('themeLight');
+const themeLightIcon = getThemeSvg(themeLight);
+
+const themeDark = document.getElementById('themeDark');
+const themeDarkIcon = getThemeSvg(themeDark);
+
+const onThemeCssClass = [
+  'text-sky-500',
+  'hover:text-sky-700',
+  'dark:hover:text-sky-400',
+  'dark:hover:bg-slate-900/40',
+];
+const onSvgCssClass = [
+  'fill-sky-400',
+  'group-hover:fill-sky-600',
+  'dark:group-hover:fill-sky-300',
+];
+const offThemeCssClass = [
+  'text-slate-700',
+  'hover:text-slate-500',
+  'dark:hover:text-white',
+  'dark:hover:bg-slate-900/40',
+];
+const offSvgCssClass = [
+  'fill-slate-400',
+  'group-hover:fill-slate-600',
+  'dark:group-hover:fill-white',
+];
+
+// Set initial styles based in localStorage or OS settings
+if (
+  ('theme' in localStorage && localStorage.theme === 'dark') ||
+  window.matchMedia('(prefers-color-scheme: dark)').matches
+) {
+  themeDark.ariaSelected = 'true';
+
+  themeDark.classList.add(...onThemeCssClass);
+  themeDarkIcon.classList.add(...onSvgCssClass);
+
+  themeLight.classList.add(...offThemeCssClass);
+  themeLightIcon.classList.add(...offSvgCssClass);
+} else {
+  themeLight.ariaSelected = 'true';
+
+  themeDark.classList.add(...offThemeCssClass);
+  themeDarkIcon.classList.add(...offSvgCssClass);
+
+  themeLight.classList.add(...onThemeCssClass);
+  themeLightIcon.classList.add(...onSvgCssClass);
+}
+
+// Toggle theme
+themeLight.addEventListener('click', event => {
+  toggleTheme(event, themeDark);
+});
+
+themeDark.addEventListener('click', event => {
+  toggleTheme(event, themeLight);
+});
+
+const toggleTheme = (event, nextTheme) => {
+  if (event.currentTarget.ariaSelected === 'false') {
+    localStorage.theme = localStorage.theme === 'dark' ? 'light' : 'dark';
+    document.documentElement.classList.toggle('dark');
+
+    // Hightlight the current selected theme
+    event.currentTarget.ariaSelected = 'true';
+    event.currentTarget.classList.remove(...offThemeCssClass);
+    event.currentTarget.classList.add(...onThemeCssClass);
+
+    let currentSvgIcon = getThemeSvg(event.currentTarget);
+    currentSvgIcon.classList.remove(...offSvgCssClass);
+    currentSvgIcon.classList.add(...onSvgCssClass);
+
+    // Turn off the next theme
+    nextTheme.ariaSelected = 'false';
+    nextTheme.classList.remove(...onThemeCssClass);
+    nextTheme.classList.add(...offThemeCssClass);
+
+    let nextSvgIcon = getThemeSvg(nextTheme);
+    nextSvgIcon.classList.remove(...onSvgCssClass);
+    nextSvgIcon.classList.add(...offSvgCssClass);
+  }
+};

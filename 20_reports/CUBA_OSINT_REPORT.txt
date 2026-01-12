@@ -1,0 +1,168 @@
+================================================================================
+                    CUBA GOVERNMENT INFRASTRUCTURE OSINT REPORT
+                    Passive Reconnaissance Documentation
+================================================================================
+
+Report Generated: January 11, 2026
+Collection Method: Tor Proxy (Multi-node rotation: CH, DE, NL, SE, NO, AT, etc.)
+
+================================================================================
+EXECUTIVE SUMMARY
+================================================================================
+
+This report documents publicly visible technology infrastructure of Cuban
+government websites collected through passive OSINT methods.
+
+
+COLLECTION STATISTICS:
+----------------------
+Total Files: 1,420
+Total Size: 62.9 MB
+Domains Analyzed: 131
+Email Addresses: 64
+Usernames Exposed: 14
+SSL Certificates: 16
+Google Analytics IDs: 12
+
+FOLDER BREAKDOWN:
+-----------------
+01_presidency/           - Executive branch, Communist Party
+02_ministries/           - Government ministries
+03_military_security/    - MINFAR, MININT, Aduana
+04_state_media/          - Granma, Cubadebate, Radio stations
+05_infrastructure/       - ETECSA, utilities
+06_judiciary/            - Courts, prosecutors
+07_other_gov/            - Banks, health, education
+08_html_source/          - Offline HTML copies
+09_certificates/         - SSL certificates
+10_apis/                 - API endpoint documentation
+11_tracking_ids/         - Google Analytics mapping
+12_tech_stacks/          - CMS/framework analysis
+13_critical_findings/    - High-value discoveries
+14_ai_findings/          - AI-assisted analysis
+15_dump/                 - API dumps, sitemaps, media
+16_raw_exports/          - Bulk data exports
+17_credentials_exposed/  - Emails, usernames, hashes
+18_config_leaks/         - Configuration exposures
+19_tracking_summary/     - Analytics consolidation
+20_reports/              - Analysis reports
+
+================================================================================
+TECHNOLOGY STACK FINDINGS
+================================================================================
+
+CMS DISTRIBUTION:
+-----------------
+Drupal 8/10:     MINFAR (Varbase), PCC, CITMA, CITMATEL, UJC, FGR, ONEI
+WordPress:       SLD, UH, MINED, Radio Rebelde
+Laravel:         ACN, Juventud Rebelde
+Node.js:         Central Bank API
+Custom:          Various government portals
+
+JAVASCRIPT FRAMEWORKS:
+----------------------
+jQuery:          Most government sites
+Vue.js:          Juventud Rebelde
+Bootstrap CSS:   Widely used across .gob.cu
+
+================================================================================
+TRACKING IDs / ANALYTICS
+================================================================================
+
+Google Analytics (Universal Analytics):
+- UA-107169760-1  - MINED (Education Ministry)
+- UA-144247220-1  - Aduana (Customs)
+- UA-291893-2     - Juventud Rebelde
+
+Google Analytics (GA4):
+- G-D39KSEBN9Q    - Granma
+- G-8MR*          - ETECSA
+
+Google Tag Manager:
+- GTM-TKWLSZN     - Trabajadores
+
+================================================================================
+DNS INFRASTRUCTURE FINDINGS
+================================================================================
+
+PRIMARY DNS PROVIDERS:
+- ETECSA (ns3.etecsa.net, ns4.etecsa.net, ns5.etecsa.net) - Most gov sites
+- MININT self-hosted (ns1.minint.gob.cu, ns2.minint.gob.cu) - Interior Ministry
+
+KEY IP RANGES OBSERVED:
+- 190.92.127.x - Government hosting cluster
+- 152.206.x.x - ETECSA primary
+- Cuban ASN: 27725 (ETECSA), 11960 (CITMATEL)
+
+================================================================================
+SERVER SIGNATURES OBSERVED
+================================================================================
+
+NOTABLE SIGNATURES:
+- "Windows95"      - PCC, ETECSA (deliberate obfuscation, actually PHP 8.1.20)
+- "PortalMINFAR"   - Custom server name on military site
+- "Fotuto"         - Custom server on MICONS
+- "openresty"      - MINAL
+- Microsoft-IIS/11.0 - BioCubaFarma
+- cloudflare       - Cubatur (only Cuban gov site using Cloudflare)
+
+COMMON SERVERS:
+- nginx            - Most common
+- Apache           - Second most common
+- IIS              - BioCubaFarma, Finlay
+
+================================================================================
+SECURITY HEADERS ANALYSIS
+================================================================================
+
+BEST SECURITY - minag.gob.cu (Agriculture Ministry):
+- Content-Security-Policy: Full policy
+- Strict-Transport-Security: max-age=63072000 (2 years)
+- Cross-Origin-Embedder-Policy: require-corp
+- Cross-Origin-Opener-Policy: same-origin
+- Permissions-Policy: Full restrictions
+
+GOOD SECURITY - minfar.gob.cu (Military):
+- Strict-Transport-Security: max-age=31536000; includeSubDomains
+- X-Frame-Options: SAMEORIGIN
+- X-XSS-Protection: 1; mode=block
+- X-Content-Type-Options: nosniff
+
+POOR SECURITY:
+- Many sites missing all security headers
+- No CSP on most government portals
+
+================================================================================
+KEY FINDINGS
+================================================================================
+
+1. CENTRALIZED INFRASTRUCTURE
+   - Most .gob.cu sites use ETECSA DNS infrastructure
+   - Exception: MININT runs own nameservers (security separation)
+
+2. WORDPRESS USER ENUMERATION
+   - SLD.cu: 6 users exposed via wp-json API
+   - UH.cu: 4 users exposed (including "seginf" - IT Security team)
+
+3. GOOGLE ANALYTICS IRONY
+   - Anti-US regime sending visitor data to US servers
+   - Multiple government sites using Google tracking
+
+4. CERTIFICATE AUTHORITY
+   - ETECSA runs internal CA with 12-year validity certificates
+   - Used on Aduana (Customs) infrastructure
+
+5. EXIF METADATA EXPOSURE
+   - MINFAR: Nikon D5600, LG Android phones identified
+   - Radio Rebelde: Sony A7S II, Canon 6D Mark II
+   - State media still using Adobe Photoshop CS6 (2012)
+
+6. GPS COORDINATES LEAKED
+   - Aduana HQ coordinates embedded in HTML meta tags
+
+7. FAKE SERVER HEADERS
+   - PCC claims "Windows95" server (actually Drupal 10 + PHP 8.1.20)
+
+================================================================================
+                              END OF REPORT
+================================================================================

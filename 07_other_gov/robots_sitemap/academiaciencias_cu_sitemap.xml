@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<noscript><style>form.antibot * :not(.antibot-message) { display: none !important; }</style>
+</noscript><meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/core/themes/bartik/favicon.ico" type="image/jpeg" />
+
+    <title>Página no encontrada | Academia de Ciencias de Cuba</title>
+    <link rel="stylesheet" media="all" href="/core/assets/vendor/normalize-css/normalize.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/misc/normalize-fixes.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/ajax-progress.module.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/align.module.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/autocomplete-loading.module.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/fieldgroup.module.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/container-inline.module.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/clearfix.module.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/details.module.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/hidden.module.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/item-list.module.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/js.module.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/nowrap.module.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/position-container.module.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/progress.module.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/reset-appearance.module.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/resize.module.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/sticky-header.module.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-counter.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-counters.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-general-info.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tabledrag.module.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tablesort.module.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tree-child.module.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/menu_icons_1731955113.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/modules/responsive_menus/styles/responsive_menus_simple/css/responsive_menus_simple.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/modules/views/css/views.module.css?sn5t43" />
+<link rel="stylesheet" media="all" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+<link rel="stylesheet" media="all" href="/modules/back_to_top/css/back_to_top.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/modules/calendar/css/calendar.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/modules/calendar/css/calendar_multiday.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/modules/colorbox/styles/default/colorbox_style.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/modules/social_media_links/css/social_media_links.theme.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/base/elements.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/layout.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/classy/components/progress.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/classy/components/action-links.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/classy/components/breadcrumb.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/classy/components/button.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/classy/components/collapse-processed.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/classy/components/container-inline.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/classy/components/details.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/classy/components/exposed-filters.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/classy/components/field.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/classy/components/form.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/classy/components/icons.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/classy/components/inline-form.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/classy/components/item-list.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/classy/components/link.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/classy/components/links.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/classy/components/menu.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/classy/components/more-link.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/classy/components/pager.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/classy/components/tabledrag.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/classy/components/tableselect.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/classy/components/tablesort.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/classy/components/tabs.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/classy/components/textarea.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/classy/components/ui-dialog.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/classy/components/messages.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/block.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/book.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/breadcrumb.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/captions.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/comments.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/container-inline.module.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/contextual.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/demo-block.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/dropbutton.component.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/featured-top.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/feed-icon.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/field.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/form.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/forum.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/header.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/help.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/highlighted.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/item-list.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/list-group.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/list.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/main-content.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/menu.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/messages.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/node.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/node-preview.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/page-title.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/pager.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/panel.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/primary-menu.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/search-form.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/search-results.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/secondary-menu.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/shortcut.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/skip-link.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/sidebar.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/site-branding.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/site-footer.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/table.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/tablesort-indicator.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/tabs.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/text-formatted.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/toolbar.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/featured-bottom.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/password-suggestions.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/ui.widget.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/vertical-tabs.component.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/views.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/buttons.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/image-button.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/components/ui-dialog.css?sn5t43" />
+<link rel="stylesheet" media="all" href="/core/themes/bartik/css/colors.css?sn5t43" />
+<link rel="stylesheet" media="print" href="/core/themes/bartik/css/print.css?sn5t43" />
+
+    
+  </head>
+  <body class="layout-one-sidebar layout-sidebar-first path-sitemapxml">
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+      Pasar al contenido principal
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div id="page-wrapper">
+  <div id="page">
+    <header id="header" class="header" role="banner">
+      <div class="section layout-container clearfix">
+        
+          <div class="clearfix region region-header">
+    <div id="block-bartik-branding" class="clearfix site-branding block block-system block-system-branding-block">
+  
+    
+        <a href="/es" rel="home" class="site-branding__logo">
+      <img src="/sites/default/files/logo_0.png" alt="Inicio" />
+    </a>
+        <div class="site-branding__text">
+              <div class="site-branding__name">
+          <a href="/es" rel="home">Academia de Ciencias de Cuba</a>
+        </div>
+                </div>
+  </div>
+<div id="block-socialmedialinks" class="block-social-media-links block block-social-media-links-block">
+  
+      <h2>Social Media Links</h2>
+    
+      <div class="content">
+      
+
+<ul class="social-media-links--platforms platforms inline horizontal">
+      <li>
+      <a class="social-media-link-icon--twitter" href="https://www.twitter.com/mobile.twitter.com/ciencias_cuba"  target="_blank" aria-label="Twitter" title="Twitter" >
+        <span class='fa fa-twitter fa-2x'></span>
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--facebook" href="https://www.facebook.com/AcademiaDeCienciasDeCuba"  target="_blank" aria-label="Facebook" title="Facebook" >
+        <span class='fa fa-facebook fa-2x'></span>
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--rss" href="/misitio"  target="_blank" aria-label="RSS" title="RSS" >
+        <span class='fa fa-rss fa-2x'></span>
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--email" href="mailto:presidencia@academiaciencias.cu"  target="_blank" aria-label="presidencia@academiaciencias.cu" title="presidencia@academiaciencias.cu" >
+        <span class='fa fa-envelope fa-2x'></span>
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--googleplus" href="https://plus.google.com/mapa del sitio"  target="_blank" aria-label="mapa del sitio" title="mapa del sitio" >
+        <span class='fa fa-google-plus fa-2x'></span>
+      </a>
+
+          </li>
+  </ul>
+
+    </div>
+  </div>
+
+<nav role="navigation" aria-labelledby="block-mapadelsitio-menu" id="block-mapadelsitio" class="block block-menu navigation menu--mapa">
+            
+  <h2 class="visually-hidden" id="block-mapadelsitio-menu">Mapa del sitio</h2>
+  
+
+        <div class="content">
+            <div class="menu-toggle-target menu-toggle-target-show" id="show-block-mapadelsitio"></div>
+      <div class="menu-toggle-target" id="hide-block-mapadelsitio"></div>
+      <a class="menu-toggle" href="#show-block-mapadelsitio">Mostrar &mdash; Mapa del sitio</a>
+      <a class="menu-toggle menu-toggle--hide" href="#hide-block-mapadelsitio">Ocultar &mdash; Mapa del sitio</a>
+      
+              <ul class="clearfix menu">
+                    <li class="menu-icon menu-icon-21 menu-item">
+        <a href="/es/mapa-enlaces-sitio" title="Mapa del sitio" data-drupal-link-system-path="node/1216">.</a>
+              </li>
+        </ul>
+  
+
+
+    </div>
+  </nav>
+
+<nav role="navigation" aria-labelledby="block-busquedaavanzada-menu" id="block-busquedaavanzada" class="block block-menu navigation menu--busqueda-avanzada">
+            
+  <h2 class="visually-hidden" id="block-busquedaavanzada-menu">Búsqueda Avanzada</h2>
+  
+
+        <div class="content">
+            <div class="menu-toggle-target menu-toggle-target-show" id="show-block-busquedaavanzada"></div>
+      <div class="menu-toggle-target" id="hide-block-busquedaavanzada"></div>
+      <a class="menu-toggle" href="#show-block-busquedaavanzada">Mostrar &mdash; Búsqueda Avanzada</a>
+      <a class="menu-toggle menu-toggle--hide" href="#hide-block-busquedaavanzada">Ocultar &mdash; Búsqueda Avanzada</a>
+      
+              <ul class="clearfix menu">
+                    <li class="menu-icon menu-icon-1 menu-item">
+        <a href="/es/busqueda-avanzada" data-drupal-link-system-path="busqueda-avanzada">Búsqueda Avanzada</a>
+              </li>
+        </ul>
+  
+
+
+    </div>
+  </nav>
+<div class="search-api-page-block-form-buscar search-api-page-block-form search-form search-block-form container-inline block block-search-api-page block-search-api-page-form-block" data-drupal-selector="search-api-page-block-form-buscar" id="block-searchapipagesearchblockform-2">
+  
+    
+      <div class="content">
+      <form action="/sitemap.xml" method="post" id="search-api-page-block-form-buscar" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-search form-type-search js-form-item-keys form-item-keys form-no-label">
+      <label for="edit-keys" class="visually-hidden">Search</label>
+        <input title="Escriba lo que quiere buscar." data-drupal-selector="edit-keys" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" class="form-search" />
+
+        </div>
+<input autocomplete="off" data-drupal-selector="form-qzyiherwk55pzzdweb8jdu655jgqzntwu17gqzc70s8" type="hidden" name="form_build_id" value="form-QzyiHERwk55PzzDWEb8JDU655jGQzNTWu17GQZc70S8" />
+<input data-drupal-selector="edit-search-api-page-block-form-buscar" type="hidden" name="form_id" value="search_api_page_block_form_buscar" />
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input class="search-form__submit button js-form-submit form-submit" data-drupal-selector="edit-submit" type="submit" id="edit-submit" name="op" value="Search" />
+</div>
+
+</form>
+
+    </div>
+  </div>
+
+  </div>
+
+          <div class="region region-primary-menu">
+    
+<nav role="navigation" aria-labelledby="block-bartik-main-menu-menu" id="block-bartik-main-menu" class="block block-menu navigation menu--main">
+            
+  <h2 class="visually-hidden" id="block-bartik-main-menu-menu">Main navigation</h2>
+  
+
+        <div class="content">
+            <div class="menu-toggle-target menu-toggle-target-show" id="show-block-bartik-main-menu"></div>
+      <div class="menu-toggle-target" id="hide-block-bartik-main-menu"></div>
+      <a class="menu-toggle" href="#show-block-bartik-main-menu">Mostrar &mdash; Main navigation</a>
+      <a class="menu-toggle menu-toggle--hide" href="#hide-block-bartik-main-menu">Ocultar &mdash; Main navigation</a>
+      
+              <ul class="clearfix menu">
+                    <li class="menu-item">
+        <a href="/es" data-drupal-link-system-path="&lt;front&gt;">Inicio</a>
+              </li>
+                <li class="menu-icon menu-icon-2 menu-item">
+        <a href="/es/acerca-de-nosotros" data-drupal-link-system-path="node/1202">Acerca de</a>
+              </li>
+                <li class="menu-icon menu-icon-8 menu-item">
+        <a href="/es/todos-los-miembros" data-drupal-link-system-path="todos-los-miembros">Membresía</a>
+              </li>
+                <li class="menu-icon menu-icon-25 menu-item">
+        <a href="/es/premios" data-drupal-link-system-path="premios">Premios</a>
+              </li>
+                <li class="menu-icon menu-icon-10 menu-item">
+        <a href="/es/calendario-de-eventos" data-drupal-link-system-path="calendario-de-eventos">Eventos</a>
+              </li>
+                <li class="menu-icon menu-icon-11 menu-item">
+        <a href="/es/relaciones-exteriores/acuerdos-de-colaboraci%C3%B3n" data-drupal-link-system-path="relaciones-exteriores/acuerdos-de-colaboración">Relaciones exteriores</a>
+              </li>
+                <li class="menu-icon menu-icon-12 menu-item">
+        <a href="/es/documentos-legales" data-drupal-link-system-path="documentos-legales">Documentos legales</a>
+              </li>
+                <li class="menu-icon menu-icon-31 menu-item">
+        <a href="/es/repositorio" data-drupal-link-system-path="repositorio">Repositorio</a>
+              </li>
+                <li class="menu-icon menu-icon-13 menu-item">
+        <a href="/es/noticiasgenerales" data-drupal-link-system-path="noticiasgenerales">Noticias</a>
+              </li>
+                <li class="menu-icon menu-icon-14 menu-item">
+        <a href="/es/galeria" data-drupal-link-system-path="galeria">Galería</a>
+              </li>
+        </ul>
+  
+
+
+    </div>
+  </nav>
+<div id="block-socialmedialinks-2" class="block-social-media-links block block-social-media-links-block">
+  
+    
+      <div class="content">
+      
+
+<ul class="social-media-links--platforms platforms inline horizontal">
+      <li>
+      <a class="social-media-link-icon--twitter" href="https://www.twitter.com/mobile.twitter.com/ciencias_cuba"  >
+        <span class='fa fa-twitter fa-2x'></span>
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--facebook" href="https://www.facebook.com/misitio"  >
+        <span class='fa fa-facebook fa-2x'></span>
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--rss" href="/misitio"  >
+        <span class='fa fa-rss fa-2x'></span>
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--email" href="mailto:presidencia@academiaciencias.cu"  >
+        <span class='fa fa-envelope fa-2x'></span>
+      </a>
+
+          </li>
+  </ul>
+
+    </div>
+  </div>
+
+<nav role="navigation" aria-labelledby="block-mapadelsitio-2-menu" id="block-mapadelsitio-2" class="block block-menu navigation menu--mapa">
+            
+  <h2 class="visually-hidden" id="block-mapadelsitio-2-menu">Mapa del sitio</h2>
+  
+
+        <div class="content">
+            <div class="menu-toggle-target menu-toggle-target-show" id="show-block-mapadelsitio-2"></div>
+      <div class="menu-toggle-target" id="hide-block-mapadelsitio-2"></div>
+      <a class="menu-toggle" href="#show-block-mapadelsitio-2">Mostrar &mdash; Mapa del sitio</a>
+      <a class="menu-toggle menu-toggle--hide" href="#hide-block-mapadelsitio-2">Ocultar &mdash; Mapa del sitio</a>
+      
+              <ul class="clearfix menu">
+                    <li class="menu-icon menu-icon-21 menu-item">
+        <a href="/es/mapa-enlaces-sitio" title="Mapa del sitio" data-drupal-link-system-path="node/1216">.</a>
+              </li>
+        </ul>
+  
+
+
+    </div>
+  </nav>
+
+  </div>
+
+		  <div class="region region-primary-access">
+    
+<nav role="navigation" aria-labelledby="block-useraccountmenu-menu" id="block-useraccountmenu" class="block block-menu navigation menu--account">
+            
+  <h2 class="visually-hidden" id="block-useraccountmenu-menu">User account menu</h2>
+  
+
+        <div class="content">
+            <div class="menu-toggle-target menu-toggle-target-show" id="show-block-useraccountmenu"></div>
+      <div class="menu-toggle-target" id="hide-block-useraccountmenu"></div>
+      <a class="menu-toggle" href="#show-block-useraccountmenu">Mostrar &mdash; User account menu</a>
+      <a class="menu-toggle menu-toggle--hide" href="#hide-block-useraccountmenu">Ocultar &mdash; User account menu</a>
+      
+              <ul class="clearfix menu">
+                    <li class="menu-item">
+        <a href="/es/user/login" data-drupal-link-system-path="user/login">Acceder</a>
+              </li>
+        </ul>
+  
+
+
+    </div>
+  </nav>
+<div class="search-api-page-block-form-buscar search-api-page-block-form search-form search-block-form container-inline block block-search-api-page block-search-api-page-form-block" data-drupal-selector="search-api-page-block-form-buscar-2" id="block-searchapipagesearchblockform">
+  
+    
+      <div class="content">
+      <form action="/sitemap.xml" method="post" id="search-api-page-block-form-buscar--2" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-search form-type-search js-form-item-keys form-item-keys form-no-label">
+      <label for="edit-keys--2" class="visually-hidden">Search</label>
+        <input title="Escriba lo que quiere buscar." data-drupal-selector="edit-keys" type="search" id="edit-keys--2" name="keys" value="" size="15" maxlength="128" class="form-search" />
+
+        </div>
+<input autocomplete="off" data-drupal-selector="form-iv8qj8cthzp4kbbjieqsfnngyy-nzegxylabu7exsza" type="hidden" name="form_build_id" value="form-Iv8QJ8cThzP4KbbJieQSFnNGYy-NzEgXylabu7EXsZA" />
+<input data-drupal-selector="edit-search-api-page-block-form-buscar-2" type="hidden" name="form_id" value="search_api_page_block_form_buscar" />
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions--2"><input class="search-form__submit button js-form-submit form-submit" data-drupal-selector="edit-submit" type="submit" id="edit-submit--2" name="op" value="Search" />
+</div>
+
+</form>
+
+    </div>
+  </div>
+
+<nav role="navigation" aria-labelledby="block-busquedaavanzada-2-menu" id="block-busquedaavanzada-2" class="block block-menu navigation menu--busqueda-avanzada">
+            
+  <h2 class="visually-hidden" id="block-busquedaavanzada-2-menu">Búsqueda Avanzada movil</h2>
+  
+
+        <div class="content">
+            <div class="menu-toggle-target menu-toggle-target-show" id="show-block-busquedaavanzada-2"></div>
+      <div class="menu-toggle-target" id="hide-block-busquedaavanzada-2"></div>
+      <a class="menu-toggle" href="#show-block-busquedaavanzada-2">Mostrar &mdash; Búsqueda Avanzada movil</a>
+      <a class="menu-toggle menu-toggle--hide" href="#hide-block-busquedaavanzada-2">Ocultar &mdash; Búsqueda Avanzada movil</a>
+      
+              <ul class="clearfix menu">
+                    <li class="menu-icon menu-icon-1 menu-item">
+        <a href="/es/busqueda-avanzada" data-drupal-link-system-path="busqueda-avanzada">Búsqueda Avanzada</a>
+              </li>
+        </ul>
+  
+
+
+    </div>
+  </nav>
+
+  </div>
+
+      </div>
+    </header>
+          <div class="highlighted">
+        <aside class="layout-container section clearfix" role="complementary">
+            <div class="region region-highlighted">
+    <div id="block-pagetitle" class="block block-core block-page-title-block">
+  
+    
+      <div class="content">
+      
+
+  <h1 class="title page-title">Página no encontrada</h1>
+
+
+    </div>
+  </div>
+
+  </div>
+
+        </aside>
+      </div>
+            <div id="main-wrapper" class="layout-main-wrapper layout-container clearfix">
+      <div id="main" class="layout-main clearfix">
+        
+        <main id="content" class="column main-content" role="main">
+          <section class="section">
+            <a id="main-content" tabindex="-1"></a>
+              <div class="region region-content">
+    <div data-drupal-messages-fallback class="hidden"></div>
+<div id="block-bartik-page-title" class="block block-core block-page-title-block">
+  
+    
+      <div class="content">
+      
+
+  <h1 class="title page-title">Página no encontrada</h1>
+
+
+    </div>
+  </div>
+<div id="block-bartik-system-main" class="block block-system block-system-main-block">
+  
+    
+      <div class="content">
+      No se ha encontrado la página solicitada.
+    </div>
+  </div>
+
+  </div>
+
+          </section>
+        </main>
+                  <div id="sidebar-first" class="column sidebar">
+            <aside class="section" role="complementary">
+              
+            </aside>
+          </div>
+                      </div>
+    </div>
+        <footer class="site-footer">
+      <div class="layout-container">
+                  <div class="site-footer__top clearfix">
+              <div class="region region-footer-first">
+    <div class="views-element-container block block-views block-views-blockenlaces-de-interes-block-1" id="block-views-block-enlaces-de-interes-block-1">
+  
+      <h2>Enlaces de interés</h2>
+    
+      <div class="content">
+      <div><div class="view view-enlaces-de-interes view-id-enlaces_de_interes view-display-id-block_1 js-view-dom-id-87ca341aba71ffeb5020c7fd34698ea7cc0a249ef6f718de580a78da2962e80b">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-field-enlaceinteres"><div class="field-content"><a href="http://www.revistaccuba.cu">Magazine “Anales de la ACC”</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-field-enlaceinteres"><div class="field-content"><a href="http://www.redciencia.cu">Cuban Networks of Science (Redciencia)</a></div></div></div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+              <div class="region region-footer-second">
+    <div id="block-academiadecienciasdecubafooter2" class="block block-block-content block-block-contentff39e5b4-47e6-4cab-b938-d5ddafc4b4c3">
+  
+    
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><img alt="Academia de Ciencias de Cuba" data-entity-type="file" data-entity-uuid="4763dfd6-6aca-4cdd-9a2a-37873b551582" src="/sites/default/files/inline-images/logo.png" /></p>
+<h2>Academia de Ciencias<br />
+de Cuba</h2>
+<p>Somos una institución oficial del Estado Cubano<br />
+independiente y consultiva<br />
+en materia de Ciencia.</p>
+</div>
+      
+    </div>
+  </div>
+
+  </div>
+
+              <div class="region region-footer-third">
+    <div id="block-contactenos-2" class="block block-block-content block-block-content6b6aafdf-d43b-4abf-ba31-669a2b18f062">
+  
+      <h2>Contáctenos</h2>
+    
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>Cuba No. 460, entre Amargura y Teniente Rey.<br />
+Habana Vieja</p>
+<p><a href="mailto:acc@ceniai.inf.cu">acc@ceniai.inf.cu</a></p>
+<p>(+53) 7861 0261</p>
+<p><img alt="Marca Cuba" data-entity-type="file" data-entity-uuid="470db960-5191-40b3-88bb-1204c2c1dcb9" height="41" src="/accdrupal9/sites/default/files/inline-images/marcacuba_para_fondo_azul_0.png" width="94" /></p>
+</div>
+      
+    </div>
+  </div>
+
+  </div>
+
+            
+          </div>
+                          <div class="site-footer__bottom">
+              <div class="region region-footer-fifth">
+    <div id="block-copyrigth" class="block block-block-content block-block-content3846697b-e14b-4188-8b36-89d02b7f19f8">
+  
+    
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>© Copyright 2022. <a href="http://www.citmatel.cu/">CITMATEL</a>®. Todos los derechos reservados.</p></div>
+      
+    </div>
+  </div>
+<div class="views-element-container block block-views block-views-blockultima-actualizacion-contenido-block-1" id="block-views-block-ultima-actualizacion-contenido-block-1">
+  
+    
+      <div class="content">
+      <div><div class="view view-ultima-actualizacion-contenido view-id-ultima_actualizacion_contenido view-display-id-block_1 js-view-dom-id-53513e8374643a38536b9d21468b67ce964a766118584cae9b40e766cb94f007">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><span class="views-field views-field-changed"><span class="views-label views-label-changed">Última actualización del contenido: </span><span class="field-content">2024-12-25</span></span></div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+          </div>
+              </div>
+    </footer>
+  </div>
+</div>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"es\/","currentPath":"","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"es"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"back_to_top\/back_to_top_icon,back_to_top\/back_to_top_js,bartik\/classy.base,bartik\/classy.messages,bartik\/global-scripts,bartik\/global-styling,calendar\/calendar.theme,colorbox\/default,colorbox_inline\/colorbox_inline,colorbox_load\/colorbox_load,core\/normalize,floating_block\/floating_block,ng_lightbox\/ng_lightbox,responsive_menus\/responsive_menus_simple,social_media_links\/fontawesome.component,social_media_links\/social_media_links.theme,system\/base,views\/views.module","theme":"bartik","theme_token":null},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true},"back_to_top":{"back_to_top_button_trigger":100,"back_to_top_prevent_on_mobile":true,"back_to_top_prevent_in_admin":false,"back_to_top_button_type":"image","back_to_top_button_text":"Volver arriba"},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"460px"},"floatingBlock":{"blocks":[{"selector":"#sidebar-first"},{"selector":".responsive-menus"}],"min_width":null},"responsive_menus":[{"toggler_text":"\u2630 ","selectors":[".region-primary-menu"],"media_size":"768","media_unit":"px","absolute":1,"disable_mouse_events":0,"remove_attributes":1,"responsive_menus_style":"responsive_menus_simple"}],"user":{"uid":0,"permissionsHash":"7c773c50dc870b7360f887a02db3fc4072426052ed3648b0fa7e9539d363140f"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.6.3"></script>
+<script src="/core/misc/polyfills/element.matches.js?v=9.5.11"></script>
+<script src="/core/misc/polyfills/object.assign.js?v=9.5.11"></script>
+<script src="/core/misc/polyfills/nodelist.foreach.js?v=9.5.11"></script>
+<script src="/core/assets/vendor/css-escape/css.escape.js?v=1.5.1"></script>
+<script src="/core/assets/vendor/es6-promise/es6-promise.auto.min.js?v=4.2.8"></script>
+<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/core/assets/vendor/jquery-once/jquery.once.min.js?v=2.2.3"></script>
+<script src="/sites/default/files/languages/es_LRYBtj7wmdT5VkiSsqfcO3VM0gY116uXLmOptv-Y6Ps.js?sn5t43"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=9.5.11"></script>
+<script src="/core/misc/drupal.js?v=9.5.11"></script>
+<script src="/core/misc/drupal.init.js?v=9.5.11"></script>
+<script src="/modules/jquery_ui_effects/jquery.ui/ui/effect-min.js?v=1.12.1"></script>
+<script src="/core/assets/vendor/tabbable/index.umd.min.js?v=5.3.3"></script>
+<script src="/core/misc/jquery.once.bc.js?v=9.5.11"></script>
+<script src="/modules/jquery_ui_effects/jquery.ui/ui/effects/effect-fade-min.js?v=1.12.1"></script>
+<script src="/modules/back_to_top/js/back_to_top.js?v=9.5.11"></script>
+<script src="/libraries/colorbox/jquery.colorbox-min.js?v=9.5.11"></script>
+<script src="/modules/colorbox/js/colorbox.js?v=9.5.11"></script>
+<script src="/modules/colorbox/styles/default/colorbox_style.js?v=9.5.11"></script>
+<script src="/modules/colorbox_inline/js/colorbox_inline.js?sn5t43"></script>
+<script src="/core/misc/progress.js?v=9.5.11"></script>
+<script src="/core/assets/vendor/loadjs/loadjs.min.js?v=4.2.0"></script>
+<script src="/core/modules/responsive_image/js/responsive_image.ajax.js?v=9.5.11"></script>
+<script src="/core/misc/ajax.js?v=9.5.11"></script>
+<script src="/modules/colorbox_load/js/colorbox_load.js?sn5t43"></script>
+<script src="/modules/floating_block/floating_block.js?sn5t43"></script>
+<script src="/modules/responsive_menus/styles/responsive_menus_simple/js/responsive_menus_simple.js?v=9.5.11"></script>
+<script src="/core/themes/bartik/js/cuddly-slider.js?v=9.5.11"></script>
+
+  </body>
+</html>

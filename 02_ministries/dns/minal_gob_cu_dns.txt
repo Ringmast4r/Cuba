@@ -1,0 +1,8 @@
+Non-authoritative answer:
+Server:  UnKnown
+Address:  10.2.0.1
+
+Name:    minal.gob.cu
+Addresses:  190.92.127.32
+	  190.92.127.33
+

@@ -1,0 +1,12 @@
+=== DNS Records for minint.gob.cu ===
+Server:  UnKnown
+Address:  10.2.0.1
+
+Name:    minint.gob.cu
+
+Non-authoritative answer:
+Server:  UnKnown
+Address:  10.2.0.1
+
+minint.gob.cu	nameserver = ns1.minint.gob.cu
+minint.gob.cu	nameserver = ns2.minint.gob.cu

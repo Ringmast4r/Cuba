@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Sun, 11 Jan 2026 19:26:11 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://www.ics.gob.cu/
+Strict-Transport-Security: max-age=15768000
+

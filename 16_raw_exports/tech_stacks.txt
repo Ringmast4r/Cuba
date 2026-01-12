@@ -1,0 +1,6 @@
+=== ACN METADATA ===
+Framework: Laravel
+Email: web@acn.cu
+=== JUVENTUD REBELDE METADATA ===
+Framework: Laravel
+Load Balancer: SERVERID=wf2

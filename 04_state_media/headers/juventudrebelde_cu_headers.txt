@@ -1,0 +1,28 @@
+HTTP/1.1 302 Found
+Cache-Control: no-cache
+Content-length: 0
+Location: https://www.juventudrebelde.cu/
+
+HTTP/1.1 200 OK
+Date: Sun, 11 Jan 2026 18:46:27 GMT
+Cache-Control: no-cache
+Referrer-Policy: strict-origin
+Permissions-Policy: vibrate(self), usermedia(*), microphone(none), payment(none), sync-xhr(self 'https://www.juventudrebelde.cu/')
+X-Permitted-Cross-Domain-Policies: none
+Content-Type: text/html; charset=UTF-8
+Set-Cookie: HttpOnly; SameSite=STRICT; HTTPOnly; Secure;HttpOnly;Secure; SameSite=Lax; Secure; HttpOnly
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IjBmcndETFhPSEtRXC82aE5ET1dwXC8wZz09IiwidmFsdWUiOiI2RXVTYVZLblN2MlNRUVwvSkdDR3lBZEw5MXA4WjFXMHQ4YUQ1bUhpUG1cL21tRmVcL0FHMVFyWHVJUTdDaVwvYXJYWllHODVCQWdKeGtuMzdPMHVvQVA4K3c9PSIsIm1hYyI6ImE3N2Q5OTQ5MDY3N2RiNzA4NTBjOTcyZDI3MjJlYTgzNWYxNTEwMzk1ZDQ0Yjc1NmM5M2UzYjk2OGQ5ZTFjNWQifQ%3D%3D; expires=Sun, 11-Jan-2026 20:46:27 GMT; Max-Age=7200; path=/; HTTPOnly; Secure;HttpOnly;Secure; SameSite=Lax; Secure; HttpOnly
+Set-Cookie: laravel_session=eyJpdiI6IjRSY1BGZFwvWXA1WVNLK0VuUmN1OEFBPT0iLCJ2YWx1ZSI6Ikc5NkJkREVUYkJHdWhNNkRqa3NWMXUwbGhEeHBsaUV4VytaZVFlZmg4U1ViK29oUkt2NllPNVp0Q2tobEZVMjFVT2hETzBhUVBReFRZYWplc2J0cDd3PT0iLCJtYWMiOiI3ZmY4ODEyZTEzM2Q2MDEyNWY2MTkwMTRlYzg4OTgxMTIwZTA2OTJiMTQzYjg2YzY0M2MyZmEzYWRmNjljNTVlIn0%3D; expires=Sun, 11-Jan-2026 20:46:27 GMT; Max-Age=7200; path=/; HttpOnly; HTTPOnly; Secure;HttpOnly;Secure; SameSite=Lax; Secure; HttpOnly
+Set-Cookie: ROUTEID=.wb4; path=/; SameSite=Lax; Secure; HttpOnly
+Access-Control-Allow-Origin: www.juventudrebelde.cu
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Authorization, JSNLog-RequestId, activityId, applicationId, applicationUserId, channelId, senderId, sessionId
+Access-Control-Max-Age: 3628800
+Access-Control-Allow-Methods: GET, DELETE, OPTIONS, POST, PUT
+Strict-Transport-Security: max-age=31536000; preload
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Security-Policy: upgrade-insecure-requests
+Content-Security-Policy: upgrade-insecure-requests
+Set-Cookie: SERVERID=wf1; path=/; HttpOnly; Secure
+

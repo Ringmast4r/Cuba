@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Date: Sun, 11 Jan 2026 18:57:04 GMT
+Cache-Control: must-revalidate, no-cache, private
+Link: <http://www.ujc.cu/>; rel="canonical", <http://www.ujc.cu/>; rel="shortlink"
+X-UA-Compatible: IE=edge
+Content-language: es
+Permissions-Policy: interest-cohort=()
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+X-Generator: Drupal 9 (https://www.drupal.org)
+Strict-Transport-Security: max-age=31536000;includeSubDomains;preload;
+Content-Type: text/html; charset=UTF-8
+Cache-control: private
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1;mode=block;
+X-Content-Type-Options: nosniff
+Referrer-Policy: no-referrer-when-downgrade
+Content-Security-Policy:script-src: https://analytics.google.com
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1;mode=block;
+X-Content-Type-Options: nosniff
+Referrer-Policy: no-referrer-when-downgrade
+Set-Cookie: SERVERID=C; path=/
+

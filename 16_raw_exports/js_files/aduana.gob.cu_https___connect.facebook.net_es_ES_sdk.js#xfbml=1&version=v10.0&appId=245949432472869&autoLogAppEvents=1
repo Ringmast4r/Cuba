@@ -1,0 +1,22 @@
+/*1768157845,,JIT Construction: v1031861586,es_ES*/
+
+/**
+ * Copyright (c) 2017-present, Facebook, Inc. All rights reserved.
+ *
+ * You are hereby granted a non-exclusive, worldwide, royalty-free license to use,
+ * copy, modify, and distribute this software in source code or binary form for use
+ * in connection with the web services and APIs provided by Facebook.
+ *
+ * As with any software that integrates with the Facebook platform, your use of
+ * this software is subject to the Facebook Platform Policy
+ * [http://developers.facebook.com/policy/]. This copyright notice shall be
+ * included in all copies or substantial portions of the software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+ * FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+ * COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+ * IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+ * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ */
+(function _(e,t,n,r,o){var a=window.console;if(a&&Math.floor(new Date().getTime()/1e3)-t>10080*60&&a.warn("The Facebook JSSDK is more than 7 days old."),!window[n]&&window.JSON){for(var i=window[n]={__buffer:{replay:function(){for(var e=this,t=function(){var t=window[n];e.calls[r][0].split(".").forEach(function(e){return t=t[e]}),t.apply(null,e.calls[r][1])},r=0;r<this.calls.length;r++)t();this.calls=[]},calls:[],opts:null},getUserID:function(){return""},getAuthResponse:function(){return null},getAccessToken:function(){return null},init:function(e){i.__buffer.opts=e}},l=0;l<r.length;l++){var s=r[l];if(!(s in i)){for(var u=s.split("."),c=u.pop(),d=i,m=0;m<u.length;m++)d=d[u[m]]||(d[u[m]]={});d[c]=(function(e){if(e!=="init")return function(){i.__buffer.calls.push([e,Array.prototype.slice.call(arguments)])}})(s)}}var p=document.createElement("script");p.src=e,p.async=!0,o&&(p.crossOrigin="anonymous");var f=document.getElementsByTagName("script")[0];f.parentNode&&f.parentNode.insertBefore(p,f)}})("https:\/\/connect.facebook.net\/es_ES\/sdk.js?hash=365d48b1827acf7115cf78e8ecfbd8e8", 1768157845, "FB", ["AppEvents.EventNames","AppEvents.ParameterNames","AppEvents.activateApp","AppEvents.clearAppVersion","AppEvents.clearUserID","AppEvents.getAppVersion","AppEvents.getUserID","AppEvents.logEvent","AppEvents.logPageView","AppEvents.logPurchase","AppEvents.setAppVersion","AppEvents.setUserID","AppEvents.updateUserProperties","Canvas.Plugin.showPluginElement","Canvas.Plugin.hidePluginElement","Canvas.Prefetcher.addStaticResource","Canvas.Prefetcher.setCollectionMode","Canvas.getPageInfo","Canvas.scrollTo","Canvas.setAutoGrow","Canvas.setDoneLoading","Canvas.setSize","Canvas.setUrlHandler","Canvas.startTimer","Canvas.stopTimer","Event.subscribe","Event.unsubscribe","XFBML.parse","addFriend","api","getAccessToken","getAuthResponse","getLoginStatus","getUserID","init","login","logout","publish","share","ui"], true);

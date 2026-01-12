@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Date: Sun, 11 Jan 2026 18:53:41 GMT
+Server: Apache
+X-FRAME-OPTIONS: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Cache-Control: must-revalidate, no-cache, private
+Link: <https://www.citma.gob.cu/>; rel="canonical", <https://www.citma.gob.cu/>; rel="shortlink"
+X-UA-Compatible: IE=edge
+Content-language: es
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+X-Generator: Drupal 9 (https://www.drupal.org)
+Access-Control-Allow-Origin: 
+Access-Control-Allow-Headers: Accept,Origin,Content-Type,Cookie
+Access-Control-Allow-Credentials: true
+Strict-Transport-Security: max-age=1000; includeSubDomains
+Content-Security-Policy: frame-ancestors 'self'
+Content-Type: text/html; charset=UTF-8
+

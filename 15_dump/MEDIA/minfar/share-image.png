@@ -1,0 +1,9 @@
+<!DOCTYPE html><html><head><title>404 Not Found</title>        <script type="text/javascript" src="/modules/contrib/seckit/js/seckit.document_write.js"></script>
+        <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/modules/contrib/seckit/css/seckit.no_body.css" />
+        <!-- stop SecKit protection -->
+        <noscript>
+        <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/modules/contrib/seckit/css/seckit.noscript_tag.css" />
+        <div id="seckit-noscript-tag">
+          Sorry, you need to enable JavaScript to visit this website.
+        </div>
+        </noscript></head><body><h1>Not Found</h1><p>The requested URL "https://www.minfar.gob.cu/themes/custom/minfar_theme/share-image.png" was not found on this server.</p></body></html>

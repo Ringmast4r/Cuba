@@ -1,0 +1,30 @@
+=== CERTIFICATE TRANSPARENCY ===
+--- gob.cu ---
+
+--- etecsa.cu ---
+
+--- granma.cu ---
+datos.granma.cu
+de.granma.cu
+de.granma.cu\nen.granma.cu\nfr.granma.cu\ngranma.cu\nit.granma.cu\npt.granma.cu\nwww.granma.cu
+de.granma.cu\nwww.en.granma.cu
+en.granma.cu
+en.granma.cu\nwww.en.granma.cu
+fr.granma.cu
+fr.granma.cu\nwww.fr.granma.cu
+granma.cu
+granma.cu\nwww.granma.cu
+it.granma.cu
+it.granma.cu\nwww.it.granma.cu
+portal.granma.cu
+pt.granma.cu
+pt.granma.cu\nwww.pt.granma.cu
+webmail.granma.cu
+www.granma.cu
+
+--- cubadebate.cu ---
+*.cubadebate.cu
+*.cubadebate.cu\ncubadebate.cu
+canalusb.cubadebate.cu
+correo.cubadebate.cu
+

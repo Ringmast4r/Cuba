@@ -1,0 +1,237 @@
+================================================================================
+                    CUBA OSINT COLLECTION STATUS
+                    Domain Coverage Summary
+                    Updated: January 11, 2026
+================================================================================
+
+LEGEND:
+  [X] = Data collected
+  [~] = Partial data / referenced in other files
+  [-] = Domain doesn't exist / redirects elsewhere
+  [ ] = Not yet collected
+
+================================================================================
+[01] PRESIDENCY / EXECUTIVE BRANCH
+================================================================================
+[X] presidencia.gob.cu      - Headers, HTML, DNS, cert collected
+[X] gobierno.gob.cu         - Headers, DNS collected
+[X] cubagob.cu              - Headers collected
+[X] pcc.cu                  - Headers, HTML, DNS, cert (Windows95 fake header!)
+[X] uneac.org.cu            - DNS collected
+[X] cdr.cu                  - DNS collected
+[X] fmc.cu                  - DNS collected
+[X] ujc.cu                  - DNS, honeypot detected
+[X] ctc.cu                  - DNS collected
+[X] anap.cu                 - DNS collected (added during scan)
+
+================================================================================
+[02] MINISTRIES
+================================================================================
+[X] minrex.gob.cu           - Headers, DNS collected
+[X] minjus.gob.cu           - Headers, DNS collected
+[X] mfp.gob.cu              - DNS collected
+[X] mep.gob.cu              - Headers, DNS collected
+[X] minsap.gob.cu           - Headers, DNS collected
+[X] mined.gob.cu            - Headers, DNS, WordPress detected
+[X] mes.gob.cu              - Referenced
+[X] mincult.gob.cu          - Headers, DNS collected
+[X] inder.gob.cu            - Headers collected
+[X] mtss.gob.cu             - Referenced
+[X] mincex.gob.cu           - Headers, DNS collected
+[X] mincin.gob.cu           - Headers collected
+[X] mintur.gob.cu           - Headers, DNS collected
+[X] minal.gob.cu            - DNS collected
+[X] minag.gob.cu            - Referenced
+[X] mindus.gob.cu           - Headers collected
+[X] micons.gob.cu           - DNS collected
+[X] minem.gob.cu            - Headers collected
+[X] mitrans.gob.cu          - DNS collected
+[X] mincom.gob.cu           - Headers, DNS collected
+[X] citma.gob.cu            - DNS, Drupal detected
+
+================================================================================
+[03] MILITARY / SECURITY
+================================================================================
+ARMED FORCES:
+[X] minfar.gob.cu           - Headers, DNS, cert, APIs, EXIF images (29 files)
+[~] far.cu                  - Referenced in documents
+[-] ejercito.cu             - DOESN'T EXIST (Army under MINFAR)
+[X] defensa.cu              - Referenced
+[-] marina.cu               - DOESN'T EXIST (Navy at minfar.gob.cu/tropas/)
+[-] daafar.cu               - DOESN'T EXIST (Air Force under MINFAR)
+
+INTERIOR / SECURITY:
+[X] minint.gob.cu           - Headers, DNS collected (self-hosted DNS!)
+[X] policia.cu              - Headers collected
+[-] pnr.cu                  - Use pnr.minint.gob.cu (subdomain)
+[X] dse.cu                  - Referenced
+[-] bomberos.cu             - DOESN'T EXIST (Fire dept under MININT, no website)
+[~] dti.minint.gob.cu       - Referenced
+
+INTELLIGENCE:
+[X] dic.cu                  - Referenced
+[X] g2.cu                   - Referenced
+
+BORDER / CUSTOMS:
+[X] aduana.gob.cu           - Headers, DNS, robots, honeypot, ETECSA Internal CA!
+[~] tropasguardafronteras.cu - Referenced
+[~] inmigracion.cu          - Referenced
+
+MILITARY ENTERPRISES (GAESA):
+[X] gaesa.cu                - Referenced
+[X] gaviota.cu              - Headers, DNS collected
+[X] cimex.cu                - Headers, DNS collected
+[X] trd.cu                  - Headers, DNS collected
+[X] cubalse.cu              - Headers, DNS collected
+[X] habaguanex.cu           - Headers collected
+[X] marlin.cu               - Headers, DNS collected
+[X] palmares.cu             - Headers, DNS collected
+[X] caracol.cu              - Headers collected
+
+================================================================================
+[04] STATE MEDIA
+================================================================================
+NEWSPAPERS:
+[X] granma.cu               - Headers, robots, cert, Google Analytics G-D39KSEBN9Q
+[X] juventudrebelde.cu      - Headers, robots, cert, Laravel+Vue, UA-291893-2
+[X] trabajadores.cu         - Headers, cert, REST API protected
+[X] tribuna.cu              - Referenced, UA-131250309-1
+[X] sierramaestra.cu        - Referenced
+[X] vanguardia.cu           - Referenced
+[X] ahora.cu                - Referenced
+[X] invasor.cu              - Referenced
+[~] adelante.cu             - Not scanned
+
+NEWS AGENCIES:
+[X] cubadebate.cu           - Headers, DNS, HTML collected
+[X] acn.cu                  - Headers, robots, cert, Laravel
+[X] prensalatina.cu         - Headers collected
+
+TELEVISION:
+[~] tvcubana.icrt.cu        - Referenced
+[~] icrt.gob.cu             - Referenced
+[~] canalhabana.icrt.cu     - Referenced
+[~] cubavision.icrt.cu      - Referenced
+
+RADIO:
+[X] radiocubana.cu          - Headers collected (WordPress, REST API secured!)
+[X] radioprogreso.cu        - Referenced
+[X] radioreloj.cu           - Referenced
+[X] radiohc.cu              - Honeypot detected (WP Armour 2.3.04)
+[X] cmbf.cu                 - Referenced
+[X] radiorebelde.cu         - Headers, cert, EXIF images (51 files), WP plugins
+[X] radiotaino.cu           - Referenced
+
+================================================================================
+[05] INFRASTRUCTURE / TELECOM
+================================================================================
+[X] etecsa.cu               - Headers, DNS, cert (Windows95 fake header!)
+[X] nauta.cu                - Headers collected
+[X] cubacel.cu              - Referenced
+[X] enet.cu                 - Headers collected
+[X] ceniai.cu               - Referenced
+[X] citmatel.cu             - Headers, HTML, Drupal
+[X] infomed.sld.cu          - Headers collected
+
+EDUCATION:
+[~] reduniv.edu.cu          - Referenced
+[~] uci.cu                  - Referenced
+[X] uh.cu                   - Headers, cert, WordPress users (5 exposed!)
+[X] cujae.edu.cu            - Cert, Joomla CSRF tokens exposed
+
+UTILITIES:
+[X] une.cu                  - Referenced
+[~] unelectrica.cu          - Not scanned
+[~] aguascuba.cu            - Not scanned
+[X] correos.cu              - Referenced
+
+TRANSPORT:
+[X] cubana.cu               - Referenced
+[~] aerogaviota.cu          - Referenced
+[X] viazul.cu               - Referenced
+[X] transtur.cu             - Referenced
+[X] ferrocarriles.cu        - Referenced
+
+================================================================================
+[06] JUDICIARY / LEGAL
+================================================================================
+[X] tsp.gob.cu              - Headers, DNS collected
+[X] fgr.gob.cu              - Headers, DNS collected
+[X] parlamentocubano.gob.cu - Headers, robots, DNS, cert
+[X] gacetaoficial.gob.cu    - Headers, robots, DNS, Drupal
+[~] minjus.gob.cu           - See ministries
+[X] onbc.cu                 - Referenced
+[~] notarias.cu             - Not scanned
+[~] registrocivil.cu        - Not scanned
+
+================================================================================
+[07] OTHER GOVERNMENT
+================================================================================
+STATISTICS:
+[X] one.cu                  - Headers, DNS collected
+[X] onei.gob.cu             - Headers, DNS collected
+
+BANKING:
+[X] bc.gob.cu               - Headers, DNS, API discovered (api.bc.gob.cu!)
+[X] bpa.cu                  - Referenced
+[X] bm.cu                   - Referenced
+[X] bandec.cu               - Referenced
+[X] bfi.cu                  - Referenced
+[X] bicsa.cu                - Referenced
+
+HEALTH / BIOTECH:
+[X] sld.cu                  - Headers, cert, WordPress users (9 exposed!), EXIF images
+[X] biocubafarma.cu         - DNS collected
+[~] cigb.edu.cu             - Referenced
+[~] cim.sld.cu              - Referenced
+[X] finlay.edu.cu           - UA-142146896-1
+
+DIPLOMATIC:
+[~] cubaminrex.cu           - Referenced
+[~] embacuba.cu             - Not scanned
+[~] misioncuba.cu           - Not scanned
+
+TOURISM:
+[X] cuba.cu                 - Referenced
+[X] cubatur.cu              - Referenced
+[X] havanatur.cu            - Referenced
+[X] islazul.cu              - Referenced
+[X] grancaribe.cu           - Referenced
+[X] cubancan.cu             - Referenced
+
+================================================================================
+                         COLLECTION STATISTICS
+================================================================================
+
+Total Target Domains:        131
+Confirmed Collected:         ~95 (72%)
+Referenced/Partial:          ~30 (23%)
+Don't Exist:                   5 (4%)
+Not Yet Scanned:              ~6 (5%)
+
+Files Collected:            1,494
+Total Data Size:             ~30 MB
+WordPress Users Exposed:       14
+Google Analytics IDs:           8
+Fake Server Headers:            2
+SSL Certificates:              17
+EXIF Images with Metadata:    182
+
+================================================================================
+                    KEY DISCOVERIES
+================================================================================
+
+1. "Windows95" Fake Headers: pcc.cu, etecsa.cu
+2. ETECSA Internal CA: aduana.gob.cu (12-year cert, MITM potential)
+3. WordPress API Exposed: sld.cu (9 users), uh.cu (5 users)
+4. WordPress API Protected: trabajadores.cu, radiocubana.cu (good!)
+5. MININT Self-Hosted DNS: ns1/ns2.minint.gob.cu
+6. Central Bank API: api.bc.gob.cu (Node.js/Express)
+7. Google Analytics on Gov Sites: 8 IDs found
+8. Military GPS Coordinates: Aduana HQ exact location exposed
+9. Legacy Software: Photoshop CS6 (2012) still in use
+10. Honeypots Detected: ujc.cu, aduana.gob.cu, etecsa.cu, radiohc.cu
+
+================================================================================
+                         END OF STATUS
+================================================================================

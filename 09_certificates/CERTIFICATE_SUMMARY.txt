@@ -1,0 +1,94 @@
+=== SSL CERTIFICATE SUMMARY ===
+Generated: Sun, Jan 11, 2026  2:49:59 PM
+Total certificates: 16
+
+=== acn_cu.crt ===
+        Issuer: C=US, O=Let's Encrypt, CN=R12
+            Not Before: Dec 23 12:51:17 2025 GMT
+            Not After : Mar 23 12:51:16 2026 GMT
+        Subject: CN=acn.cu
+
+=== aduana_gob_cu.crt ===
+        Issuer: C=CU, ST=La Habana, L=Plaza, O=ETECSA, OU=Centro de Datos, CN=idc.enet.cu, emailAddress=hosting@enet.cu
+            Not Before: Nov  6 16:28:05 2019 GMT
+            Not After : Jan 23 16:28:05 2031 GMT
+        Subject: C=CU, ST=La Habana, L=Plaza, O=ETECSA, OU=Centro de Datos, CN=idc.enet.cu, emailAddress=hosting@enet.cu
+
+=== bc_gob_cu.crt ===
+        Issuer: C=US, O=Let's Encrypt, CN=R13
+            Not Before: Jan 10 03:56:28 2026 GMT
+            Not After : Apr 10 03:56:27 2026 GMT
+        Subject: CN=www.bc.gob.cu
+
+=== cujae_edu_cu.crt ===
+        Issuer: C=US, O=Let's Encrypt, CN=R12
+            Not Before: Oct 26 13:58:31 2025 GMT
+            Not After : Jan 24 13:58:30 2026 GMT
+        Subject: CN=*.cujae.edu.cu
+
+=== etecsa_cu.crt ===
+        Issuer: C=US, O=Let's Encrypt, CN=R12
+            Not Before: Dec 19 13:10:18 2025 GMT
+            Not After : Mar 19 13:10:17 2026 GMT
+        Subject: CN=www.etecsa.cu
+
+=== granma_cu.crt ===
+        Issuer: C=US, O=Let's Encrypt, CN=R13
+            Not Before: Dec 30 18:38:46 2025 GMT
+            Not After : Mar 30 18:38:45 2026 GMT
+        Subject: CN=granma.cu
+
+=== juventudrebelde_cu.crt ===
+        Issuer: C=US, O=Let's Encrypt, CN=R13
+            Not Before: Dec 30 18:49:21 2025 GMT
+            Not After : Mar 30 18:49:20 2026 GMT
+        Subject: CN=juventudrebelde.cu
+
+=== minfar_gob_cu.crt ===
+        Issuer: C=US, O=Let's Encrypt, CN=R13
+            Not Before: Dec 24 20:03:45 2025 GMT
+            Not After : Mar 24 20:03:44 2026 GMT
+        Subject: CN=www.minfar.gob.cu
+
+=== parlamentocubano_gob_cu.crt ===
+        Issuer: C=US, O=Let's Encrypt, CN=R12
+            Not Before: Nov 24 20:59:46 2025 GMT
+            Not After : Feb 22 20:59:45 2026 GMT
+        Subject: CN=www.parlamentocubano.gob.cu
+
+=== pcc_cu.crt ===
+        Issuer: C=US, O=Let's Encrypt, CN=R12
+            Not Before: Dec 16 16:14:39 2025 GMT
+            Not After : Mar 16 16:14:38 2026 GMT
+        Subject: CN=pcc.cu
+
+=== presidencia_gob_cu.crt ===
+        Issuer: C=US, O=Let's Encrypt, CN=R13
+            Not Before: Dec 24 20:22:20 2025 GMT
+            Not After : Mar 24 20:22:19 2026 GMT
+        Subject: CN=*.presidencia.gob.cu
+
+=== radiorebelde_cu.crt ===
+        Issuer: C=US, O=Let's Encrypt, CN=R13
+            Not Before: Nov 26 10:08:45 2025 GMT
+            Not After : Feb 24 10:08:44 2026 GMT
+        Subject: CN=f.cert.rsa.icrt.cu
+
+=== sld_cu.crt ===
+        Issuer: C=US, O=Let's Encrypt, CN=R13
+            Not Before: Oct 26 11:32:54 2025 GMT
+            Not After : Jan 24 11:32:53 2026 GMT
+        Subject: CN=*.sld.cu
+
+=== trabajadores_cu.crt ===
+        Issuer: C=US, O=Let's Encrypt, CN=R13
+            Not Before: Jan  2 12:43:32 2026 GMT
+            Not After : Apr  2 12:43:31 2026 GMT
+        Subject: CN=trabajadores.cu
+
+=== uh_cu.crt ===
+        Issuer: C=US, O=Let's Encrypt, CN=E8
+            Not Before: Dec 31 13:32:40 2025 GMT
+            Not After : Mar 31 13:32:39 2026 GMT
+        Subject: CN=*.uh.cu
+

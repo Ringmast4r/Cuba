@@ -1,0 +1,276 @@
+=== CREDENTIAL/HASH EXTRACTION ===
+--- pcc_cu_index.html ---
+  EMAILS: poblacion@cc.cu
+
+--- presidencia_gob_cu_index.html ---
+  EMAILS: despacho@presidencia.gob.cu
+webmaster@presidencia.gob.cu
+
+--- citma_gob_cu_index.html ---
+  EMAILS: apoblacion@citma.gob.cu
+
+--- mined_gob_cu_index.html ---
+  EMAILS: atencion.poblacion@mined.gob.cu
+  PUBLIC IPS: 4.7.9.1
+  MD5 HASHES: 3894003075da0ea916ee314054459690
+6902013625da0ea90dfda60075811440
+a04fdb5c1a3933b4bf52781fa8440de0
+
+--- mtss_gob_cu_index.html ---
+  EMAILS: webmaster@mtss.gob.cu
+  MD5 HASHES: 3894003075da0ea916ee314054459690
+6902013625da0ea90dfda60075811440
+
+--- aduana_gob_cu_index.html ---
+  EMAILS: publico@aduana.gob.cu
+
+--- minfar_gob_cu_index.html ---
+  EMAILS: apoblacionmf@unicom.co.cu
+
+--- acn_cu_index.html ---
+  EMAILS: web@acn.cu
+  MD5 HASHES: 7aba625914c170ef714bcef7e597cfa8
+
+--- adelante_cu_index.html ---
+  MD5 HASHES: 36217af4571c1abdba56d6e3e6aeea9f
+4d62958ce6e0972587bb30c998bf1d62
+796929a295814cb065fa300deabaa775
+823261a431f9f3480364149dd369d254
+ec8e18511221b58c99d4a75894f451f5
+ed135d6e4294a261f366eb0e7ecc7cff
+
+--- ahora_cu_index.html ---
+  MD5 HASHES: 15a21b53d943e6132f4310c1f699add9
+2b7470b5ea16bc716b3daede87d0e99e
+
+--- invasor_cu_index.html ---
+  EMAILS: cip221@invasor.cu
+  PUBLIC IPS: 026.01.08.01
+026.01.08.06
+026.01.08.07
+026.01.10.01
+026.01.10.02
+  MD5 HASHES: 9db2145bd96bdd43a22c1af7c4323c68
+
+--- juventudrebelde_cu_index.html ---
+  INTERNAL IPS: 10.01.04.000
+10.01.41.000
+  PUBLIC IPS: 00.01.17.000
+00.01.50.000
+00.01.55.000
+00.09.37.000
+00.12.42.000
+00.12.48.000
+01.01.15.000
+01.12.18.000
+02.12.37.000
+07.01.13.000
+08.01.42.000
+08.01.49.000
+08.12.38.000
+09.01.22.000
+09.01.45.000
+09.01.47.000
+09.01.55.000
+09.10.13.000
+11.01.31.000
+11.01.36.000
+11.01.53.000
+11.10.04.000
+12.01.45.000
+13.01.00.000
+14.01.41.000
+14.07.18.000
+14.10.10.000
+14.11.41.000
+15.01.47.000
+15.10.23.000
+15.10.26.000
+15.10.48.000
+15.12.31.000
+16.01.03.000
+16.11.28.000
+18.01.37.000
+18.01.49.000
+18.10.07.000
+18.10.43.000
+19.01.26.000
+19.01.43.000
+19.01.53.000
+19.12.43.000
+20.01.03.000
+20.01.17.000
+20.01.37.000
+20.01.41.000
+20.12.02.000
+21.01.01.000
+21.01.04.000
+21.01.53.000
+21.12.45.000
+22.01.03.000
+22.01.47.000
+22.09.25.000
+22.09.39.000
+22.11.23.000
+23.01.10.000
+23.01.36.000
+23.01.48.000
+23.01.52.000
+23.12.34.000
+23.12.59.000
+
+--- radiohc_cu_index.html ---
+  PUBLIC IPS: 1.33.44.72
+1.33.44.73
+1.38.81.71
+1.56.25.47
+1.89.46.56
+1.93.4.81
+2.35.37.65
+38.43.22.6
+7.4.4.2
+75.34.75.75
+87.39.87.87
+88.39.88.88
+  MD5 HASHES: e43a24731324484e3d129dd71e18bf54
+
+--- radiorebelde_cu_index.html ---
+  MD5 HASHES: 23494c9101089ad44ae88ce9d2f56aac
+d506f7781bfc7346e28de725739d3dc8
+
+--- radioreloj_cu_index.html ---
+  EMAILS: marina@icrt.cu
+radio.reloj@icrt.cu
+
+--- sierramaestra_cu_index.html ---
+  EMAILS: cip226@sierramaestra.cu
+contact@ytcvn.com
+  MD5 HASHES: 00b6bd2ea517dc8556383164030d5a48
+07db2d687cff0a00ab7e6ef200d36c2a
+0db5c9e57c0bc1b08c0be53572efbfae
+0de07c0a7397e462ca1bc0ab794d3701
+10d5862f83b0dc233a43f6a847daa6c1
+1b4e1ffa803f38f4d354ad949d46f504
+20083a13cdd16dca555cb39356efbf48
+25bec589bfee2cff23c4b494a7c562aa
+2cefab4fa2eb0bc2b450bd266be3e810
+2ddeea43d4db0bbd56071ec813258939
+3140ff08eeb8559c95db529f9e3747c7
+32f7ba3ec0d54db95b734f624143ed55
+3585098231a9f631251ea67d24ec4e0e
+38fcd5db44cfd45ae30ca99ebb929971
+3da78a2b34ad7500ae4cc05f8fce67b6
+3f85d7d9666b143941c37d1b723eaf64
+3fec58428550bbd0f7c5ed92f87a7d2b
+412ec2e554725f19d081dc361535b50d
+42a56fb91036e239569706c8e015a612
+435bdb8bf96fb9b5ec9bd2c9c0d8f04d
+45d1ca108642c2d1abbb3ce67309d133
+4beb5cb440c1768ae3fe19e7dc1aa278
+4d5dfa313e9102d3f029031e2de5677c
+52868688aba4e9ff5347047be01ef789
+53f00a7d7b5a4b994de2527d195b4904
+5d1e7ec84a3adec8f62fec9e7dc56f0a
+63bd7bf27a7437fd7d2ba9d2a011c7d2
+693b786c0b9f5d92eb44f4a8d6f1d69b
+69dd3bd1f1e3bf3cec3e0f80c7f5a724
+712aa225cec07211d10b9d604d137c50
+7293028d74990f6c8fb560b4be5a1147
+736f91026f64ef5ce2e725bb095ed571
+7620d414e9bdb1536c8bb1d82f56536d
+7fa1192e243e7a11dcd9015b0f8eacff
+80e144211f53fba1b0a4fec0ca4c51d8
+8c525cfae700bbf1f3598c0f3ef7e75a
+8d2afa9db340cb57e5a614a03bd4aeef
+8d2b9969db585f5af07dc6561b166187
+8d5c1728176d055158e55fe2c8bc4e89
+8e35e75bf9fbfe936082749dde4adf77
+930d85678b1d08a43b702ab6c0d5b5bf
+9326e28ad934659310b9f7f2612fed01
+9a8a82d871f20bd26058e44405b9f532
+a8f79b148309b477dbe79d031b6475d7
+a97f456fca147055a48aef0e60d7952d
+aa754b1f19c7df490be4b958cf085e7c
+aed7bbd20581f7826cc979eace3110e9
+af10331d32abdfa1741b8801d839fea7
+afe499ea05929897a66de73822409140
+b143fa196bc9907e2a0c0ffe45e44a9f
+bd88d5381ca4406ff2a6f6a0396cd072
+c59babb2de434e1a86c55ac8293a4dc9
+cf08717ab5128b98c4f8935ab394d80d
+d0c8523ae404b4fc4e7715ffd4df9cb6
+d178eabb0c95240cd6fcfbc692f4d836
+d19b33dd5cbc9d62b1c6141bfec5a5e2
+d59219f006f04d93166b6b766b2e0156
+d67591e4f33f1ee76a85150a74cacf21
+d6ab7204cfbb8aa572b03f7dbe44af05
+d6fc85277c9bfbdccfc2935b878c3e1d
+d87f48797138426924cf319d1172ef38
+e17d6519df42ba41fe08a9b4983eae9a
+e5e24a1a84d73b2178537cae5edb851a
+e9d0c3a39f6634e401f039bed837a6e4
+fce4b5cd576e5790634827acd5c23899
+fcf3d76fd2514d8bb7fbe13f8b73dbb4
+fe66afca2877838e1edce710eb98a953
+
+--- trabajadores_cu_index.html ---
+  EMAILS: digital@trabajadores.cu
+  MD5 HASHES: 68ACBF544428D068AEB9C6C6D25F7CEF
+f288fa06a1d14f43be2a107515c4f291
+
+--- tribuna_cu_index.html ---
+  EMAILS: redac@tribuna.cip.cu
+
+--- vanguardia_cu_index.html ---
+  PUBLIC IPS: 7.178.07.207
+  MD5 HASHES: 82cefc2ed431cceabdfe7eadc299838f
+cb44b77f409a620bd266562e09ee1f9c
+  SHA1 HASHES: 37ffe4186289eba9c5df81bea44080aff77b9684
+
+--- citmatel_cu_index.html ---
+  EMAILS: atencionaclientes@citmatel.inf.cu
+
+--- cujae_edu_cu_index.html ---
+  EMAILS: n@tesla.cujae.edu.cu
+rectorado@tesla.cujae.edu.cu
+  MD5 HASHES: 032af75ad5933f9f9a025db2a15c10bb
+33cf0ccc83241425f5a413621f5bb1f1
+43ee27f89fa4750b197a396a37b9c349
+577e3e94d392c80545fffaf7623e9404
+85f0f65ef3b2a62552aabc524bbc9401
+91f417752dac0800f861d45bd59f2234
+abe91a4eba769507bd4d1ca4647cb578
+b870ccf548622567991ac70cdd481482
+
+--- etecsa_cu_index.html ---
+  EMAILS: atencion.usuarios@etecsa.cu
+
+--- uh_cu_index.html ---
+  EMAILS: uh@uh.cu
+  PUBLIC IPS: 7.5.0.1
+
+--- gacetaoficial_gob_cu_index.html ---
+  MD5 HASHES: 24e233f769283284b875a6beb7ea3941
+251ff563698d18f3b9d2616a7a5f798b
+2b757d7a7ec08247f3455fd09290006e
+78fda336e71a42c7a08711777d48ac72
+
+--- parlamentocubano_gob_cu_index.html ---
+  EMAILS: asambleanacionalpp@anpp.gob.cu
+webmaster@anpp.gob.cu
+
+--- bc_gob_cu_index.html ---
+  EMAILS: atencionpoblacion@bc.gob.cu
+  PUBLIC IPS: 002.321.023.465
+016.093.036.306
+1.15.35.35
+1.15.748.353
+1.857.182.466
+3.807.045.975
+
+--- biocubafarma_cu_index.html ---
+  EMAILS: contacto@oc.biocubafarma.cu
+
+--- onei_gob_cu_index.html ---
+  EMAILS: difusion@onei.gob.cu
+

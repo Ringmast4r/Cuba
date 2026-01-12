@@ -1,0 +1,119 @@
+===============================================================================
+                    COMPLETE EMAIL LIST - CUBAN GOVERNMENT OSINT
+===============================================================================
+Total Real Emails: 53
+Generated: January 11, 2026
+
+===============================================================================
+                    CUBAN GOVERNMENT (.gob.cu) - 11 emails
+===============================================================================
+despacho@presidencia.gob.cu
+webmaster@presidencia.gob.cu
+asambleanacionalpp@anpp.gob.cu
+webmaster@anpp.gob.cu
+publico@aduana.gob.cu
+apoblacion@citma.gob.cu
+atencion.poblacion@mined.gob.cu
+webmaster@mtss.gob.cu
+difusion@onei.gob.cu
+atencion.poblacion@ics.gob.cu
+atencionpoblacion@bc.gob.cu
+
+===============================================================================
+                    CUBAN STATE ENTITIES (.cu) - 19 emails
+===============================================================================
+comunicacionujc@ujc.cu
+atencion.usuarios@etecsa.cu
+digital@trabajadores.cu
+web@acn.cu
+radio.reloj@icrt.cu
+marina@icrt.cu
+redac@tribuna.cip.cu
+cip221@invasor.cu
+cip226@sierramaestra.cu
+redaccion@upec.cu
+uh@uh.cu
+presidencia@academiaciencias.cu
+contacto@oc.biocubafarma.cu
+web.uneac@uneac.co.cu
+hpardo@cubarte.cult.cu
+zosima@palco.cu
+eventos@amistur.cu
+webmaster@cuba.cu
+poblacion@cc.cu
+
+===============================================================================
+                    CUBAN EDUCATION (.edu.cu) - 4 emails
+===============================================================================
+rectorado@tesla.cujae.edu.cu
+comunicacion@tesla.cujae.edu.cu
+n@tesla.cujae.edu.cu
+farmacovigilancia@finlay.edu.cu
+
+===============================================================================
+                    CUBAN INFRASTRUCTURE (.inf.cu) - 2 emails
+===============================================================================
+atencionaclientes@citmatel.inf.cu
+acc@ceniai.inf.cu
+
+===============================================================================
+                    CUBAN COMMERCIAL (.co.cu) - 2 emails
+===============================================================================
+apoblacionmf@unicom.co.cu
+
+===============================================================================
+                    CUBAN TOURISM (.tur.cu) - 2 emails
+===============================================================================
+ep.eventos@centra.cbt.tur.cu
+eventos2@centra.cbt.tur.cu
+
+===============================================================================
+                    ETECSA INTERNAL (.enet.cu) - 1 email
+===============================================================================
+hosting@enet.cu
+
+===============================================================================
+                    CUBAN SCIENCE (.cnic.cu) - 1 email
+===============================================================================
+cnic.cuba@cnic.cu
+
+===============================================================================
+                    PERSONAL GMAIL ON GOV SITES - 8 emails
+===============================================================================
+conectateujc@gmail.com
+uneaccuba@gmail.com
+lilliamalvarezdiaz@gmail.com
+olgafe@gmail.com
+rogialmeida65@gmail.com
+richard352002@gmail.com
+rendro87@gmail.com
+dlamb.open.source@gmail.com
+
+===============================================================================
+                    PERSONAL YAHOO ON GOV SITES - 1 email
+===============================================================================
+hpardo2006@yahoo.es
+
+===============================================================================
+                    EXTERNAL THIRD-PARTY - 2 emails
+===============================================================================
+yanet.bellon@solways.com
+contact@ytcvn.com
+
+===============================================================================
+                    SUMMARY
+===============================================================================
+Cuban Government (.gob.cu):     11
+Cuban State (.cu):              19
+Cuban Education (.edu.cu):      4
+Cuban Infrastructure (.inf.cu): 2
+Cuban Commercial (.co.cu):      1
+Cuban Tourism (.tur.cu):        2
+ETECSA Internal (.enet.cu):     1
+Science (.cnic.cu):             1
+Personal Gmail:                 8
+Personal Yahoo:                 1
+External/Third-party:           2
+---------------------------------
+TOTAL:                          52 unique real emails
+===============================================================================

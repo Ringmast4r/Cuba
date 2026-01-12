@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Date: Sun, 11 Jan 2026 18:58:06 GMT
+Server: Apache
+X-FRAME-OPTIONS: SAMEORIGIN, SAMEORIGIN
+X-XSS-Protection: 1, mode=block
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Cache-Control: must-revalidate, no-cache, private
+X-Drupal-Dynamic-Cache: UNCACHEABLE
+X-UA-Compatible: IE=edge
+Content-language: es
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+X-Generator: Drupal 9 (https://www.drupal.org)
+X-XSS-Protection: 1; mode=block
+X-Drupal-Cache: HIT
+Content-Security-Policy: frame-ancestors 'self';
+Content-Type: text/html; charset=UTF-8
+

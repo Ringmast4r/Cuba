@@ -1,0 +1,8 @@
+Non-authoritative answer:
+Server:  UnKnown
+Address:  10.2.0.1
+
+Name:    mincex.gob.cu
+Addresses:  190.6.75.195
+	  190.92.127.178
+

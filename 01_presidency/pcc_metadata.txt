@@ -1,0 +1,6 @@
+=== PCC METADATA ===
+Server: Windows95 (obfuscated)
+CMS: Drupal 10
+PHP: 8.1.20
+Load Balancer: SERVERID=www2
+Language: es

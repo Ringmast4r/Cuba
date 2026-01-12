@@ -1,0 +1,55 @@
+===============================================================================
+              COMPLETE WORDPRESS GRAVATAR HASH COLLECTION
+===============================================================================
+Generated: January 11, 2026
+Method: WP REST API enumeration + Author ID brute force
+
+===============================================================================
+SLD.CU - National Health Information Network (9 users)
+===============================================================================
+admin       | 0c6fe68d9c3937ad9afe181a51e8cb5c0d0d3a728a5cfd369c72e980ed6642ce
+victorr     | d8560922759b623aeecf9ebc2c207666246c8966b7f456817cdbace11cd97dcf
+claudia     | fe3b5fc35fb669f4d8bc532fa5443a8c609ea27202ae01f9174817891e30b90c
+mirta       | b892f9886b6629c131f337fa846b5857e3a8e7bf6365e5d5694bfb60621945a8
+ivettecm    | 5a0509301edf187cea08d0179b63ce0c8cc99c04af7c3e2117c56edd568fdb5c
+nancypm     | a86c66ea440631975c9559454ae0e77bb6a69f230bb7c3fa328cd568553cf48a
+agdiaz      | 0d798222fdb5951527977b007b3c134a41741a6fa5b2e04e91811eda3ad2f9de
+tania       | 3b75406a755066876a85b43fd3ab8d529a4a55143299cdb08fceec7acdc75917
+borrell     | 8f5678202f85cfb7b54fe3ba62e82d16f1125ea19cd89c19559a02bdd22a07ab
+
+===============================================================================
+UH.CU - University of Havana (4 users with hashes)
+===============================================================================
+gsiuh           | 2fbaf4a7c4b2b0e445a0bb4d598b29e0bb1103034f4a287c26f2f88f6190b4d3
+seginf          | 9ac87529716c8334044d17c229a94a6b953f38cdff7e7c40fcdec1b373093b13
+adminnodo       | c329a52b275f3338636c80a815b897fc86a7205a1eca27e0b01d6fb1a6c99fe3
+taniarect-uh-cu | 550509f315c937adf01f2b309be07e9c5a83937b979741e3ab980030d4f3904a
+egutsens        | (hash not retrievable)
+
+===============================================================================
+OTHER WORDPRESS SITES CHECKED (Protected/No Access)
+===============================================================================
+mined.gob.cu    | WordPress - API returns 401 (protected)
+radiorebelde.cu | WordPress - API returns 404 (disabled)
+trabajadores.cu | WordPress - Protected by DRA plugin (401)
+finlay.edu.cu   | WordPress 4.3.1 - API returns 404 page
+
+===============================================================================
+TOTAL STATISTICS
+===============================================================================
+WordPress sites found:     6
+Sites with exposed users:  2
+Total usernames:          14
+Total gravatar hashes:    13
+
+===============================================================================
+NOTES
+===============================================================================
+- Gravatar hashes are SHA256 of lowercase(trim(email))
+- Can be reversed using:
+  - Rainbow tables
+  - Gravatar API lookup
+  - Email enumeration attacks
+- Username patterns often reveal organizational structure
+- taniarect-uh-cu exposes email format: tania.rect@uh.cu
+===============================================================================

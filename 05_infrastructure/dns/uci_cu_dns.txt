@@ -1,0 +1,7 @@
+Non-authoritative answer:
+Server:  UnKnown
+Address:  10.2.0.1
+
+Name:    uci.cu
+Address:  200.55.140.186
+

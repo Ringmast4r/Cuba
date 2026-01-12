@@ -1,0 +1,13 @@
+=== DNS: gobierno.gob.cu ===
+*** UnKnown can't find gobierno.gob.cu: Non-existent domain
+Server:  UnKnown
+Address:  10.2.0.1
+
+*** UnKnown can't find gobierno.gob.cu: Non-existent domain
+Server:  UnKnown
+Address:  10.2.0.1
+
+*** UnKnown can't find gobierno.gob.cu: Non-existent domain
+Server:  UnKnown
+Address:  10.2.0.1
+

@@ -1,0 +1,129 @@
+================================================================================
+                    CUBAN MILITARY DOMAIN ANALYSIS
+                    Missing Domains Investigation
+                    Generated: January 11, 2026
+================================================================================
+
+SUMMARY
+=======
+Investigation of 6 "missing" domains from TARGET_DOMAINS.txt revealed that
+most Cuban military branches do NOT have standalone websites. Instead, they
+operate as subsections of their parent ministry websites.
+
+================================================================================
+                         DOMAIN STATUS
+================================================================================
+
+1. EJERCITO.CU (Cuban Army)
+---------------------------
+Status: DOES NOT EXIST
+Reason: Cuban Army doesn't have a standalone website
+Actual: Content under minfar.gob.cu
+Source: Web search confirmed no ejercito.cu domain exists
+Notes: Cuban Revolutionary Army (Ejército Revolucionario) info is on MINFAR site
+
+
+2. MARINA.CU (Cuban Navy)
+-------------------------
+Status: DOES NOT EXIST
+Reason: Cuban Navy operates under MINFAR umbrella
+Actual: minfar.gob.cu/tropas/marina-de-guerra-revolucionaria
+Source: https://minfar.gob.cu/tropas/marina-de-guerra-revolucionaria
+Notes: Marina de Guerra Revolucionaria (MGR) - coastal defense force, ~3,000 personnel
+
+
+3. DAAFAR.CU (Air Force / Anti-Aircraft Defense)
+------------------------------------------------
+Status: DOES NOT EXIST
+Reason: Air Force operates under MINFAR umbrella
+Actual: Information under minfar.gob.cu
+Source: Wikipedia, GlobalSecurity confirm no standalone domain
+Notes: DAAFAR = Defensa Anti-Aérea y Fuerza Aérea Revolucionaria
+       Headquarters: Ciudad Libertad Air Base, Havana
+       Three zones: Western, Central, Eastern Air Force brigades
+
+
+4. PNR.CU (National Revolutionary Police)
+-----------------------------------------
+Status: DOES NOT EXIST as standalone domain
+Reason: Police operates as MININT subdomain
+Actual: pnr.minint.gob.cu
+Source: https://pnr.minint.gob.cu/
+Notes: Under Ministry of Interior (MININT), not a separate .cu domain
+       Sanctioned by US Treasury (July 2021) for protest suppression
+       Director: Oscar Callejas Valcarce (sanctioned)
+       Deputy Director: Eddy Sierra Arias (sanctioned)
+
+
+5. BOMBEROS.CU (Fire Department)
+--------------------------------
+Status: DOES NOT EXIST
+Reason: Fire Department operates under MININT, no public website
+Actual: No dedicated website found
+Source: EcuRed, Cubadebate articles only
+Notes: Cuerpo de Bomberos de Cuba
+       Founded: November 13, 1696 (Santa Clara)
+       HQ: Calle Peñalver, Centro Habana
+       Under MININT since Law 1156 (May 18, 1964)
+       No standalone website - covered only by state media
+
+
+6. RADIOCUBANA.CU (Cuban Radio Portal)
+--------------------------------------
+Status: EXISTS! (www.radiocubana.cu)
+Reason: WE MISSED IT - should have been in collection
+Actual: https://www.radiocubana.cu
+Platform: WordPress (REST API protected - good security!)
+Server: nginx
+SSL: Let's Encrypt, CN=g.cert.rsa.icrt.cu (shared ICRT cert)
+Expires: Feb 12, 2026
+Founded: March 14, 2006
+Notes: Portal for 80+ Cuban radio stations
+       Part of ICRT (Instituto Cubano de Radio y Television)
+       REST API returns 401 (properly secured unlike sld.cu/uh.cu)
+
+
+================================================================================
+                    KEY FINDINGS
+================================================================================
+
+1. MILITARY CONSOLIDATION
+   - Cuban military branches (Army, Navy, Air Force) all operate under MINFAR
+   - No separate public-facing websites for individual branches
+   - This is consistent with centralized military command structure
+
+2. SECURITY SERVICES STRUCTURE
+   - Police (PNR) is a SUBDOMAIN of MININT: pnr.minint.gob.cu
+   - Fire Department has no public website at all
+   - MININT maintains tight control over security web presence
+
+3. MEDIA ORGANIZATION
+   - radiocubana.cu EXISTS and should be added to collection
+   - Part of ICRT (Radio/TV Institute) infrastructure
+   - Shares SSL certificate with other ICRT properties
+
+4. DOMAIN STRATEGY
+   - Cuba consolidates military/security web presence under ministries
+   - Individual branches don't get standalone domains
+   - Suggests centralized web hosting/security policy
+
+================================================================================
+                    RECOMMENDATIONS
+================================================================================
+
+1. ADD TO COLLECTION:
+   - radiocubana.cu (WordPress, properly secured)
+   - pnr.minint.gob.cu (MININT subdomain - police)
+
+2. UPDATE TARGET_DOMAINS.TXT:
+   - Mark ejercito.cu, marina.cu, daafar.cu as "N/A - under MINFAR"
+   - Mark bomberos.cu as "N/A - no website"
+   - Update pnr.cu to pnr.minint.gob.cu
+
+3. SCAN MINFAR SUBPAGES:
+   - /tropas/marina-de-guerra-revolucionaria
+   - /tropas/ (other military branches)
+
+================================================================================
+                         END OF ANALYSIS
+================================================================================

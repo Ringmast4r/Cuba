@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+<link rel="shortlink" href="http://www.biocubafarma.cu/es" />
+<link rel="canonical" href="http://www.biocubafarma.cu/es" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script type="text/javascript" data-toolbar-anti-flicker-loading>(function() {
+  const toolbarState = sessionStorage.getItem('Drupal.toolbar.toolbarState')
+    ? JSON.parse(sessionStorage.getItem('Drupal.toolbar.toolbarState'))
+    : false;
+  // These are classes that toolbar typically adds to <body>, but this code
+  // executes before the first paint, when <body> is not yet present. The
+  // classes are added to <html> so styling immediately reflects the current
+  // toolbar state. The classes are removed after the toolbar completes
+  // initialization.
+  const classesToAdd = ['toolbar-loading', 'toolbar-anti-flicker'];
+  if (toolbarState) {
+    const {
+      orientation,
+      hasActiveTab,
+      isFixed,
+      activeTray,
+      activeTabId,
+      isOriented,
+      userButtonMinWidth
+    } = toolbarState;
+
+    classesToAdd.push(
+      orientation ? `toolbar-` + orientation + `` : 'toolbar-horizontal',
+    );
+    if (hasActiveTab !== false) {
+      classesToAdd.push('toolbar-tray-open');
+    }
+    if (isFixed) {
+      classesToAdd.push('toolbar-fixed');
+    }
+    if (isOriented) {
+      classesToAdd.push('toolbar-oriented');
+    }
+
+    if (activeTray) {
+      // These styles are added so the active tab/tray styles are present
+      // immediately instead of "flickering" on as the toolbar initializes. In
+      // instances where a tray is lazy loaded, these styles facilitate the
+      // lazy loaded tray appearing gracefully and without reflow.
+      const styleContent = `
+      .toolbar-loading #` + activeTabId + ` {
+        background-image: linear-gradient(rgba(255, 255, 255, 0.25) 20%, transparent 200%);
+      }
+      .toolbar-loading #` + activeTabId + `-tray {
+        display: block; box-shadow: -1px 0 5px 2px rgb(0 0 0 / 33%);
+        border-right: 1px solid #aaa; background-color: #f5f5f5;
+        z-index: 0;
+      }
+      .toolbar-loading.toolbar-vertical.toolbar-tray-open #` + activeTabId + `-tray {
+        width: 15rem; height: 100vh;
+      }
+     .toolbar-loading.toolbar-horizontal :not(#` + activeTray + `) > .toolbar-lining {opacity: 0}`;
+
+      const style = document.createElement('style');
+      style.textContent = styleContent;
+      style.setAttribute('data-toolbar-anti-flicker-loading', true);
+      document.querySelector('head').appendChild(style);
+
+      if (userButtonMinWidth) {
+        const userButtonStyle = document.createElement('style');
+        userButtonStyle.textContent = `#toolbar-item-user {min-width: ` + userButtonMinWidth +`px;}`
+        document.querySelector('head').appendChild(userButtonStyle);
+      }
+    }
+  }
+  document.querySelector('html').classList.add(...classesToAdd);
+})();</script>
+<link rel="icon" href="/sites/default/files/icono_0.png" type="image/png" />
+<script>window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};</script>
+
+    <title>| Biocubafarma</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_DHzOy_PjwJ8alHJcyzthy7oResm3edeV_8SiPb4Ni-c.css?delta=0&amp;language=es&amp;theme=biocubafarma&amp;include=eJxdjksOwjAMRC-UJmeaJG4IuHVlu9Deno8QUtiMnmbeYlCrC9Yz4QtxVlk9bMKcqu4bOL554r7eLNhpTkvKMAp-oSM1lgyezM-X0ELuUvaMGbrgf7t3elj6ZFyk7kyjroTiY1WgHooo_a6oNCWzoawdLC3iiuMJlUBP7w" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_ZURpxlrfRTe9ZOKTkGFbMXxvZRjYDP8F8IEhSVPMUa8.css?delta=1&amp;language=es&amp;theme=biocubafarma&amp;include=eJxdjksOwjAMRC-UJmeaJG4IuHVlu9Deno8QUtiMnmbeYlCrC9Yz4QtxVlk9bMKcqu4bOL554r7eLNhpTkvKMAp-oSM1lgyezM-X0ELuUvaMGbrgf7t3elj6ZFyk7kyjroTiY1WgHooo_a6oNCWzoawdLC3iiuMJlUBP7w" />
+
+    
+  </head>
+  <body class="homepage no-sidebar">
+        <a href="#main-content" class="visually-hidden focusable">
+      Pasar al contenido principal
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <header class="header">
+        <div id="header_id" class="header-container" style="padding-left: 15px; padding-right: 15px;">
+                    <div class="site-brand">
+                  <div class="block-region region-header">
+    <div id="block-biocubafarma-site-branding" class="block">
+  
+    
+  <div class="block-content">
+  <div class="site-branding">
+      <div class="site-logo">
+      <a href="/es" rel="home">
+        <img src="/sites/default/files/logo-admin_0.png" alt="Inicio" />
+      </a>
+    </div><!-- site-logo -->
+    </div><!-- site-branding -->
+  </div><!--/.block-content -->
+</div><!--/.block -->
+
+  </div>
+
+            </div> <!--/.site-branding -->
+                            <div class="header-right">
+                                    <div class="mobile-menu"><span></span></div>                     <div class="primary-menu-wrapper">
+                        <div class="menu-wrap">
+                            <div class="close-mobile-menu">x</div>
+                              <div class="block-region region-primary-menu">
+    <nav role="navigation" aria-labelledby="block-biocubafarma-main-menu-menu" id="block-biocubafarma-main-menu" class="block block-menu">
+            
+  <h2 class="visually-hidden block-title" id="block-biocubafarma-main-menu-menu">Main navigation</h2>
+  
+
+        
+              <ul class="menu">
+                            <li class="menu-item">
+        <a href="/es" data-drupal-link-system-path="&lt;front&gt;" class="is-active">Inicio</a>
+                  </li>
+                        <li  class="menu-item expanded">
+        <a href="/es/nosotros">Quiénes Somos <span class="fa fa-angle-down"></span></a>
+                                  <ul class="submenu">
+                            <li class="menu-item">
+        <a href="/es/nosotros/directivos" data-drupal-link-system-path="nosotros/directivos">Nuestros Directivos</a>
+                  </li>
+                        <li class="menu-item">
+        <a href="/es/nosotros/asesores" data-drupal-link-system-path="nosotros/asesores">Nuestros Asesores</a>
+                  </li>
+        </ul>
+  
+            </li>
+                        <li class="menu-item">
+        <a href="/es/noticias" data-drupal-link-system-path="noticias">Noticias</a>
+                  </li>
+                        <li  class="menu-item expanded">
+        <a href="/covid19">Covid 19 <span class="fa fa-angle-down"></span></a>
+                                  <ul class="submenu">
+                            <li class="menu-item">
+        <a href="/es/catalogos-productos-covid" class="use-ajax" data-dialog-type="modal" data-dialog-options="{&quot;height&quot;:&quot;180&quot;,&quot;width&quot;:&quot;305&quot;,&quot;title&quot;:&quot;Cat\u00e1logo&quot;}" data-drupal-link-system-path="catalogos-productos-covid">Catálogo de productos Covid-19</a>
+                  </li>
+        </ul>
+  
+            </li>
+                        <li  class="menu-item expanded">
+        <a href="/es/investigacion_y_desarrollo">I + D <span class="fa fa-angle-down"></span></a>
+                                  <ul class="submenu">
+                            <li class="menu-item">
+        <a href="/es/productos_lideres" data-drupal-link-system-path="productos_lideres">Productos Líderes</a>
+                  </li>
+                        <li class="menu-item">
+        <a href="/es/catalogos-proyectos-id" class="use-ajax" data-dialog-type="modal" data-dialog-options="{&quot;height&quot;:&quot;180&quot;,&quot;width&quot;:&quot;305&quot;,&quot;title&quot;:&quot;Cat\u00e1logo&quot;}" data-drupal-link-system-path="catalogos-proyectos-id">Catálogo de proyectos</a>
+                  </li>
+        </ul>
+  
+            </li>
+                        <li  class="menu-item expanded">
+        <a href="/productos">Productos <span class="fa fa-angle-down"></span></a>
+                                  <ul class="submenu">
+                            <li class="menu-item">
+        <a href="/es/info-medicamentos" data-drupal-link-system-path="node/71">Información sobre medicamentos</a>
+                  </li>
+                        <li class="menu-item">
+        <a href="/es/medicamentos-en-falta" data-drupal-link-system-path="medicamentos-en-falta">Medicamentos en falta </a>
+                  </li>
+                        <li class="menu-item">
+        <a href="/es/medicamentos-SNS" data-drupal-link-system-path="medicamentos-SNS">Medicamentos distribuidos al SNS </a>
+                  </li>
+                        <li class="menu-item">
+        <a href="/es/catalogo-productos" class="use-ajax" data-dialog-type="modal" data-dialog-options="{&quot;height&quot;:&quot;180&quot;,&quot;width&quot;:&quot;305&quot;,&quot;title&quot;:&quot;Cat\u00e1logo&quot;}" data-drupal-link-system-path="catalogo-productos">Catálogos de productos</a>
+                  </li>
+        </ul>
+  
+            </li>
+                        <li  class="menu-item expanded">
+        <a href="/es/negocios">Negocios <span class="fa fa-angle-down"></span></a>
+                                  <ul class="submenu">
+                            <li class="menu-item">
+        <a href="/es/catlogo-proyectos-negocios" class="use-ajax" data-dialog-type="modal" data-dialog-options="{&quot;height&quot;:&quot;180&quot;,&quot;width&quot;:&quot;305&quot;,&quot;title&quot;:&quot;Cat\u00e1logo&quot;}" data-drupal-link-system-path="catlogo-proyectos-negocios">Catálogo de proyectos</a>
+                  </li>
+        </ul>
+  
+            </li>
+                        <li  class="menu-item expanded">
+        <a href="/es/inversiones">Inversiones <span class="fa fa-angle-down"></span></a>
+                                  <ul class="submenu">
+                            <li class="menu-item">
+        <a href="/es/catalogo-inversiones" class="use-ajax" data-dialog-type="modal" data-dialog-options="{&quot;height&quot;:&quot;180&quot;,&quot;width&quot;:&quot;305&quot;,&quot;title&quot;:&quot;Cat\u00e1logo&quot;}" data-drupal-link-system-path="catalogo-inversiones">Catálogo de inversiones</a>
+                  </li>
+        </ul>
+  
+            </li>
+                        <li  class="menu-item expanded">
+        <a href="/eventos">Eventos <span class="fa fa-angle-down"></span></a>
+                                  <ul class="submenu">
+                            <li class="menu-item">
+        <a href="/es/eventos_cientificos" data-drupal-link-system-path="eventos_cientificos">Eventos Científicos</a>
+                  </li>
+                        <li class="menu-item">
+        <a href="/es/eventos_comerciales_y_negocio" data-drupal-link-system-path="eventos_comerciales_y_negocio">Eventos Comerciales y de Negocio</a>
+                  </li>
+        </ul>
+  
+            </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+                        </div> <!-- /.menu-wrap -->
+                    </div> <!-- /.primary-menu-wrapper -->
+                 <!--  end if for -->
+                              <dl id="country-select" class="dropdown">
+                <dt><a id="idioma-selected" href="javascript:void(0);"><span><i class="flag flag-32 flag-es"></i><span style="padding-left: 15px" class="fa fa-angle-down"></span></span></a></dt>
+                <dd>
+                  <ul style="display: none;">
+                    <li hreflang="es" data-drupal-link-system-path="<front>" class="es language-item"><a href="/es" class="language-link" hreflang="es" data-drupal-link-system-path="<front>"><i class="flag flag-32 flag-es"></i></a></li>
+                    <li hreflang="en" data-drupal-link-system-path="<front>" class="en language-item"><a href="/en" class="language-link" hreflang="en" data-drupal-link-system-path="<front>"><i class="flag flag-32 flag-gb"></i></a></li>
+                  </ul>
+                </dd>
+              </dl>
+
+                <div id="marca-pais"><img src="/sites/default/files/marcapais.png" alt="Marca pais"></div>
+            </div> <!-- /.header-right -->
+            </div><!-- /header-container -->
+    </header><!-- /header -->
+
+<div class="preloader">
+  <div class="wrapper-triangle">
+    <div class="pen">
+      <div class="line-triangle">
+        <div class="triangle"></div>
+        <div class="triangle"></div>
+        <div class="triangle"></div>
+        <div class="triangle"></div>
+        <div class="triangle"></div>
+        <div class="triangle"></div>
+        <div class="triangle"></div>
+      </div>
+      <div class="line-triangle">
+        <div class="triangle"></div>
+        <div class="triangle"></div>
+        <div class="triangle"></div>
+        <div class="triangle"></div>
+        <div class="triangle"></div>
+        <div class="triangle"></div>
+        <div class="triangle"></div>
+      </div>
+      <div class="line-triangle">
+        <div class="triangle"></div>
+        <div class="triangle"></div>
+        <div class="triangle"></div>
+        <div class="triangle"></div>
+        <div class="triangle"></div>
+        <div class="triangle"></div>
+        <div class="triangle"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+    window.addEventListener('scroll', function(e) {
+        var scroll = window.scrollY;
+        if(scroll > 100){
+            document.getElementById("header_id").classList.add("menu-fixed");
+        }else{
+            document.getElementById("header_id").classList.remove("menu-fixed");
+        }
+    });
+</script>
+  <div class="highlighted block-section clear">
+  <aside class="container clear" role="complementary">
+      <div class="block-region region-highlighted">
+    <div class="views-element-container block" id="block-biocubafarma-views-block-noticias-block-1">
+  
+    
+  <div class="block-content">
+      <div><div class="js-view-dom-id-f55b04a55b96c2d58b7af71be5ec72f6ec32e69289da7a3c747bb6dc01186178">
+  
+  
+  
+
+  
+  
+  
+
+  
+  <div id="biocubafaram_covid_19" class="td_block_inner fullwidth-block">
+    <div class="carousel-container" style="max-width: 90%; margin-left: auto; margin-right: auto; display:flex;">
+      <div class="td-trending-now-title">Últimas Noticias</div>
+      <div id="news-carousel" class="carousel">
+          <div id="slideshow">
+                                                      <div class="slideitem current"><a href="/es/node/408" hreflang="es">Viceprimer ministro de Cuba realiza recorrido en el Centro de Inmunología Molecular</a></div>
+                                                                        <div style="display: none;" class="slideitem"><a href="/es/node/407" hreflang="es">Mensaje de felicitación por el Año Nuevo a los trabajadores de BioCubaFarma</a></div>
+                                                                        <div style="display: none;" class="slideitem"><a href="/es/node/403" hreflang="es">Reafirman BioCubaFarma y China lazos de cooperación en biotecnología</a></div>
+                                                                        <div style="display: none;" class="slideitem"><a href="/es/node/400" hreflang="es">Identifican áreas de cooperación BioCubaFarma y Universidad de Artemisa &quot;Julio Díaz González&quot;</a></div>
+                                                                        <div style="display: none;" class="slideitem"><a href="/es/node/399" hreflang="es">Centro de InmunoEnsayo: innovación médica al servicio de la salud</a></div>
+                                          </div>
+      </div>
+    </div>
+  </div>
+
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+    </div><!--/.block-content -->
+</div><!--/.block -->
+<div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+  </aside>
+</div>
+<div class="main-wrapper">
+  <div class="container">
+    <a id="main-content" tabindex="-1"></a>
+    <div class="main-container">
+      <main id="main" class="main-content">
+                  <div class="content-top">
+    <div class="block-region region-content-top">
+    <div class="views-element-container block" id="block-biocubafarma-views-block-empresas-block-1">
+  
+    
+  <div class="block-content">
+      <div><div class="js-view-dom-id-7071ebe49b24984ab921ce4a5f3f0aacc0bee7f284e9bd93278a00a370c682cc">
+  
+  
+  
+
+  
+  
+  
+
+  
+
+
+<div id="all-entities-bcf"></div>
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+    </div><!--/.block-content -->
+</div><!--/.block -->
+<div class="views-element-container block" id="block-biocubafarma-views-block-poll-list-block-1">
+  
+    
+  <div class="block-content">
+      <div><div class="js-view-dom-id-2f72b5194f18e08c4ea277da10ce877f43ee10eac3466e995aa5a3b17e4f6a03">
+  
+  
+  
+
+  
+  
+  
+
+    <section class="section section-sm bg-default bg-gray-100 fullwidth-block" style="padding: 10px 0; bottom: -2rem">
+       <div class="container">
+                                  <div class="row row-10" style="margin: 0px;">
+          <div class="col-md-12 col-lg-12 col-xl-12" style="margin-top: 10px;">
+            <div class="row">
+              <div class="col-md-4 col-lg-4 col-xl-4">
+                  <h5><span class="d-inline-block wow slideInUp text-md-center">Encuesta</span></h5>
+                <div>
+                  Bienvenidos a la encuesta del sitio web institucional de BioCubaFarma, valoramos su opinión y le agradecemos por dedicar su tiempo.
+                </div>
+              </div>
+              <div class="col-md-8 col-lg-8 col-xl-8">
+                  <div class="poll-view teaser"><form class="poll-view-form-1 poll-view-form" data-drupal-selector="poll-view-form-1" action="/" method="post" id="poll-view-form-1" accept-charset="UTF-8">
+  <div class="poll">
+      <h3 class="poll-question">¿Qué tan de acuerdo está con la siguiente afirmación? BioCubaFarma es una institución innovadora y confiable en el desarrollo de medicamentos</h3>
+    <dl>
+    <dt class="choice-title not-current-selection">Totalmente en desacuerdo</dt>
+<dd class="choice-result not-current-selection">
+  <div class="bar" data-max="4" data-min="0" data-choice="Totalmente en desacuerdo" data-value="2">
+    <div style="width: 50%" class="foreground"></div>
+  </div>
+
+      <div class="percent">50% (2 votos)</div>
+  </dd>
+<dt class="choice-title not-current-selection">En desacuerdo</dt>
+<dd class="choice-result not-current-selection">
+  <div class="bar" data-max="4" data-min="0" data-choice="En desacuerdo" data-value="0">
+    <div style="width: 0%" class="foreground"></div>
+  </div>
+
+      <div class="percent">0% (0 votos)</div>
+  </dd>
+<dt class="choice-title is-current-selection">Ni de acuerdo ni en desacuerdo (Neutral)</dt>
+<dd class="choice-result is-current-selection">
+  <div class="bar" data-max="4" data-min="0" data-choice="Ni de acuerdo ni en desacuerdo (Neutral)" data-value="1">
+    <div style="width: 25%" class="foreground"></div>
+  </div>
+
+      <div class="percent">25% (1 voto)</div>
+  </dd>
+<dt class="choice-title not-current-selection">De acuerdo</dt>
+<dd class="choice-result not-current-selection">
+  <div class="bar" data-max="4" data-min="0" data-choice="De acuerdo" data-value="0">
+    <div style="width: 0%" class="foreground"></div>
+  </div>
+
+      <div class="percent">0% (0 votos)</div>
+  </dd>
+<dt class="choice-title not-current-selection">Totalmente de acuerdo</dt>
+<dd class="choice-result not-current-selection">
+  <div class="bar" data-max="4" data-min="0" data-choice="Totalmente de acuerdo" data-value="1">
+    <div style="width: 25%" class="foreground"></div>
+  </div>
+
+      <div class="percent">25% (1 voto)</div>
+  </dd>
+
+  </dl>
+  <div class="total">
+    Total de votos: 4  </div>
+</div>
+<input autocomplete="off" data-drupal-selector="form-tpxdokpygifmsiu2cvikgylq2lk68puspb4w-kqg25g" type="hidden" name="form_build_id" value="form-tPxdoKpygIfMSiu2CViKgyLQ2lk68puSpb4w_kQG25g" />
+<input data-drupal-selector="edit-poll-view-form-1" type="hidden" name="form_id" value="poll_view_form_1" />
+
+</form>
+</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+    </div><!--/.block-content -->
+</div><!--/.block -->
+
+  </div>
+
+</div><!--/.content top -->
+                <div class="node-content">
+            <div class="block-region region-content">
+    <div class="views-element-container"><div class="js-view-dom-id-9b880fad30d8c7927b87866e95868cdf23f0ebd19178e592fd4ff8771c6d07ad">
+  
+  
+  
+
+  
+  
+  
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  </div>
+
+        </div>
+              </main>
+            </div><!--/main-container -->
+  </div><!--/container -->
+</div><!--/main-wrapper -->
+  <footer class="footer-blocks footer">
+  <div class="container">
+    <div class="footer-blocks-container">
+              <div class="footer-block footer-one">
+            <div class="block-region region-footer-one">
+    <div id="block-biocubafarma-footer1" class="block">
+  
+    
+  <div class="block-content">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field-item"><div class="row row-50 row-lg-0 no-gutters">
+<div class="col-md-12">
+<div class="footer-classic-header">
+<div class="box-width-230">
+<h6 class="footer-classic-title">ENLACES DE INTERÉS</h6>
+</div>
+</div>
+
+<div class="box-width-230">
+<h6 class="footer-classic-title" style="margin-top:20px;margin-bottom: 10px;text-transform: uppercase;">Internos</h6>
+
+<hr style="border-top: 1px solid rgba(255,255,255,.1);" /><ul class="footer-classic-list d-inline-block d-sm-block box-width-230"><li><a href="nosotros/quienes.php">Quiénes somos</a></li>
+	<li><a href="noticias/noticias.php">Noticias</a></li>
+	<li><a href="negocios/negocios.php">Negocios</a></li>
+	<li><a href="inversiones/inversiones.php">Inversiones</a></li>
+</ul><h6 class="footer-classic-title" style="margin-top:40px;margin-bottom: 10px;text-transform: uppercase;">Externos</h6>
+
+<hr style="border-top: 1px solid rgba(255,255,255,.1);" /><ul class="footer-classic-list d-inline-block d-sm-block box-width-230"><li><a href="https://www.presidencia.gob.cu/es/" target="_blank" rel="noopener noreferrer">PRESIDENCIA</a></li>
+	<li><a href="https://salud.msp.gob.cu/" target="_blank" rel="noopener noreferrer">MINSAP</a></li>
+	<li><a href="https://www.cecmed.cu/" target="_blank" rel="noopener noreferrer">CECMED</a></li>
+	<li><a href="http://www.minrex.gob.cu/es" target="_blank" rel="noopener noreferrer">MINREX</a></li>
+	<li><a href="https://teveo.cu/channel/NNsmjtYjec9T8tHS" target="_blank" rel="noopener noreferrer">CANAL CARIBE</a></li>
+	<li><a href="https://www.youtube.com/channel/UCG4OI7ugDOnfo2tgWJFyvMw/featured" target="_blank" rel="noopener noreferrer">CANAL CARIBE YOUTUBE</a></li>
+	<li><a href="http://mesaredonda.cubadebate.cu/" target="_blank" rel="noopener noreferrer">MESA REDONDA</a></li>
+</ul></div>
+</div>
+</div>
+</div>
+      
+    </div><!--/.block-content -->
+</div><!--/.block -->
+<div id="block-biocubafarma-visitantes" class="block">
+  
+    
+  <div class="block-content">
+      <ul class="visitantes"><li><em class="placeholder">16604762</em></li></ul>
+    </div><!--/.block-content -->
+</div><!--/.block -->
+
+  </div>
+
+        </div>
+                    <div class="footer-block footer-two">
+            <div class="block-region region-footer-two">
+    <div id="block-biocubafarma-footer2" class="block">
+  
+    
+  <div class="block-content">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field-item"><div class="row row-50 row-lg-0 no-gutters">
+<div class="col-md-12">
+<div class="footer-classic-header">
+<div>
+<h6 class="footer-classic-title">CONTÁCTENOS</h6>
+</div>
+</div>
+
+<div class="footer-classic-body">
+<div>
+
+<div class="footer-classic-contacts">
+<div class="footer-classic-contacts-item">
+<div class="unit unit-spacing-sm align-items-center">
+<div class="unit-left"> </div>
+
+<div class="unit-body"><i class="fa fa-map-marker"></i>Ave. Independencia #8126, esq. a Calle 100. Boyeros. La Habana. Cuba.</div>
+</div>
+</div>
+
+<div class="footer-classic-contacts-item">
+<div class="unit unit-spacing-sm align-items-center">
+<div class="unit-left"> </div>
+
+<div class="unit-body"><i class="fa fa-phone"></i><a class="phone" href="tel:#">(+53) 72745100</a></div>
+</div>
+</div>
+
+<div class="footer-classic-contacts-item">
+<div class="unit unit-spacing-sm align-items-center">
+<div class="unit-left"> </div>
+
+<div class="unit-body"><i class="fa fa-envelope"></i><a class="mail" href="mailto:contacto@oc.biocubafarma.cu">contacto@oc.biocubafarma.cu</a></div>
+</div>
+</div>
+</div>
+
+<div class="redes-container" style="padding: 10px; width:100%; text-align: center;">
+<a class="button button-primary" href="/contacto">CONTÁCTENOS</a>
+
+<ul class="list-inline footer-social-list"><li><a href="https://www.facebook.com/BioCubaFarma/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+											<li><a href="https://www.twitter.com/BioCubaFarma" target="_blank"><i class="fa fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+											<li><a href="https://t.me/BioCubaFarma" target="_blank"><i class="fa fa-telegram"></i></a></li>
+											<li><a href="https://www.youtube.com/channel/UCKv1IiuKxk8-FaGugEuEEuQ" target="_blank"><i class="fa fa-youtube"></i></a></li>
+										</ul></div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+      
+    </div><!--/.block-content -->
+</div><!--/.block -->
+
+  </div>
+
+        </div>
+                    <div class="footer-block footer-three">
+            <div class="block-region region-footer-three">
+    <div id="block-biocubafarma-footer3" class="block">
+  
+    
+  <div class="block-content">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field-item"><div class="row row-50 row-lg-0 no-gutters"><div class="col-md-12"><img style="display:block;height:70%;margin:40px auto 0 auto;" src="/themes/biocubafarma/images/mapaBCF.png" /></div></div></div>
+      
+    </div><!--/.block-content -->
+</div><!--/.block -->
+
+  </div>
+
+        </div>
+                </div><!-- /footer-top-container -->
+  </div><!-- /container -->
+</footer><!-- /footer-top -->
+<footer class="footer-bottom footer">
+  <div class="container">
+    <div class="footer-bottom-container">
+      <div class="website-copyright">
+        <p class="rights">
+          <a href="/aviso_legal">Aviso Legal</a>
+          <span>&copy; 2026 Biocubafarma, Todos los derechos reservados.</span>
+        </p>
+      </div>
+          </div><!-- /footer-bottom-container -->
+  </div><!-- /container -->
+</footer><!-- /footer-bottom -->
+  <div class="scrolltop"><i class="fa fa-chevron-up"></i></div>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"es\/","currentPath":"node","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"es"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"addtoany\/addtoany.front,biocubafarma\/cart,biocubafarma\/global-styling,core\/drupal.dialog.ajax,poll\/drupal.poll-links,system\/base,thex\/global-styling,views\/views.module","theme":"biocubafarma","theme_token":null},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true},"empresas":[{"logoUrl":"\/sites\/default\/files\/2021-09\/emp8.png","logoAlt":"CIGB Logo","url":"\/node\/1"},{"logoUrl":"\/sites\/default\/files\/2021-09\/emp9.png","logoAlt":"CIM Logo","url":"\/node\/2"},{"logoUrl":"\/sites\/default\/files\/2021-09\/emp17.png","logoAlt":"IFV Logo","url":"\/node\/3"},{"logoUrl":"\/sites\/default\/files\/2021-09\/emp11_0.png","logoAlt":"CNIC Logo","url":"\/node\/4"},{"logoUrl":"\/sites\/default\/files\/2021-09\/emp16.png","logoAlt":"CIE Logo","url":"\/node\/5"},{"logoUrl":"\/sites\/default\/files\/2021-09\/emp10.png","logoAlt":"CNEURO Logo","url":"\/node\/6"},{"logoUrl":"\/sites\/default\/files\/2021-09\/emp18.png","logoAlt":"COMBIOMED Logo","url":"\/node\/7"},{"logoUrl":"\/sites\/default\/files\/2021-09\/emp6.png","logoAlt":"CIDEM Logo","url":"\/node\/8"},{"logoUrl":"\/sites\/default\/files\/2021-09\/emp5.png","logoAlt":"CHP\/HISPLACEN Logo","url":"\/node\/9"},{"logoUrl":"\/sites\/default\/files\/2021-09\/emp22.png","logoAlt":"BioCen Logo","url":"\/node\/10"},{"logoUrl":"\/sites\/default\/files\/2021-09\/emp4.png","logoAlt":"CENPALAB Logo","url":"\/node\/11"},{"logoUrl":"\/sites\/default\/files\/2021-09\/emp28.png","logoAlt":"NEURONIC Logo","url":"\/node\/12"},{"logoUrl":"\/sites\/default\/files\/2021-09\/emp2.png","logoAlt":"AICA Logo","url":"\/node\/13"},{"logoUrl":"\/sites\/default\/files\/2021-09\/emp21.png","logoAlt":"Roberto Escudero Logo","url":"\/node\/14"},{"logoUrl":"\/sites\/default\/files\/2021-09\/emp1.png","logoAlt":"8 de Marzo Logo","url":"\/node\/15"},{"logoUrl":"\/sites\/default\/files\/2021-09\/emp27.png","logoAlt":"MEDILIP Logo","url":"\/node\/16"},{"logoUrl":"\/sites\/default\/files\/2021-09\/emp26.png","logoAlt":"Laboratorios Oriente Logo","url":"\/node\/17"},{"logoUrl":"\/sites\/default\/files\/2021-09\/emp3.png","logoAlt":"BCF S.A. Logo","url":"\/node\/19"},{"logoUrl":"\/sites\/default\/files\/2021-09\/emp15.png","logoAlt":"FARMACUBA Logo","url":"\/node\/20"},{"logoUrl":"\/sites\/default\/files\/2021-09\/emp24_0.png","logoAlt":"HEBER BIOTEC Logo","url":"\/node\/21"},{"logoUrl":"\/sites\/default\/files\/2021-09\/emp7.png","logoAlt":"CIMAB Logo","url":"\/node\/22"},{"logoUrl":"\/sites\/default\/files\/2021-09\/emp30.png","logoAlt":"TECNOSUMA Logo","url":"\/node\/23"},{"logoUrl":"\/sites\/default\/files\/2021-09\/emp12.png","logoAlt":"EMCOMED Logo","url":"\/node\/24"},{"logoUrl":"\/sites\/default\/files\/2021-09\/emp14.png","logoAlt":"ETI Logo","url":"\/node\/25"},{"logoUrl":"\/sites\/default\/files\/2021-09\/emp25.png","logoAlt":"CIGB - Mariel S.A. Logo","url":"\/node\/26"},{"logoUrl":"\/sites\/default\/files\/2021-09\/emp29.png","logoAlt":"SERVIGEN Logo","url":"\/node\/27"},{"logoUrl":"\/sites\/default\/files\/2021-09\/emp13.png","logoAlt":"ESINES Logo","url":"\/node\/28"},{"logoUrl":"\/sites\/default\/files\/2021-09\/emp23.png","logoAlt":"CAPITAL Logo","url":"\/node\/29"},{"logoUrl":"\/sites\/default\/files\/2021-09\/emp19.png","logoAlt":"MEDSOL Logo","url":"\/node\/30"}],"user":{"uid":0,"permissionsHash":"9079c0667c61eeaacf30d85b4365a6aa0e6a5e1e73c274360dce5312de12bb61"}}</script>
+<script src="/sites/default/files/js/js_pFcnGl-8sxOqhw9TMOhZFdtFjTYrk-ivZ6nAs9muBwk.js?scope=footer&amp;delta=0&amp;language=es&amp;theme=biocubafarma&amp;include=eJxdjksOwjAMRC-UJmeaJG4IuHVlu9Deno8QUtiMnmbeYlCrC9Yz4QtxVlk9bMKcqu4bOL554r7eLNhpTkvKMAp-oSM1lgyezM-X0ELuUvaMGbrgf7t3elj6ZFyk7kyjroTiY1WgHooo_a6oNCWzoawdLC3iiuMJlUBP7w"></script>
+<script src="https://static.addtoany.com/menu/page.js" async integrity="sha384-CLOxj9z+dT2Pg6ORXEaqZ7J6fG7F822mqb+K/Xr/hqMdWnnYnCcJZILKBv7heRRJ" crossorigin="anonymous"></script>
+<script src="/sites/default/files/js/js_6WRC6fecVsezyQs_JXCQH0d55g3kc3N2VQsJs7PJeT4.js?scope=footer&amp;delta=2&amp;language=es&amp;theme=biocubafarma&amp;include=eJxdjksOwjAMRC-UJmeaJG4IuHVlu9Deno8QUtiMnmbeYlCrC9Yz4QtxVlk9bMKcqu4bOL554r7eLNhpTkvKMAp-oSM1lgyezM-X0ELuUvaMGbrgf7t3elj6ZFyk7kyjroTiY1WgHooo_a6oNCWzoawdLC3iiuMJlUBP7w"></script>
+
+  </body>
+</html>

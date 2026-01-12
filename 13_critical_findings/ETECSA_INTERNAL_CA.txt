@@ -1,0 +1,225 @@
+===============================================================================
+                    ETECSA INTERNAL CERTIFICATE AUTHORITY ANALYSIS
+===============================================================================
+Generated: January 11, 2026
+Target: aduana.gob.cu SSL Certificate
+
+===============================================================================
+                    1. FINDING SUMMARY
+===============================================================================
+
+The Cuban Customs agency (Aduana) uses an SSL certificate issued by
+ETECSA's internal Certificate Authority instead of a public CA like
+Let's Encrypt. This indicates Cuba operates its own PKI infrastructure
+with potential surveillance capabilities.
+
+SEVERITY: HIGH
+IMPACT: Potential MITM capability, network surveillance, trust issues
+
+===============================================================================
+                    2. CERTIFICATE DETAILS
+===============================================================================
+
+[2.1] ISSUER INFORMATION
+----------------------------------------------------------------------
+Country:            CU (Cuba)
+State:              La Habana
+Locality:           Plaza
+Organization:       ETECSA
+Organizational Unit: Centro de Datos
+Common Name:        idc.enet.cu
+Email:              hosting@enet.cu
+
+[2.2] CERTIFICATE PROPERTIES
+----------------------------------------------------------------------
+Type:               Self-signed / Internal CA
+Validity Start:     November 2019
+Validity End:       January 2031
+Duration:           ~12 years (unusually long)
+Trust:              NOT publicly trusted
+
+[2.3] SUBJECT (WEBSITE)
+----------------------------------------------------------------------
+Same as issuer - indicates self-signed or internal CA chain
+Applied to: aduana.gob.cu (Customs agency website)
+
+===============================================================================
+                    3. WHY THIS MATTERS
+===============================================================================
+
+[3.1] PUBLIC VS PRIVATE CERTIFICATE AUTHORITIES
+----------------------------------------------------------------------
+PUBLIC CAs (Let's Encrypt, DigiCert, etc.):
+- Trusted by all browsers automatically
+- Subject to audit and compliance
+- Transparency logs public
+- Cannot issue arbitrary certificates
+- Revocation is public
+
+PRIVATE/INTERNAL CAs (ETECSA):
+- NOT trusted by browsers (warning shown)
+- No external oversight
+- No transparency requirements
+- Can issue certificates for ANY domain
+- Revocation controlled internally
+
+[3.2] ETECSA'S POSITION
+----------------------------------------------------------------------
+ETECSA = Empresa de Telecomunicaciones de Cuba S.A.
+       = Cuba's ONLY telecommunications provider (state monopoly)
+
+ETECSA controls:
+- All internet traffic in/out of Cuba
+- All mobile phone service
+- All landline infrastructure
+- DNS resolution for Cuban users
+- And now... their own Certificate Authority
+
+===============================================================================
+                    4. SURVEILLANCE IMPLICATIONS
+===============================================================================
+
+[4.1] MAN-IN-THE-MIDDLE (MITM) CAPABILITY
+----------------------------------------------------------------------
+With their own CA, ETECSA could theoretically:
+
+1. Issue fake certificates for ANY website
+   - google.com, facebook.com, banking sites, etc.
+
+2. Intercept encrypted HTTPS traffic
+   - If users accept/install ETECSA root CA
+
+3. Perform transparent interception
+   - User sees "secure" connection
+   - Actually decrypted at ETECSA
+
+4. Target specific users or sites
+   - Selective interception possible
+   - No public audit trail
+
+[4.2] TECHNICAL ATTACK FLOW
+----------------------------------------------------------------------
+Normal HTTPS:
+  User <--encrypted--> Website
+
+MITM with Internal CA:
+  User <--encrypted(fake cert)--> ETECSA <--encrypted--> Website
+                                    |
+                              (decrypted here)
+                              (logged/modified)
+
+[4.3] REQUIREMENTS FOR ATTACK
+----------------------------------------------------------------------
+For this to work transparently, users must:
+- Have ETECSA root CA installed as trusted
+- OR ignore browser security warnings
+- OR use applications that don't validate certs
+
+Cuban government computers likely have ETECSA CA pre-installed.
+
+===============================================================================
+                    5. COMPARISON TO OTHER SITES
+===============================================================================
+
+Site                    | Certificate Issuer  | Type
+------------------------|---------------------|------------------
+aduana.gob.cu           | ETECSA Internal     | Private CA
+presidencia.gob.cu      | Let's Encrypt       | Public CA
+minfar.gob.cu           | Let's Encrypt       | Public CA
+bc.gob.cu               | Let's Encrypt       | Public CA
+pcc.cu                  | Let's Encrypt       | Public CA
+granma.cu               | Let's Encrypt       | Public CA
+uh.cu                   | Let's Encrypt       | Public CA
+
+OBSERVATION: Only Aduana (Customs/Military) uses internal CA.
+This suggests deliberate choice, not technical limitation.
+
+===============================================================================
+                    6. 12-YEAR VALIDITY CONCERN
+===============================================================================
+
+[6.1] INDUSTRY STANDARDS
+----------------------------------------------------------------------
+- Public CAs: Maximum 398 days (13 months)
+- Industry best practice: 1 year or less
+- Reason: Limits exposure if key compromised
+
+[6.2] ETECSA CERTIFICATE
+----------------------------------------------------------------------
+- Validity: ~12 years (2019-2031)
+- 10x longer than industry standard
+- Indicates different security priorities
+- Or lack of certificate management
+
+[6.3] RISKS OF LONG VALIDITY
+----------------------------------------------------------------------
+- Private key exposure over time
+- No forced rotation
+- Cryptographic weakening possible
+- Harder to revoke if compromised
+
+===============================================================================
+                    7. INTELLIGENCE ASSESSMENT
+===============================================================================
+
+[7.1] WHAT THIS CONFIRMS
+----------------------------------------------------------------------
+1. Cuba operates independent PKI infrastructure
+2. ETECSA has technical capability for MITM
+3. Military/security sites treated differently
+4. Internal CA used selectively (not all sites)
+5. Long certificate validity suggests permanence
+
+[7.2] WHAT THIS SUGGESTS
+----------------------------------------------------------------------
+1. Potential lawful interception capability
+2. Domestic surveillance infrastructure exists
+3. Security agencies may have different IT policies
+4. ETECSA "Centro de Datos" is key infrastructure
+
+[7.3] UNKNOWNS
+----------------------------------------------------------------------
+- Is ETECSA root CA installed on Cuban systems?
+- Which other sites use internal CA?
+- Is interception actively performed?
+- What oversight exists?
+
+===============================================================================
+                    8. TECHNICAL DETAILS
+===============================================================================
+
+Certificate Chain:
+  Root: idc.enet.cu (ETECSA Centro de Datos)
+    |
+    +-- aduana.gob.cu (end entity)
+
+Key Infrastructure:
+  IDC = Internet Data Center
+  enet.cu = ETECSA's network domain
+  hosting@enet.cu = Data center contact
+
+Full Issuer DN:
+  C=CU, ST=La Habana, L=Plaza, O=ETECSA,
+  OU=Centro de Datos, CN=idc.enet.cu,
+  emailAddress=hosting@enet.cu
+
+===============================================================================
+                    9. BROWSER BEHAVIOR
+===============================================================================
+
+When visiting aduana.gob.cu:
+
+CHROME/FIREFOX/SAFARI:
+- Will show security warning
+- "Your connection is not private"
+- Certificate not trusted
+- User must click through to proceed
+
+CUBAN GOVERNMENT SYSTEMS (likely):
+- ETECSA root CA pre-installed
+- No warning shown
+- Appears as normal HTTPS
+
+===============================================================================
+                         END OF ANALYSIS
+===============================================================================

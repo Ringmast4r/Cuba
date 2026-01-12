@@ -1,0 +1,28 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Sun, 11 Jan 2026 18:58:56 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://www.tvcubana.icrt.cu/
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 11 Jan 2026 18:58:58 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 2764
+Connection: keep-alive
+Accept-Ranges: bytes
+Cache-Control: public
+Last-Modified: Sat, 10 Jan 2026 01:05:04 GMT
+Permissions-Policy: geolocation=(), microphone=()
+Referrer-Policy: no-referrer-when-downgrade
+Set-Cookie: XSRF-TOKEN=eyJpdiI6Ik92S3Y5Y2hDUkRzWlFvMkU0bm5EbVE9PSIsInZhbHVlIjoiOXRxYndqTXF0RHlSRnRTZWx1aUlPSGdsKzdJV2kzSW5RUHFzdU13YzNhdlRPQUllWmJPS2ZlQUNMZXZwUlh2VXVGVzVyQXNWQncyZDhqV0ZrSzZxRTk4V2VpUWlzQ2Fvd3pEcHRxWnRzRUVxS1k3U0puOG9TRURBRUdVL3pmOUMiLCJtYWMiOiIzNjJkOWZlZTBjOTViZjA0YWI4MjQzZGI5MzBhZDdhZTUwMTljYWVmYTMxYTQzYjg2YzUyNWMzODg2M2Q0ZGJhIiwidGFnIjoiIn0%3D; expires=Mon, 12 Jan 2026 14:58:58 GMT; Max-Age=72000; path=/; secure; samesite=lax
+Set-Cookie: tv_cubana_session=eyJpdiI6IjFROFZQMGxlTUhXTUJnM3VZN3R5TlE9PSIsInZhbHVlIjoiTzFIWmovQ2ZYT2lXMWFzR0sxL1NKT1VONHdtc3VIY1RHL0V5VnZIUzA2UHBTT0gweHZMQXZNT2sxU09rVVgvQXFOcEVWVUc4UEw1RkFHUmIzbkZrdjd2Z29CNm81SGpCRVJvaFNCaGY1N0EvU3I2L09CYzBNZkdFYWNIbVFOQ1QiLCJtYWMiOiJhM2Q4M2Q3ZGJmNDhkMTlhYzI4ZGJmZDYwMGJmZjMwZDZhYWViYTcwZWU4ZWY3ZmRkOGZlNDA4Nzc1YjgxZmY2IiwidGFnIjoiIn0%3D; expires=Mon, 12 Jan 2026 14:58:58 GMT; Max-Age=72000; path=/; secure; httponly; samesite=lax
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Origin
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+Strict-Transport-Security: max-age=15768000
+

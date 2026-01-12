@@ -1,0 +1,28 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Sun, 11 Jan 2026 18:53:43 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://www.radiohc.cu/
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 11 Jan 2026 18:53:47 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Expires: Sat, 26 Jul 1997 05:00:00 GMT
+Last-Modified: Sun, 11 Jan 2026 18:53:46 GMT
+Link: <https://www.radiohc.cu/wp-json/>; rel="https://api.w.org/"
+Link: <https://www.radiohc.cu/wp-json/wp/v2/pages/17>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://www.radiohc.cu/>; rel=shortlink
+Link: <https://www.radiohc.cu/wp-json/radio/>; rel="https://radiostation.pro/docs/api/"
+Pragma: no-cache
+Referrer-Policy: strict-origin-when-cross-origin
+Set-Cookie: pll_language=es; expires=Mon, 11 Jan 2027 18:53:47 GMT; Max-Age=31536000; path=/; secure; SameSite=Lax
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Strict-Transport-Security: max-age=15768000
+

@@ -1,0 +1,20 @@
+--- Page:  ---
+--- Page: /galeria ---
+--- Page: /historia ---
+--- Page: /noticias ---
+https://www.minfar.gob.cu//logo.png
+https://www.minfar.gob.cu/sites/default/files/2019-02/localizacion%20minfar.png
+https://www.minfar.gob.cu/sites/default/files/2021-09/20200729_101337_opt.jpg
+https://www.minfar.gob.cu/sites/default/files/2021-09/20200729_101353_HDR_opt.jpg
+https://www.minfar.gob.cu/sites/default/files/2021-09/20200916_101636_opt.jpg
+https://www.minfar.gob.cu/sites/default/files/2021-09/DSC_0071_opt.jpg
+https://www.minfar.gob.cu/sites/default/files/2021-09/DSC_0092_opt.jpg
+https://www.minfar.gob.cu/sites/default/files/2021-09/DSC00130_opt.jpg
+https://www.minfar.gob.cu/sites/default/files/2021-09/DSC00132_opt.jpg
+https://www.minfar.gob.cu/sites/default/files/2021-09/DSC00156_opt.jpg
+https://www.minfar.gob.cu/sites/default/files/2021-09/DSC00235_opt.jpg
+https://www.minfar.gob.cu/sites/default/files/2021-09/DSC00236_opt.jpg
+https://www.minfar.gob.cu/sites/default/files/2021-09/DSC04537_opt.jpg
+https://www.minfar.gob.cu/sites/default/files/2021-09/DSC04604_opt.jpg
+https://www.minfar.gob.cu/sites/default/files/2021-09/DSC04605_opt.jpg
+https://www.minfar.gob.cu/themes/custom/minfar_theme/share-image.png

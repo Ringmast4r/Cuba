@@ -1,0 +1,22 @@
+=== SLD.CU WORDPRESS USERS (Complete) ===
+Site: www.sld.cu (National Health Information Network)
+Enumeration Method: WP REST API + Author ID Brute Force
+Date: January 11, 2026
+Total Users: 9
+
+ID  | Username  | Gravatar SHA256 Hash
+----|-----------|--------------------------------------------------------------
+1   | admin     | 0c6fe68d9c3937ad9afe181a51e8cb5c0d0d3a728a5cfd369c72e980ed6642ce
+2   | victorr   | d8560922759b623aeecf9ebc2c207666246c8966b7f456817cdbace11cd97dcf
+3   | claudia   | fe3b5fc35fb669f4d8bc532fa5443a8c609ea27202ae01f9174817891e30b90c
+5   | mirta     | b892f9886b6629c131f337fa846b5857e3a8e7bf6365e5d5694bfb60621945a8
+6   | ivettecm  | 5a0509301edf187cea08d0179b63ce0c8cc99c04af7c3e2117c56edd568fdb5c
+7   | nancypm   | a86c66ea440631975c9559454ae0e77bb6a69f230bb7c3fa328cd568553cf48a
+8   | agdiaz    | 0d798222fdb5951527977b007b3c134a41741a6fa5b2e04e91811eda3ad2f9de
+9   | tania     | 3b75406a755066876a85b43fd3ab8d529a4a55143299cdb08fceec7acdc75917
+10  | borrell   | 8f5678202f85cfb7b54fe3ba62e82d16f1125ea19cd89c19559a02bdd22a07ab
+
+Notes:
+- User ID 4 does not exist (deleted or never created)
+- WP REST API only returned 6 users, 3 additional found via author enumeration
+- Gravatar hashes can be reversed to email via rainbow tables or Gravatar API

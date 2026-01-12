@@ -1,0 +1,89 @@
+
+jQuery(function(){
+
+  jQuery('.w-views-aduana-row').addClass('d-none')
+  jQuery('.provincia-34').removeClass('d-none')
+
+
+})
+jQuery(document).ready(function () {
+  if (jQuery('body.path-donde-encontrarnos').length){
+    // Prepare demo data
+// Data is joined to map using value of 'hc-key' property by default.
+// See API docs for 'joinBy' for more info on linking data and map.
+    var data = [
+      // {'hc-key':'cu-pr', value:12, prov:'provincia-32'},
+      // {'hc-key':'cu-ar', value:12, prov:'provincia-33'},
+      {'hc-key':'cu-ch', value:12, prov:'provincia-34'},
+      // {'hc-key':'cu-mq', value:12, prov:'provincia-35'},
+      {'hc-key':'cu-ma', value:12, prov:'provincia-36'},
+      {'hc-key':'cu-cf', value:12, prov:'provincia-37'},
+      {'hc-key':'cu-vc', value:12, prov:'provincia-38'},
+      // {'hc-key':'cu-ss', value:12, prov:'provincia-39'},
+      {'hc-key':'cu-ca', value:12, prov:'provincia-40'},
+      {'hc-key':'cu-cm', value:12, prov:'provincia-41'},
+      // {'hc-key':'cu-lt', value:12, prov:'provincia-42'},
+      // {'hc-key':'cu-gr', value:12, prov:'provincia-43'},
+      {'hc-key':'cu-ho', value:12, prov:'provincia-44'},
+      {'hc-key':'cu-sc', value:12, prov:'provincia-45'},
+      // {'hc-key':'cu-gu', value:12, prov:'provincia-46'},
+      // {'hc-key':'cu-ij', value:12, prov:'provincia-46'},
+
+
+    ];
+
+
+// Create the chart
+    Highcharts.mapChart('block-blue-mapadecuba', {
+      chart: {
+        map: 'countries/cu/cu-all',
+        backgroundColor: '#ffffff',
+      },
+
+      tooltip:false,
+      plotOptions: {
+        series: {
+          point: {
+            events: {
+              click: function () {
+                jQuery('.w-views-aduana-row').addClass('d-none')
+                jQuery('.'+this.options['prov']).removeClass('d-none')
+
+              }
+            }
+          }
+        }
+      },
+
+      title: {
+        text: 'Unidades de Aduana'
+      },
+      legend: false,
+
+      subtitle: {
+        text: 'Unidades de Aduana en todo el territorio cubano.'
+      },
+
+      // colorAxis: {
+      //   min: 10
+      // },
+
+      series: [{
+        data: data,
+        name: 'Random data',
+        states: {
+          hover: {
+            color: '#b22925'
+          }
+        },
+        dataLabels: {
+          enabled: true,
+          format: '{point.name}'
+        }
+      }]
+    });
+  }
+});
+
+
+

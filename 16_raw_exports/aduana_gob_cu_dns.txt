@@ -1,0 +1,21 @@
+=== DNS: aduana.gob.cu ===
+Non-authoritative answer:
+Server:  UnKnown
+Address:  10.2.0.1
+
+Name:    aduana.gob.cu
+Address:  190.92.127.205
+
+Non-authoritative answer:
+Server:  UnKnown
+Address:  10.2.0.1
+
+aduana.gob.cu	nameserver = zeus.aduana.gob.cu
+aduana.gob.cu	nameserver = geminis.aduana.gob.cu
+aduana.gob.cu	nameserver = ns1.aduana.gob.cu
+aduana.gob.cu	nameserver = ns2.aduana.gob.cu
+Non-authoritative answer:
+Server:  UnKnown
+Address:  10.2.0.1
+
+aduana.gob.cu	MX preference = 20, mail exchanger = mx.aduana.gob.cu

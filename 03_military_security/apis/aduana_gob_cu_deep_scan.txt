@@ -1,0 +1,6 @@
+--- aduana.gob.cu ---
+/admin -> HTTP 403
+/documentos -> HTTP 200
+/search -> HTTP 302
+/en -> HTTP 403
+/es -> HTTP 403

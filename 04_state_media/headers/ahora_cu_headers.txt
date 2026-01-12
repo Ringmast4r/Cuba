@@ -1,0 +1,47 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 11 Jan 2026 18:55:50 GMT
+Server: Apache
+X-XSS-Protection: 1; mode=block
+x-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+Referrer-Policy: strict-origin
+Permissions-Policy: vibrate(self), usermedia(*), microphone(none), payment(none), sync-xhr(self 'http://www.ahora.cu')
+Set-Cookie: 55337af22dafaa9038e23029dca669bd=dag1tkkue9nicr0ei1dgklhej3; path=/; HttpOnly
+Expires: Wed, 17 Aug 2005 00:00:00 GMT
+Last-Modified: Sun, 11 Jan 2026 18:55:50 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Location: http://www.ahora.cu/es/
+Access-Control-Allow-Origin: http://www.ahora.cu
+X-Permitted-Cross-Domain-Policies: none
+Access-Control-Allow-Methods: GET, POST
+Access-Control-Allow-Headers: Origin, X-Requested-With, Accept
+Access-Control-Allow-Credentials: true
+Access-Control-Max-Age: 300
+Content-Security-Policy: base-uri 'self'; frame-ancestors 'self'
+Content-Type: text/html; charset=utf-8
+
+HTTP/1.1 200 OK
+Date: Sun, 11 Jan 2026 18:55:51 GMT
+Server: Apache
+X-XSS-Protection: 1; mode=block
+x-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+Referrer-Policy: strict-origin
+Permissions-Policy: vibrate(self), usermedia(*), microphone(none), payment(none), sync-xhr(self 'http://www.ahora.cu')
+Set-Cookie: 55337af22dafaa9038e23029dca669bd=eo7mqas7rhup919vgdnhphdno6; path=/; HttpOnly
+Expires: Wed, 17 Aug 2005 00:00:00 GMT
+Last-Modified: Sun, 11 Jan 2026 18:55:53 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Access-Control-Allow-Origin: http://www.ahora.cu
+X-Permitted-Cross-Domain-Policies: none
+Access-Control-Allow-Methods: GET, POST
+Access-Control-Allow-Headers: Origin, X-Requested-With, Accept
+Access-Control-Allow-Credentials: true
+Access-Control-Max-Age: 300
+Content-Security-Policy: base-uri 'self'; frame-ancestors 'self'
+Content-Type: text/html; charset=utf-8
+

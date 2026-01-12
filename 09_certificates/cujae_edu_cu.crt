@@ -1,0 +1,131 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            05:4d:eb:f3:7d:32:3b:a4:b4:5b:52:92:ec:e8:3b:09:16:83
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=US, O=Let's Encrypt, CN=R12
+        Validity
+            Not Before: Oct 26 13:58:31 2025 GMT
+            Not After : Jan 24 13:58:30 2026 GMT
+        Subject: CN=*.cujae.edu.cu
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:e9:3c:0a:8c:46:0b:4d:11:7b:8c:dc:f5:f3:07:
+                    02:1a:6c:c7:69:04:58:4e:44:3a:12:0e:4c:3c:5f:
+                    e0:59:dc:ef:4f:4e:02:91:b4:2e:41:ff:c8:dc:65:
+                    f0:70:0d:09:57:df:f2:2d:0a:62:c8:18:c3:fb:a6:
+                    62:f1:4a:1d:5a:bc:0c:5d:8b:9c:77:5e:59:81:8a:
+                    9d:42:5c:3c:68:8f:86:41:e3:01:53:b0:27:1a:3b:
+                    26:ea:af:ad:2f:6d:10:a8:9e:dd:8e:eb:f3:1c:81:
+                    8b:25:4e:06:ee:38:be:18:4d:04:00:fb:8b:e0:f7:
+                    77:f1:84:68:ea:a5:aa:7e:d0:ad:80:ed:c0:4e:30:
+                    03:c0:10:ad:b4:09:35:24:42:d1:de:ed:8a:e6:0a:
+                    d0:77:bb:8f:a7:e6:1a:07:c9:60:92:e5:20:61:d5:
+                    0e:af:3c:90:15:3b:c4:f6:d1:8f:31:50:ba:1c:bb:
+                    e1:ad:0d:4a:64:de:91:0c:1e:7e:32:7f:88:7e:ba:
+                    7f:17:f1:7d:48:55:1d:5c:19:3b:a3:87:53:47:14:
+                    89:c5:1d:5f:07:da:d5:c4:87:27:7e:98:5c:76:97:
+                    d3:7b:56:c5:bf:e2:e3:b5:7d:3a:a5:ce:2f:be:cb:
+                    79:da:3f:5a:41:d5:17:02:4e:32:fd:e1:00:ee:a1:
+                    da:5d
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                34:C2:D8:80:F6:6E:71:EF:0F:75:B0:45:AC:31:B9:93:93:ED:EB:51
+            X509v3 Authority Key Identifier: 
+                00:B5:29:F2:2D:8E:6F:31:E8:9B:4C:AD:78:3E:FA:DC:E9:0C:D1:D2
+            Authority Information Access: 
+                CA Issuers - URI:http://r12.i.lencr.org/
+            X509v3 Subject Alternative Name: 
+                DNS:*.arquitectura.cujae.edu.cu, DNS:*.automatica.cujae.edu.cu, DNS:*.civil.cujae.edu.cu, DNS:*.cujae.edu.cu, DNS:*.electrica.cujae.edu.cu, DNS:*.ind.cujae.edu.cu, DNS:*.ingenieriamecanica.cujae.edu.cu, DNS:*.mecanica.cujae.edu.cu, DNS:*.quimica.cujae.edu.cu, DNS:*.tele.cujae.edu.cu, DNS:cujae.edu.cu
+            X509v3 Certificate Policies: 
+                Policy: 2.23.140.1.2.1
+            X509v3 CRL Distribution Points: 
+                Full Name:
+                  URI:http://r12.c.lencr.org/4.crl
+
+            CT Precertificate SCTs: 
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : CB:38:F7:15:89:7C:84:A1:44:5F:5B:C1:DD:FB:C9:6E:
+                                F2:9A:59:CD:47:0A:69:05:85:B0:CB:14:C3:14:58:E7
+                    Timestamp : Oct 26 14:57:02.198 2025 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:45:02:21:00:B4:4D:D0:AD:58:87:B4:91:F2:EC:7C:
+                                41:A5:47:1D:16:34:72:F6:A0:CD:C0:8F:EB:7C:B2:12:
+                                FB:4A:6E:04:C5:02:20:38:94:67:0F:EE:CD:E2:7F:8F:
+                                BF:F8:18:14:5F:E1:33:BE:44:77:A8:FE:E5:EE:13:4C:
+                                A0:4A:6B:3A:CB:35:56
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : 96:97:64:BF:55:58:97:AD:F7:43:87:68:37:08:42:77:
+                                E9:F0:3A:D5:F6:A4:F3:36:6E:46:A4:3F:0F:CA:A9:C6
+                    Timestamp : Oct 26 14:57:02.233 2025 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:44:02:20:55:AB:35:AE:E9:23:45:F2:28:DC:DC:CC:
+                                F0:E2:05:44:49:E5:2C:ED:A5:9F:52:5A:42:78:FB:1C:
+                                05:B9:5C:68:02:20:08:4B:48:B5:97:81:90:89:29:35:
+                                02:68:35:2E:76:56:8C:53:82:FF:E3:63:19:DA:6B:61:
+                                2F:EA:C2:F2:9C:15
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        d8:57:0c:52:2e:ee:12:f2:a1:28:5d:89:92:58:16:66:e4:bc:
+        84:84:f5:16:7a:1f:36:8e:66:98:64:55:8f:b5:1c:45:10:17:
+        28:13:8b:09:ac:21:fa:b0:47:de:9d:77:e9:c7:90:bd:00:96:
+        f4:b4:ac:d0:3c:cc:6e:55:2e:d6:b9:74:da:70:ed:80:62:de:
+        db:47:64:d1:1c:a9:5e:25:ac:8f:02:b2:7d:77:16:ff:25:30:
+        e7:33:a2:00:83:e9:45:36:81:9c:37:89:8d:16:ce:72:92:76:
+        56:7c:c7:1e:75:98:72:d1:98:6e:f7:95:d2:fe:ef:6d:27:e7:
+        37:b8:30:c5:2a:61:47:26:72:49:1a:7c:5b:44:5a:49:2c:85:
+        c8:76:f5:cc:22:d8:52:1b:75:e2:06:ad:c8:f1:0a:5c:b1:df:
+        d0:4f:a9:3e:d3:1e:c1:17:9e:24:8a:65:fe:77:be:41:78:25:
+        d6:f8:21:f0:e7:fa:8e:a2:e7:39:c8:88:78:a5:35:08:f1:b5:
+        7b:1c:32:00:03:f4:bb:01:73:02:5e:b3:0b:4d:a1:40:10:c2:
+        fa:80:c6:32:35:83:1a:5f:7f:1d:98:82:5e:cf:42:ac:1f:f5:
+        e1:52:9c:51:23:f9:98:92:c9:ed:fa:b2:97:f3:43:90:fc:07:
+        a7:55:1c:dc
+-----BEGIN CERTIFICATE-----
+MIIF7zCCBNegAwIBAgISBU3r830yO6S0W1KS7Og7CRaDMA0GCSqGSIb3DQEBCwUA
+MDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQD
+EwNSMTIwHhcNMjUxMDI2MTM1ODMxWhcNMjYwMTI0MTM1ODMwWjAZMRcwFQYDVQQD
+DA4qLmN1amFlLmVkdS5jdTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
+AOk8CoxGC00Re4zc9fMHAhpsx2kEWE5EOhIOTDxf4Fnc709OApG0LkH/yNxl8HAN
+CVff8i0KYsgYw/umYvFKHVq8DF2LnHdeWYGKnUJcPGiPhkHjAVOwJxo7JuqvrS9t
+EKie3Y7r8xyBiyVOBu44vhhNBAD7i+D3d/GEaOqlqn7QrYDtwE4wA8AQrbQJNSRC
+0d7tiuYK0He7j6fmGgfJYJLlIGHVDq88kBU7xPbRjzFQuhy74a0NSmTekQwefjJ/
+iH66fxfxfUhVHVwZO6OHU0cUicUdXwfa1cSHJ36YXHaX03tWxb/i47V9OqXOL77L
+edo/WkHVFwJOMv3hAO6h2l0CAwEAAaOCAxUwggMRMA4GA1UdDwEB/wQEAwIFoDAd
+BgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNV
+HQ4EFgQUNMLYgPZuce8PdbBFrDG5k5Pt61EwHwYDVR0jBBgwFoAUALUp8i2ObzHo
+m0yteD763OkM0dIwMwYIKwYBBQUHAQEEJzAlMCMGCCsGAQUFBzAChhdodHRwOi8v
+cjEyLmkubGVuY3Iub3JnLzCCARAGA1UdEQSCAQcwggEDghsqLmFycXVpdGVjdHVy
+YS5jdWphZS5lZHUuY3WCGSouYXV0b21hdGljYS5jdWphZS5lZHUuY3WCFCouY2l2
+aWwuY3VqYWUuZWR1LmN1gg4qLmN1amFlLmVkdS5jdYIYKi5lbGVjdHJpY2EuY3Vq
+YWUuZWR1LmN1ghIqLmluZC5jdWphZS5lZHUuY3WCISouaW5nZW5pZXJpYW1lY2Fu
+aWNhLmN1amFlLmVkdS5jdYIXKi5tZWNhbmljYS5jdWphZS5lZHUuY3WCFioucXVp
+bWljYS5jdWphZS5lZHUuY3WCEyoudGVsZS5jdWphZS5lZHUuY3WCDGN1amFlLmVk
+dS5jdTATBgNVHSAEDDAKMAgGBmeBDAECATAtBgNVHR8EJjAkMCKgIKAehhxodHRw
+Oi8vcjEyLmMubGVuY3Iub3JnLzQuY3JsMIIBAwYKKwYBBAHWeQIEAgSB9ASB8QDv
+AHYAyzj3FYl8hKFEX1vB3fvJbvKaWc1HCmkFhbDLFMMUWOcAAAGaIQXW9gAABAMA
+RzBFAiEAtE3QrViHtJHy7HxBpUcdFjRy9qDNwI/rfLIS+0puBMUCIDiUZw/uzeJ/
+j7/4GBRf4TO+RHeo/uXuE0ygSms6yzVWAHUAlpdkv1VYl633Q4doNwhCd+nwOtX2
+pPM2bkakPw/KqcYAAAGaIQXXGQAABAMARjBEAiBVqzWu6SNF8ijc3Mzw4gVESeUs
+7aWfUlpCePscBblcaAIgCEtItZeBkIkpNQJoNS52VoxTgv/jYxnaa2Ev6sLynBUw
+DQYJKoZIhvcNAQELBQADggEBANhXDFIu7hLyoShdiZJYFmbkvISE9RZ6HzaOZphk
+VY+1HEUQFygTiwmsIfqwR96dd+nHkL0AlvS0rNA8zG5VLta5dNpw7YBi3ttHZNEc
+qV4lrI8Csn13Fv8lMOczogCD6UU2gZw3iY0WznKSdlZ8xx51mHLRmG73ldL+720n
+5ze4MMUqYUcmckkafFtEWkkshch29cwi2FIbdeIGrcjxClyx39BPqT7THsEXniSK
+Zf53vkF4Jdb4IfDn+o6i5znIiHilNQjxtXscMgAD9LsBcwJeswtNoUAQwvqAxjI1
+gxpffx2Ygl7PQqwf9eFSnFEj+ZiSye36spfzQ5D8B6dVHNw=
+-----END CERTIFICATE-----

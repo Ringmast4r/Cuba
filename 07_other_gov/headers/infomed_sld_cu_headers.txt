@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 11 Jan 2026 18:57:51 GMT
+Content-Type: text/html
+Content-Length: 0
+Last-Modified: Mon, 03 May 2021 14:48:55 GMT
+Connection: keep-alive
+ETag: "60900d57-0"
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+X-Frame-Options: DENY
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Robots-Tag: none
+Accept-Ranges: bytes
+

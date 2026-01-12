@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es-es" dir="ltr">
+<head>
+    <meta charset="utf-8">
+	<meta name="generator" content="Joomla! - Open Source Content Management">
+	<title>404 - Página no encontrada</title>
+
+    <link href="/media/system/css/system-site-error.min.css" rel="stylesheet" />
+
+    
+</head>
+<body>
+    <div class="error">
+        <div id="outline">
+        <div id="errorboxoutline">
+            <div id="errorboxheader">404 - Página no encontrada</div>
+            <div id="errorboxbody">
+            <p><strong>No puede visitar esta página debido a:</strong></p>
+            <ol>
+                <li>Un <strong>marcador o favorito caducado</strong></li>
+                <li>Un motor de búsquedas que tiene un <strong>listado caducado para este sitio</strong></li>
+                <li>Una <strong>dirección mal escrita</strong></li>
+                <li>Usted no tiene <strong>acceso</strong> a esta página</li>
+                <li>No se pudo encontrar el recurso solicitado.</li>
+                <li>Se ha producido un error mientras se procesaba su solicitud.</li>
+            </ol>
+            <p><strong>Por favor, pruebe con alguna de las páginas siguientes:</strong></p>
+            <ul>
+                <li><a href="/index.php">Página de inicio</a></li>
+            </ul>
+            <p>Si la dificultad persiste, por favor, contacte con el administrador del sistema de este sitio y reporte el error de más abajo.</p>
+            <div id="techinfo">
+            <p>
+                Página no encontrada                            </p>
+                        </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>

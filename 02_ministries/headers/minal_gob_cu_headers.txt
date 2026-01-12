@@ -1,0 +1,8 @@
+HTTP/1.1 403 Forbidden
+Server: openresty
+Date: Sun, 11 Jan 2026 18:53:41 GMT
+Content-Type: text/html
+Content-Length: 150
+Connection: keep-alive
+Strict-Transport-Security: max-age=63072000;includeSubDomains; preload
+

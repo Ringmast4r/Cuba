@@ -1,0 +1,1291 @@
+<!DOCTYPE html>
+<html lang="es-es" dir="ltr">
+
+<head>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  	<meta name="google-site-verification" content="dm2Wr7qEsgXADM2rrFOPglB_9lOQUvHKFFEP1GX13WU" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,300&family=Montserrat:ital,wght@0,500;0,700;1,300&family=Open+Sans:ital,wght@0,500;0,700;1,300&family=Roboto+Slab:wght@300;500;700&display=swap"
+        rel="stylesheet" />
+
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="La Agencia Cubana de Noticias, ACN  actualiza sobre acontecer  de Cuba y el mundo
+">
+	<meta name="generator" content="Laravel">
+	<title>ACN - Noticias de Cuba </title>
+	<link href="/?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="ACN - Noticias de Cuba ">
+	<link href="/?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="ACN - Noticias de Cuba ">
+	<link href="/media/templates/site/acn/images/favicon.ico" rel="icon" type="image/vnd.microsoft.icon">
+
+    <link href="/media/templates/site/acn/assets/tailwindcss/v4styles.css?7aba625914c170ef714bcef7e597cfa8" rel="stylesheet" />
+
+    <script src="/media/templates/site/acn/assets/alpinejs/alpine.3.11.1.min.js?7aba625914c170ef714bcef7e597cfa8" defer></script>
+	<script src="/media/templates/site/acn/assets/js/darkmode.js?7aba625914c170ef714bcef7e597cfa8" defer></script>
+	<script>
+    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+    } else {
+        document.documentElement.classList.remove('dark');
+    }
+    </script>
+
+</head>
+
+
+<body class="relative bg-zinc-100 dark:bg-zinc-200">
+    
+<header>
+    
+<nav class="bg-zinc-900">
+    <div class="mx-auto max-w-7xl px-2 sm:px-4 lg:px-8">
+        <div class="relative flex h-11 items-center justify-between">
+            <div class="flex items-center">
+                <div class="hidden lg:ml-6 lg:block">
+                    <div class="flex items-center space-x-4">
+                        
+<div class="relative" x-data="{ menu1155Open: false }"><a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-zinc-800 hover:text-white focus:bg-zinc-950 focus:text-white" @click="menu1155Open = ! menu1155Open"><span class="inline-flex justify-center">Servicios
+            <svg class="-mr-1 h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+            </svg>
+        </span></a><div
+            x-show="menu1155Open"
+            @click.outside="menu1155Open = false"
+            x-transition:enter="transition ease-out duration-200"
+            x-transition:enter-start="opacity-0 translate-y-1"
+            x-transition:enter-end="opacity-100 translate-y-0"
+            x-transition:leave="transition ease-in duration-150"
+            x-transition:leave-start="opacity-100 translate-y-0"
+            x-transition:leave-end="opacity-0 translate-y-1"
+            class="submenu absolute flex flex-col right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white dark:bg-zinc-950 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+            style="display: none;"
+            ><a href="/productos-y-servicios/fotos" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-zinc-800 hover:text-white focus:bg-zinc-950 focus:text-white">Fotos</a><a href="/productos-y-servicios/texto" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-zinc-800 hover:text-white focus:bg-zinc-950 focus:text-white">Texto</a><a href="/productos-y-servicios/radio" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-zinc-800 hover:text-white focus:bg-zinc-950 focus:text-white">Radio</a><a href="/productos-y-servicios/publicidad" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-zinc-800 hover:text-white focus:bg-zinc-950 focus:text-white">Publicidad</a><a href="/productos-y-servicios/senal-acn" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-zinc-800 hover:text-white focus:bg-zinc-950 focus:text-white">Señal ACN</a><a href="/productos-y-servicios/servicios-especiales" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-zinc-800 hover:text-white focus:bg-zinc-950 focus:text-white">Servicios Especiales</a><a href="/productos-y-servicios/audiovisuales" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-zinc-800 hover:text-white focus:bg-zinc-950 focus:text-white">Audiovisuales</a><a href="/productos-y-servicios/acreditaciones" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-zinc-800 hover:text-white focus:bg-zinc-950 focus:text-white">Acreditaciones</a><a href="/productos-y-servicios/centro-de-documentacion" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-zinc-800 hover:text-white focus:bg-zinc-950 focus:text-white">Centro de Documentación</a></div></div><div class="relative" x-data="{ menu1157Open: false }"><a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-zinc-800 hover:text-white focus:bg-zinc-950 focus:text-white" @click="menu1157Open = ! menu1157Open"><span class="inline-flex justify-center">Enlaces ACN
+            <svg class="-mr-1 h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+            </svg>
+        </span></a><div
+            x-show="menu1157Open"
+            @click.outside="menu1157Open = false"
+            x-transition:enter="transition ease-out duration-200"
+            x-transition:enter-start="opacity-0 translate-y-1"
+            x-transition:enter-end="opacity-100 translate-y-0"
+            x-transition:leave="transition ease-in duration-150"
+            x-transition:leave-start="opacity-100 translate-y-0"
+            x-transition:leave-end="opacity-0 translate-y-1"
+            class="submenu absolute flex flex-col right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white dark:bg-zinc-950 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+            style="display: none;"
+            ><a href="http://fotos.acn.cu/" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-zinc-800 hover:text-white focus:bg-zinc-950 focus:text-white">Web de Fotografía</a><a href="http://radio.acn.cu/" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-zinc-800 hover:text-white focus:bg-zinc-950 focus:text-white" target="_blank" rel="noopener noreferrer">Radio ACN</a><a href="http://ofertas.cu/" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-zinc-800 hover:text-white focus:bg-zinc-950 focus:text-white">Sitio de Ofertas</a></div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- #Search -->
+            <div class="flex flex-1 justify-center px-2 lg:ml-6 lg:justify-end">
+                <div class="w-full max-w-lg lg:max-w-xs">
+                    <label for="search" class="sr-only">Buscar</label>
+                    <div class="relative">
+                        <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+                            <svg class="h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor"
+                                aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                    d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                        <input id="search" name="search"
+                            class="block w-full rounded-md border-0 bg-zinc-700 py-1.5 pl-10 pr-3 text-gray-300 placeholder:text-gray-400 focus:bg-gray-300 focus:text-gray-900 focus:ring-0 sm:text-sm sm:leading-6"
+                            placeholder="Buscar" type="search">
+                    </div>
+                </div>
+            </div>
+            <!-- #endSearch -->
+
+            <div x-data="{ mainMenuOverlayOpen: false }" @keydown.window.escape="mainMenuOverlayOpen = false">
+    <!-- #Mobilemenu -->
+    <div class="flex lg:hidden">
+        <button type="button" @click="mainMenuOverlayOpen = ! mainMenuOverlayOpen"
+            class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+            aria-controls="mobile-menu" aria-expanded="false">
+            <span class="absolute -inset-0.5"></span>
+            <span class="sr-only">Open main menu</span>
+            <!--
+            Icon when menu is closed.
+
+            Menu open: "hidden", Menu closed: "block"
+          -->
+            <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+            <!--
+            Icon when menu is open.
+
+            Menu open: "block", Menu closed: "hidden"
+          -->
+            <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+        </button>
+    </div>
+    <!-- #endMobilemenu -->
+
+    <div class="relative z-10" aria-labelledby="slide-over-title" role="dialog" aria-modal="true">
+        <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" x-show="mainMenuOverlayOpen"
+            x-transition:enter="ease-in-out duration-500" x-transition:enter-start="opacity-0"
+            x-transition:enter-end="opacity-100" x-transition:leave="ease-in-out duration-500"
+            x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0"></div>
+
+        <div class="fixed right-0 overflow-hidden">
+            <div class="absolute inset-0 overflow-hidden">
+                <div class="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10">
+                    <div class="pointer-events-auto relative w-screen max-w-md" x-show="mainMenuOverlayOpen"
+                        x-transition:enter="transform transition ease-in-out duration-500 sm:duration-700"
+                        x-transition:enter-start="translate-x-full" x-transition:enter-end="translate-x-0"
+                        x-transition:leave="transform transition ease-in-out duration-500 sm:duration-700"
+                        x-transition:leave-start="translate-x-0" x-transition:leave-end="translate-x-full"
+                        @click.outside="mainMenuOverlayOpen = false" style="display: none;">
+                        <div class="absolute left-0 top-0 -ml-8 flex pr-2 pt-4 sm:-ml-10 sm:pr-4">
+                            <button type="button" @click="mainMenuOverlayOpen = false"
+                                class="relative rounded-md text-gray-300 hover:text-white focus:outline-none focus:ring-2 focus:ring-white">
+                                <span class="absolute -inset-2.5"></span>
+                                <span class="sr-only">Close panel</span>
+                                <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                    stroke="currentColor" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                                </svg>
+                            </button>
+                        </div>
+
+                        <div class="flex h-full flex-col overflow-y-scroll bg-white dark:bg-zinc-300 py-6 shadow-xl">
+                            <div class="px-4 sm:px-6 flex justify-center">
+                                <img class="w-auto max-h-10"
+                                    src="https://www.acn.cu//media/templates/site/acn/images/logoacn.png"
+                                    alt="ACN" />
+                            </div>
+                            <div class="px-4 sm:px-6 mt-4 flex justify-center">
+                                <a href='http://www.facebook.com/AgenciaCubanaDeNoticias' target='_blanck'
+                                    class='flex text-zinc-900 hover:text-zinc-700'>
+                                    <span class='sr-only'>Facebook</span>
+                                    <svg class='h-6 w-6' fill='currentColor' viewBox='0 0 24 24' aria-hidden='true'>
+                                        <path fill-rule='evenodd'
+                                            d='M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z'
+                                            clip-rule='evenodd' />
+                                    </svg>
+                                </a>
+
+                                <a href='https://twitter.com/ACN_Cuba' target='_blanck'
+                                    class='flex text-zinc-900 hover:zinc-gray-700 ml-6'>
+                                    <span class='sr-only'>Twitter</span>
+                                    <svg class='h-6 w-6' fill='currentColor' viewBox='0 0 24 24' aria-hidden='true'>
+                                        <path
+                                            d='M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84' />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="relative mt-6 flex-1">
+                                
+<a href="/" class="block border-l-4 border-red-500 bg-zinc-200 py-2 pl-3 pr-4 text-base font-medium text-red-700">Inicio</a><a href="/cuba" class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700">Cuba</a><a href="/deportes" class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700">Deportes</a><a href="/economia" class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700">Economía</a><a href="/mundo" class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700">Internacionales</a><a href="/cultura" class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700">Cultura</a><a href="/salud" class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700">Salud</a><a href="/medio-ambiente" class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700">Ciencia</a><a href="/especiales" class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700">Especiales</a><a href="/efemerides" class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700">Efemérides</a><a href="/podcast" class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700">Pódcast</a><a href="/publirreportajes" class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700">Publirreportajes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+            <div class="ml-4 block">
+                <div class="flex items-center">
+                    <a href='http://www.facebook.com/AgenciaCubanaDeNoticias' target='_blanck'
+                        class='hidden md:flex text-gray-300 hover:text-white'>
+                        <span class='sr-only'>Facebook</span>
+                        <svg class='h-6 w-6' fill='currentColor' viewBox='0 0 24 24' aria-hidden='true'>
+                            <path fill-rule='evenodd'
+                                d='M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z'
+                                clip-rule='evenodd' />
+                        </svg>
+                    </a>
+
+                    <a href='https://twitter.com/ACN_Cuba' target='_blanck'
+                        class='hidden md:flex text-gray-300 hover:text-white ml-4'>
+                        <span class='sr-only'>Twitter - X</span>
+                        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path
+                                d="M13.6823 10.6218L20.2391 3H18.6854L12.9921 9.61788L8.44486 3H3.2002L10.0765 13.0074L3.2002 21H4.75404L10.7663 14.0113L15.5685 21H20.8131L13.6819 10.6218H13.6823ZM11.5541 13.0956L10.8574 12.0991L5.31391 4.16971H7.70053L12.1742 10.5689L12.8709 11.5655L18.6861 19.8835H16.2995L11.5541 13.096V13.0956Z" />
+                        </svg>
+                    </a>
+
+                    <a href="http://www.youtube.com/user/agenciacubana" target='_blanck'
+                        class="hidden md:flex text-gray-300 hover:text-white ml-4">
+                        <span class="sr-only">YouTube</span>
+                        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path fill-rule="evenodd"
+                                d="M19.812 5.418c.861.23 1.538.907 1.768 1.768C21.998 8.746 22 12 22 12s0 3.255-.418 4.814a2.504 2.504 0 0 1-1.768 1.768c-1.56.419-7.814.419-7.814.419s-6.255 0-7.814-.419a2.505 2.505 0 0 1-1.768-1.768C2 15.255 2 12 2 12s0-3.255.417-4.814a2.507 2.507 0 0 1 1.768-1.768C5.744 5 11.998 5 11.998 5s6.255 0 7.814.418ZM15.194 12 10 15V9l5.194 3Z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </a>
+
+                    <!-- #Theme -->
+                    <div class="relative md:ml-4 flex-shrink-0" x-data="{ themeOpen: false }
+                        ">
+                        <div>
+                            <button @click="themeOpen = ! themeOpen;"
+                                class="flex h-6 w-6 items-center justify-center rounded-lg shadow-md shadow-black/5 ring-1 ring-black/5 dark:bg-slate-700 dark:ring-inset dark:ring-white/5"
+                                aria-label="Theme" type="button" aria-haspopup="listbox" aria-expanded="false"><svg
+                                    aria-hidden="true" viewBox="0 0 16 16" class="h-4 w-4 dark:hidden fill-sky-400">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M7 1a1 1 0 0 1 2 0v1a1 1 0 1 1-2 0V1Zm4 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm2.657-5.657a1 1 0 0 0-1.414 0l-.707.707a1 1 0 0 0 1.414 1.414l.707-.707a1 1 0 0 0 0-1.414Zm-1.415 11.313-.707-.707a1 1 0 0 1 1.415-1.415l.707.708a1 1 0 0 1-1.415 1.414ZM16 7.999a1 1 0 0 0-1-1h-1a1 1 0 1 0 0 2h1a1 1 0 0 0 1-1ZM7 14a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1Zm-2.536-2.464a1 1 0 0 0-1.414 0l-.707.707a1 1 0 0 0 1.414 1.414l.707-.707a1 1 0 0 0 0-1.414Zm0-8.486A1 1 0 0 1 3.05 4.464l-.707-.707a1 1 0 0 1 1.414-1.414l.707.707ZM3 8a1 1 0 0 0-1-1H1a1 1 0 0 0 0 2h1a1 1 0 0 0 1-1Z">
+                                    </path>
+                                </svg><svg aria-hidden="true" viewBox="0 0 16 16"
+                                    class="hidden h-4 w-4 dark:block fill-sky-400">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M7.23 3.333C7.757 2.905 7.68 2 7 2a6 6 0 1 0 0 12c.68 0 .758-.905.23-1.332A5.989 5.989 0 0 1 5 8c0-1.885.87-3.568 2.23-4.668ZM12 5a1 1 0 0 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 0 2 1 1 0 0 0-1 1 1 1 0 1 1-2 0 1 1 0 0 0-1-1 1 1 0 1 1 0-2 1 1 0 0 0 1-1 1 1 0 0 1 1-1Z">
+                                    </path>
+                                </svg>
+                            </button>
+                        </div>
+
+                        <ul x-show="themeOpen" x-transition:enter="transition ease-out duration-100"
+                            x-transition:enter-start="transform opacity-0 scale-95"
+                            x-transition:enter-end="transform opacity-100 scale-100"
+                            x-transition:leave="transition ease-linear duration-0"
+                            x-transition:leave-start="transform opacity-100 scale-100"
+                            x-transition:leave-end="transform opacity-0 scale-95" x-description="Theme dropdown"
+                            class="absolute right-0 z-10 mt-2 w-48 origin-top-right space-y-1 rounded-xl bg-white p-3 text-sm font-medium shadow-md shadow-black/5 ring-1 ring-black/5 dark:bg-slate-800 dark:ring-white/5"
+                            aria-orientation="vertical" role="listbox" style="display: none;">
+                            <li id="themeLight" aria-selected="false" @click="themeOpen = ! themeOpen;"
+                                class="group flex cursor-pointer select-none items-center rounded-[0.625rem] p-1 dark:text-slate-400">
+                                <div
+                                    class="rounded-md bg-white p-1 shadow ring-1 ring-slate-900/5 dark:bg-slate-700 dark:ring-inset dark:ring-white/5">
+                                    <svg aria-hidden="true" viewBox="0 0 16 16" class="h-4 w-4">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M7 1a1 1 0 0 1 2 0v1a1 1 0 1 1-2 0V1Zm4 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm2.657-5.657a1 1 0 0 0-1.414 0l-.707.707a1 1 0 0 0 1.414 1.414l.707-.707a1 1 0 0 0 0-1.414Zm-1.415 11.313-.707-.707a1 1 0 0 1 1.415-1.415l.707.708a1 1 0 0 1-1.415 1.414ZM16 7.999a1 1 0 0 0-1-1h-1a1 1 0 1 0 0 2h1a1 1 0 0 0 1-1ZM7 14a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1Zm-2.536-2.464a1 1 0 0 0-1.414 0l-.707.707a1 1 0 0 0 1.414 1.414l.707-.707a1 1 0 0 0 0-1.414Zm0-8.486A1 1 0 0 1 3.05 4.464l-.707-.707a1 1 0 0 1 1.414-1.414l.707.707ZM3 8a1 1 0 0 0-1-1H1a1 1 0 0 0 0 2h1a1 1 0 0 0 1-1Z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="ml-3">Claro</div>
+                            </li>
+                            <li id="themeDark" aria-selected="false" @click="themeOpen = ! themeOpen;"
+                                class="group flex cursor-pointer select-none items-center rounded-[0.625rem] p-1">
+                                <div
+                                    class="rounded-md bg-white p-1 shadow ring-1 ring-slate-900/5 dark:bg-slate-700 dark:ring-inset dark:ring-white/5">
+                                    <svg aria-hidden="true" viewBox="0 0 16 16" class="h-4 w-4">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M7.23 3.333C7.757 2.905 7.68 2 7 2a6 6 0 1 0 0 12c.68 0 .758-.905.23-1.332A5.989 5.989 0 0 1 5 8c0-1.885.87-3.568 2.23-4.668ZM12 5a1 1 0 0 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 0 2 1 1 0 0 0-1 1 1 1 0 1 1-2 0 1 1 0 0 0-1-1 1 1 0 1 1 0-2 1 1 0 0 0 1-1 1 1 0 0 1 1-1Z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="ml-3">Oscuro</div>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- #endTheme -->
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+    
+<div class="mx-auto max-w-7xl px-2 sm:px-4 lg:px-8 py-1">
+    <div class='flex justify-center items-center space-x-2'>
+        <a class="shrink-0" href="/">
+            <img class="w-auto max-h-24"
+                src="https://www.acn.cu//media/templates/site/acn/images/logoacn.png" alt="ACN" />
+        </a>
+        <div class="hidden sm:flex">
+            
+<div id="mod-custom277" class="mod-custom custom">
+    <p><img src="/images/system/publicidad/publioferta.png" loading="lazy" width="1366" height="169" data-path="local-images:/publioferta.png" /></p></div>
+
+        </div>
+    </div>
+</div>
+    
+<nav
+    class="shadow-md dark:shadow-none border border-white/80 dark:border-slate-50/[0.06] bg-white bg-opacity-80 backdrop-blur-2xl backdrop-saturate-200 dark:bg-zinc-700">
+    <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+        <div class="hidden lg:flex justify-between h-14">
+            
+<a href="/" class="inline-flex items-center border-b-2 border-red-800 dark:border-red-700 px-1 pt-1 text-sm font-medium text-gray-900 dark:text-gray-100 dark:hover:text-gray-950">Inicio</a><a href="/cuba" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 dark:text-gray-300 hover:border-gray-300 hover:text-gray-700 dark:hover:text-gray-950">Cuba</a><a href="/deportes" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 dark:text-gray-300 hover:border-gray-300 hover:text-gray-700 dark:hover:text-gray-950">Deportes</a><a href="/economia" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 dark:text-gray-300 hover:border-gray-300 hover:text-gray-700 dark:hover:text-gray-950">Economía</a><a href="/mundo" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 dark:text-gray-300 hover:border-gray-300 hover:text-gray-700 dark:hover:text-gray-950">Internacionales</a><a href="/cultura" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 dark:text-gray-300 hover:border-gray-300 hover:text-gray-700 dark:hover:text-gray-950">Cultura</a><a href="/salud" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 dark:text-gray-300 hover:border-gray-300 hover:text-gray-700 dark:hover:text-gray-950">Salud</a><a href="/medio-ambiente" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 dark:text-gray-300 hover:border-gray-300 hover:text-gray-700 dark:hover:text-gray-950">Ciencia</a><a href="/especiales" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 dark:text-gray-300 hover:border-gray-300 hover:text-gray-700 dark:hover:text-gray-950">Especiales</a><a href="/efemerides" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 dark:text-gray-300 hover:border-gray-300 hover:text-gray-700 dark:hover:text-gray-950">Efemérides</a><a href="/podcast" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 dark:text-gray-300 hover:border-gray-300 hover:text-gray-700 dark:hover:text-gray-950">Pódcast</a><a href="/publirreportajes" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 dark:text-gray-300 hover:border-gray-300 hover:text-gray-700 dark:hover:text-gray-950">Publirreportajes</a>
+        </div>
+    </div>
+</nav>
+</header>
+
+    <main class="dark:bg-gray-900">
+        
+<div class="mx-auto max-w-7xl px-2 sm:px-4 lg:px-8 py-2">
+    <div class="grid grid-cols-1 md:grid-cols-7 gap-4">
+        <div class="md:col-span-4 lg:col-span-3">
+                            
+<div class="grid md:grid-cols-2 gap-5">
+    <!-- #mainArticle -->
+    <div class="md:col-span-2">
+                
+<article
+    class="group flex flex-col border-2 border-gray-200/60 dark:border-gray-800 overflow-hidden rounded-lg ">
+
+            <!-- ARTICLE IMAGE -->
+        <div class='md:shrink-0 '>
+            <a href="/mundo/envia-nicolas-maduro-guerra-mensaje-desde-ee-uu">
+                <figure>
+                    <img class="w-full object-cover object-center duration-300 group-hover:scale-110 aspect-[3/2]"
+                        loading="lazy" src="/images/2026/01/11/1101-maduro.jpg"
+                        alt="ACN - Cuba"
+                        width="720"
+                        height="466">
+                </figure>
+            </a>
+        </div>
+    
+    <div class="p-4 space-y-2">
+                    <!-- ARTICLE TITLE -->
+            <div class="flex-1">
+                <a class="block mt-2" href="/mundo/envia-nicolas-maduro-guerra-mensaje-desde-ee-uu">
+                    <h2                         class="font-semibold text-slate-900 duration-300 group-hover:text-red-950 dark:text-slate-200 dark:group-hover:text-red-200 text-2xl lg:text-3xl">
+                        Envía Nicolás Maduro Moros mensaje desde EE. UU.                    </h2>
+                </a>
+            </div>
+        
+                    <div class='flex flex-col'>
+                <!-- ARTICLE INTROTEXT -->
+                <div class='introtext mt-2 text-base text-gray-900 dark:text-slate-400'>
+                    <p>Nicolás Maduro Guerra diputado de la Asamblea Nacional de Venezuela, transmitió un mensaje de fortaleza en nombre del presidente de la República Bolivariana de Venezuela, Nicolás Maduro Moros, y de la primera dama, Cilia Flores, tras mantener contacto con el equipo legal del mandatario, informó Venezolana de Televisión desde sus canales.</p>
+                </div>
+            </div>
+
+            <!-- ARTICLE READ MORE -->
+            <a href="/mundo/envia-nicolas-maduro-guerra-mensaje-desde-ee-uu"
+                class="text-red-700 dark:text-red-400 inline-flex items-center">Leer
+                más
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                    class="w-5 h-5 duration-300 group-hover:translate-x-2 text-red-700 dark:text-red-400">
+                    <path fill-rule="evenodd"
+                        d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z"
+                        clip-rule="evenodd" />
+                </svg>
+
+            </a>
+            </div>
+</article>
+    </div>
+    <!-- #endMainArticle -->
+
+                            
+<article
+    class="group flex flex-col border-2 border-gray-200/60 dark:border-gray-800 overflow-hidden rounded-lg ">
+
+            <!-- ARTICLE IMAGE -->
+        <div class='md:shrink-0 '>
+            <a href="/economia/noticias-de-turismo-e-industria-generaron-titulares-desde-holguin">
+                <figure>
+                    <img class="w-full object-cover object-center duration-300 group-hover:scale-110 aspect-[3/2]"
+                        loading="lazy" src="/images/2026/01/11/1101-turismo.jpg"
+                        alt="ACN - Cuba"
+                        width="720"
+                        height="466">
+                </figure>
+            </a>
+        </div>
+    
+    <div class="p-4 space-y-2">
+                    <!-- ARTICLE TITLE -->
+            <div class="flex-1">
+                <a class="block mt-2" href="/economia/noticias-de-turismo-e-industria-generaron-titulares-desde-holguin">
+                    <h2                         class="font-semibold text-slate-900 duration-300 group-hover:text-red-950 dark:text-slate-200 dark:group-hover:text-red-200 text-lg lg:text-xl">
+                        Noticias de turismo e industria generaron titulares desde Holguín                    </h2>
+                </a>
+            </div>
+        
+                    <div class='flex flex-col'>
+                <!-- ARTICLE INTROTEXT -->
+                <div class='introtext mt-2 text-base text-gray-900 dark:text-slate-400'>
+                    <p>El establecimiento de una nueva conexión aérea doméstica orientada a enlazar importantes polos turísticos nacionales y la labor de entidades de la industria para diversificar producciones fueron titulares destacados en la semana que concluye en Holguín.</p>
+                </div>
+            </div>
+
+            <!-- ARTICLE READ MORE -->
+            <a href="/economia/noticias-de-turismo-e-industria-generaron-titulares-desde-holguin"
+                class="text-red-700 dark:text-red-400 inline-flex items-center">Leer
+                más
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                    class="w-5 h-5 duration-300 group-hover:translate-x-2 text-red-700 dark:text-red-400">
+                    <path fill-rule="evenodd"
+                        d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z"
+                        clip-rule="evenodd" />
+                </svg>
+
+            </a>
+            </div>
+</article>
+                            
+<article
+    class="group flex flex-col border-2 border-gray-200/60 dark:border-gray-800 overflow-hidden rounded-lg ">
+
+            <!-- ARTICLE IMAGE -->
+        <div class='md:shrink-0 '>
+            <a href="/cultura/acogera-holguin-festival-internacional-jazz-plaza">
+                <figure>
+                    <img class="w-full object-cover object-center duration-300 group-hover:scale-110 aspect-[3/2]"
+                        loading="lazy" src="/images/2026/01/11/0801-festival2.jpg"
+                        alt="ACN - Cuba"
+                        width="720"
+                        height="466">
+                </figure>
+            </a>
+        </div>
+    
+    <div class="p-4 space-y-2">
+                    <!-- ARTICLE TITLE -->
+            <div class="flex-1">
+                <a class="block mt-2" href="/cultura/acogera-holguin-festival-internacional-jazz-plaza">
+                    <h2                         class="font-semibold text-slate-900 duration-300 group-hover:text-red-950 dark:text-slate-200 dark:group-hover:text-red-200 text-lg lg:text-xl">
+                        Acogerá Holguín Festival Internacional Jazz Plaza                    </h2>
+                </a>
+            </div>
+        
+                    <div class='flex flex-col'>
+                <!-- ARTICLE INTROTEXT -->
+                <div class='introtext mt-2 text-base text-gray-900 dark:text-slate-400'>
+                    <p> La ciudad de Holguín acogerá, por primera vez, la edición 41 del Festival Internacional Jazz Plaza, que comenzará el 25 de enero con un concierto magistral de Roberto Fonseca.</p>
+                </div>
+            </div>
+
+            <!-- ARTICLE READ MORE -->
+            <a href="/cultura/acogera-holguin-festival-internacional-jazz-plaza"
+                class="text-red-700 dark:text-red-400 inline-flex items-center">Leer
+                más
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                    class="w-5 h-5 duration-300 group-hover:translate-x-2 text-red-700 dark:text-red-400">
+                    <path fill-rule="evenodd"
+                        d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z"
+                        clip-rule="evenodd" />
+                </svg>
+
+            </a>
+            </div>
+</article>
+        </>
+</div>
+
+                    </div>
+
+        <div class="md:col-span-3 lg:col-span-2">
+                            
+<div
+    class="flex flex-col gap-1 border-t-2 lg:border-t-4 border-red-700 dark:border-red-400 divide-y divide-gray-900/10 dark:divide-gray-800">
+    <div class="text-red-700 dark:text-red-400 font-roboto tracking-tight text-xl lg:text-2xl mt-2">
+        Lo más reciente en Cuba
+    </div>
+
+    	
+        
+<a class="group py-2" href="/cultura/silvio-comparte-vivencias-de-musica-y-fotografia-en-el-longina">
+    <article class="grid grid-cols-3 gap-2">
+
+                    <figure>
+                <img class="w-full rounded-lg object-cover object-center aspect-[3/2]"
+                    loading="lazy" src="/images/2026/01/11/1101-silvio.jpg"
+                    alt="ACN - Cuba"
+                    width="720"
+                    height="466">
+            </figure>
+        
+
+        <div class="col-span-2 flex flex-col space-y-2">
+                            <h3
+                    class="text-lg font-semibold leading-6 text-gray-900 duration-300 group-hover:text-red-950 dark:text-slate-200 dark:group-hover:text-red-200">
+                    Silvio comparte vivencias de música y fotografía en el Longina                </h3>
+            
+                    </div>
+    </article>
+</a>
+
+            	
+        
+<a class="group py-2" href="/cuba/fallece-la-escritora-magaly-sanchez-ochoa">
+    <article class="grid grid-cols-3 gap-2">
+
+                    <figure>
+                <img class="w-full rounded-lg object-cover object-center aspect-[3/2]"
+                    loading="lazy" src="/images/2026/01/11/1101-fallece.jpg"
+                    alt="ACN - Cuba"
+                    width="720"
+                    height="466">
+            </figure>
+        
+
+        <div class="col-span-2 flex flex-col space-y-2">
+                            <h3
+                    class="text-lg font-semibold leading-6 text-gray-900 duration-300 group-hover:text-red-950 dark:text-slate-200 dark:group-hover:text-red-200">
+                    Fallece la escritora Magaly Sánchez Ochoa                </h3>
+            
+                    </div>
+    </article>
+</a>
+
+            	
+        
+<a class="group py-2" href="/cultura/festival-longina-27-se-dedicara-a-eduardo-sosa">
+    <article class="grid grid-cols-3 gap-2">
+
+                    <figure>
+                <img class="w-full rounded-lg object-cover object-center aspect-[3/2]"
+                    loading="lazy" src="/images/2026/01/11/1101-festival.jpg"
+                    alt="ACN - Cuba"
+                    width="720"
+                    height="466">
+            </figure>
+        
+
+        <div class="col-span-2 flex flex-col space-y-2">
+                            <h3
+                    class="text-lg font-semibold leading-6 text-gray-900 duration-300 group-hover:text-red-950 dark:text-slate-200 dark:group-hover:text-red-200">
+                    Festival Longina 27 se dedicará a Eduardo Sosa                </h3>
+            
+                    </div>
+    </article>
+</a>
+
+            	
+        
+<a class="group py-2" href="/cultura/silvio-comparte-vivencias-de-musica-y-fotografia-en-el-longina-fotos">
+    <article class="grid grid-cols-3 gap-2">
+
+                    <figure>
+                <img class="w-full rounded-lg object-cover object-center aspect-[3/2]"
+                    loading="lazy" src="/images/2026/01/10/0110-silvio-longina.jpg"
+                    alt="ACN - Cuba"
+                    width="798"
+                    height="516">
+            </figure>
+        
+
+        <div class="col-span-2 flex flex-col space-y-2">
+                            <h3
+                    class="text-lg font-semibold leading-6 text-gray-900 duration-300 group-hover:text-red-950 dark:text-slate-200 dark:group-hover:text-red-200">
+                    Silvio comparte vivencias de música y fotografía en el Longina (+ Fotos)                </h3>
+            
+                    </div>
+    </article>
+</a>
+
+                                            	
+        
+<a class="group py-2" href="/cuba/universitarios-rinden-homenaje-a-julio-antonio-mella">
+    <article class="grid grid-cols-3 gap-2">
+
+                    <figure>
+                <img class="w-full rounded-lg object-cover object-center aspect-[3/2]"
+                    loading="lazy" src="/images/2026/01/10/0110-homenaje-mella-uh.jpg"
+                    alt="ACN - Cuba"
+                    width="1458"
+                    height="944">
+            </figure>
+        
+
+        <div class="col-span-2 flex flex-col space-y-2">
+                            <h3
+                    class="text-lg font-semibold leading-6 text-gray-900 duration-300 group-hover:text-red-950 dark:text-slate-200 dark:group-hover:text-red-200">
+                    Universitarios rinden homenaje a Julio Antonio Mella                </h3>
+            
+                    </div>
+    </article>
+</a>
+
+            	
+        
+<a class="group py-2" href="/cuba/concluyen-trabajos-tras-averia-en-termoelectrica-de-nuevitas">
+    <article class="grid grid-cols-3 gap-2">
+
+        
+
+        <div class="col-span-3 flex flex-col space-y-2">
+                            <h3
+                    class="text-lg font-semibold leading-6 text-gray-900 duration-300 group-hover:text-red-950 dark:text-slate-200 dark:group-hover:text-red-200">
+                    Concluyen trabajos tras avería en Termoeléctrica de Nuevitas                </h3>
+            
+                            <!-- ARTICLE INTROTEXT -->
+                <div class='text-base text-gray-900 dark:text-slate-400 line-clamp-5'>
+                    <p>La Central Termoeléctrica (CTE) 10 de Octubre del municipio de Nuevitas prevé incorporar hoy a la generación nacional la unidad cinco, tras concluir las acciones de reparación en el cambio de un rodamiento de un calentador de aire regenerativo de la caldera, que provocó su salida del sistema.</p>
+                </div>
+                    </div>
+    </article>
+</a>
+
+            	
+        
+<a class="group py-2" href="/cuba/dia-de-la-defensa-demostro-coraje-del-pueblo-camagueeyano-fotos">
+    <article class="grid grid-cols-3 gap-2">
+
+        
+
+        <div class="col-span-3 flex flex-col space-y-2">
+                            <h3
+                    class="text-lg font-semibold leading-6 text-gray-900 duration-300 group-hover:text-red-950 dark:text-slate-200 dark:group-hover:text-red-200">
+                    Día de la Defensa demostró coraje del pueblo camagüeyano (+ Fotos)                </h3>
+            
+                            <!-- ARTICLE INTROTEXT -->
+                <div class='text-base text-gray-900 dark:text-slate-400 line-clamp-5'>
+                    <p>El Día Nacional de la Defensa en Camagüey demostró hoy el coraje de un pueblo capaz de pelear ante las amenazas del imperio norteamericano, afirmó Walter Simón Noris, presidente del Consejo de Defensa Provincial.</p>
+                </div>
+                    </div>
+    </article>
+</a>
+
+            	
+        
+<a class="group py-2" href="/cultura/catalogo-de-exposicion-de-michel-mirabal-eterniza-sus-metaforas-fotos">
+    <article class="grid grid-cols-3 gap-2">
+
+        
+
+        <div class="col-span-3 flex flex-col space-y-2">
+                            <h3
+                    class="text-lg font-semibold leading-6 text-gray-900 duration-300 group-hover:text-red-950 dark:text-slate-200 dark:group-hover:text-red-200">
+                    Catálogo de exposición de Michel Mirabal eterniza sus metáforas (+ Fotos)                </h3>
+            
+                            <!-- ARTICLE INTROTEXT -->
+                <div class='text-base text-gray-900 dark:text-slate-400 line-clamp-5'>
+                    <p>El catálogo de la muestra Tú no me conoces, del artista visual Michel Mirabal, fue presentado hoy en el Teatro del Museo Nacional de Bellas Artes; propuesta que marca su regreso a Cuba tras quince años de exhibiciones internacionales.</p>
+                </div>
+                    </div>
+    </article>
+</a>
+
+            </div>
+                    </div>
+        <div class="md:col-span-7 lg:col-span-2">
+                            
+<div id="mod-custom293" class="mod-custom custom">
+    <p><iframe width="100%" height="200" src="https://www.ivoox.com/player_ej_166242832_6_1.html?c1=e1ba80" frameborder="0" allowfullscreen="allowfullscreen" scrolling="no" loading="lazy"></iframe></p>
+<p></p></div>
+<div class="moduletable ">
+        <ul class="mod-articlescategory category-module mod-list">
+                    <li style="border-bottom: 1px solid #a49f9d;padding: 10px;">
+                                    <a href="/cuba/el-derecho-y-la-justicia-estan-de-parte-de-cuba" class="mod-articles-category-title ">El derecho y la justicia están de parte de Cuba</a>    
+    
+    
+    
+            <span class="mod-articles-category-date">2026-01-11 10:59:51</span>
+    
+    
+    
+    </li>
+<li style="border-bottom: 1px solid #a49f9d;padding: 10px;">
+                                    <a href="/medio-ambiente/conmemoran-ingenieros-cubanos-su-dia" class="mod-articles-category-title ">Conmemoran ingenieros cubanos su día</a>    
+    
+    
+    
+            <span class="mod-articles-category-date">2026-01-11 10:55:37</span>
+    
+    
+    
+    </li>
+<li style="border-bottom: 1px solid #a49f9d;padding: 10px;">
+                                    <a href="/cuba/respaldan-ingenieros-avilenos-desarrollo-social-y-economico" class="mod-articles-category-title ">Respaldan ingenieros avileños desarrollo social y económico</a>    
+    
+    
+    
+            <span class="mod-articles-category-date">2026-01-11 10:53:39</span>
+    
+    
+    
+    </li>
+<li style="border-bottom: 1px solid #a49f9d;padding: 10px;">
+                                    <a href="/medio-ambiente/iris-amarillo-milagro-botanico-en-un-quinto-piso-de-nueva-gerona" class="mod-articles-category-title ">Iris amarillo, milagro botánico en un quinto piso de Nueva Gerona</a>    
+    
+    
+    
+            <span class="mod-articles-category-date">2026-01-11 08:59:58</span>
+    
+    
+    
+    </li>
+<li style="border-bottom: 1px solid #a49f9d;padding: 10px;">
+                                    <a href="/cultura/reciben-centro-fidel-castro-y-la-colmenita-el-premio-pro-patria" class="mod-articles-category-title ">Reciben Centro Fidel Castro y La Colmenita el Premio Pro Patria</a>    
+    
+    
+    
+            <span class="mod-articles-category-date">2026-01-11 08:55:53</span>
+    
+    
+    
+    </li>
+<li style="border-bottom: 1px solid #a49f9d;padding: 10px;">
+                                    <a href="/medio-ambiente/premiaran-este-domingo-a-ingenieros-cubanos" class="mod-articles-category-title ">Premiarán este domingo a ingenieros cubanos</a>    
+    
+    
+    
+            <span class="mod-articles-category-date">2026-01-11 08:42:51</span>
+    
+    
+    
+    </li>
+<li style="border-bottom: 1px solid #a49f9d;padding: 10px;">
+                                    <a href="/medio-ambiente/boletin-cientifico-20" class="mod-articles-category-title ">Boletín Científico</a>    
+    
+    
+    
+            <span class="mod-articles-category-date">2026-01-11 08:35:27</span>
+    
+    
+    
+    </li>
+<li style="border-bottom: 1px solid #a49f9d;padding: 10px;">
+                                    <a href="/mundo/cronica-de-una-resistencia" class="mod-articles-category-title ">Crónica de una resistencia</a>    
+    
+    
+    
+            <span class="mod-articles-category-date">2026-01-11 08:20:42</span>
+    
+    
+    
+    </li>
+<li style="border-bottom: 1px solid #a49f9d;padding: 10px;">
+                                    <a href="/cuba/cuba-evoco-a-julio-antonio-mella-en-aniversario-de-su-muerte" class="mod-articles-category-title ">Cuba evocó a Julio Antonio Mella en aniversario de su muerte</a>    
+    
+    
+    
+            <span class="mod-articles-category-date">2026-01-11 08:12:18</span>
+    
+    
+    
+    </li>
+    </ul>
+</div>
+
+<div id="mod-custom290" class="mod-custom custom">
+    <p><img src="/images/tasa-cambio.jpg" loading="lazy" width="701" height="401" data-path="local-images:/tasa-cambio.jpg" /></p></div>
+
+                    </div>
+    </div>
+
+            <div class="mod-banners bannergroup">
+    <div class="bannerheader">
+        Publicidad    </div>
+
+    <div class="mod-banners__item banneritem">
+                                                                                                                                                                                                        <img
+                        src="https://www.acn.cu/images/banners/Publicidad/banner-ediciones-caribe.png#joomlaImage://local-images/banners/Publicidad/banner-ediciones-caribe.png?width=3033&height=375"
+                        alt="Ediciones Caribe P1"
+                        width="1300"                        height="70"                    >
+                                        </div>
+
+</div>
+
+    
+            <div
+            class="flex justify-center py-2 mb-4 mt-8 text-red-700 dark:text-red-400 font-roboto tracking-tight text-xl lg:text-2xl border-t-2 lg:border-t-4 border-t-red-700 dark:border-t-red-400 border-b-2 border-b-gray-900/10 dark:border-b-gray-800">
+            Destacamos
+        </div>
+        
+<div
+    class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+            
+<article class="flex flex-col border-2 border-gray-200/60 dark:border-gray-800 overflow-hidden rounded-lg">
+            <!-- ARTICLE IMAGE -->
+        <div class='md:shrink-0 '>
+            <a href="/medio-ambiente/conmemoran-ingenieros-cubanos-su-dia">
+                <figure>
+                    <img class="w-full object-cover object-center aspect-[3/2]"
+                        loading="lazy" src="/images/2026/01/11/1101-conmemora.jpg"
+                        alt="ACN - Cuba"
+                        width="720"
+                        height="466">
+                </figure>
+            </a>
+        </div>
+    
+    <div class="p-4 space-y-2">
+        <div class="flex items-center gap-x-4 text-xs">
+            <time datetime="2026-01-11 19:16:43"
+                class="font-montserrat text-gray-500 dark:text-gray-400">
+                Publicado recientemente            </time>
+                            <div class="hover:underline font-medium text-gray-600 dark:text-gray-400">
+                    <a href="/medio-ambiente">Ciencia y Tecnología</a>                </div>
+                    </div>
+
+                    <!-- ARTICLE TITLE -->
+            <div class="flex-1">
+                <a class="block mt-2" href="/medio-ambiente/conmemoran-ingenieros-cubanos-su-dia">
+                    <h3                         class="font-semibold text-slate-900 duration-300 hover:text-red-950 dark:text-slate-200 dark:hover:text-red-200">
+                        Conmemoran ingenieros cubanos su día                    </h3>
+                </a>
+            </div>
+        
+                    <div class='flex flex-col'>
+                <!-- ARTICLE INTROTEXT -->
+                <div class='line-clamp-4 mt-2 text-base text-gray-900 dark:text-slate-400'>
+                    <p>Con un homenaje y ofrenda floral ante el monumento a Francisco de Albear y Fernández de Lara, en el Centro Histórico de la Ciudad, en el 210 aniversario de su natalicio, quedó inaugurada hoy la jornada por el Día del Ingeniero Cubano, que se celebra cada 11 de enero en honor al insigne profesional.</p>
+                </div>
+            </div>
+            </div>
+</article>
+            
+<article class="flex flex-col border-2 border-gray-200/60 dark:border-gray-800 overflow-hidden rounded-lg">
+            <!-- ARTICLE IMAGE -->
+        <div class='md:shrink-0 '>
+            <a href="/cuba/el-derecho-y-la-justicia-estan-de-parte-de-cuba">
+                <figure>
+                    <img class="w-full object-cover object-center aspect-[3/2]"
+                        loading="lazy" src="/images/2026/01/11/1101-bruno.jpg"
+                        alt="ACN - Cuba"
+                        width="720"
+                        height="466">
+                </figure>
+            </a>
+        </div>
+    
+    <div class="p-4 space-y-2">
+        <div class="flex items-center gap-x-4 text-xs">
+            <time datetime="2026-01-11 15:59:51"
+                class="font-montserrat text-gray-500 dark:text-gray-400">
+                Publicado recientemente            </time>
+                            <div class="hover:underline font-medium text-gray-600 dark:text-gray-400">
+                    <a href="/cuba">Cuba</a>                </div>
+                    </div>
+
+                    <!-- ARTICLE TITLE -->
+            <div class="flex-1">
+                <a class="block mt-2" href="/cuba/el-derecho-y-la-justicia-estan-de-parte-de-cuba">
+                    <h3                         class="font-semibold text-slate-900 duration-300 hover:text-red-950 dark:text-slate-200 dark:hover:text-red-200">
+                        El derecho y la justicia están de parte de Cuba                    </h3>
+                </a>
+            </div>
+        
+                    <div class='flex flex-col'>
+                <!-- ARTICLE INTROTEXT -->
+                <div class='line-clamp-4 mt-2 text-base text-gray-900 dark:text-slate-400'>
+                    <p>El canciller de Cuba, Bruno Rodríguez, destacó hoy que “a diferencia de #EEUU, no tenemos un gobierno que se presta al mercenarismo, el chantaje o la coerción militar contra otros Estados”.</p>
+                </div>
+            </div>
+            </div>
+</article>
+            
+<article class="flex flex-col border-2 border-gray-200/60 dark:border-gray-800 overflow-hidden rounded-lg">
+            <!-- ARTICLE IMAGE -->
+        <div class='md:shrink-0 '>
+            <a href="/cuba/respaldan-ingenieros-avilenos-desarrollo-social-y-economico">
+                <figure>
+                    <img class="w-full object-cover object-center aspect-[3/2]"
+                        loading="lazy" src="/images/2026/01/11/1101-avilenos.jpg"
+                        alt="ACN - Cuba"
+                        width="720"
+                        height="466">
+                </figure>
+            </a>
+        </div>
+    
+    <div class="p-4 space-y-2">
+        <div class="flex items-center gap-x-4 text-xs">
+            <time datetime="2026-01-11 15:53:39"
+                class="font-montserrat text-gray-500 dark:text-gray-400">
+                Publicado recientemente            </time>
+                            <div class="hover:underline font-medium text-gray-600 dark:text-gray-400">
+                    <a href="/cuba">Cuba</a>                </div>
+                    </div>
+
+                    <!-- ARTICLE TITLE -->
+            <div class="flex-1">
+                <a class="block mt-2" href="/cuba/respaldan-ingenieros-avilenos-desarrollo-social-y-economico">
+                    <h3                         class="font-semibold text-slate-900 duration-300 hover:text-red-950 dark:text-slate-200 dark:hover:text-red-200">
+                        Respaldan ingenieros avileños desarrollo social y económico                    </h3>
+                </a>
+            </div>
+        
+                    <div class='flex flex-col'>
+                <!-- ARTICLE INTROTEXT -->
+                <div class='line-clamp-4 mt-2 text-base text-gray-900 dark:text-slate-400'>
+                    <p>El compromiso de la Empresa de Construcción y Montaje (Conavil) y la Universidad de Ciego de Ávila Máximo Gómez Báez, con la solución a problemas y el mejoramiento continuo del desempeño en la esfera constructiva, fue ratificado al celebrarse hoy el Día del Ingeniero Cubano. </p>
+                </div>
+            </div>
+            </div>
+</article>
+            
+<article class="flex flex-col border-2 border-gray-200/60 dark:border-gray-800 overflow-hidden rounded-lg">
+            <!-- ARTICLE IMAGE -->
+        <div class='md:shrink-0 '>
+            <a href="/medio-ambiente/iris-amarillo-milagro-botanico-en-un-quinto-piso-de-nueva-gerona">
+                <figure>
+                    <img class="w-full object-cover object-center aspect-[3/2]"
+                        loading="lazy" src="/images/2026/01/11/1101-iris.jpg"
+                        alt="ACN - Cuba"
+                        width="720"
+                        height="466">
+                </figure>
+            </a>
+        </div>
+    
+    <div class="p-4 space-y-2">
+        <div class="flex items-center gap-x-4 text-xs">
+            <time datetime="2026-01-11 13:59:58"
+                class="font-montserrat text-gray-500 dark:text-gray-400">
+                Publicado recientemente            </time>
+                            <div class="hover:underline font-medium text-gray-600 dark:text-gray-400">
+                    <a href="/medio-ambiente">Ciencia y Tecnología</a>                </div>
+                    </div>
+
+                    <!-- ARTICLE TITLE -->
+            <div class="flex-1">
+                <a class="block mt-2" href="/medio-ambiente/iris-amarillo-milagro-botanico-en-un-quinto-piso-de-nueva-gerona">
+                    <h3                         class="font-semibold text-slate-900 duration-300 hover:text-red-950 dark:text-slate-200 dark:hover:text-red-200">
+                        Iris amarillo, milagro botánico en un quinto piso de Nueva Gerona                    </h3>
+                </a>
+            </div>
+        
+                    <div class='flex flex-col'>
+                <!-- ARTICLE INTROTEXT -->
+                <div class='line-clamp-4 mt-2 text-base text-gray-900 dark:text-slate-400'>
+                    <p>El iris amarillo —Trimezia sincorana— es una especie herbácea perenne, su presencia en un balcón del quinto piso de un edificio multifamiliar en esta ciudad de Isla de la Juventud, constituye un ejemplo singular de adaptación vegetal en entornos urbanos. </p>
+                </div>
+            </div>
+            </div>
+</article>
+    </div>
+
+    
+    
+<div class="relative isolate overflow-hidden bg-gray-900 pb-16 pt-14 mt-8 sm:pb-20">
+    <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2830&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply"
+        alt="" class="absolute inset-0 -z-10 h-full w-full object-cover">
+    <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
+        <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+            style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
+        </div>
+    </div>
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="py-24 sm:py-32">
+            <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                <div class="mx-auto max-w-2xl lg:mx-0">
+                    <h2 class="text-base font-semibold leading-7 text-red-400">Todo lo que necesitas</h2>
+                    <p class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
+                        Nuestros servicios
+                    </p>
+                    <p class="mt-6 text-lg leading-8 text-gray-300">
+                        Ofrecemos una amplia gama de servicios y soluciones para distintas organizaciones
+                    </p>
+                </div>
+                <dl
+                    class="font-lato mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 text-base leading-7 text-gray-300 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:gap-x-16">
+                    <div class="relative pl-9">
+                        <dt class="inline font-semibold text-white">
+                            <svg class="absolute left-1 top-1 h-5 w-5 text-red-500" xmlns="http://www.w3.org/2000/svg"
+                                fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0V12a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 12V5.25" />
+                            </svg>
+
+                            Cast
+                        </dt>
+                        <dd class="inline">Verdad con Inmediatez</dd>
+                    </div>
+                    <div class="relative pl-9">
+                        <dt class="inline font-semibold text-white">
+                            <svg class="absolute left-1 top-1 h-5 w-5 text-red-500" xmlns="http://www.w3.org/2000/svg"
+                                fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M6.827 6.175A2.31 2.31 0 0 1 5.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 0 0-1.134-.175 2.31 2.31 0 0 1-1.64-1.055l-.822-1.316a2.192 2.192 0 0 0-1.736-1.039 48.774 48.774 0 0 0-5.232 0 2.192 2.192 0 0 0-1.736 1.039l-.821 1.316Z" />
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M16.5 12.75a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0ZM18.75 10.5h.008v.008h-.008V10.5Z" />
+                            </svg>
+
+                            Fotografía
+                        </dt>
+                        <dd class="inline">Más de 40 años de Imágenes</dd>
+                    </div>
+                    <div class="relative pl-9">
+                        <dt class="inline font-semibold text-white">
+                            <svg class="absolute left-1 top-1 h-5 w-5 text-red-500" xmlns="http://www.w3.org/2000/svg"
+                                fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z" />
+                            </svg>
+
+
+                            Centro de Documentación
+                        </dt>
+                        <dd class="inline">Profesionalidad en la búsqueda de información</dd>
+                    </div>
+                    <div class="relative pl-9">
+                        <dt class="inline font-semibold text-white">
+                            <svg class="absolute left-1 top-1 h-5 w-5 text-red-500" xmlns="http://www.w3.org/2000/svg"
+                                fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                            </svg>
+
+                            Servicios Especiales
+                        </dt>
+                        <dd class="inline">Reportajes, artículos, comentarios, entrevistas y crónicas exclusivas
+                        </dd>
+                    </div>
+                    <div class="relative pl-9">
+                        <dt class="inline font-semibold text-white">
+                            <svg class="absolute left-1 top-1 h-5 w-5 text-red-500" xmlns="http://www.w3.org/2000/svg"
+                                fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M12 18.75a6 6 0 0 0 6-6v-1.5m-6 7.5a6 6 0 0 1-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 0 1-3-3V4.5a3 3 0 1 1 6 0v8.25a3 3 0 0 1-3 3Z" />
+                            </svg>
+
+                            Radio
+                        </dt>
+                        <dd class="inline">Sonido para Vivir Cuba</dd>
+                    </div>
+                    <div class="relative pl-9">
+                        <dt class="inline font-semibold text-white">
+                            <svg class="absolute left-1 top-1 h-5 w-5 text-red-500" xmlns="http://www.w3.org/2000/svg"
+                                fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 0 1-2.25 2.25M16.5 7.5V18a2.25 2.25 0 0 0 2.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 0 0 2.25 2.25h13.5M6 7.5h3v3H6v-3Z" />
+                            </svg>
+
+                            Ofertas
+                        </dt>
+                        <dd class="inline">El camino seguro de los clasificados en Cuba</dd>
+                    </div>
+                </dl>
+            </div>
+        </div>
+
+    </div>
+    <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+        aria-hidden="true">
+        <div class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-20 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
+            style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
+        </div>
+    </div>
+</div>
+
+            <div
+            class="flex justify-center py-2 mb-4 mt-8 text-red-700 dark:text-red-400 font-roboto tracking-tight text-xl lg:text-2xl border-t-2 lg:border-t-4 border-t-red-700 dark:border-t-red-400 border-b-2 border-b-gray-900/10 dark:border-b-gray-800">
+            Especiales
+        </div>
+        
+<div
+    class="grid md:grid-cols-2 lg:grid-cols-2 gap-4">
+            
+<article class="flex flex-col border-2 border-gray-200/60 dark:border-gray-800 overflow-hidden rounded-lg">
+            <!-- ARTICLE IMAGE -->
+        <div class='md:shrink-0 '>
+            <a href="/especiales/el-imperio-y-la-leccion-permanente-de-fidel">
+                <figure>
+                    <img class="w-full object-cover object-center aspect-[3/2]"
+                        loading="lazy" src="/images/2026/01/09/0109-cuba-venezuela.jpg"
+                        alt="ACN - Cuba"
+                        width="600"
+                        height="469">
+                </figure>
+            </a>
+        </div>
+    
+    <div class="p-4 space-y-2">
+        <div class="flex items-center gap-x-4 text-xs">
+            <time datetime="2026-01-09 19:55:09"
+                class="font-montserrat text-gray-500 dark:text-gray-400">
+                hace 1 día            </time>
+                    </div>
+
+                    <!-- ARTICLE TITLE -->
+            <div class="flex-1">
+                <a class="block mt-2" href="/especiales/el-imperio-y-la-leccion-permanente-de-fidel">
+                    <h3                         class="font-semibold text-slate-900 duration-300 hover:text-red-950 dark:text-slate-200 dark:hover:text-red-200">
+                        El imperio y la lección permanente de Fidel                    </h3>
+                </a>
+            </div>
+        
+                    <div class='flex flex-col'>
+                <!-- ARTICLE INTROTEXT -->
+                <div class='line-clamp-4 mt-2 text-base text-gray-900 dark:text-slate-400'>
+                    <p>Ante las dramáticas circunstancias del presente, marcadas por el brutal ataque contra la patria venezolana y las amenazas a la soberanía de nuestras naciones de América, hay que andar más que nunca de la mano con Fidel y reflexionar sobre sus enseñanzas y alerta permanente acerca de la naturaleza agresiva y la bestialidad de la potencia imperialista.</p>
+                </div>
+            </div>
+            </div>
+</article>
+            
+<article class="flex flex-col border-2 border-gray-200/60 dark:border-gray-800 overflow-hidden rounded-lg">
+            <!-- ARTICLE IMAGE -->
+        <div class='md:shrink-0 '>
+            <a href="/especiales/cerrar-el-circulo-abrir-el-futuro-fotos">
+                <figure>
+                    <img class="w-full object-cover object-center aspect-[3/2]"
+                        loading="lazy" src="/images/2026/01/09/0109-economia-circular.jpg"
+                        alt="ACN - Cuba"
+                        width="1280"
+                        height="829">
+                </figure>
+            </a>
+        </div>
+    
+    <div class="p-4 space-y-2">
+        <div class="flex items-center gap-x-4 text-xs">
+            <time datetime="2026-01-09 13:51:09"
+                class="font-montserrat text-gray-500 dark:text-gray-400">
+                hace 2 días            </time>
+                    </div>
+
+                    <!-- ARTICLE TITLE -->
+            <div class="flex-1">
+                <a class="block mt-2" href="/especiales/cerrar-el-circulo-abrir-el-futuro-fotos">
+                    <h3                         class="font-semibold text-slate-900 duration-300 hover:text-red-950 dark:text-slate-200 dark:hover:text-red-200">
+                        Cerrar el círculo; abrir el futuro (+ Fotos)                    </h3>
+                </a>
+            </div>
+        
+                    <div class='flex flex-col'>
+                <!-- ARTICLE INTROTEXT -->
+                <div class='line-clamp-4 mt-2 text-base text-gray-900 dark:text-slate-400'>
+                    <p>Una pregunta busca respuestas en un contexto de crisis ambiental global: ¿cómo construir un progreso que no devore sus propios cimientos?</p>
+                </div>
+            </div>
+            </div>
+</article>
+    </div>
+
+    </div>
+    </main>
+
+    
+<footer class="bg-gray-900" aria-labelledby="footer-heading">
+    <h2 id="footer-heading" class="sr-only">Footer</h2>
+    <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
+        <div class="xl:grid xl:grid-cols-3 xl:gap-8">
+            <div class="space-y-8">
+                <img class="h-20 w-auto"
+                    src="https://www.acn.cu//media/templates/site/acn/images/logoacn.png" alt="ACN">
+                <p class="text-sm leading-6 text-gray-300">La Agencia Cubana de Noticias, ACN actualiza sobre acontecer
+                    de Cuba y el mundo.</p>
+                <div class="flex space-x-6">
+                    <a href="https://www.facebook.com/AgenciaCubanaDeNoticias"
+                        class="text-gray-500 hover:text-gray-400">
+                        <span class="sr-only">Facebook</span>
+                        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path fill-rule="evenodd"
+                                d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </a>
+
+                    <a href="https://twitter.com/ACN_Cuba" class="text-gray-500 hover:text-gray-400">
+                        <span class="sr-only">X</span>
+                        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path
+                                d="M13.6823 10.6218L20.2391 3H18.6854L12.9921 9.61788L8.44486 3H3.2002L10.0765 13.0074L3.2002 21H4.75404L10.7663 14.0113L15.5685 21H20.8131L13.6819 10.6218H13.6823ZM11.5541 13.0956L10.8574 12.0991L5.31391 4.16971H7.70053L12.1742 10.5689L12.8709 11.5655L18.6861 19.8835H16.2995L11.5541 13.096V13.0956Z" />
+                        </svg>
+                    </a>
+
+                    <a href="https://www.youtube.com/user/agenciacubana" class="text-gray-500 hover:text-gray-400">
+                        <span class="sr-only">YouTube</span>
+                        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path fill-rule="evenodd"
+                                d="M19.812 5.418c.861.23 1.538.907 1.768 1.768C21.998 8.746 22 12 22 12s0 3.255-.418 4.814a2.504 2.504 0 0 1-1.768 1.768c-1.56.419-7.814.419-7.814.419s-6.255 0-7.814-.419a2.505 2.505 0 0 1-1.768-1.768C2 15.255 2 12 2 12s0-3.255.417-4.814a2.507 2.507 0 0 1 1.768-1.768C5.744 5 11.998 5 11.998 5s6.255 0 7.814.418ZM15.194 12 10 15V9l5.194 3Z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
+                <div class="md:grid md:grid-cols-2 md:gap-8">
+                    <div class="pt-4">
+                        <ul role="list" class="mt-6 space-y-4">
+                            <li>
+                                <a href="https://www.pcc.cu/" target="_blank"
+                                    class="text-sm leading-6 text-gray-300 hover:text-white">PCC</a>
+                            </li>
+                            <li>
+                                <a href="http://www.minrex.gob.cu/es" target="_blank"
+                                    class="text-sm leading-6 text-gray-300 hover:text-white">Minrex</a>
+                            </li>
+                            <li>
+                                <a href="http://www.prensa-latina.cu/" target="_blank"
+                                    class="text-sm leading-6 text-gray-300 hover:text-white">Prensa Latina</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mt-10 md:mt-0 pt-4">
+                        <ul role="list" class="mt-6 space-y-4">
+                            <li>
+                                <a href="http://www.cubadebate.cu/" target="_blank"
+                                    class="text-sm leading-6 text-gray-300 hover:text-white">Cubadebate</a>
+                            </li>
+                            <li>
+                                <a href="http://www.cubasi.cu/" target="_blank"
+                                    class="text-sm leading-6 text-gray-300 hover:text-white">Cubasi</a>
+                            </li>
+                            <li>
+                                <a href="http://www.ecured.cu/" target="_blank"
+                                    class="text-sm leading-6 text-gray-300 hover:text-white">Ecured</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="md:grid md:grid-cols-2 md:gap-8 pt-4">
+                    <div>
+                        <ul role="list" class="mt-6 space-y-4">
+                            <li>
+                                <a href="http://www.granma.cubaweb.cu/" target="_blank"
+                                    class="text-sm leading-6 text-gray-300 hover:text-white">Granma</a>
+                            </li>
+                            <li>
+                                <a href="http://www.bohemia.cu/" target="_blank"
+                                    class="text-sm leading-6 text-gray-300 hover:text-white">Bohemia</a>
+                            </li>
+                            <li>
+                                <a href="http://www.juventudrebelde.cu/" target="_blank"
+                                    class="text-sm leading-6 text-gray-300 hover:text-white">Juventud Rebelde</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mt-10 md:mt-0">
+                        <ul role="list" class="mt-6 space-y-4">
+                            <li>
+                                <a href="http://www.trabajadores.cu/" target="_blank"
+                                    class="text-sm leading-6 text-gray-300 hover:text-white">Trabajadores</a>
+                            </li>
+                            <li>
+                                <a href="http://www.tvcubana.icrt.cu/" target="_blank"
+                                    class="text-sm leading-6 text-gray-300 hover:text-white">TV Cubana</a>
+                            </li>
+                            <li>
+                                <a href="http://www.cubasocialista.cu/" target="_blank"
+                                    class="text-sm leading-6 text-gray-300 hover:text-white">Cuba Socialista</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
+            <p class="text-xs leading-5 text-gray-400">&copy;
+                2026                Agencia Cubana de Noticias. Todos los derechos reservados.
+                <span class="font-semibold">Director General:</span> Norland Rosendo González.
+                <span class="font-semibold">Teléfono:</span> 78325542.
+                <span class="font-semibold">E-mail:</span>web@acn.cu
+            </p>
+        </div>
+    </div>
+</footer>
+
+  	<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analitica.cip.cu/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '34']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: */wp-content/podscache/*
+
+Sitemap: https://www.sld.cu/sitemap.xml
+Sitemap: https://www.sld.cu/sitemap.rss

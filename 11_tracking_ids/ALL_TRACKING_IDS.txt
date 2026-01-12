@@ -1,0 +1,36 @@
+=== GOOGLE ANALYTICS & TRACKING IDS ===
+Generated: Sun, Jan 11, 2026  2:45:13 PM
+
+=== UNIVERSAL ANALYTICS (UA-) ===
+UA-107169760-1  | MINED (mined.gob.cu) | Education Ministry
+UA-131250309-1  | Tribuna (tribuna.cu) | Provincial newspaper
+UA-142146896-1  | Finlay (finlay.edu.cu) | Vaccine institute
+UA-144247220-1  | Aduana (aduana.gob.cu) | Customs (Military)
+UA-291893-2     | Juventud Rebelde | Youth newspaper
+UA-79009587-1   | Ahora (ahora.cu) | Provincial newspaper
+UA-89356472-1   | Trabajadores | Workers newspaper
+UA-24634662-1   | Sierra Maestra | Provincial newspaper
+
+=== GOOGLE ANALYTICS 4 (G-) ===
+G-D39KSEBN9Q   | Granma (granma.cu) | Communist Party newspaper
+G-CRYZ9ZCZ5Z   | Cubana (cubana.cu) | National airline
+G-VEVTXVW0MP   | ICRT (icrt.gob.cu) | State TV/Radio
+
+=== GOOGLE TAG MANAGER (GTM-) ===
+GTM-TKWLSZN    | Trabajadores | Workers newspaper
+
+=== ANALYSIS ===
+- Multiple state media outlets share similar analytics patterns
+- Aduana (Customs/Military) uses Google Analytics for tracking
+- Cross-site user tracking possible via shared analytics
+
+=== CROSS-SITE TRACKING ANALYSIS ===
+
+Sites sharing similar infrastructure patterns:
+- ACN + Juventud Rebelde: Both Laravel, similar load balancer setup
+- Multiple state media using Google Analytics (data sent to Google)
+- MINFAR + PCC: Both Drupal, different versions
+
+Certificate Authorities Used:
+- Let's Encrypt (majority)
+- ETECSA Internal CA (Aduana - hosting@enet.cu)

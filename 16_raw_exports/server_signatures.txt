@@ -1,0 +1,92 @@
+=== SERVER SIGNATURES ===
+--- pcc_cu_headers.txt ---
+  server: Windows95
+  x-powered-by: PHP/8.1.20
+  x-generator: Drupal 10 (https://www.drupal.org)
+--- ujc_cu_headers.txt ---
+  X-Generator: Drupal 9 (https://www.drupal.org)
+--- uneac_org_cu_headers.txt ---
+  Server: Apache/2.4.18 (Ubuntu)
+--- citma_gob_cu_headers.txt ---
+  Server: Apache
+  X-Generator: Drupal 9 (https://www.drupal.org)
+--- mfp_gob_cu_headers.txt ---
+  Server: Apache
+--- micons_gob_cu_headers.txt ---
+  Server: Fotuto
+--- minal_gob_cu_headers.txt ---
+  Server: openresty
+--- mined_gob_cu_headers.txt ---
+  Server: nginx/1.14.2
+--- mitrans_gob_cu_headers.txt ---
+  Server: nginx
+--- mtss_gob_cu_headers.txt ---
+  Server: nginx
+--- aduana_gob_cu_headers.txt ---
+  X-Powered-By: PHP/8.1.20
+--- adelante_cu_headers.txt ---
+  Server: Apache
+--- ahora_cu_headers.txt ---
+  Server: Apache
+--- invasor_cu_headers.txt ---
+  Server: Apache
+--- radiohc_cu_headers.txt ---
+  Server: nginx
+--- radioprogreso_cu_headers.txt ---
+  Server: nginx
+--- radiorebelde_cu_headers.txt ---
+  Server: nginx
+  X-Powered-By: W3 Total Cache/2.8.15
+--- radioreloj_cu_headers.txt ---
+  Server: nginx
+--- sierramaestra_cu_headers.txt ---
+  Server: Apache
+--- trabajadores_cu_headers.txt ---
+  Server: Apache/2.4.56 (Debian)
+--- tribuna_cu_headers.txt ---
+  Server: Apache
+--- citmatel_cu_headers.txt ---
+  Server: Apache
+  X-Generator: Drupal 9 (https://www.drupal.org)
+--- correos_cu_headers.txt ---
+  Server: Apache
+--- cubana_cu_headers.txt ---
+  Server: nginx
+--- cujae_edu_cu_headers.txt ---
+  Server: nginx
+--- etecsa_cu_headers.txt ---
+  server: Windows95
+--- transtur_cu_headers.txt ---
+  Server: nginx
+--- uh_cu_headers.txt ---
+  Server: nginx
+  X-Powered-By: PHP/7.4.32
+--- fgr_gob_cu_headers.txt ---
+  X-Powered-By: PHP/8.1.20
+  X-Generator: Drupal 9 (https://www.drupal.org)
+--- gacetaoficial_gob_cu_headers.txt ---
+  Server: nginx
+  X-Generator: Grupo desarrollo Desoft
+--- parlamentocubano_gob_cu_headers.txt ---
+  Server: Apache
+--- bc_gob_cu_headers.txt ---
+  Server: nginx
+--- bfi_cu_headers.txt ---
+  Server: Apache
+--- biocubafarma_cu_headers.txt ---
+  Server: Microsoft-IIS/11.0
+--- cuba_cu_headers.txt ---
+  Server: Apache
+--- cubatur_cu_headers.txt ---
+  Server: cloudflare
+  x-powered-by: Express
+--- finlay_edu_cu_headers.txt ---
+  Server: IIS
+--- havanatur_cu_headers.txt ---
+  Server: nginx/1.14.0 (Ubuntu)
+--- infomed_sld_cu_headers.txt ---
+  Server: nginx
+--- onei_gob_cu_headers.txt ---
+  X-Generator: Drupal 9 (https://www.drupal.org)
+--- sld_cu_headers.txt ---
+  Server: nginx

@@ -1,0 +1,39 @@
+=== DNS Records for minfar.gob.cu ===
+Non-authoritative answer:
+Server:  UnKnown
+Address:  10.2.0.1
+
+DNS request timed out.
+    timeout was 2 seconds.
+Name:    minfar.gob.cu
+Address:  190.92.127.137
+
+Server:  UnKnown
+Address:  10.2.0.1
+
+minfar.gob.cu
+	primary name server = ns3.etecsa.net
+	responsible mail addr = admin.enet.cu
+	serial  = 2023121800
+	refresh = 7200 (2 hours)
+	retry   = 1800 (30 mins)
+	expire  = 1209600 (14 days)
+	default TTL = 2000 (33 mins 20 secs)
+Non-authoritative answer:
+Server:  UnKnown
+Address:  10.2.0.1
+
+minfar.gob.cu	nameserver = ns5.etecsa.net
+minfar.gob.cu	nameserver = ns3.etecsa.net
+minfar.gob.cu	nameserver = ns4.etecsa.net
+Server:  UnKnown
+Address:  10.2.0.1
+
+minfar.gob.cu
+	primary name server = ns3.etecsa.net
+	responsible mail addr = admin.enet.cu
+	serial  = 2023121800
+	refresh = 7200 (2 hours)
+	retry   = 1800 (30 mins)
+	expire  = 1209600 (14 days)
+	default TTL = 2000 (33 mins 20 secs)

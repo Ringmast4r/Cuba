@@ -1,0 +1,9 @@
+HTTP/1.1 403 Forbidden
+Date: Sun, 11 Jan 2026 19:15:49 GMT
+Server: Apache
+X-XSS-Protection: 1, mode=block
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Content-Type: text/html; charset=iso-8859-1
+

@@ -1,0 +1,7 @@
+Non-authoritative answer:
+Server:  UnKnown
+Address:  10.2.0.1
+
+Name:    correos.cu
+Address:  200.55.168.202
+

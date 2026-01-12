@@ -1,0 +1,19 @@
+=== DNS: cubadebate.cu ===
+Non-authoritative answer:
+Server:  UnKnown
+Address:  10.2.0.1
+
+Name:    cubadebate.cu
+Address:  190.205.101.93
+
+Non-authoritative answer:
+Server:  UnKnown
+Address:  10.2.0.1
+
+cubadebate.cu	nameserver = ns1.cubadebate.cu
+cubadebate.cu	nameserver = ns2.cubadebate.cu
+Non-authoritative answer:
+Server:  UnKnown
+Address:  10.2.0.1
+
+cubadebate.cu	MX preference = 10, mail exchanger = correo.cubadebate.cu

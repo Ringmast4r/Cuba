@@ -1,0 +1,53 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 11 Jan 2026 19:16:18 GMT
+Server: Apache
+Location: https://www.invasor.cu/
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 11 Jan 2026 19:16:20 GMT
+Server: Apache
+X-XSS-Protection: 1; mode=block
+x-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+Referrer-Policy: strict-origin
+Permissions-Policy: vibrate(self), usermedia(*), microphone(none), payment(none), sync-xhr(self 'https://www.invasor.cu')
+Set-Cookie: 1450bf697ff554949cc382c02355b22e=2ok7pjifje71q5amk2drq4aov3; path=/; HttpOnly
+Expires: Wed, 17 Aug 2005 00:00:00 GMT
+Last-Modified: Sun, 11 Jan 2026 19:16:20 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Location: https://www.invasor.cu/es/
+Access-Control-Allow-Origin: https://www.invasor.cu
+X-Permitted-Cross-Domain-Policies: none
+Access-Control-Allow-Methods: GET, POST
+Access-Control-Allow-Headers: Origin, X-Requested-With, Accept
+Access-Control-Allow-Credentials: true
+Access-Control-Max-Age: 300
+Content-Security-Policy: base-uri 'self'; frame-ancestors 'self'
+Content-Type: text/html; charset=utf-8
+
+HTTP/1.1 200 OK
+Date: Sun, 11 Jan 2026 19:16:21 GMT
+Server: Apache
+X-XSS-Protection: 1; mode=block
+x-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+Referrer-Policy: strict-origin
+Permissions-Policy: vibrate(self), usermedia(*), microphone(none), payment(none), sync-xhr(self 'https://www.invasor.cu')
+Set-Cookie: 1450bf697ff554949cc382c02355b22e=f00qbqpnns4gd4o9vks3t057k5; path=/; HttpOnly
+Expires: Wed, 17 Aug 2005 00:00:00 GMT
+Last-Modified: Sun, 11 Jan 2026 19:16:21 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Access-Control-Allow-Origin: https://www.invasor.cu
+X-Permitted-Cross-Domain-Policies: none
+Access-Control-Allow-Methods: GET, POST
+Access-Control-Allow-Headers: Origin, X-Requested-With, Accept
+Access-Control-Allow-Credentials: true
+Access-Control-Max-Age: 300
+Content-Security-Policy: base-uri 'self'; frame-ancestors 'self'
+Content-Type: text/html; charset=utf-8
+

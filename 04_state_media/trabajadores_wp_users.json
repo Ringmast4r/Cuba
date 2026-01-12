@@ -1,0 +1,1 @@
+{"code":"rest_cannot_access","message":"DRA: solo los usuarios identificados pueden acceder a la API REST.","data":{"status":401}}

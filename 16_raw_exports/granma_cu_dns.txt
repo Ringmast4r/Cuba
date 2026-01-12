@@ -1,0 +1,21 @@
+=== DNS: granma.cu ===
+Non-authoritative answer:
+Server:  UnKnown
+Address:  10.2.0.1
+
+Name:    granma.cu
+Address:  190.92.127.232
+
+Non-authoritative answer:
+Server:  UnKnown
+Address:  10.2.0.1
+
+granma.cu	nameserver = ns1.cip.cu
+granma.cu	nameserver = ns2.cip.cu
+Non-authoritative answer:
+Server:  UnKnown
+Address:  10.2.0.1
+
+granma.cu	MX preference = 6, mail exchanger = grai2.granma.cu
+granma.cu	MX preference = 5, mail exchanger = mx1.granma.cu
+granma.cu	MX preference = 6, mail exchanger = mx2.granma.cu

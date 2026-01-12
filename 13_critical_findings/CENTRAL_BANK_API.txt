@@ -1,0 +1,252 @@
+===============================================================================
+                    CENTRAL BANK API INFRASTRUCTURE ANALYSIS
+===============================================================================
+Generated: January 11, 2026
+Target: api.bc.gob.cu (Banco Central de Cuba API)
+
+===============================================================================
+                    1. FINDING SUMMARY
+===============================================================================
+
+The Central Bank of Cuba operates a live JSON API infrastructure at
+api.bc.gob.cu. While most endpoints return 404, the API is active and
+protected documentation exists at /docs (403 Forbidden).
+
+SEVERITY: MEDIUM-HIGH
+IMPACT: Financial system exposure, potential attack surface
+
+===============================================================================
+                    2. API DISCOVERY
+===============================================================================
+
+[2.1] ENDPOINT PROBING RESULTS
+----------------------------------------------------------------------
+Endpoint        | Status | Response
+----------------|--------|------------------------------------------
+/               | 404    | JSON error (API active)
+/v1             | 404    | JSON error
+/health         | 404    | JSON error
+/status         | 404    | JSON error
+/tasas          | 404    | JSON error
+/exchange       | 404    | JSON error
+/rates          | 404    | JSON error
+/docs           | 403    | FORBIDDEN (documentation EXISTS)
+/swagger        | 404    | JSON error
+/openapi        | 404    | JSON error
+/graphql        | 404    | JSON error
+/assistant      | 404    | JSON error
+/chat           | 404    | JSON error
+
+[2.2] KEY FINDING: /docs RETURNS 403
+----------------------------------------------------------------------
+A 403 Forbidden response (not 404) indicates:
+- The /docs endpoint EXISTS
+- It contains protected content
+- Likely API documentation (Swagger/OpenAPI)
+- Access control is implemented
+- Documentation may reveal valid endpoints
+
+===============================================================================
+                    3. TECHNICAL ANALYSIS
+===============================================================================
+
+[3.1] FRAMEWORK IDENTIFICATION
+----------------------------------------------------------------------
+Technology: Node.js / Express.js
+Evidence:
+- JSON error response format
+- Timestamp format in responses
+- Error structure pattern
+
+Sample Response:
+{
+  "success": false,
+  "statusCode": 404,
+  "message": "Cannot GET /",
+  "timestamp": "2026-01-11T20:59:28.384Z",
+  "path": "/"
+}
+
+[3.2] RESPONSE CHARACTERISTICS
+----------------------------------------------------------------------
+- Consistent JSON format
+- ISO 8601 timestamps (UTC)
+- RESTful error structure
+- Path echoing (information disclosure)
+- No rate limiting observed
+
+===============================================================================
+                    4. VIRTUAL ASSISTANT DISCOVERY
+===============================================================================
+
+[4.1] HOMEPAGE HTML ANALYSIS
+----------------------------------------------------------------------
+Found in bc.gob.cu homepage source code:
+
+<!-- ASISTENTE VIRTUAL (Oculto temporalmente) -->
+<!-- <VirtualAssistant client:load /> -->
+
+Translation: "VIRTUAL ASSISTANT (Temporarily Hidden)"
+
+[4.2] FRAMEWORK DETAILS
+----------------------------------------------------------------------
+Directive: client:load
+Framework: Astro.js (modern JavaScript framework)
+Status: DISABLED but code present
+Implication: Can be re-enabled at any time
+
+[4.3] SIGNIFICANCE
+----------------------------------------------------------------------
+- Central Bank has AI/chatbot infrastructure
+- Currently disabled ("temporarily")
+- Component exists in codebase
+- May use the API endpoints internally
+
+===============================================================================
+                    5. POTENTIAL API PURPOSES
+===============================================================================
+
+[5.1] LIKELY FUNCTIONALITY
+----------------------------------------------------------------------
+Based on probed endpoints and context:
+
+EXCHANGE RATES:
+- /tasas (Spanish for "rates")
+- /exchange
+- /rates
+- Cuba's dual currency system needs rate APIs
+
+FINANCIAL DATA:
+- Economic indicators
+- Banking statistics
+- Public financial information
+
+VIRTUAL ASSISTANT:
+- /assistant
+- /chat
+- Customer service automation
+
+[5.2] INTERNAL VS PUBLIC
+----------------------------------------------------------------------
+The API likely serves:
+- Internal bank systems
+- Government dashboards
+- Mobile applications
+- The disabled virtual assistant
+- Partner integrations
+
+===============================================================================
+                    6. SECURITY OBSERVATIONS
+===============================================================================
+
+[6.1] POSITIVE SECURITY MEASURES
+----------------------------------------------------------------------
+- /docs endpoint is protected (403)
+- No obvious authentication bypass
+- Endpoints return generic 404s
+- No stack traces in errors
+
+[6.2] INFORMATION DISCLOSURE
+----------------------------------------------------------------------
+- Server framework identifiable
+- Timestamp reveals server timezone
+- Path echoing in error messages
+- API existence confirmed
+
+[6.3] ATTACK SURFACE
+----------------------------------------------------------------------
+This API represents:
+- Network entry point to financial systems
+- Potential for parameter fuzzing
+- Possible authentication weaknesses
+- Target for future vulnerabilities
+
+===============================================================================
+                    7. COMPARISON TO OTHER CUBAN APIS
+===============================================================================
+
+Organization     | API Domain        | Status
+-----------------|-------------------|------------------
+Central Bank     | api.bc.gob.cu     | Active, Protected
+ETECSA           | (unknown)         | Not discovered
+Presidency       | (none found)      | Static site only
+MINFAR           | (none found)      | Static site only
+
+Central Bank is ONLY confirmed JSON API infrastructure found.
+
+===============================================================================
+                    8. ASTRO.JS FRAMEWORK ANALYSIS
+===============================================================================
+
+[8.1] WHAT IS ASTRO.JS?
+----------------------------------------------------------------------
+- Modern static site generator
+- JavaScript framework (2021+)
+- Supports partial hydration
+- "Islands architecture"
+- client:load = hydrate on page load
+
+[8.2] IMPLICATIONS
+----------------------------------------------------------------------
+- Bank uses modern web technology
+- Component-based architecture
+- JavaScript-heavy frontend
+- Progressive enhancement capable
+
+[8.3] VIRTUAL ASSISTANT COMPONENT
+----------------------------------------------------------------------
+The <VirtualAssistant /> component:
+- Is a reusable UI component
+- Would hydrate (become interactive) on load
+- Likely connects to /assistant or /chat API
+- Disabled via HTML comment (quick toggle)
+
+===============================================================================
+                    9. INTELLIGENCE VALUE
+===============================================================================
+
+[9.1] WHAT THIS REVEALS
+----------------------------------------------------------------------
+1. Cuba's central bank has modern IT infrastructure
+2. API-first architecture in use
+3. AI/chatbot development underway
+4. Node.js/Express expertise present
+5. Documentation exists but is protected
+
+[9.2] MONITORING RECOMMENDATIONS
+----------------------------------------------------------------------
+- Watch for /docs becoming public
+- Monitor for new endpoints
+- Check if VirtualAssistant gets enabled
+- Look for mobile app releases (API consumers)
+
+[9.3] FUTURE RESEARCH
+----------------------------------------------------------------------
+- Parameter fuzzing on known endpoints
+- Header manipulation testing
+- Authentication mechanism discovery
+- Rate limit testing
+- API versioning enumeration
+
+===============================================================================
+                    10. FULL API RESPONSE SAMPLE
+===============================================================================
+
+Request:
+  GET https://api.bc.gob.cu/ HTTP/1.1
+
+Response:
+  HTTP/1.1 404 Not Found
+  Content-Type: application/json
+
+  {
+    "success": false,
+    "statusCode": 404,
+    "message": "Cannot GET /",
+    "timestamp": "2026-01-11T20:59:28.384Z",
+    "path": "/"
+  }
+
+===============================================================================
+                         END OF ANALYSIS
+===============================================================================

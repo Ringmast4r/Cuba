@@ -1,0 +1,5 @@
+Server:  UnKnown
+Address:  10.2.0.1
+
+Name:    inder.gob.cu
+

@@ -1,0 +1,13 @@
+=== GOOGLE ANALYTICS IDS ===
+UA-107169760-1 - MINED (Education)
+UA-131250309-1 - Tribuna (Media)
+UA-142146896-1 - Finlay (Education)
+UA-144247220-1 - Aduana (Customs/Military)
+UA-291893-2 - Juventud Rebelde (State Media)
+UA-79009587-1 - Ahora (Media)
+UA-89356472-1 - Trabajadores (Media)
+UA-24634662-1 - Sierra Maestra (Media)
+G-D39KSEBN9Q - Granma (State Media)
+G-CRYZ9ZCZ5Z - Cubana (Airlines)
+G-VEVTXVW0MP - ICRT (State TV/Radio)
+GTM-TKWLSZN - Trabajadores (GTM)

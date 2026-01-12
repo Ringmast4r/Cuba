@@ -1,0 +1,120 @@
+"use strict";
+class Podcast {
+    constructor() {
+        Object.defineProperty(this, "audioProgressbar", {
+            enumerable: true,
+            configurable: true,
+            writable: true,
+            value: void 0
+        });
+        Object.defineProperty(this, "audioProgressCircle", {
+            enumerable: true,
+            configurable: true,
+            writable: true,
+            value: void 0
+        });
+        Object.defineProperty(this, "audioBar", {
+            enumerable: true,
+            configurable: true,
+            writable: true,
+            value: void 0
+        });
+        Object.defineProperty(this, "audio", {
+            enumerable: true,
+            configurable: true,
+            writable: true,
+            value: void 0
+        });
+        Object.defineProperty(this, "playBtn", {
+            enumerable: true,
+            configurable: true,
+            writable: true,
+            value: void 0
+        });
+        Object.defineProperty(this, "getCurrentPosition", {
+            enumerable: true,
+            configurable: true,
+            writable: true,
+            value: (event) => {
+                return event.clientX - this.audioBar.offsetLeft;
+            }
+        });
+        Object.defineProperty(this, "getSlidePosition", {
+            enumerable: true,
+            configurable: true,
+            writable: true,
+            value: (event) => {
+                let position = this.getCurrentPosition(event);
+                return (position * 100) / this.audioBar.offsetWidth;
+            }
+        });
+        Object.defineProperty(this, "setSlidePosition", {
+            enumerable: true,
+            configurable: true,
+            writable: true,
+            value: (event) => {
+                let slidePosition = this.getSlidePosition(event).toFixed();
+                this.audioProgressbar.style.width = slidePosition + '%';
+                this.audioProgressCircle.style.left = slidePosition + '%';
+            }
+        });
+        this.audioProgressbar = document.getElementById('audioProgressbar');
+        this.audioProgressCircle = document.getElementById('audioProgressCircle');
+        this.audioBar = document.getElementById('audioBar');
+        this.audio = document.getElementById('podcastAudio');
+        this.playBtn = document.getElementById('podcastPlayerBtn');
+        this.player();
+    }
+    player() {
+        this.playBtn.addEventListener('click', _event => {
+            this.togglePlay();
+        });
+        const audioDuration = document.getElementById('audioDuration');
+        this.audio.addEventListener('loadedmetadata', _event => {
+            const minutes = Math.floor(this.audio.duration / 60);
+            const seconds = ('0' + Math.floor(this.audio.duration % 60)).slice(-2);
+            audioDuration.textContent = `${minutes}:${seconds}`;
+        });
+        const audioCurrentTime = document.getElementById('audioCurrentTime');
+        this.audio.addEventListener('timeupdate', _event => {
+            let minutes = Math.floor(this.audio.currentTime / 60);
+            let seconds = ('0' + Math.floor(this.audio.currentTime % 60)).slice(-2);
+            audioCurrentTime.textContent = `${minutes}:${seconds}`;
+            this.audioProgressbar.style.width =
+                ((this.audio.currentTime / this.audio.duration) * 100).toString() + '%';
+            this.audioProgressCircle.style.left =
+                ((this.audio.currentTime / this.audio.duration) * 100).toString() + '%';
+        });
+        this.audioBar.addEventListener('mousedown', () => {
+            if (!this.audio.paused && this.audio.currentTime > 0 && !this.audio.ended) {
+                this.togglePlay();
+            }
+            this.audioBar.addEventListener('mousemove', this.setSlidePosition, false);
+        });
+        this.audioBar.addEventListener('mouseup', mouseUpEvent => {
+            this.audioBar.removeEventListener('mousemove', this.setSlidePosition, false);
+            let newCurrentTime = this.getSlidePosition(mouseUpEvent);
+            this.audio.currentTime = (Math.floor(this.audio.duration) * newCurrentTime) / 100;
+            this.togglePlay();
+        });
+    }
+    isVariableDefined(el) {
+        return typeof !!el && el !== undefined && el != null;
+    }
+    togglePlay() {
+        this.audio.paused ? this.audio.play() : this.audio.pause();
+        let svgPlayIcon = this.playBtn.getElementsByTagName('svg');
+        if (this.isVariableDefined(svgPlayIcon)) {
+            Array.from(svgPlayIcon).map(svg => {
+                svg.classList.toggle('hidden');
+            });
+        }
+        this.playBtn.getAttribute('aria-label') === 'Pause'
+            ? this.playBtn.setAttribute('aria-label', 'Play')
+            : this.playBtn.setAttribute('aria-label', 'Pause');
+    }
+}
+document.addEventListener('DOMContentLoaded', function () {
+    new Podcast();
+});
+//# sourceMappingURL=podcasts.js.map

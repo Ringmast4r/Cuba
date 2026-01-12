@@ -1,0 +1,200 @@
+===============================================================================
+                    WORDPRESS USER ENUMERATION ANALYSIS
+===============================================================================
+Generated: January 11, 2026
+Targets: sld.cu (National Health Network), uh.cu (University of Havana)
+
+===============================================================================
+                    1. FINDING SUMMARY
+===============================================================================
+
+Two major Cuban government WordPress sites expose user account information
+through the WordPress REST API, allowing complete enumeration of all
+registered users including usernames and Gravatar email hashes.
+
+SEVERITY: CRITICAL
+IMPACT: Account enumeration, potential brute force attacks, email discovery
+
+===============================================================================
+                    2. SLD.CU - NATIONAL HEALTH NETWORK
+===============================================================================
+
+[2.1] SITE INFORMATION
+----------------------------------------------------------------------
+Domain:       sld.cu
+Organization: Infomed (Cuban National Health Network)
+Purpose:      Medical information portal for Cuban healthcare
+CMS:          WordPress (REST API enabled)
+Users Found:  9 accounts
+
+[2.2] ENUMERATED USERS
+----------------------------------------------------------------------
+ID  | Username  | Gravatar SHA256 Hash
+----|-----------|--------------------------------------------------------------
+1   | admin     | 0c6fe68d9c3937ad9afe181a51e8cb5c0d0d3a728a5cfd369c72e980ed6642ce
+2   | victorr   | d8560922759b623aeecf9ebc2c207666246c8966b7f456817cdbace11cd97dcf
+3   | claudia   | fe3b5fc35fb669f4d8bc532fa5443a8c609ea27202ae01f9174817891e30b90c
+5   | mirta     | b892f9886b6629c131f337fa846b5857e3a8e7bf6365e5d5694bfb60621945a8
+6   | ivettecm  | 5a0509301edf187cea08d0179b63ce0c8cc99c04af7c3e2117c56edd568fdb5c
+7   | nancypm   | a86c66ea440631975c9559454ae0e77bb6a69f230bb7c3fa328cd568553cf48a
+8   | agdiaz    | 0d798222fdb5951527977b007b3c134a41741a6fa5b2e04e91811eda3ad2f9de
+9   | tania     | 3b75406a755066876a85b43fd3ab8d529a4a55143299cdb08fceec7acdc75917
+10  | borrell   | 8f5678202f85cfb7b54fe3ba62e82d16f1125ea19cd89c19559a02bdd22a07ab
+
+[2.3] ENUMERATION METHODS USED
+----------------------------------------------------------------------
+Method 1: WordPress REST API
+  Endpoint: /wp-json/wp/v2/users
+  Result: Direct JSON response with user data
+
+Method 2: Author ID Brute Force
+  Endpoint: /?author=N (where N = 1, 2, 3, etc.)
+  Result: Redirects reveal usernames in URL
+
+===============================================================================
+                    3. UH.CU - UNIVERSITY OF HAVANA
+===============================================================================
+
+[3.1] SITE INFORMATION
+----------------------------------------------------------------------
+Domain:       uh.cu
+Organization: Universidad de La Habana
+Purpose:      Official university website
+CMS:          WordPress with Yoast SEO, Polylang, ACF plugins
+Users Found:  5 accounts
+Social Media: @UdeLaHabana (Twitter)
+
+[3.2] ENUMERATED USERS
+----------------------------------------------------------------------
+ID  | Username         | Display Name  | Gravatar SHA256 Hash
+----|------------------|---------------|----------------------------------------------
+1   | gsiuh            | gsiuh         | 2fbaf4a7c4b2b0e445a0bb4d598b29e0bb1103034f4a287c26f2f88f6190b4d3
+5   | seginf           | SegInf        | 9ac87529716c8334044d17c229a94a6b953f38cdff7e7c40fcdec1b373093b13
+6   | adminnodo        | AdminNodo     | c329a52b275f3338636c80a815b897fc86a7205a1eca27e0b01d6fb1a6c99fe3
+8   | taniarect-uh-cu  | Tania Ortiz   | 550509f315c937adf01f2b309be07e9c5a83937b979741e3ab980030d4f3904a
+9   | egutsens         | -             | (not retrievable)
+
+[3.3] NOTABLE USERNAMES
+----------------------------------------------------------------------
+- "seginf" likely = "Seguridad Informatica" (IT Security)
+- "adminnodo" likely = Node administrator
+- "gsiuh" likely = System admin group
+
+===============================================================================
+                    4. GRAVATAR HASH EXPLOITATION
+===============================================================================
+
+[4.1] WHAT ARE GRAVATAR HASHES?
+----------------------------------------------------------------------
+Gravatar hashes are SHA256 (or MD5 in older systems) hashes of the
+lowercase email address associated with a user account. WordPress
+automatically generates these to display user avatars.
+
+[4.2] REVERSIBILITY RISK
+----------------------------------------------------------------------
+These hashes can be reversed to obtain email addresses through:
+
+1. RAINBOW TABLE ATTACKS
+   - Pre-computed hash databases
+   - Common email patterns (@sld.cu, @uh.cu)
+
+2. BRUTE FORCE
+   - Generate hashes for common names + domain
+   - Match against captured hashes
+
+3. ONLINE LOOKUP SERVICES
+   - Some services index Gravatar hashes
+   - May reveal associated email addresses
+
+[4.3] EXAMPLE ATTACK VECTOR
+----------------------------------------------------------------------
+Target: User "admin" on sld.cu
+Hash: 0c6fe68d9c3937ad9afe181a51e8cb5c0d0d3a728a5cfd369c72e980ed6642ce
+
+Attempt: SHA256("admin@sld.cu") -> Compare to hash
+Attempt: SHA256("administrador@sld.cu") -> Compare to hash
+Attempt: SHA256("webmaster@sld.cu") -> Compare to hash
+
+If match found -> Email address confirmed
+
+===============================================================================
+                    5. ATTACK SCENARIOS
+===============================================================================
+
+[5.1] CREDENTIAL STUFFING
+----------------------------------------------------------------------
+With known usernames, attackers can:
+- Attempt common passwords
+- Use leaked password databases
+- Target specific high-value accounts (admin)
+
+[5.2] SPEAR PHISHING
+----------------------------------------------------------------------
+Once email addresses are recovered:
+- Craft targeted phishing emails
+- Impersonate IT departments
+- Request password resets
+
+[5.3] PRIVILEGE ESCALATION
+----------------------------------------------------------------------
+- Identify admin-level accounts
+- Focus attacks on highest privilege users
+- Chain with other vulnerabilities
+
+===============================================================================
+                    6. PROTECTED SITE COMPARISON
+===============================================================================
+
+NOT ALL WordPress sites are vulnerable:
+
+trabajadores.cu:
+  - Uses DRA (Disable REST API) plugin
+  - /wp-json/wp/v2/users returns 401 Unauthorized
+  - Proper security configuration
+
+LESSON: The vulnerability is due to misconfiguration, not WordPress itself.
+
+===============================================================================
+                    7. REMEDIATION RECOMMENDATIONS
+===============================================================================
+
+For Cuban government IT administrators:
+
+1. DISABLE USER ENDPOINT
+   - Install "Disable REST API" plugin
+   - Or add to functions.php:
+     add_filter('rest_endpoints', function($endpoints) {
+         unset($endpoints['/wp/v2/users']);
+         return $endpoints;
+     });
+
+2. DISABLE AUTHOR ARCHIVES
+   - Prevent /?author=N enumeration
+   - Use security plugins like Wordfence
+
+3. USE STRONG PASSWORDS
+   - Assume usernames are known
+   - Enforce complex password policies
+
+4. IMPLEMENT 2FA
+   - Add two-factor authentication
+   - Protects against credential stuffing
+
+===============================================================================
+                    8. INTELLIGENCE VALUE
+===============================================================================
+
+These findings reveal:
+
+1. Weak security posture at health/education institutions
+2. Predictable username patterns (admin, first names)
+3. Potential attack surface for state infrastructure
+4. Lack of security hardening on WordPress deployments
+5. 14 potential targets for credential attacks
+
+TOTAL EXPOSED USERS: 14
+TOTAL GRAVATAR HASHES: 13 (reversible to emails)
+
+===============================================================================
+                         END OF ANALYSIS
+===============================================================================

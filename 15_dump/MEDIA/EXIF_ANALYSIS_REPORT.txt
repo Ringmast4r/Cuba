@@ -1,0 +1,228 @@
+================================================================================
+                    CUBAN GOVERNMENT MEDIA - EXIF ANALYSIS REPORT
+                    Generated: January 11, 2026
+================================================================================
+
+EXECUTIVE SUMMARY
+=================
+Analysis of 182 media files downloaded from Cuban government and state media
+websites reveals inconsistent EXIF metadata stripping practices. Several sites
+are exposing device information, software used, and timestamps that could be
+leveraged for intelligence gathering.
+
+COLLECTION OVERVIEW
+===================
+Source                  Files    Size      Status
+------                  -----    ----      ------
+SLD.cu (Health)         102      8.5MB     Downloaded
+RadioRebelde.cu         51       8MB       Downloaded
+MINFAR.gob.cu           29       2.5MB     Downloaded
+UH.cu (University)      0        -         BLOCKED (Connection Reset)
+------------------------------------------------------
+TOTAL                   182      19MB
+
+
+================================================================================
+                              DETAILED FINDINGS
+================================================================================
+
+1. MINFAR.GOB.CU (Ministry of Armed Forces)
+-------------------------------------------
+CRITICAL: Military website exposing device metadata
+
+DEVICES IDENTIFIED:
+  - LG Electronics LM-Q710.FG (Android smartphone)
+    * Timestamps: 2020:07:29 10:13:37, 2020:07:29 10:13:53
+    * Files: 20200729_101337_opt.jpg, 20200729_101353_HDR_opt.jpg
+
+  - NIKON CORPORATION NIKON D5600 (DSLR Camera)
+    * Software: Ver.1.10
+    * Timestamps: 2016:04:30, 2020:03:16, 2020:03:20
+    * Files: DSC_0071_opt.jpg, DSC_0092_opt.jpg, DSC04537_opt.jpg, etc.
+
+GPS STATUS:
+  - GPS version tags present (GPSVersionID: 2.3.0.0)
+  - Actual coordinates NOT recorded or stripped
+  - Indicates GPS-capable devices with location tagging disabled
+
+NEWER IMAGES (2023-2025):
+  - Processed through GD-JPEG library (server-side)
+  - EXIF stripped during upload processing
+  - Shows improved practices on recent uploads
+
+FILES WITH EXIF:
+  - 20200729_101337_opt.jpg: LG phone, datetime=2020:07:29
+  - 20200729_101353_HDR_opt.jpg: LG phone, datetime=2020:07:29
+  - DSC_0071_opt.jpg: NIKON D5600, datetime=2016:04:30
+  - DSC_0092_opt.jpg: NIKON D5600, datetime=2016:04:30
+  - DSC00130_opt.jpg: datetime=2020:11:15
+  - DSC00132_opt.jpg: datetime=2020:11:15
+  - DSC00156_opt.jpg: datetime=2020:11:16
+  - DSC00235_opt.jpg: datetime=2020:12:16
+  - DSC00236_opt.jpg: datetime=2020:12:16
+  - DSC04537_opt.jpg: datetime=2020:03:16
+  - DSC04604_opt.jpg: datetime=2020:03:20
+  - DSC04605_opt.jpg: datetime=2020:03:20
+
+
+2. RADIOREBELDE.CU (State Radio Broadcaster)
+--------------------------------------------
+CRITICAL: State media exposing professional equipment inventory
+
+DEVICES IDENTIFIED:
+  - SONY ILCE-7SM2 (Sony A7S II - ~$2,500 professional mirrorless camera)
+    * Software: Adobe Photoshop Lightroom Classic 9.2 (Windows)
+    * Multiple timestamps from December 2025
+    * Files: DSC8312-scaled.jpg, DSC8324-scaled.jpg, DSC8355-scaled.jpg, etc.
+
+  - Canon EOS 6D Mark II (Professional DSLR)
+    * File: plantas-medicinales-300x133.jpg
+
+  - Google (Android device processing)
+    * File: ensalada-de-lechuga-moztasa.jpg
+
+SOFTWARE IDENTIFIED:
+  - Adobe Photoshop Lightroom Classic 9.2 (Windows)
+  - Adobe Photoshop CS6 (Windows)
+  - Google Photos processing
+
+TIMESTAMPS EXPOSED (Recent):
+  - 2026:01:09 17:54:52 (2 days ago!)
+  - 2025:12:08 12:27:30
+  - 2025:12:08 12:28:31
+  - 2025:12:08 12:30:03
+  - 2025:12:08 12:31:41
+  - 2025:12:08 12:33:07
+  - 2025:12:08 12:34:27
+  - 2025:12:08 12:36:10
+  - 2022:10:18 11:56:10
+
+FILES WITH EXIF (29 total):
+  - DSC8312-scaled.jpg: SONY ILCE-7SM2, Lightroom, 2025:12:08 12:27:30
+  - DSC8324-scaled.jpg: SONY ILCE-7SM2, Lightroom, 2025:12:08 12:28:31
+  - DSC8355-scaled.jpg: SONY ILCE-7SM2, Lightroom, 2025:12:08 12:30:03
+  - DSC8370-scaled.jpg: SONY ILCE-7SM2, Lightroom, 2025:12:08 12:31:41
+  - DSC8399-scaled.jpg: SONY ILCE-7SM2, Lightroom, 2025:12:08 12:33:07
+  - DSC8432-scaled.jpg: SONY ILCE-7SM2, Lightroom, 2025:12:08 12:34:27
+  - DSC8573-scaled.jpg: SONY ILCE-7SM2, Lightroom, 2025:12:08 12:36:10
+  - plantas-medicinales-300x133.jpg: Canon EOS 6D Mark II
+  - radio-rebelde.jpg: Photoshop CS6, 2022:10:18 11:56:10
+  - 0901-ley-transparencia.jpg: Photoshop CS6, 2026:01:09 17:54:52
+  - ensalada-de-lechuga-moztasa.jpg: Google
+
+
+3. SLD.CU (National Health Information Network - Infomed)
+---------------------------------------------------------
+MIXED: Inconsistent EXIF stripping practices
+
+SOFTWARE IDENTIFIED:
+  - Adobe Photoshop 21.1 (Windows)
+    * Timestamp: 2023:03:06 10:24:28
+    * File: 2026_Dengue-2026_slider_Infomed.jpg
+
+EXIF STATUS:
+  - Some images have EXIF (Adobe Photoshop metadata)
+  - Some images properly stripped
+  - No device/camera information exposed
+  - No GPS data
+
+FILES WITH EXIF (Partial list):
+  - 2026_Dengue-2026_slider_Infomed.jpg: Photoshop 21.1, 2023:03:06
+  - banner2.jpg: Has EXIF tags
+  - Biopham-2025.jpg: Has EXIF tags
+
+
+4. UH.CU (University of Havana)
+-------------------------------
+STATUS: BLOCKED - Unable to analyze
+
+Connection attempts result in SSL handshake reset after ~19 seconds.
+Server actively refusing connections from external IPs.
+This represents the BEST security posture among tested sites.
+
+
+================================================================================
+                              GPS ANALYSIS
+================================================================================
+
+GPS COORDINATES FOUND: NONE
+
+However, GPS-related metadata was detected:
+
+MINFAR Images:
+  - DSC_0071_opt.jpg: GPSVersionID: 2.3.0.0 (GPS-capable device)
+  - DSC_0092_opt.jpg: GPSVersionID: 2.3.0.0 (GPS-capable device)
+
+INTERPRETATION:
+  - Nikon D5600 cameras have built-in GPS capability
+  - GPS tagging appears to be DISABLED during capture
+  - OR coordinates stripped during post-processing
+  - Device info NOT stripped (inconsistent security practice)
+
+
+================================================================================
+                         SECURITY ASSESSMENT
+================================================================================
+
+SITE                EXIF STRIPPING    GPS DISABLED    OVERALL RATING
+----                --------------    ------------    --------------
+UH.cu               N/A (Blocked)     N/A             BEST (blocks scraping)
+SLD.cu              Partial           Yes             MODERATE
+MINFAR.gob.cu       Poor (old imgs)   Yes             POOR
+RadioRebelde.cu     Poor              Yes             POOR
+
+
+KEY VULNERABILITIES
+-------------------
+1. EQUIPMENT INVENTORY EXPOSURE
+   - State media using identifiable professional cameras
+   - Can track equipment across events/photos
+   - Sony A7S II, Canon 6D Mark II, Nikon D5600, LG phones identified
+
+2. TIMESTAMP LEAKAGE
+   - Exact photo capture times exposed
+   - Can correlate with events, movements, schedules
+   - Fresh timestamps (Jan 2026) still being leaked
+
+3. SOFTWARE FINGERPRINTING
+   - Adobe Lightroom Classic 9.2
+   - Adobe Photoshop CS6 and 21.1
+   - All running on Windows systems
+   - Version info useful for targeting
+
+4. INCONSISTENT SECURITY PRACTICES
+   - Newer MINFAR uploads stripped, older not
+   - Suggests recent security awareness but incomplete remediation
+   - Legacy images still exposing data
+
+
+================================================================================
+                            RECOMMENDATIONS
+================================================================================
+
+For the security audit article, key points:
+
+1. Cuban military site (MINFAR) exposing device metadata on legacy images
+2. State broadcaster (RadioRebelde) actively leaking pro camera info
+3. GPS disabled but device fingerprinting still possible
+4. Inconsistent practices suggest awareness but incomplete implementation
+5. University of Havana has best posture (aggressive connection blocking)
+
+
+================================================================================
+                              FILE MANIFEST
+================================================================================
+
+Location: ./DUMP/MEDIA/
+
+minfar/         - 29 files (Military)
+radiorebelde/   - 51 files (State Radio)
+sld/            - 102 files (Health Network)
+uh/             - 0 files (Blocked)
+
+Total: 182 files, 19MB
+
+
+================================================================================
+                              END OF REPORT
+================================================================================

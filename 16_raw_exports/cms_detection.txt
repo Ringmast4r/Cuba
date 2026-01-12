@@ -1,0 +1,22 @@
+=== CMS DETECTION ===
+--- minfar.gob.cu ---
+  WordPress /wp-login.php: 404
+  Drupal /user/login: 403
+  Joomla /administrator: 404
+
+--- presidencia.gob.cu ---
+  WordPress /wp-login.php: 403
+  Drupal /user/login: 403
+  Joomla /administrator: 403
+
+--- gobierno.gob.cu ---
+  WordPress /wp-login.php: 000
+  Drupal /user/login: 000
+  Joomla /administrator: 000
+
+--- cubadebate.cu ---
+  WordPress /wp-login.php: 000
+  Drupal /user/login: 000
+  Joomla /administrator: 000
+
+--- granma.cu ---

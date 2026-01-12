@@ -1,0 +1,25 @@
+HTTP/1.1 200 OK
+date: Sun, 11 Jan 2026 18:46:28 GMT
+content-type: text/html; charset=UTF-8
+content-length: 41915
+vary: Accept-Encoding
+x-powered-by: PHP/8.1.20
+x-drupal-dynamic-cache: MISS
+content-language: es
+expires: -1
+x-generator: Drupal 10 (https://www.drupal.org)
+x-drupal-cache: HIT
+pragma: no-cache
+upgrade: h2
+vary: Accept-Encoding
+set-cookie: SERVERID=www2; path=/
+server: Windows95
+strict-transport-security: max-age=63072000
+x-frame-options: SAMEORIGIN;
+x-xss-protection: 1; mode=block;
+x-content-type-options: nosniff
+referrer-policy: no-referrer-when-downgrade
+cache-control: no-transform
+x-forwarded-proto: http
+x-forwarded-port: 80
+

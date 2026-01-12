@@ -1,0 +1,28 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 11 Jan 2026 18:56:20 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://www.finlay.edu.cu//
+Server: IIS
+
+HTTP/1.1 200 OK
+Date: Sun, 11 Jan 2026 18:56:23 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: pll_language=es; expires=Mon, 11-Jan-2027 18:56:30 GMT; Max-Age=31536000; path=/
+Set-Cookie: PHPSESSID=qap88ocnlvdcotqfcdl9hqf8o2; path=/; secure; HttpOnly
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: https://www.finlay.edu.cu/xmlrpc.php
+Link: <https://www.finlay.edu.cu/>; rel=shortlink
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+x-content-type-options: nosniff
+Pragma: no-cache
+Cache-Control: no-store, no-cache, must-revalidate
+Server: IIS
+Front-End-Https: on
+

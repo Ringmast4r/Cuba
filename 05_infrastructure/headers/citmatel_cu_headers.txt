@@ -1,0 +1,40 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 11 Jan 2026 18:46:29 GMT
+Server: Apache
+X-FRAME-OPTIONS: DENY
+X-Content-Type-Options: nosniff
+Location: https://www.citmatel.cu/es
+X-Drupal-Route-Normalizer: 1
+X-UA-Compatible: IE=edge
+Content-language: es
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Generator: Drupal 9 (https://www.drupal.org)
+Access-Control-Allow-Origin: 
+Access-Control-Allow-Headers: Accept,Origin,Content-Type,Cookie
+Access-Control-Allow-Credentials: true
+Strict-Transport-Security: max-age=1000; includeSubDomains
+X-Drupal-Cache: HIT
+Content-Security-Policy: frame-ancestors 'none'
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 200 OK
+Date: Sun, 11 Jan 2026 18:46:30 GMT
+Server: Apache
+X-FRAME-OPTIONS: DENY
+X-Content-Type-Options: nosniff
+Cache-Control: must-revalidate, no-cache, private
+Link: <https://www.citmatel.cu/es>; rel="canonical", <https://www.citmatel.cu/es>; rel="shortlink"
+X-UA-Compatible: IE=edge
+Content-language: es
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+X-Generator: Drupal 9 (https://www.drupal.org)
+Access-Control-Allow-Origin: 
+Access-Control-Allow-Headers: Accept,Origin,Content-Type,Cookie
+Access-Control-Allow-Credentials: true
+Strict-Transport-Security: max-age=1000; includeSubDomains
+Content-Security-Policy: frame-ancestors 'none'
+Content-Type: text/html; charset=UTF-8
+

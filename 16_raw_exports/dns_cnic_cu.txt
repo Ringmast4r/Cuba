@@ -1,0 +1,9 @@
+Non-authoritative answer:
+Server:  UnKnown
+Address:  10.2.0.1
+
+DNS request timed out.
+    timeout was 2 seconds.
+Name:    cnic.cu
+Address:  200.55.153.68
+

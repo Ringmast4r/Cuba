@@ -1,0 +1,22 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 12 Jan 2026 00:59:49 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Link: <https://www.ics.gob.cu/wp-json/>; rel="https://api.w.org/"
+Link: <https://www.ics.gob.cu/wp-json/wp/v2/pages/5190>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://www.ics.gob.cu/>; rel=shortlink
+Strict-Transport-Security: max-age=15768000
+
+=== NOTES ===
+Domain: ics.gob.cu (Instituto Cubano de... - Radio/TV)
+Redirect from: icrt.gob.cu -> ics.gob.cu
+CMS: WordPress (detected via wp-json link)
+Server: nginx
+HSTS: Enabled (15768000 seconds = ~6 months)
+
+WordPress REST API Status: PROTECTED!
+Response: {"code":"aios_user_lists_forbidden","message":"Está prohibido listar usuarios.","data":{"status":403}}
+Plugin: AIOS (All In One Security) blocking user enumeration
+
+This is GOOD security practice - unlike sld.cu and uh.cu which expose users.

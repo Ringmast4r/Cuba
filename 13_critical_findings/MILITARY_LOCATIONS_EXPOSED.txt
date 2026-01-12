@@ -1,0 +1,210 @@
+===============================================================================
+                    MILITARY LOCATION EXPOSURE ANALYSIS
+===============================================================================
+Generated: January 11, 2026
+Targets: MINFAR (Armed Forces), Aduana (Customs - Military Agency)
+
+===============================================================================
+                    1. FINDING SUMMARY
+===============================================================================
+
+Two Cuban military/security agency websites expose precise physical
+location information through HTML metadata and embedded Google Maps links.
+
+SEVERITY: HIGH
+IMPACT: Physical security intelligence, facility identification
+
+===============================================================================
+                    2. MINFAR HEADQUARTERS - FULL ADDRESS
+===============================================================================
+
+[2.1] DISCOVERY METHOD
+----------------------------------------------------------------------
+Source: Open Graph meta tags in HTML source
+Tag: <meta property="og:street_address">
+File: minfar.gob.cu homepage
+
+[2.2] EXPOSED INFORMATION
+----------------------------------------------------------------------
+Full Address:
+  Avenida Independencia e/ Gral Suarez y 20 de mayo
+  Edificio Sierra Maestra
+  Municipio Plaza de la Revolucion
+  La Habana, Cuba
+
+Additional Metadata:
+  geo.region: ES-CU
+  geo.placename: La Habana
+
+[2.3] SIGNIFICANCE
+----------------------------------------------------------------------
+MINFAR = Ministerio de las Fuerzas Armadas Revolucionarias
+       = Ministry of the Revolutionary Armed Forces
+
+This is Cuba's equivalent to the U.S. Department of Defense.
+The "Edificio Sierra Maestra" is the main military command building.
+
+[2.4] WHAT THIS REVEALS
+----------------------------------------------------------------------
+- Exact street location of military command
+- Building name (Sierra Maestra)
+- Cross streets for precise navigation
+- Municipality for administrative context
+
+===============================================================================
+                    3. ADUANA GENERAL - EXACT GPS COORDINATES
+===============================================================================
+
+[3.1] DISCOVERY METHOD
+----------------------------------------------------------------------
+Source: Embedded Google Maps link in HTML
+Found in: Footer contact section of aduana.gob.cu
+
+[3.2] EXPOSED INFORMATION
+----------------------------------------------------------------------
+GPS Coordinates:
+  Latitude:  23.1230455
+  Longitude: -82.3913368
+
+Google Maps URL:
+  https://www.google.com/maps/place/Aduana+General+de+la+Republica+de+Cuba+(AGR)/@23.1230455,-82.3913368
+
+Google Place ID: 0x1f32bda84454f4b8
+
+[3.3] SIGNIFICANCE
+----------------------------------------------------------------------
+Aduana General = General Customs Agency
+Operates under military jurisdiction in Cuba
+Handles border security and import/export control
+
+The coordinates pinpoint the EXACT building location to within meters.
+
+[3.4] COORDINATE VERIFICATION
+----------------------------------------------------------------------
+23.1230455, -82.3913368 corresponds to:
+- Havana, Cuba
+- Plaza de la Revolucion area
+- Government administrative district
+
+===============================================================================
+                    4. INTELLIGENCE IMPLICATIONS
+===============================================================================
+
+[4.1] PHYSICAL SECURITY CONCERNS
+----------------------------------------------------------------------
+Exposed location data enables:
+- Satellite imagery analysis
+- Physical surveillance planning
+- Identification of entry/exit points
+- Assessment of security perimeter
+- Vehicle traffic pattern analysis
+
+[4.2] GEOSPATIAL INTELLIGENCE (GEOINT)
+----------------------------------------------------------------------
+With exact coordinates, analysts can:
+- Pull historical satellite imagery
+- Monitor construction/changes
+- Identify nearby facilities
+- Map security infrastructure
+- Assess building vulnerabilities
+
+[4.3] OPEN SOURCE INTELLIGENCE (OSINT)
+----------------------------------------------------------------------
+This data combined with:
+- Google Street View (if available)
+- Social media geotagged posts
+- Employee commute patterns
+- Delivery/service vehicle data
+
+Creates comprehensive facility profile.
+
+===============================================================================
+                    5. WHY THIS DATA EXISTS
+===============================================================================
+
+[5.1] LEGITIMATE PURPOSES
+----------------------------------------------------------------------
+Government websites include location data for:
+- Citizen services (directions to offices)
+- Contact information compliance
+- Search engine optimization
+- Map integration features
+
+[5.2] SECURITY OVERSIGHT
+----------------------------------------------------------------------
+However, military/security agencies typically should:
+- Use generic addresses (P.O. Box)
+- Avoid precise GPS coordinates
+- Not embed direct map links
+- Sanitize metadata from public pages
+
+The exposure suggests:
+- Web developers not security-trained
+- No metadata review process
+- Convenience prioritized over security
+- Lack of OPSEC awareness
+
+===============================================================================
+                    6. COMPARISON TO OTHER NATIONS
+===============================================================================
+
+U.S. PENTAGON:
+- Address publicly known (historical)
+- GPS coordinates widely available
+- Heavy physical security compensates
+
+U.S. CIA HEADQUARTERS:
+- Langley, VA address known
+- But operational facilities classified
+- Cover addresses used for sensitive sites
+
+CUBAN APPROACH:
+- Military HQ address fully exposed
+- GPS coordinates embedded in website
+- No apparent sanitization effort
+- Lower security posture than expected
+
+===============================================================================
+                    7. DATA EXTRACTED
+===============================================================================
+
+MINFAR HQ:
+  Street: Avenida Independencia e/ Gral Suarez y 20 de mayo
+  Building: Edificio Sierra Maestra
+  Municipality: Plaza de la Revolucion
+  City: La Habana
+  Country: Cuba
+  Source: og:street_address meta tag
+
+ADUANA HQ:
+  Latitude: 23.1230455
+  Longitude: -82.3913368
+  Precision: ~1 meter accuracy
+  Source: Google Maps embed URL
+  Place ID: 0x1f32bda84454f4b8
+
+===============================================================================
+                    8. RECOMMENDATIONS FOR SECURITY
+===============================================================================
+
+For Cuban military IT:
+
+1. REMOVE GPS COORDINATES
+   - Use general area descriptions instead
+   - "Plaza de la Revolucion, Havana"
+
+2. SANITIZE METADATA
+   - Remove og:street_address tags
+   - Clear geo.* meta properties
+
+3. AVOID MAP EMBEDS
+   - Use text directions instead
+   - Or link to general area, not exact point
+
+4. SECURITY REVIEW PROCESS
+   - Audit public pages for sensitive data
+   - Implement metadata stripping
+
+===============================================================================
+                         END OF ANALYSIS
+===============================================================================

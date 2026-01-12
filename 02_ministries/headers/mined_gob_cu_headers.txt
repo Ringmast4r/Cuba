@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Sun, 11 Jan 2026 18:47:10 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+P3P: CP="ALL DSP NID CURa ADMa DEVa HISa OTPa OUR NOR NAV DEM"
+Link: <https://www.mined.gob.cu/wp-json/>; rel="https://api.w.org/", <https://www.mined.gob.cu/wp-json/wp/v2/pages/9>; rel="alternate"; title="JSON"; type="application/json", <https://www.mined.gob.cu/>; rel=shortlink
+X-XSS-Protection: 1; mode=block
+Strict-Transport-Security: max-age=2592000;
+X-Content-Type-Options: nosniff;
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+

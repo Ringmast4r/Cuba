@@ -1,0 +1,55 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 11 Jan 2026 18:55:51 GMT
+Server: Apache
+Location: https://www.adelante.cu/
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 11 Jan 2026 18:55:54 GMT
+Server: Apache
+X-XSS-Protection: 1; mode=block
+x-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+Referrer-Policy: strict-origin
+Permissions-Policy: vibrate(self), usermedia(*), microphone(none), payment(none), sync-xhr(self 'https://www.adelante.cu')
+Set-Cookie: dd65d9590a8edae906e8c298678cf011=112d4u9b5pnr7d9hrqsdt5f5d0; path=/; domain=www.adelante.cu; HttpOnly
+P3P: CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+Expires: Wed, 17 Aug 2005 00:00:00 GMT
+Last-Modified: Sun, 11 Jan 2026 18:55:54 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Location: https://www.adelante.cu/index.php/es/
+Access-Control-Allow-Origin: https://www.adelante.cu
+X-Permitted-Cross-Domain-Policies: none
+Access-Control-Allow-Methods: GET, POST
+Access-Control-Allow-Headers: Origin, X-Requested-With, Accept
+Access-Control-Allow-Credentials: true
+Access-Control-Max-Age: 300
+Content-Security-Policy: base-uri 'self'; frame-ancestors 'self'
+Content-Type: text/html; charset=utf-8
+
+HTTP/1.1 200 OK
+Date: Sun, 11 Jan 2026 18:55:54 GMT
+Server: Apache
+X-XSS-Protection: 1; mode=block
+x-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+Referrer-Policy: strict-origin
+Permissions-Policy: vibrate(self), usermedia(*), microphone(none), payment(none), sync-xhr(self 'https://www.adelante.cu')
+Set-Cookie: dd65d9590a8edae906e8c298678cf011=l5m21sejq62ikn77cs1rnpjfi4; path=/; domain=www.adelante.cu; HttpOnly
+P3P: CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+Expires: Wed, 17 Aug 2005 00:00:00 GMT
+Last-Modified: Sun, 11 Jan 2026 18:55:57 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Access-Control-Allow-Origin: https://www.adelante.cu
+X-Permitted-Cross-Domain-Policies: none
+Access-Control-Allow-Methods: GET, POST
+Access-Control-Allow-Headers: Origin, X-Requested-With, Accept
+Access-Control-Allow-Credentials: true
+Access-Control-Max-Age: 300
+Content-Security-Policy: base-uri 'self'; frame-ancestors 'self'
+Content-Type: text/html; charset=utf-8
+

@@ -1,0 +1,308 @@
+===============================================================================
+                    CUBA OSINT - CRITICAL FINDINGS REPORT
+===============================================================================
+Generated: January 11, 2026
+Collection Method: Passive OSINT via Tor multi-node rotation
+Purpose: Academic research and journalism documentation
+
+===============================================================================
+                         1. CREDENTIAL EXPOSURES
+===============================================================================
+
+[1.1] WORDPRESS USER ENUMERATION - SLD.CU (National Health Network)
+----------------------------------------------------------------------
+Source: WP REST API + Author ID Brute Force
+Users Found: 9
+
+ID  | Username  | Gravatar SHA256 Hash
+----|-----------|--------------------------------------------------------------
+1   | admin     | 0c6fe68d9c3937ad9afe181a51e8cb5c0d0d3a728a5cfd369c72e980ed6642ce
+2   | victorr   | d8560922759b623aeecf9ebc2c207666246c8966b7f456817cdbace11cd97dcf
+3   | claudia   | fe3b5fc35fb669f4d8bc532fa5443a8c609ea27202ae01f9174817891e30b90c
+5   | mirta     | b892f9886b6629c131f337fa846b5857e3a8e7bf6365e5d5694bfb60621945a8
+6   | ivettecm  | 5a0509301edf187cea08d0179b63ce0c8cc99c04af7c3e2117c56edd568fdb5c
+7   | nancypm   | a86c66ea440631975c9559454ae0e77bb6a69f230bb7c3fa328cd568553cf48a
+8   | agdiaz    | 0d798222fdb5951527977b007b3c134a41741a6fa5b2e04e91811eda3ad2f9de
+9   | tania     | 3b75406a755066876a85b43fd3ab8d529a4a55143299cdb08fceec7acdc75917
+10  | borrell   | 8f5678202f85cfb7b54fe3ba62e82d16f1125ea19cd89c19559a02bdd22a07ab
+
+Risk: Gravatar hashes can be reversed to obtain email addresses
+
+[1.2] WORDPRESS USER ENUMERATION - UH.CU (University of Havana)
+----------------------------------------------------------------------
+Source: WP REST API + Author ID Brute Force
+Users Found: 5
+
+ID  | Username         | Gravatar SHA256 Hash
+----|------------------|--------------------------------------------------------------
+1   | gsiuh            | 2fbaf4a7c4b2b0e445a0bb4d598b29e0bb1103034f4a287c26f2f88f6190b4d3
+5   | seginf           | 9ac87529716c8334044d17c229a94a6b953f38cdff7e7c40fcdec1b373093b13
+6   | adminnodo        | c329a52b275f3338636c80a815b897fc86a7205a1eca27e0b01d6fb1a6c99fe3
+8   | taniarect-uh-cu  | 550509f315c937adf01f2b309be07e9c5a83937b979741e3ab980030d4f3904a
+9   | egutsens         | (hash not retrievable)
+
+Social Media: @UdeLaHabana (Twitter)
+Plugins: Yoast SEO v25.7, Polylang, ACF
+
+[1.3] GOVERNMENT EMAIL ADDRESSES EXPOSED (64 Total)
+----------------------------------------------------------------------
+HIGH VALUE TARGETS:
+  despacho@presidencia.gob.cu      - Presidential office
+  webmaster@presidencia.gob.cu     - Presidential webmaster
+  asambleanacionalpp@anpp.gob.cu   - National Assembly
+  atencionpoblacion@bc.gob.cu      - Central Bank
+  publico@aduana.gob.cu            - Customs (Military)
+
+MILITARY/SECURITY:
+  publico@aduana.gob.cu            - Customs agency
+
+MEDIA CONTACTS:
+  digital@trabajadores.cu          - Workers newspaper
+  web@acn.cu                       - Cuban News Agency
+  radio.reloj@icrt.cu              - State radio
+  marina@icrt.cu                   - ICRT personal
+
+EDUCATION:
+  rectorado@tesla.cujae.edu.cu     - CUJAE rectorate
+  n@tesla.cujae.edu.cu             - CUJAE server
+  uh@uh.cu                         - University of Havana
+
+PERSONAL GMAIL ADDRESSES ON GOV SITES:
+  conectateujc@gmail.com           - Youth Communist Union
+  lilliamalvarezdiaz@gmail.com     - Personal on gov site
+  uneaccuba@gmail.com              - Artists Union
+  rendro87@gmail.com               - Personal
+  richard352002@gmail.com          - Personal
+  rogialmeida65@gmail.com          - Personal
+
+===============================================================================
+                      2. INFRASTRUCTURE FINDINGS
+===============================================================================
+
+[2.1] MINFAR PHYSICAL ADDRESS DISCLOSED
+----------------------------------------------------------------------
+Source: minfar.gob.cu HTML meta tags
+Address: Avenida Independencia, La Habana 10400
+Significance: Military headquarters physical location
+
+[2.2] CENTRAL BANK API DISCOVERY
+----------------------------------------------------------------------
+Domain: api.bc.gob.cu
+Framework: Node.js/Express
+Endpoints tested:
+  /docs    - 403 Forbidden (documentation exists but protected)
+  /api     - 301 redirect (API exists)
+  /v1      - 404
+  /swagger - 404
+Note: Active API infrastructure confirmed
+
+[2.3] PCC.CU OBFUSCATED SERVER SIGNATURE
+----------------------------------------------------------------------
+Header: server: Windows95
+Reality: Drupal 10 on PHP 8.1.20
+Load Balancer: SERVERID=www2
+Note: Deliberate obfuscation of actual server identity
+
+[2.4] ADUANA INTERNAL CERTIFICATE AUTHORITY
+----------------------------------------------------------------------
+Issuer: ETECSA Internal CA
+Details:
+  C=CU, ST=La Habana, L=Plaza, O=ETECSA
+  OU=Centro de Datos, CN=idc.enet.cu
+  Email: hosting@enet.cu
+Validity: Nov 2019 - Jan 2031 (12 year cert)
+Significance: Customs uses non-public CA, potential MITM capability
+
+===============================================================================
+                       3. TECHNOLOGY STACK ANALYSIS
+===============================================================================
+
+[3.1] CMS BREAKDOWN
+----------------------------------------------------------------------
+DRUPAL SITES:
+  - pcc.cu (Communist Party) - Drupal 10, PHP 8.1.20
+  - minfar.gob.cu (Military) - Varbase/Drupal
+  - citma.gob.cu - Drupal
+  - citmatel.cu - Drupal
+
+WORDPRESS SITES (User enumeration risk):
+  - sld.cu (Health) - WP REST API exposed
+  - uh.cu (University) - WP REST API exposed
+  - mined.gob.cu (Education) - WordPress
+  - radiorebelde.cu - WordPress, W3 Total Cache 2.8.15
+
+LARAVEL SITES:
+  - acn.cu (News Agency)
+  - juventudrebelde.cu - Laravel + Vue.js
+
+[3.2] PHP VERSION EXPOSURE
+----------------------------------------------------------------------
+  - pcc.cu: PHP 8.1.20
+  - aduana.gob.cu: PHP 8.1.20
+
+===============================================================================
+                      4. TRACKING & ANALYTICS
+===============================================================================
+
+[4.1] GOOGLE ANALYTICS IDS
+----------------------------------------------------------------------
+UA-107169760-1  | mined.gob.cu      | Education Ministry
+UA-144247220-1  | aduana.gob.cu     | Customs (Military)
+UA-291893-2     | juventudrebelde.cu| Youth newspaper
+UA-89356472-1   | trabajadores.cu   | Workers newspaper
+UA-131250309-1  | tribuna.cu        | Provincial paper
+UA-142146896-1  | finlay.edu.cu     | Vaccine institute
+G-D39KSEBN9Q    | granma.cu         | Party newspaper
+GTM-TKWLSZN     | trabajadores.cu   | Tag Manager
+
+Note: Cuban government sites send visitor data to Google servers
+
+[4.2] CROSS-SITE TRACKING POTENTIAL
+----------------------------------------------------------------------
+- Multiple state media share similar analytics setup
+- ACN + Juventud Rebelde share Laravel infrastructure
+- User behavior trackable across government properties
+
+===============================================================================
+                      5. SSL CERTIFICATE ANALYSIS
+===============================================================================
+
+[5.1] CERTIFICATES COLLECTED: 16
+----------------------------------------------------------------------
+LET'S ENCRYPT (15 sites):
+  - presidencia.gob.cu (wildcard *.presidencia.gob.cu)
+  - minfar.gob.cu
+  - pcc.cu
+  - bc.gob.cu
+  - parlamentocubano.gob.cu
+  - granma.cu
+  - juventudrebelde.cu
+  - acn.cu
+  - trabajadores.cu
+  - etecsa.cu
+  - sld.cu (wildcard *.sld.cu)
+  - uh.cu (wildcard *.uh.cu)
+  - cujae.edu.cu (wildcard + 10 subdomains)
+  - radiorebelde.cu
+
+ETECSA INTERNAL CA (1 site):
+  - aduana.gob.cu - Self-signed by ETECSA Centro de Datos
+
+[5.2] EXPIRING SOON (Within 30 days of collection)
+----------------------------------------------------------------------
+  - sld.cu: Expires Jan 24, 2026
+  - cujae.edu.cu: Expires Jan 24, 2026
+  - radiorebelde.cu: Expires Feb 24, 2026
+  - parlamentocubano.gob.cu: Expires Feb 22, 2026
+
+===============================================================================
+                      6. EXPOSED API ENDPOINTS
+===============================================================================
+
+[6.1] WORDPRESS REST API (High Risk)
+----------------------------------------------------------------------
+sld.cu:
+  /wp-json/wp/v2/users     - EXPOSED (user enumeration)
+  /wp-json/wp/v2/posts     - Public
+  /wp-json/wp/v2/pages     - Public
+  /wp-json/wp/v2/media     - Public
+
+uh.cu:
+  /wp-json/wp/v2/users     - EXPOSED (user enumeration)
+  Plugins: Yoast SEO v25.7, Polylang, ACF
+
+trabajadores.cu:
+  /wp-json/wp/v2/users     - Protected (DRA plugin)
+
+[6.2] RSS/ATOM FEEDS
+----------------------------------------------------------------------
+  granma.cu/feed           - RSS available
+  juventudrebelde.cu/feed  - RSS available
+  acn.cu/feed              - RSS available
+
+===============================================================================
+                      7. COLLECTION STATISTICS
+===============================================================================
+
+Total Files:           915
+Total Size:            28 MB
+Unique URLs:           5,164
+Email Addresses:       64
+Usernames Exposed:     14
+Phone Patterns:        7,321
+SSL Certificates:      16
+HTML Sources:          24
+Google Analytics IDs:  12
+
+===============================================================================
+                      8. GPS COORDINATES & LOCATIONS
+===============================================================================
+
+[8.1] ADUANA GENERAL HQ (CUSTOMS) - EXACT GPS
+----------------------------------------------------------------------
+Coordinates: 23.1230455, -82.3913368
+Source: Google Maps link embedded on aduana.gob.cu
+Significance: Military customs headquarters exact location
+Google Place ID: 0x1f32bda84454f4b8
+
+[8.2] MINFAR HQ (ARMED FORCES) - FULL ADDRESS
+----------------------------------------------------------------------
+Address: Avenida Independencia e/ Gral Suárez y 20 de mayo
+Building: Edificio Sierra Maestra
+Municipality: Plaza de la Revolución, La Habana, Cuba
+Source: og:street_address meta tag in HTML
+Geo Region: ES-CU
+
+===============================================================================
+                      9. EXPOSED TOKENS & SESSIONS
+===============================================================================
+
+[9.1] WORDPRESS TOKENS
+----------------------------------------------------------------------
+Site: radiorebelde.cu
+Token: 5be1d2127a (WordPress Popular Posts plugin)
+Nonce: deb2802bba (Facebook share)
+
+Site: ics.gob.cu
+Nonce: b84706ce4c (admin-ajax)
+
+[9.2] JOOMLA CSRF TOKENS
+----------------------------------------------------------------------
+Site: cujae.edu.cu
+Token: 8e015735fe41b12741a653e8f70aefaf
+
+[9.3] FACEBOOK APP ID
+----------------------------------------------------------------------
+Site: aduana.gob.cu
+App ID: 245949432472869
+
+===============================================================================
+                         10. RISK ASSESSMENT
+===============================================================================
+
+CRITICAL:
+  - WordPress user enumeration on health (sld.cu) and education (uh.cu)
+  - Gravatar hashes reversible to email addresses
+  - Government emails exposed on public pages
+  - GPS coordinates of military facilities exposed
+
+HIGH:
+  - ETECSA internal CA on Customs site (MITM potential)
+  - Central Bank API infrastructure exposed
+  - Personal Gmail accounts on official government sites
+  - MINFAR HQ full physical address in metadata
+
+MEDIUM:
+  - PCC server obfuscation indicates security awareness
+  - PHP version disclosure
+  - Multiple certificates expiring soon
+  - CSRF tokens and nonces exposed in page source
+
+LOW:
+  - Google Analytics tracking on government sites
+  - Technology stack fingerprinting possible
+  - Facebook App ID exposure
+
+===============================================================================
+                            END OF REPORT
+===============================================================================

@@ -1,0 +1,4 @@
+*** UnKnown can't find viazul.cu: Non-existent domain
+Server:  UnKnown
+Address:  10.2.0.1
+

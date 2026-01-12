@@ -1,0 +1,50 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Sun, 11 Jan 2026 18:53:41 GMT
+Content-Type: text/html
+Content-Length: 169
+Connection: keep-alive
+Location: https://www.uh.cu/
+X-Cache-Status: MISS
+
+HTTP/1.1 302 Found
+Server: nginx
+Date: Sun, 11 Jan 2026 18:53:44 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 0
+Connection: keep-alive
+X-Powered-By: PHP/7.4.32
+Vary: Accept-Language
+X-Redirect-By: Polylang
+Location: https://www.uh.cu/inicio/
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+Permissions-Policy: camera=(),geolocation=(),microphone=()
+X-Cache-Status: HIT
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 11 Jan 2026 18:53:44 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+X-Powered-By: PHP/7.4.32
+Link: <https://www.uh.cu/wp-json/>; rel="https://api.w.org/"
+Link: <https://www.uh.cu/wp-json/wp/v2/pages/6208>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://www.uh.cu/>; rel=shortlink
+X-TEC-API-VERSION: v1
+X-TEC-API-ROOT: https://www.uh.cu/wp-json/tribe/events/v1/
+X-TEC-API-ORIGIN: https://www.uh.cu
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+Permissions-Policy: camera=(),geolocation=(),microphone=()
+X-Cache-Status: HIT
+

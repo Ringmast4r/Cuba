@@ -1,0 +1,102 @@
+================================================================================
+                    CUBAN REGIONAL NEWSPAPERS - SHARED INFRASTRUCTURE
+                    Collected: January 11, 2026
+================================================================================
+
+NOTE: All regional newspapers appear to share a common Apache hosting
+infrastructure with identical security headers. This suggests centralized
+hosting managed by a single IT team.
+
+================================================================================
+SHARED SECURITY CONFIGURATION (All Sites)
+================================================================================
+Server: Apache
+X-XSS-Protection: 1; mode=block
+x-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+Referrer-Policy: strict-origin
+Permissions-Policy: vibrate(self), usermedia(*), microphone(none), payment(none)
+
+Assessment: GOOD security posture - better than some ministry sites
+
+================================================================================
+INDIVIDUAL SITES
+================================================================================
+
+1. TRIBUNA.CU (Havana Provincial Paper)
+---------------------------------------
+Status: 301 Redirect to www
+Cookie: 1450bf697ff554949cc382c02355b22e
+sync-xhr allows: https://www.invasor.cu (interesting cross-site reference)
+
+2. SIERRAMAESTRA.CU (Santiago de Cuba Paper)
+--------------------------------------------
+Status: 200 OK
+Cookie: 529bef0a2ddfc527f09d10223f69c055
+Supports: HTTP/2 (Upgrade: h2,h2c)
+sync-xhr allows: self + https://www.sierramaestra.cu, https://sierramaestra.cu
+
+3. VANGUARDIA.CU (Santa Clara Paper)
+------------------------------------
+Status: 200 OK
+Cookie: 76303874105f832aad3f9fe1e354bbec
+Load Balancer: ROUTEID=.wb2 (web backend 2)
+CORS: Access-Control-Allow-Origin: vanguardia.cu
+Access-Control-Max-Age: 3628800 (42 days cache)
+Note: Has custom CORS headers for API access
+
+4. AHORA.CU (Holguin Paper)
+---------------------------
+Status: 301 Redirect to www
+Cookie: 55337af22dafaa9038e23029dca669bd
+sync-xhr allows: https://www.ahora.cu
+
+5. INVASOR.CU (Ciego de Avila Paper)
+------------------------------------
+Status: 301 Redirect
+Note: Referenced in tribuna.cu Permissions-Policy
+
+6. ADELANTE.CU (Camaguey Paper)
+-------------------------------
+Status: 301 Redirect to www
+Cookie: dd65d9590a8edae906e8c298678cf011 (domain: www.adelante.cu)
+P3P: CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM" (legacy privacy header)
+sync-xhr allows: https://www.adelante.cu
+
+================================================================================
+RADIO SITES (403 FORBIDDEN)
+================================================================================
+radioprogreso.cu    - 403 Forbidden (nginx)
+radioreloj.cu       - 403 Forbidden (nginx)
+radiotaino.cu       - 403 Forbidden (nginx)
+cmbf.cu             - Timeout/Unreachable
+
+These radio station domains exist but are blocking access. May be:
+- IP-restricted to Cuban networks only
+- Under maintenance
+- Redirected to radiocubana.cu portal
+
+================================================================================
+                    KEY OBSERVATIONS
+================================================================================
+
+1. CENTRALIZED HOSTING
+   - All regional papers share identical Apache security config
+   - Suggests single hosting provider or centralized IT management
+   - Cookie naming suggests Joomla CMS (32-char hex session IDs)
+
+2. GOOD SECURITY
+   - 2-year HSTS preload (max-age=63072000)
+   - All standard security headers present
+   - Permissions-Policy restricts microphone/payment
+
+3. CROSS-SITE REFERENCES
+   - tribuna.cu allows sync-xhr from invasor.cu
+   - Suggests shared backend or content syndication
+
+4. LOAD BALANCING
+   - vanguardia.cu shows ROUTEID=.wb2 cookie
+   - Multiple web backends in use
+
+================================================================================

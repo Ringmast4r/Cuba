@@ -1,0 +1,9 @@
+Non-authoritative answer:
+Server:  UnKnown
+Address:  10.2.0.1
+
+Name:    mep.gob.cu
+Addresses:  190.92.117.57
+	  190.92.117.60
+	  190.92.116.108
+

@@ -1,0 +1,171 @@
+jQuery(document).ready(function () {
+  //Inicializando la galeria baguetteBox
+  baguetteBox.run('.tz-gallery');
+})
+jQuery(document).ready(function ($) {
+
+  setTimeout(function () {
+
+    $('#block-marcolegal ul.menu li').on('click',function (ev){
+      $('#block-marcolegal ul.menu li span').removeClass('blue')
+      $(this).find('span').addClass('blue')
+    });
+
+
+    $('#block-marcolegal ul.menu li:nth-child(1)').on('click',function (ev){
+      $('#block-views-block-marco-legal-block-1').addClass('show-block')
+      $('#block-views-block-marco-legal-block-2').removeClass('show-block')
+      $('#block-views-block-marco-legal-block-3').removeClass('show-block')
+
+    });
+    $('#block-marcolegal ul.menu li:nth-child(2)').on('click',function (ev){
+      $('#block-views-block-marco-legal-block-2').addClass('show-block')
+      $('#block-views-block-marco-legal-block-1').removeClass('show-block')
+      $('#block-views-block-marco-legal-block-3').removeClass('show-block')
+
+    });
+    $('#block-marcolegal ul.menu li:nth-child(3)').on('click',function (ev){
+      $('#block-views-block-marco-legal-block-3').addClass('show-block')
+      $('#block-views-block-marco-legal-block-2').removeClass('show-block')
+      $('#block-views-block-marco-legal-block-1').removeClass('show-block')
+
+    });
+
+    //los muestro todos para despues ocultar los dos ultimos porque el load more necesita que el elemento este visible para funcionar
+    $('#block-views-block-marco-legal-block-1').addClass('show-block')
+    $('#block-views-block-marco-legal-block-2').addClass('show-block')
+    $('#block-views-block-marco-legal-block-3').addClass('show-block')
+
+
+
+    //Boton Load more
+    $('#block-views-block-marco-legal-block-1 .view-content').btnLoadmore({
+      showItem: 10,
+      whenClickBtn: 10,
+      textBtn: 'Mostrar más',
+      classBtn: 'btn btn-default'
+    });
+    //Boton Load more
+    $('#block-views-block-marco-legal-block-2 .view-content').btnLoadmore({
+      showItem: 10,
+      whenClickBtn: 10,
+      textBtn: 'Mostrar más',
+      classBtn: 'btn btn-default'
+    });
+    //Boton Load more
+    $('#block-views-block-marco-legal-block-3 .view-content').btnLoadmore({
+      showItem: 10,
+      whenClickBtn: 10,
+      textBtn: 'Mostrar más',
+      classBtn: 'btn btn-default'
+    });
+
+    $('#block-views-block-marco-legal-block-2').removeClass('show-block')
+    $('#block-views-block-marco-legal-block-3').removeClass('show-block')
+
+    $('#block-marcolegal ul.menu li:nth-child(1)').click();
+
+
+  }, 1000)
+
+})
+
+
+jQuery(document).ready(function ($) {
+  $("#carousel").owlCarousel({
+    autoplay: true,
+    autoplaySpeed: 500,
+    speed: 2000,
+    lazyLoad: true,
+    loop: true,
+    margin: 20,
+    responsiveClass: true,
+    autoHeight: true,
+    // autoplayTimeout: 7000,
+    smartSpeed: 800,
+    nav: true,
+    navText: ["", ""],
+    responsive: {
+      0: {
+        items: 1
+      },
+
+      600: {
+        items: 3
+      },
+
+      1024: {
+        items: 4
+      },
+
+      1366: {
+        items: 4
+      }
+    }
+  });
+  $(".search-block-form .form-type-search").each(function () {
+    $(this).find('input').attr('placeholder', jQuery(this).find('label').text());
+    $(this).find('label').hide();
+  });
+  $('html[lang="es"] #search-block-form .form-search').attr("placeholder", "Buscar");
+  $('html[lang="en"] #search-block-form .form-search').attr("placeholder", "Search");
+  $('html[lang="es"] #edit-basic .form-submit').attr("value", "Buscar");
+
+
+  $("#pills-tab-ver-mas li a").on('click', function () {
+    var aux = $(this).attr("href").split('#');
+    var id = aux[1];
+    if (id == 'pills-temas') {
+      $('#pills-panoramas').removeClass('show active');
+      $('#pills-anuarios').removeClass('show active');
+      $('#pills-censos').removeClass('show active');
+      $('#pills-tema').addClass('show active');
+    } else if (id == 'pills-panoramas') {
+      $('#pills-panoramas').addClass('show active');
+      $('#pills-anuarios').removeClass('show active');
+      $('#pills-censos').removeClass('show active');
+      $('#pills-tema').removeClass('show active');
+
+    } else if (id == 'pills-anuarios') {
+      $('#pills-panoramas').removeClass('show active');
+      $('#pills-anuarios').addClass('show active');
+      $('#pills-censos').removeClass('show active');
+      $('#pills-tema').removeClass('show active');
+    } else {
+      $('#pills-panoramas').removeClass('show active');
+      $('#pills-anuarios').removeClass('show active');
+      $('#pills-censos').addClass('show active');
+      $('#pills-tema').removeClass('show active');
+    }
+  });
+});
+
+
+(function ($) {
+  $(".search-block-form .js-form-type-search::after").click(function () {
+    $(".search-form").submit();
+  });
+  // $(window).scroll(function () {
+  //   if ($(window).scrollTop() + $(window).height() == $(document).height()) {
+  //     $('.img-cuba .popup').addClass("show-popup");
+  //   } else
+  //     $('.img-cuba .popup').removeClass("show-popup");
+  // });
+  $('.en .views-exposed-form .js-form-item-title input.form-text').attr('placeholder', 'Title');
+
+})(jQuery)
+
+
+(function ($) {
+    Drupal.behaviors.skos_explorer = {};
+    Drupal.behaviors.skos_explorer.attach = function (context, settings) {
+      $('a#pills-50-tab').html('Decree law');
+      $('a#pills-50-tab').html(Drupal.t('Decreto ley'));
+      $('a#pills-51-tab').html(Drupal.t('Decreto'));
+      $('a#pills-52-tab').html(Drupal.t('Resoluciones'));
+    }
+  }
+)(jQuery)
+/*Iniciar las animaciones*/
+// new WOW().init();
+

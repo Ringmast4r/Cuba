@@ -1,0 +1,28 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 11 Jan 2026 18:55:20 GMT
+Content-Type: text/html
+Connection: keep-alive
+Server: cloudflare
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Location: https://www.cubatur.cu:443/
+cf-cache-status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=qmSjgYOrox0f88hXEamtG3JFnc2xOW6bKlNdje3hRWVmCAgSICgZdCCjeGc1KC7QfQBwkKXeJIHRrsFyRDlpjveGoKbVNAe1pZG9xg%3D%3D"}]}
+CF-RAY: 9bc6a0b90c2d8a82-TXL
+alt-svc: h3=":443"; ma=86400
+
+HTTP/1.1 200 OK
+Date: Sun, 11 Jan 2026 18:55:22 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Set-Cookie: AWSALB=Y2hvcnusDSUSgR3V0+ur5EvZ6VvwrD+hfS7CW9YnCg6BtTOQT5fwtNOSN/cuKK5QWNc0bO9AOUU482hbUN/eB8Ez/rtwb+J5vX1gP1fYemlX06xE8NYkCy9RLKWX; Expires=Sun, 18 Jan 2026 18:55:22 GMT; Path=/
+Set-Cookie: AWSALBCORS=Y2hvcnusDSUSgR3V0+ur5EvZ6VvwrD+hfS7CW9YnCg6BtTOQT5fwtNOSN/cuKK5QWNc0bO9AOUU482hbUN/eB8Ez/rtwb+J5vX1gP1fYemlX06xE8NYkCy9RLKWX; Expires=Sun, 18 Jan 2026 18:55:22 GMT; Path=/; SameSite=None; Secure
+x-powered-by: Express
+Cache-Control: public, max-age=0, must-revalidate, s-maxage=60, stale-while-revalidate=30, stale-if-error=86400
+vary: Accept-Encoding, Accept-Language
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=NKZJ2%2B2gytzZkXJdF4%2FYwsx1FBhTot3nFQQTp7lQl14GxXK%2FgT9OvT8tQWMP9Ffhjn6vrsKJ8ZesqxO3eQX0OAm8j8qVp4BjYskVMQ%3D%3D"}]}
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: 9bc6a0c44fe6c637-TXL
+alt-svc: h3=":443"; ma=86400
+

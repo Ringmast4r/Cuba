@@ -1,0 +1,65 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Mon, 12 Jan 2026 01:00:25 GMT
+Content-Type: text/html; charset=UTF-8
+Location: https://minag.gob.cu/
+Connection: keep-alive
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Access-Control-Allow-Methods: GET,POST
+Access-Control-Allow-Headers: Content-Type, Authorization
+Content-Security-Policy: upgrade-insecure-requests;
+Cross-Origin-Embedder-Policy: unsafe-none; report-to='default'
+Cross-Origin-Embedder-Policy-Report-Only: unsafe-none; report-to='default'
+Cross-Origin-Opener-Policy: unsafe-none
+Cross-Origin-Opener-Policy-Report-Only: unsafe-none; report-to='default'
+Cross-Origin-Resource-Policy: cross-origin
+Permissions-Policy: accelerometer=(), autoplay=(), camera=(), fullscreen=*, geolocation=(self), gyroscope=(), microphone=(), payment=*
+Referrer-Policy: strict-origin-when-cross-origin
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+X-Content-Security-Policy: default-src 'self'; img-src *; media-src * data:;
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Redirect-By: WordPress
+Set-Cookie: PHPSESSID=xxx; path=/; secure; HttpOnly;HttpOnly;Secure;SameSite=Strict
+X-XSS-Protection: 1; mode=block
+Content-Security-Policy: style-src 'self' 'unsafe-inline' googleads.g.doubleclick.net translate.googleapis.com cdn.syndication.twimg.com www.youtube.com cdnjs.cloudflare.com fonts.googleapis.com fonts.gstatic.com i.ytimg.com pbs.twimg.com platform.twitter.com secure.gravatar.com syndication.twitter.com ton.twimg.com translate-pa.googleapis.com www.google.com www.gstatic.com yt3.ggpht.com;
+Content-Security-Policy: frame-ancestors 'self';
+
+=== ANALYSIS ===
+Domain: minag.gob.cu (Ministry of Agriculture)
+CMS: WordPress (X-Redirect-By: WordPress)
+Server: nginx
+
+*** BEST SECURITY HEADERS IN CUBAN GOVERNMENT ***
+
+Security Headers Present:
+  [X] Strict-Transport-Security: max-age=63072000 (2 YEARS!) + includeSubDomains + preload
+  [X] Content-Security-Policy: Multiple policies (upgrade-insecure-requests, style-src, frame-ancestors)
+  [X] X-Content-Type-Options: nosniff
+  [X] X-Frame-Options: SAMEORIGIN
+  [X] X-XSS-Protection: 1; mode=block
+  [X] Referrer-Policy: strict-origin-when-cross-origin
+  [X] Permissions-Policy: Restrictive (blocks accelerometer, camera, microphone, etc.)
+  [X] Cross-Origin-Embedder-Policy: Present
+  [X] Cross-Origin-Opener-Policy: Present
+  [X] Cross-Origin-Resource-Policy: cross-origin
+  [X] X-Permitted-Cross-Domain-Policies: none
+  [X] Secure Cookie Flags: HttpOnly, Secure, SameSite=Strict
+
+External Services Allowed in CSP:
+  - googleads.g.doubleclick.net (Google Ads)
+  - translate.googleapis.com (Google Translate)
+  - cdn.syndication.twimg.com (Twitter)
+  - www.youtube.com
+  - cdnjs.cloudflare.com
+  - fonts.googleapis.com
+  - platform.twitter.com
+
+ASSESSMENT: This is the BEST-SECURED Cuban government website we've analyzed.
+The Agriculture Ministry has better security than Military (MINFAR), Communist Party (PCC),
+and the state telecom (ETECSA).
+
+Irony: Agriculture website more secure than military website.

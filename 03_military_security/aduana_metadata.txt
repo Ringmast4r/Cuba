@@ -1,0 +1,4 @@
+=== ADUANA METADATA ===
+PHP Version: 8.1.20
+Analytics: Google Analytics detected in CSP
+Security: HSTS, CSP, X-Frame-Options, X-XSS-Protection

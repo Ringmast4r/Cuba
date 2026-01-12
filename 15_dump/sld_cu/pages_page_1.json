@@ -1,0 +1,194 @@
+SoapFault Object
+(
+    [message:protected] => Call to a member function getSearchEngineParams() on boolean
+    [string:Exception:private] => 
+    [code:protected] => 0
+    [file:protected] => /srv/www/portalinfomed/wp-content/plugins/infosearch/shortcode/shortcodeinfosearchresult.php
+    [line:protected] => 49
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /srv/www/portalinfomed/wp-content/plugins/infosearch/shortcode/shortcodeinfosearchresult.php
+                    [line] => 49
+                    [function] => __call
+                    [class] => SoapClient
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /srv/www/portalinfomed/wp-content/plugins/infosearch/infosearch.php
+                    [line] => 50
+                    [args] => Array
+                        (
+                            [0] => /srv/www/portalinfomed/wp-content/plugins/infosearch/shortcode/shortcodeinfosearchresult.php
+                        )
+
+                    [function] => require_once
+                )
+
+            [2] => Array
+                (
+                    [file] => /srv/www/portalinfomed/wp-includes/shortcodes.php
+                    [line] => 434
+                    [function] => pr_shortcode_de_contenido_infosearch
+                    [class] => Infosearch
+                    [type] => ::
+                )
+
+            [3] => Array
+                (
+                    [function] => do_shortcode_tag
+                )
+
+            [4] => Array
+                (
+                    [file] => /srv/www/portalinfomed/wp-includes/shortcodes.php
+                    [line] => 273
+                    [function] => preg_replace_callback
+                )
+
+            [5] => Array
+                (
+                    [file] => /srv/www/portalinfomed/wp-includes/class-wp-hook.php
+                    [line] => 324
+                    [function] => do_shortcode
+                )
+
+            [6] => Array
+                (
+                    [file] => /srv/www/portalinfomed/wp-includes/plugin.php
+                    [line] => 205
+                    [function] => apply_filters
+                    [class] => WP_Hook
+                    [type] => ->
+                )
+
+            [7] => Array
+                (
+                    [file] => /srv/www/portalinfomed/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php
+                    [line] => 1961
+                    [function] => apply_filters
+                )
+
+            [8] => Array
+                (
+                    [file] => /srv/www/portalinfomed/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php
+                    [line] => 470
+                    [function] => prepare_item_for_response
+                    [class] => WP_REST_Posts_Controller
+                    [type] => ->
+                )
+
+            [9] => Array
+                (
+                    [file] => /srv/www/portalinfomed/wp-includes/rest-api/class-wp-rest-server.php
+                    [line] => 1292
+                    [function] => get_items
+                    [class] => WP_REST_Posts_Controller
+                    [type] => ->
+                )
+
+            [10] => Array
+                (
+                    [file] => /srv/www/portalinfomed/wp-includes/rest-api/class-wp-rest-server.php
+                    [line] => 1125
+                    [function] => respond_to_request
+                    [class] => WP_REST_Server
+                    [type] => ->
+                )
+
+            [11] => Array
+                (
+                    [file] => /srv/www/portalinfomed/wp-includes/rest-api/class-wp-rest-server.php
+                    [line] => 439
+                    [function] => dispatch
+                    [class] => WP_REST_Server
+                    [type] => ->
+                )
+
+            [12] => Array
+                (
+                    [file] => /srv/www/portalinfomed/wp-includes/rest-api.php
+                    [line] => 459
+                    [function] => serve_request
+                    [class] => WP_REST_Server
+                    [type] => ->
+                )
+
+            [13] => Array
+                (
+                    [file] => /srv/www/portalinfomed/wp-includes/class-wp-hook.php
+                    [line] => 324
+                    [function] => rest_api_loaded
+                )
+
+            [14] => Array
+                (
+                    [file] => /srv/www/portalinfomed/wp-includes/class-wp-hook.php
+                    [line] => 348
+                    [function] => apply_filters
+                    [class] => WP_Hook
+                    [type] => ->
+                )
+
+            [15] => Array
+                (
+                    [file] => /srv/www/portalinfomed/wp-includes/plugin.php
+                    [line] => 565
+                    [function] => do_action
+                    [class] => WP_Hook
+                    [type] => ->
+                )
+
+            [16] => Array
+                (
+                    [file] => /srv/www/portalinfomed/wp-includes/class-wp.php
+                    [line] => 418
+                    [function] => do_action_ref_array
+                )
+
+            [17] => Array
+                (
+                    [file] => /srv/www/portalinfomed/wp-includes/class-wp.php
+                    [line] => 818
+                    [function] => parse_request
+                    [class] => WP
+                    [type] => ->
+                )
+
+            [18] => Array
+                (
+                    [file] => /srv/www/portalinfomed/wp-includes/functions.php
+                    [line] => 1342
+                    [function] => main
+                    [class] => WP
+                    [type] => ->
+                )
+
+            [19] => Array
+                (
+                    [file] => /srv/www/portalinfomed/wp-blog-header.php
+                    [line] => 16
+                    [function] => wp
+                )
+
+            [20] => Array
+                (
+                    [file] => /srv/www/portalinfomed/index.php
+                    [line] => 17
+                    [args] => Array
+                        (
+                            [0] => /srv/www/portalinfomed/wp-blog-header.php
+                        )
+
+                    [function] => require
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [faultstring] => Call to a member function getSearchEngineParams() on boolean
+    [faultcode] => SOAP-ENV:Server
+)

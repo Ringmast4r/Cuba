@@ -1,0 +1,219 @@
+================================================================================
+          CUBA GOVERNMENT INFRASTRUCTURE - OSINT MASTER REPORT
+          Comprehensive Passive Reconnaissance Documentation
+================================================================================
+
+Report Date: January 11, 2026
+Collection Method: Tor Multi-Node Rotation (CH, DE, NL, SE, NO, AT, IS, FI, etc.)
+
+================================================================================
+COLLECTION STATISTICS
+================================================================================
+Total Files: 1,420
+Total Size: 62.9 MB
+Domains Analyzed: 131
+Email Addresses: 64
+Usernames Exposed: 14
+SSL Certificates: 16
+Google Analytics IDs: 12
+
+================================================================================
+EMAIL ADDRESSES DISCOVERED
+================================================================================
+apoblacion@citma.gob.cu
+apoblacionmf@unicom.co.cu
+asambleanacionalpp@anpp.gob.cu
+atencion.poblacion@mined.gob.cu
+atencion.usuarios@etecsa.cu
+atencionaclientes@citmatel.inf.cu
+atencionpoblacion@bc.gob.cu
+cip221@invasor.cu
+cip226@sierramaestra.cu
+comunicacionujc@ujc.cu
+conectateujc@gmail.com
+contact@ytcvn.com
+contacto@oc.biocubafarma.cu
+despacho@presidencia.gob.cu
+difusion@onei.gob.cu
+digital@trabajadores.cu
+farmacovigilancia@finlay.edu.cu
+marina@icrt.cu
+n@tesla.cujae.edu.cu
+poblacion@cc.cu
+publico@aduana.gob.cu
+radio.reloj@icrt.cu
+rectorado@tesla.cujae.edu.cu
+redac@tribuna.cip.cu
+richard352002@gmail.com
+uh@uh.cu
+uneaccuba@gmail.com
+web.uneac@uneac.co.cu
+web@acn.cu
+webmaster@anpp.gob.cu
+webmaster@cuba.cu
+webmaster@mtss.gob.cu
+webmaster@presidencia.gob.cu
+
+================================================================================
+SERVER SIGNATURES
+================================================================================
+
+OBFUSCATED/CUSTOM:
+- Windows95          - PCC, ETECSA (fake - actually PHP 8.1.20)
+- PortalMINFAR       - Military custom signature
+- Fotuto             - MICONS custom
+- openresty          - MINAL
+
+STANDARD SERVERS:
+- nginx              - BC, SLD, Cubana, CUJAE, RadioHC, RadioProgreso, etc.
+- nginx/1.14.2       - MINED
+- nginx/1.14.0       - Havanatur
+- Apache             - CITMA, MFP, Adelante, Ahora, Invasor, etc.
+- Apache/2.4.18      - UNEAC
+- Apache/2.4.56      - Trabajadores
+- Microsoft-IIS/11.0 - BioCubaFarma
+- IIS                - Finlay
+- cloudflare         - Cubatur (only Cuban gov on Cloudflare)
+
+CMS GENERATORS:
+- Drupal 10          - PCC
+- Drupal 9           - UJC, CITMA, CITMATEL, FGR, ONEI
+- Varbase (Drupal)   - MINFAR
+- WordPress          - SLD, UH, MINED, Radio Rebelde
+- Laravel            - ACN
+- Grupo Desoft       - Gaceta Oficial
+
+PHP VERSIONS:
+- PHP/8.1.20         - PCC, Aduana, FGR
+- PHP/7.4.32         - UH
+- W3 Total Cache     - Radio Rebelde
+
+================================================================================
+TECHNOLOGY STACKS
+================================================================================
+
+CMS DISTRIBUTION:
+-----------------
+| CMS/Framework | Sites                                    |
+|---------------|------------------------------------------|
+| Drupal 8/10   | PCC, MINFAR, CITMA, CITMATEL, UJC, FGR   |
+| WordPress     | SLD, UH, MINED, Radio Rebelde            |
+| Laravel       | ACN, Juventud Rebelde                    |
+| Node.js       | Central Bank API                         |
+| ASP.NET/IIS   | BioCubaFarma, Finlay                     |
+
+JAVASCRIPT:
+-----------
+- jQuery:    Widely used across government
+- Vue.js:    Juventud Rebelde
+- Bootstrap: Standard CSS framework
+
+================================================================================
+TRACKING IDs / ANALYTICS
+================================================================================
+
+GOOGLE ANALYTICS (Universal):
+- UA-107169760-1  - MINED (Education Ministry)
+- UA-144247220-1  - Aduana (Customs)
+- UA-291893-2     - Juventud Rebelde
+
+GOOGLE ANALYTICS (GA4):
+- G-D39KSEBN9Q    - Granma
+- G-8MR*          - ETECSA
+
+GOOGLE TAG MANAGER:
+- GTM-TKWLSZN     - Trabajadores
+
+================================================================================
+SECURITY ANALYSIS
+================================================================================
+
+BEST SECURITY - minag.gob.cu (Agriculture):
+- Content-Security-Policy: Full implementation
+- Strict-Transport-Security: 2-year max-age
+- Cross-Origin-Embedder-Policy: require-corp
+- Cross-Origin-Opener-Policy: same-origin
+- Permissions-Policy: Restrictive
+
+GOOD SECURITY - minfar.gob.cu (Military):
+- HSTS with includeSubDomains
+- X-Frame-Options: SAMEORIGIN
+- X-XSS-Protection enabled
+- X-Content-Type-Options: nosniff
+
+PROTECTED APIs - ics.gob.cu (ICRT):
+- WordPress with AIOS plugin
+- User enumeration blocked
+
+POOR SECURITY:
+- Most sites missing CSP
+- Many missing HSTS
+- No security headers on multiple portals
+
+================================================================================
+WORDPRESS USER ENUMERATION
+================================================================================
+
+SLD.cu (Health Network) - 6 USERS:
+- admin
+- agdiaz
+- claudia
+- ivettecm
+- tania
+- victorr
+
+UH.cu (University of Havana) - 4 USERS:
+- adminnodo
+- gsiuh
+- seginf (IT Security team - ironic exposure)
+- taniarect-uh-cu
+
+================================================================================
+EXIF METADATA FINDINGS
+================================================================================
+
+MINFAR.gob.cu (Military):
+- NIKON D5600 DSLR
+- LG LM-Q710.FG Android phone
+- GPS tags present but coordinates stripped
+
+RadioRebelde.cu (State Radio):
+- Sony ILCE-7SM2 (A7S II)
+- Canon EOS 6D Mark II
+- Adobe Lightroom Classic 9.2 (Windows)
+- Adobe Photoshop CS6 (2012)
+
+SLD.cu (Health):
+- Adobe Photoshop 21.1 (Windows)
+- Partial EXIF stripping
+
+================================================================================
+CERTIFICATE AUTHORITY FINDINGS
+================================================================================
+
+LET'S ENCRYPT:
+- Most government sites
+
+ETECSA INTERNAL CA:
+- Aduana (Customs)
+- 12-year certificate validity
+- hosting@enet.cu as issuer contact
+
+================================================================================
+KEY FINDINGS SUMMARY
+================================================================================
+
+1. Agriculture Ministry (minag.gob.cu) has BETTER security than Military
+2. PCC and ETECSA use fake "Windows95" server headers
+3. MININT runs isolated DNS infrastructure (trusts no one)
+4. WordPress APIs exposing usernames including IT Security team
+5. State media using outdated Adobe software (CS6 from 2012)
+6. Anti-US government sending visitor data to Google servers
+7. Personal Gmail accounts used as official contacts on .gob.cu
+8. Aduana GPS coordinates leaked in HTML meta tags
+9. 12-year internal CA certificates (poor practice)
+10. University IT Security team exposed by their own misconfigured API
+
+================================================================================
+                              END OF REPORT
+================================================================================
